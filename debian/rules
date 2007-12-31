@@ -1,0 +1,119 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+TARGETDIR_LC=$(CURDIR)/debian/iceowl-l10n-
+BUILDDIR=$(CURDIR)/build
+
+build:
+	dh_testdir
+
+	# Build package
+	set -e; cd $(CURDIR)/upstream; \
+	for i in *.xpi; \
+	do \
+		CURLOCALE=`echo $$i | sed --posix 's/\.xpi//'`; \
+		mkdir -p $(BUILDDIR)/$${CURLOCALE}; \
+		unzip -o -q -d $(BUILDDIR)/$${CURLOCALE} $${i}; \
+		cd $(BUILDDIR)/$${CURLOCALE}/; \
+		if [ -f chrome/$${CURLOCALE}.jar ]; \
+		then \
+			JARNAME=$${CURLOCALE}.jar; \
+		else \
+			JARNAME=`echo $$i | sed --posix 's/-.*//'`.jar; \
+		fi; \
+		unzip -o -q -d chrome/ chrome/$$JARNAME; \
+		rm -f chrome/$$JARNAME; \
+		sed -i  -e 's/brandShortName.*/brandShortName "Iceowl">/' \
+			-e 's/brandFullName.*/brandFullName "Iceowl">/' \
+			chrome/locale/branding/brand.dtd; \
+		sed -i  -e 's/brandShortName.*/brandShortName=Iceowl/' \
+			-e 's/brandFullName.*/brandFullName=Iceowl/' \
+			chrome/locale/branding/brand.properties; \
+		cd chrome; zip -q -0r $$JARNAME locale; \
+		rm -rf locale; cd $(CURDIR)/upstream; \
+	done
+
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+
+	# Cleaning package
+	rm -rf $(BUILDDIR)
+	rm -rf debian/iceowl-l10n-[a-z,-]*
+
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_installdirs
+
+	# translation
+	set -e; cd $(BUILDDIR); \
+	for i in *; \
+	do \
+		CUR_LANG_SMALL=`echo $$i | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
+		mkdir -p $(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/chrome; \
+		install -m 644 $$i/chrome/*.jar $(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/chrome; \
+	done;
+
+	# install.rdf
+	set -e; cd $(BUILDDIR); \
+	for i in *; \
+	do \
+		CUR_LANG_SMALL=`echo $$i | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
+		install -m 644 $$i/install.rdf $(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`; \
+	done;
+
+	# chrome.manifest
+	set -e; cd $(BUILDDIR); \
+	for i in *; \
+	do \
+		CUR_LANG_SMALL=`echo $$i | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
+		install -m 644 $$i/chrome.manifest $(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`; \
+	done;
+
+	# uninstall
+	set -e; cd $(BUILDDIR); \
+	for i in *; \
+	do \
+		CUR_LANG_SMALL=`echo $$i | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
+		mkdir -p $(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/uninstall; \
+		cat $$i/install.rdf | \
+			sed --posix '/<em:locale>/!d' | \
+			sed --posix "s/.*/register	global	locale	$$i/" > \
+			$(TARGETDIR_LC)$$CUR_LANG_SMALL/usr/lib/iceowl/extensions/`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/uninstall/Uninstall; \
+	done;
+
+	# debian settings
+	set -e; cd $(BUILDDIR); \
+	for i in *; \
+	do \
+		CUR_LANG_SMALL=`echo $$i | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
+		mkdir -p $(TARGETDIR_LC)$$CUR_LANG_SMALL/var/lib/iceowl/extensions.d; \
+		echo extension,`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'` > $(TARGETDIR_LC)$$CUR_LANG_SMALL/var/lib/iceowl/extensions.d/50$$i-locale.ext; \
+	done;
+
+binary-arch: build install
+
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_install
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
