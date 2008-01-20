@@ -8,7 +8,7 @@ Standards-Version: 3.7.3
 
 Package: iceowl-l10n-all
 Architecture: all
-Depends: iceowl-l10n-ca, iceowl-l10n-cs, iceowl-l10n-da, iceowl-l10n-de, iceowl-l10n-es-ar, iceowl-l10n-es-es, iceowl-l10n-eu, iceowl-l10n-fr, iceowl-l10n-ga-ie, iceowl-l10n-hu, iceowl-l10n-it, iceowl-l10n-ka, iceowl-l10n-lt, iceowl-l10n-mk, iceowl-l10n-nb-no, iceowl-l10n-nl, iceowl-l10n-pa-in, iceowl-l10n-pl, iceowl-l10n-pt-br, iceowl-l10n-pt-pt, iceowl-l10n-ru, iceowl-l10n-sk, iceowl-l10n-sl, iceowl-l10n-sv-se, iceowl-l10n-tr, iceowl-l10n-zh-cn
+Depends: iceowl-l10n-ca, iceowl-l10n-cs, iceowl-l10n-da, iceowl-l10n-de, iceowl-l10n-es-ar, iceowl-l10n-es-es, iceowl-l10n-eu, iceowl-l10n-fr, iceowl-l10n-ga-ie, iceowl-l10n-hu, iceowl-l10n-it, iceowl-l10n-ka, iceowl-l10n-lt, iceowl-l10n-mk, iceowl-l10n-nb-no, iceowl-l10n-nl, iceowl-l10n-pa-in, iceowl-l10n-pl, iceowl-l10n-pt-br, iceowl-l10n-pt-pt, iceowl-l10n-ru, iceowl-l10n-sk, iceowl-l10n-sl, iceowl-l10n-sv-se, iceowl-l10n-tr, iceowl-l10n-zh-cn, iceowl-l10n-gl-es
 Description: All language packages for Iceowl (meta)
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -326,3 +326,16 @@ Description: Chinese (China) language package for Iceowl
  suite.
  .
  This package contains the localization of Iceowl in Chinese (China).
+
+# Unofficial localizations
+
+Package: iceowl-l10n-gl-es
+Architecture: all
+Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Description: Galician language package for Iceowl
+ Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
+ platform stand alone Calendar application using the XUL user interface
+ language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
+ suite.
+ .
+ This package contains the localization of Iceowl in Galician.

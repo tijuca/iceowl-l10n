@@ -4,13 +4,22 @@ Mon, 31 Dec 2007 17:38:00 +0100.
 It was downloaded from:
 
 	<http://ftp.mozilla.org/pub/mozilla.org/calendar/sunbird/releases/>
+	<http://www.mancomun.org/raquo-descargas/software-libre/produtos-mozilla/sunbird/traducion-galego-sunbird.html> (unofficial Galician)
 
-Upstream Authors:
+Upstream Authors (official):
 	Mozilla Project and Mozilla Localization Projects.
 
 	The official Firefox locales are tripple-licenses under the GNU General
 	Public License (GPL), the GNU Lesser General Public License (LGPL), and
 	the Mozilla Public License (MPL).
+
+Upstream Authors (unofficial):
+	Mancomun.org (Galician locales)
+
+	The unofficial locales are licensed only under the Mozilla Public
+	License (MP).
+
+	Unofficial locales are: gl-ES.xpi.
 
 Additionally, to comply with the trademark rules of the Mozilla Project, all
 appearences of "Sunbird" in all locales are replaced with "Iceowl" with

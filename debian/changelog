@@ -1,3 +1,10 @@
+iceowl-l10n (0.7+debian-1) unstable; urgency=low
+
+  * Including unofficial translation:
+    - gl-ES.xpi from Traduccion_sunbird_0.5_galego.xpi.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 20 Jan 2008 22:47:00 +0100
+
 iceowl-l10n (0.7-1) unstable; urgency=low
 
   * Initial release.
