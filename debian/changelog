@@ -1,9 +1,15 @@
-iceowl-l10n (0.8+debian-2) unstable; urgency=low
+iceowl-l10n (0.9+debian-1) experimental; urgency=low
 
-  * Removing vcs fields.
-  * Orphaning package.
+  * Upgrading package to standards 3.8.1.
+  * Changing to new localization section.
+  * Updating year in copyright file.
+  * Merging upstream version 0.9+debian.
+  * Correcting spelling typo in control about meta packages.
+  * Upstream version 0.9 adds Icelandic, Nynorsk (Norway), Romanian, and Chinese
+    (Taiwan) localizations.
+  * Updating depends to iceowl to version 0.9.
 
- -- Daniel Baumann <daniel@debian.org>  Thu, 27 Aug 2009 16:17:33 +0200
+ -- Daniel Baumann <daniel@debian.org>  Sat, 18 Apr 2009 19:57:00 +0200
 
 iceowl-l10n (0.8+debian-1) unstable; urgency=low
 

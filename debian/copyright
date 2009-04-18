@@ -611,5 +611,5 @@ License (MPL):
 	may use your version of this file under either the NPL or the [___]
 	License."
 
-The Debian packaging is (C) 2007, Daniel Baumann <daniel@debian.org> and
+The Debian packaging is (C) 2007-2009, Daniel Baumann <daniel@debian.org> and
 is licensed under the GPL, see `/usr/share/common-licenses/GPL-2'.
