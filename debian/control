@@ -2,13 +2,15 @@ Source: iceowl-l10n
 Section: web
 Priority: optional
 Maintainer: Daniel Baumann <daniel@debian.org>
-Build-Depends: debhelper (>= 5)
+Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: unzip, zip
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
+Vcs-Browser: http://git.debian.net/?p=debian/iceowl-l10n.git
+Vcs-Git: git://git.debian.net/git/debian/iceowl-l10n.git
 
 Package: iceowl-l10n-all
 Architecture: all
-Depends: iceowl-l10n-ca, iceowl-l10n-cs, iceowl-l10n-da, iceowl-l10n-de, iceowl-l10n-es-ar, iceowl-l10n-es-es, iceowl-l10n-eu, iceowl-l10n-fr, iceowl-l10n-ga-ie, iceowl-l10n-hu, iceowl-l10n-it, iceowl-l10n-ka, iceowl-l10n-lt, iceowl-l10n-mk, iceowl-l10n-nb-no, iceowl-l10n-nl, iceowl-l10n-pa-in, iceowl-l10n-pl, iceowl-l10n-pt-br, iceowl-l10n-pt-pt, iceowl-l10n-ru, iceowl-l10n-sk, iceowl-l10n-sl, iceowl-l10n-sv-se, iceowl-l10n-tr, iceowl-l10n-zh-cn, iceowl-l10n-gl-es
+Depends: iceowl-l10n-ca, iceowl-l10n-cs, iceowl-l10n-da, iceowl-l10n-de, iceowl-l10n-es-ar, iceowl-l10n-es-es, iceowl-l10n-eu, iceowl-l10n-fr, iceowl-l10n-ga-ie, iceowl-l10n-hu, iceowl-l10n-it, iceowl-l10n-ja, iceowl-l10n-ka, iceowl-l10n-ko, iceowl-l10n-lt, iceowl-l10n-mk, iceowl-l10n-mn, iceowl-l10n-nb-no, iceowl-l10n-nl, iceowl-l10n-pa-in, iceowl-l10n-pl, iceowl-l10n-pt-br, iceowl-l10n-pt-pt, iceowl-l10n-ru, iceowl-l10n-sk, iceowl-l10n-sl, iceowl-l10n-sv-se, iceowl-l10n-tr, iceowl-l10n-uk, iceowl-l10n-zh-cn, iceowl-l10n-gl-es
 Description: All language packages for Iceowl (meta)
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -22,7 +24,7 @@ Description: All language packages for Iceowl (meta)
 
 Package: iceowl-l10n-ca
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Conflicts: iceowl-l10n-roa-es-val
 Replaces: iceowl-l10n-roa-es-val
 Recommends: myspell-ca
@@ -36,7 +38,7 @@ Description: Catalan/Valencian language package for Iceowl
 
 Package: iceowl-l10n-cs
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-cs-cz
 Description: Czech language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -48,7 +50,7 @@ Description: Czech language package for Iceowl
 
 Package: iceowl-l10n-da
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-da
 Description: Danish language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -60,7 +62,7 @@ Description: Danish language package for Iceowl
 
 Package: iceowl-l10n-de
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-de-de | myspell-de-at | myspell-de-ch
 Description: German language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -72,7 +74,7 @@ Description: German language package for Iceowl
 
 Package: iceowl-l10n-es-ar
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-es
 Description: Spanish (Argentina) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -84,7 +86,7 @@ Description: Spanish (Argentina) language package for Iceowl
 
 Package: iceowl-l10n-es-es
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-es
 Description: Spanish (Spain) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -96,7 +98,7 @@ Description: Spanish (Spain) language package for Iceowl
 
 Package: iceowl-l10n-eu
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Basque language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -107,7 +109,7 @@ Description: Basque language package for Iceowl
 
 Package: iceowl-l10n-fr
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-fr | myspell-fr-gut
 Description: French language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -119,7 +121,7 @@ Description: French language package for Iceowl
 
 Package: iceowl-l10n-ga-ie
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Irish (Ireland) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -130,7 +132,7 @@ Description: Irish (Ireland) language package for Iceowl
 
 Package: iceowl-l10n-hu
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-hu
 Description: Hungarian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -142,7 +144,7 @@ Description: Hungarian language package for Iceowl
 
 Package: iceowl-l10n-it
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-it
 Description: Italian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -152,9 +154,20 @@ Description: Italian language package for Iceowl
  .
  This package contains the localization of Iceowl in Italian.
 
+Package: iceowl-l10n-ja
+Architecture: all
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
+Description: Japanese language package for Iceowl
+ Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
+ platform stand alone Calendar application using the XUL user interface
+ language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
+ suite.
+ .
+ This package contains the localization of Iceowl in Japanese.
+
 Package: iceowl-l10n-ka
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Georgian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -163,9 +176,20 @@ Description: Georgian language package for Iceowl
  .
  This package contains the localization of Iceowl in Georgian.
 
+Package: iceowl-l10n-ko
+Architecture: all
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
+Description: Korean language package for Iceowl
+ Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
+ platform stand alone Calendar application using the XUL user interface
+ language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
+ suite.
+ .
+ This package contains the localization of Iceowl in Korean.
+
 Package: iceowl-l10n-lt
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-lt
 Description: Lithuanian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -177,7 +201,7 @@ Description: Lithuanian language package for Iceowl
 
 Package: iceowl-l10n-mk
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Macedonian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -186,9 +210,20 @@ Description: Macedonian language package for Iceowl
  .
  This package contains the localization of Iceowl in Macedonian.
 
+Package: iceowl-l10n-mn
+Architecture: all
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
+Description: Mongolian language package for Iceowl
+ Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
+ platform stand alone Calendar application using the XUL user interface
+ language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
+ suite.
+ .
+ This package contains the localization of Iceowl in Mongolian.
+
 Package: iceowl-l10n-nb-no
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-nb
 Description: Bokmaal (Norway) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -200,7 +235,7 @@ Description: Bokmaal (Norway) language package for Iceowl
 
 Package: iceowl-l10n-nl
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-nl
 Description: Dutch language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -212,7 +247,7 @@ Description: Dutch language package for Iceowl
 
 Package: iceowl-l10n-pa-in
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Punjabi (India) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -223,7 +258,7 @@ Description: Punjabi (India) language package for Iceowl
 
 Package: iceowl-l10n-pl
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-pl
 Description: Polish language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -235,7 +270,7 @@ Description: Polish language package for Iceowl
 
 Package: iceowl-l10n-pt-br
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-pt-br | myspell-pt
 Description: Portuguese (Brazil) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -247,7 +282,7 @@ Description: Portuguese (Brazil) language package for Iceowl
 
 Package: iceowl-l10n-pt-pt
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-pt-pt | myspell-pt
 Description: Portuguese (Portugal) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -259,7 +294,7 @@ Description: Portuguese (Portugal) language package for Iceowl
 
 Package: iceowl-l10n-ru
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-ru
 Description: Russian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -271,7 +306,7 @@ Description: Russian language package for Iceowl
 
 Package: iceowl-l10n-sk
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-sk
 Description: Slovak language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -283,7 +318,7 @@ Description: Slovak language package for Iceowl
 
 Package: iceowl-l10n-sl
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-sl
 Description: Slovenian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -295,7 +330,7 @@ Description: Slovenian language package for Iceowl
 
 Package: iceowl-l10n-sv-se
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Recommends: myspell-sv-se
 Description: Swedish (Sweden) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
@@ -307,7 +342,7 @@ Description: Swedish (Sweden) language package for Iceowl
 
 Package: iceowl-l10n-tr
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Turkish language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -316,9 +351,20 @@ Description: Turkish language package for Iceowl
  .
  This package contains the localization of Iceowl in Turkish.
 
+Package: iceowl-l10n-uk
+Architecture: all
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
+Description: Ukrainian language package for Iceowl
+ Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
+ platform stand alone Calendar application using the XUL user interface
+ language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
+ suite.
+ .
+ This package contains the localization of Iceowl in Ukrainian.
+
 Package: iceowl-l10n-zh-cn
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Chinese (China) language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
@@ -331,7 +377,7 @@ Description: Chinese (China) language package for Iceowl
 
 Package: iceowl-l10n-gl-es
 Architecture: all
-Depends: iceowl (>= 0.7), iceowl (<= 1.0)
+Depends: iceowl (>= 0.8), iceowl (<= 1.0)
 Description: Galician language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface

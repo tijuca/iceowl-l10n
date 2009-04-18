@@ -1,3 +1,19 @@
+iceowl-l10n (0.8+debian-1) unstable; urgency=low
+
+  * Merging upstream version 0.8+debian.
+  * Upgrading package to debhelper 7.
+  * Upgrading package to standards 3.8.0.
+  * Adding vcs fields in control file.
+  * Upstream version 0.8 adds Japanese, Korean, Mongolian, and Ukrainian
+    localizations.
+  * Updating depends to iceowl to version 0.8.
+  * Reordering rules file.
+  * Updating vcs fields in control file.
+  * Replacing obsolete dh_clean -k with dh_prep.
+  * Conditionally rebrand in rules.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 18 Apr 2009 19:30:00 +0200
+
 iceowl-l10n (0.7+debian-1) unstable; urgency=low
 
   * Including unofficial translation:

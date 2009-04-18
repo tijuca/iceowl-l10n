@@ -1,10 +1,26 @@
 #!/usr/bin/make -f
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
 TARGETDIR_LC=$(CURDIR)/debian/iceowl-l10n-
 BUILDDIR=$(CURDIR)/build
+
+VERSION=0.8
+
+upstream:
+	for XPI in $(wget http://mirror.switch.ch/ftp/mirror/mozilla/calendar/sunbird/releases/$(VERSION)/langpacks -O - | grep ".xpi</a>" | awk -F\" '{ print $10 }'); \
+	do \
+		rm -f upstream/$(basename $$XPI); \
+		wget http://releases.mozilla.org/pub/mozilla.org/calendar/sunbird/releases/$(VERSION)/langpacks/$$XPI; \
+	done
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+
+	rm -rf $(BUILDDIR)
+	rm -rf debian/iceowl-l10n-[a-z,-]*
+
+	dh_clean
 
 build:
 	dh_testdir
@@ -25,33 +41,24 @@ build:
 		fi; \
 		unzip -o -q -d chrome/ chrome/$$JARNAME; \
 		rm -f chrome/$$JARNAME; \
+		if [ -e chrome/locale/branding/brand.dtd ]; then \
 		sed -i  -e 's/brandShortName.*/brandShortName "Iceowl">/' \
 			-e 's/brandFullName.*/brandFullName "Iceowl">/' \
-			chrome/locale/branding/brand.dtd; \
+			chrome/locale/branding/brand.dtd; fi; \
+		if [ -e chrome/locale/branding/brand.properties ]; then \
 		sed -i  -e 's/brandShortName.*/brandShortName=Iceowl/' \
 			-e 's/brandFullName.*/brandFullName=Iceowl/' \
-			chrome/locale/branding/brand.properties; \
+			chrome/locale/branding/brand.properties; fi; \
 		cd chrome; zip -q -0r $$JARNAME locale; \
 		rm -rf locale; cd $(CURDIR)/upstream; \
 	done
 
 	touch build-stamp
 
-clean:
-	dh_testdir
-	dh_testroot
-	rm -f build-stamp
-
-	# Cleaning package
-	rm -rf $(BUILDDIR)
-	rm -rf debian/iceowl-l10n-[a-z,-]*
-
-	dh_clean
-
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k
+	dh_prep
 	dh_installdirs
 
 	# translation
@@ -100,7 +107,9 @@ install: build
 		echo extension,`cat $$i/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'` > $(TARGETDIR_LC)$$CUR_LANG_SMALL/var/lib/iceowl/extensions.d/50$$i-locale.ext; \
 	done;
 
-binary-arch: build install
+binary: binary-indep
+
+binary-arch:
 
 binary-indep: build install
 	dh_testdir
@@ -115,5 +124,4 @@ binary-indep: build install
 	dh_md5sums
 	dh_builddeb
 
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install
+.PHONY: clean build install binary binary-arch binary-indep
