@@ -1,3 +1,14 @@
+iceowl-l10n (0.9+debian-2) experimental; urgency=low
+
+  * Updating maintainer field.
+  * Updating vcs fields.
+  * Updating package to standards version 3.8.2.
+  * Adding misc depends.
+  * Rewriting copyright file in machine-interpretable format.
+  * Minimizing rules file.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 13 Aug 2009 12:42:47 +0200
+
 iceowl-l10n (0.9+debian-1) experimental; urgency=low
 
   * Upgrading package to standards 3.8.1.
