@@ -1,12 +1,10 @@
 Source: iceowl-l10n
 Section: web
 Priority: optional
-Maintainer: Daniel Baumann <daniel@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.8.0
-Vcs-Browser: http://git.debian.net/?p=debian/iceowl-l10n.git
-Vcs-Git: git://git.debian.net/git/debian/iceowl-l10n.git
 
 Package: iceowl-l10n-all
 Architecture: all
