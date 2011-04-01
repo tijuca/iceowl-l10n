@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
+# Upstream version as used by Mozilla
+UPSTREAM_VERSION="1.0b2"
+
 SHELL := sh -e
 
 %:
@@ -8,84 +11,60 @@ SHELL := sh -e
 override_dh_auto_clean:
 	dh_auto_clean
 
-	rm -rf build
+	rm -rf build/
 
 override_dh_auto_build:
-	cd $(CURDIR)/upstream; \
-	for XPI in *.xpi; \
-	do \
-		LOCALE=`basename $${XPI} .xpi`; \
-		mkdir -p $(CURDIR)/build/$${LOCALE}; \
-		unzip -o -q -d $(CURDIR)/build/$${LOCALE} $${XPI}; \
-		mkdir -p $(CURDIR)/build/$${LOCALE}; \
-		cd $(CURDIR)/build/$${LOCALE}; \
-		if [ -f chrome/$${LOCALE}.jar ]; \
-		then \
-			JAR=$${LOCALE}.jar; \
-		else \
-			JAR=`echo $${XPI} | sed --posix 's|-.*||'`.jar; \
-		fi; \
-		unzip -o -q -d chrome chrome/$${JAR}; \
-		rm -f chrome/$${JAR}; \
-		if [ -e chrome/locale/branding/brand.dtd ]; \
-		then \
-			sed -i  -e 's|brandShortName.*|brandShortName "Iceowl">|' \
-				-e 's|brandFullName.*|brandFullName "Iceowl">|' \
-			chrome/locale/branding/brand.dtd; \
-		fi; \
-		if [ -e chrome/locale/branding/brand.properties ]; \
-		then \
-			sed -i  -e 's|brandShortName.*|brandShortName=Iceowl|' \
-				-e 's|brandFullName.*|brandFullName=Iceowl|' \
-			chrome/locale/branding/brand.properties; \
-		fi; \
-		cd chrome; zip -q -0r $${JAR} locale; \
-		rm -rf locale; cd $(CURDIR)/upstream; \
+	mkdir -p build
+	# FIXME: add branding
+	for dir in ?? ??-*; do \
+		cd $${dir}; \
+		zip -r ../build/$${dir}.jar locale; \
+		cd -; \
 	done
+	rm -rf build/en-US.jar
 
 override_dh_auto_install:
-	# locale
-	cd $(CURDIR)/build; \
-	for DIRECTORY in *; \
+	for jar in build/*.jar; \
 	do \
-		LOCALE=`echo $${DIRECTORY} | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
-		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/chrome; \
-		install -m 644 $${DIRECTORY}/chrome/*.jar $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/chrome; \
-	done;
+		locale=`basename $${jar} .jar | tr 'A-Z' 'a-z'`; \
+		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/chrome; \
+		install -m 644 $${jar} $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/chrome/; \
+	done
+
+	for jar in build/*.jar; \
+	do \
+		locale=`basename $${jar} .jar | tr 'A-Z' 'a-z'`; \
+		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/iceowl/extensions/; \
+		ln -s /usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/ \
+			$(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/iceowl/extensions/langpack-$${locale}@iceowl.debian.org; \
+		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/icedove/extensions/; \
+		ln -s /usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/ \
+			$(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/icedove/extensions/langpack-$${locale}@iceowl.debian.org; \
+	done
 
 	# install.rdf
-	cd $(CURDIR)/build; \
-	for DIRECTORY in *; \
+	for jar in build/*.jar; \
 	do \
-		LOCALE=`echo $${DIRECTORY} | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
-		install -m 644 $${DIRECTORY}/install.rdf $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`; \
-	done;
+		locale=`basename $${jar} .jar | tr 'A-Z' 'a-z'`; \
+		sed -e s"/##LOCALE##/$${locale}/" -e s",##VERSION##,$(UPSTREAM_VERSION)," \
+			debian/install.rdf.in \
+			> $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/install.rdf; \
+	done
 
 	# chrome.manifest
-	cd $(CURDIR)/build; \
-	for DIRECTORY in *; \
+	for jar in build/*.jar; \
 	do \
-		LOCALE=`echo $${DIRECTORY} | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
-		install -m 644 $${DIRECTORY}/chrome.manifest $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`; \
-	done;
+		lang=`basename $${jar} .jar`; \
+		locale=`basename $${jar} .jar | tr 'A-Z' 'a-z'`; \
+		sed -e s"/##LANG##/$${lang}/g" \
+			debian/chrome.manifest.in \
+			> $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/chrome.manifest; \
+	done
 
 	# uninstall
-	cd $(CURDIR)/build; \
-	for DIRECTORY in *; \
+	for jar in build/*.jar; \
 	do \
-		LOCALE=`echo $${DIRECTORY} | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
-		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/uninstall; \
-		cat $${DIRECTORY}/install.rdf | \
-			sed --posix '/<em:locale>/!d' | \
-			sed --posix "s/.*/register	global	locale	$${DIRECTORY}/" > \
-			$(CURDIR)/debian/iceowl-l10n-$${LOCALE}/usr/lib/iceowl/extensions/`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'`/uninstall/Uninstall; \
-	done;
-
-	# debian settings
-	cd $(CURDIR)/build; \
-	for DIRECTORY in *; \
-	do \
-		LOCALE=`echo $${DIRECTORY} | sed --posix 'y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/'`; \
-		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/var/lib/iceowl/extensions.d; \
-		echo extension,`cat $${DIRECTORY}/install.rdf | sed --posix '/em:id=/!d;s/[ ]*em:id="//;s/".*//'` > $(CURDIR)/debian/iceowl-l10n-$${LOCALE}/var/lib/iceowl/extensions.d/50$${DIRECTORY}-locale.ext; \
-	done;
+		locale=`basename $${jar} .jar | tr 'A-Z' 'a-z'`; \
+		mkdir $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/uninstall; \
+		touch $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/uninstall/Uninstall; \
+	done
