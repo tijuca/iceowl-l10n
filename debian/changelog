@@ -1,3 +1,14 @@
+iceowl-l10n (1.0~b2-1) unstable; urgency=low
+
+  * [89f536a] New upstream version 1.0~b2 (Closes: #592907)
+  * [a5ccf0d] Add packaging for 1.0~b2 and provide packages for iceowl and
+    iceowl-extension
+  * [ab885dd] Update debian/copyright
+  * [564050c] Use Version 3 (quilt) source format
+  * [7821a02] Add Iceowl branding
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 02 Apr 2011 10:49:05 +0200
+
 iceowl-l10n (0.9+debian-2) experimental; urgency=low
 
   * Updating maintainer field.
