@@ -1,0 +1,51 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 2 Apr 2011 10:37:16 +0200
+Subject: Brand es-AR
+
+---
+ es-AR/locale/es-AR/lightning/lightning.dtd        |    2 +-
+ es-AR/locale/es-AR/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/es-AR/locale/es-AR/lightning/lightning.dtd b/es-AR/locale/es-AR/lightning/lightning.dtd
+index e18e354..f2b5988 100644
+--- a/es-AR/locale/es-AR/lightning/lightning.dtd
++++ b/es-AR/locale/es-AR/lightning/lightning.dtd
+@@ -46,7 +46,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Evento…">
+diff --git a/es-AR/locale/es-AR/lightning/lightning.properties b/es-AR/locale/es-AR/lightning/lightning.properties
+index e784e95..d8fb804 100644
+--- a/es-AR/locale/es-AR/lightning/lightning.properties
++++ b/es-AR/locale/es-AR/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendario integrado para Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Proyecto Mozilla Calendar
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Tareas
+@@ -72,7 +72,7 @@ imipBarRequestText=Este mensaje contiene una invitación a un evento.
+ imipBarUpdateText=Este mensaje contiene una actualizaciþn a un evento existente.
+ imipBarAlreadyProcessedText=Este mensaje contiene un evento que ya ha sido procesdo.
+ imipBarReplyText=Este mensaje contiene una respuesta a una invitación.
+-imipBarUnsupportedText=Este mensaje contiene un evento que esta versión de Lightning no puede procesar.
++imipBarUnsupportedText=Este mensaje contiene un evento que esta versión de Iceowl no puede procesar.
+ imipBarProcessingFailed=Falla al procesar el mensaje. Estado: %1$S.
+ imipAcceptInvitation.label=Aceptar
+ imipCancelInvitation.label=Borrar
+-- 

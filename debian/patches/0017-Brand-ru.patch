@@ -1,0 +1,51 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 2 Apr 2011 10:37:16 +0200
+Subject: Brand ru
+
+---
+ ru/locale/ru/lightning/lightning.dtd        |    2 +-
+ ru/locale/ru/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/ru/locale/ru/lightning/lightning.dtd b/ru/locale/ru/lightning/lightning.dtd
+index c6f5749..d830727 100644
+--- a/ru/locale/ru/lightning/lightning.dtd
++++ b/ru/locale/ru/lightning/lightning.dtd
+@@ -46,7 +46,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Событие…">
+diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
+index a0d6de7..9565c99 100644
+--- a/ru/locale/ru/lightning/lightning.properties
++++ b/ru/locale/ru/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Встраиваемый календарь для Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Задачи
+@@ -72,7 +72,7 @@ imipBarRequestText=Это письмо содержит приглашение 
+ imipBarUpdateText=Это письмо содержит обновление существующего события.
+ imipBarAlreadyProcessedText=Это письмо содержит событие, которое уже обработано.
+ imipBarReplyText=Это письмо содержит ответ на приглашение..
+-imipBarUnsupportedText=Это письмо содержит событие, которое эта версия Lightning не может обработать.
++imipBarUnsupportedText=Это письмо содержит событие, которое эта версия Iceowl не может обработать.
+ imipBarProcessingFailed=Ошибка обработки письма. Состояние: %1$S.
+ imipAcceptInvitation.label=Принять
+ imipCancelInvitation.label=Удалить
+-- 

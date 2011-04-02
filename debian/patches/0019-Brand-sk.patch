@@ -1,0 +1,51 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 2 Apr 2011 10:37:16 +0200
+Subject: Brand sk
+
+---
+ sk/locale/sk/lightning/lightning.dtd        |    2 +-
+ sk/locale/sk/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/sk/locale/sk/lightning/lightning.dtd b/sk/locale/sk/lightning/lightning.dtd
+index acbeb38..3f7900c 100644
+--- a/sk/locale/sk/lightning/lightning.dtd
++++ b/sk/locale/sk/lightning/lightning.dtd
+@@ -45,7 +45,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Udalosť…">
+diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
+index 8809f85..3d23d3c 100644
+--- a/sk/locale/sk/lightning/lightning.properties
++++ b/sk/locale/sk/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrovaný kalendár pre Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projekt Mozilla Calendar
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Úlohy
+@@ -72,7 +72,7 @@ imipBarRequestText=Táto správa obsahuje pozvánku na udalosť.
+ imipBarUpdateText=Táto správa obsahuje aktualizáciu existujúcej udalosti.
+ imipBarAlreadyProcessedText=Táto správa obsahuje udalosť, ktorá už bola spracovaná.
+ imipBarReplyText=Táto správa obsahuje odpoveď na pozvánku.
+-imipBarUnsupportedText=Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia Lightning nedokáže spracovať.
++imipBarUnsupportedText=Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia Iceowl nedokáže spracovať.
+ imipBarProcessingFailed=Spracovanie správy zlyhalo. Stav: %1$S.
+ imipAcceptInvitation.label=Prijať
+ imipCancelInvitation.label=Vymazať
+-- 

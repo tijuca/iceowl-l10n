@@ -1,0 +1,36 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 2 Apr 2011 10:37:16 +0200
+Subject: Brand es-ES
+
+---
+ es-ES/locale/es-ES/lightning/lightning.dtd        |    2 +-
+ es-ES/locale/es-ES/lightning/lightning.properties |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/es-ES/locale/es-ES/lightning/lightning.dtd b/es-ES/locale/es-ES/lightning/lightning.dtd
+index 4528d9b..09c90f7 100644
+--- a/es-ES/locale/es-ES/lightning/lightning.dtd
++++ b/es-ES/locale/es-ES/lightning/lightning.dtd
+@@ -40,7 +40,7 @@
+    - the terms of any one of the MPL, the GPL or the LGPL.
+    -
+    - ***** END LICENSE BLOCK ***** -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ <!ENTITY lightning.menupopup.new.event.label "Evento…">
+ <!ENTITY lightning.menupopup.new.event.accesskey "E">
+ <!ENTITY lightning.menupopup.new.task.label "Tarea…">
+diff --git a/es-ES/locale/es-ES/lightning/lightning.properties b/es-ES/locale/es-ES/lightning/lightning.properties
+index ba788ff..55bf4cd 100644
+--- a/es-ES/locale/es-ES/lightning/lightning.properties
++++ b/es-ES/locale/es-ES/lightning/lightning.properties
+@@ -62,7 +62,7 @@ imipBarRequestText = Este mensaje contiene una invitación a un evento.
+ imipBarUpdateText = Este mensaje contiene una actualización a un evento existente.
+ imipBarAlreadyProcessedText = Este mensaje contiene un evento que ya ha sido procesado.
+ imipBarReplyText = Este mensaje contiene una respuesta a una invitación.
+-imipBarUnsupportedText = Este mensaje contiene un evento que esta versión de Lightning no puede procesar.
++imipBarUnsupportedText = Este mensaje contiene un evento que esta versión de Iceowl no puede procesar.
+ imipBarProcessingFailed = Fallo al procesar el mensaje. Estado: %1$S.
+ imipAcceptInvitation.label = Aceptar
+ imipCancelInvitation.label = Eliminar
+-- 
