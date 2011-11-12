@@ -3,14 +3,14 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand en-US
 
 ---
- en-US/locale/en-US/lightning/lightning.dtd        |    2 +-
- en-US/locale/en-US/lightning/lightning.properties |    6 +++---
+ en-GB/locale/en-GB/lightning/lightning.dtd        |    2 +-
+ en-GB/locale/en-GB/lightning/lightning.properties |    6 +++---
  2 files changed, 4 insertions(+), 4 deletions(-)
 
-diff --git a/en-US/locale/en-US/lightning/lightning.dtd b/en-US/locale/en-US/lightning/lightning.dtd
-index a4b532d..84aa1ba 100644
---- a/en-US/locale/en-US/lightning/lightning.dtd
-+++ b/en-US/locale/en-US/lightning/lightning.dtd
+diff --git a/en-GB/locale/en-GB/lightning/lightning.dtd b/en-GB/locale/en-GB/lightning/lightning.dtd
+index 7cc15b3..4000e7c 100644
+--- a/en-GB/locale/en-GB/lightning/lightning.dtd
++++ b/en-GB/locale/en-GB/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
    -->
  
@@ -20,10 +20,10 @@ index a4b532d..84aa1ba 100644
  
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Event…">
-diff --git a/en-US/locale/en-US/lightning/lightning.properties b/en-US/locale/en-US/lightning/lightning.properties
-index d5c590a..3f1a4cf 100644
---- a/en-US/locale/en-US/lightning/lightning.properties
-+++ b/en-US/locale/en-US/lightning/lightning.properties
+diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
+index c054b08..49ea3d5 100644
+--- a/en-GB/locale/en-GB/lightning/lightning.properties
++++ b/en-GB/locale/en-GB/lightning/lightning.properties
 @@ -38,12 +38,12 @@
  # ***** END LICENSE BLOCK *****
  

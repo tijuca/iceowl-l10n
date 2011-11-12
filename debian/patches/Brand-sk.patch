@@ -21,7 +21,7 @@ index acbeb38..3f7900c 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Udalosť…">
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 8809f85..3d23d3c 100644
+index 1cccdc5..893b442 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
 @@ -38,12 +38,12 @@

@@ -4,8 +4,8 @@ Subject: Brand pt-PT
 
 ---
  pt-PT/locale/pt-PT/lightning/lightning.dtd        |    2 +-
- pt-PT/locale/pt-PT/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ pt-PT/locale/pt-PT/lightning/lightning.properties |   17 +++++++++++++----
+ 2 files changed, 14 insertions(+), 5 deletions(-)
 
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.dtd b/pt-PT/locale/pt-PT/lightning/lightning.dtd
 index c5fb47a..695b4d8 100644
@@ -21,7 +21,7 @@ index c5fb47a..695b4d8 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Evento…">
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
-index 15e0d27..938775e 100644
+index 15e0d27..1a0780d 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -29,23 +29,34 @@ index 15e0d27..938775e 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning 
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl 
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Thunderbird
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projecto Mozilla Calendar
  
- # Lightning branding
+-# Lightning branding
 -brandShortName=Lightning
++# Iceowl branding
 +brandShortName=Iceowl
  
  # Task mode title
  taskModeApplicationTitle=Tarefas
-@@ -72,7 +72,7 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
+@@ -72,8 +72,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
  imipBarUpdateText=Esta mensagem contém uma actualização para um evento.
  imipBarAlreadyProcessedText=Esta mensagem contém um evento que já foi processado.
  imipBarReplyText=Esta mensagem contém uma resposta a um convite.
--imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Lightning não pode processar.
++<<<<<<< HEAD
++<<<<<<< HEAD:pt-PT/locale/pt-PT/lightning/lightning.properties
+ imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Lightning não pode processar.
++=======
 +imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Iceowl não pode processar.
++>>>>>>> Brand pt-PT
  imipBarProcessingFailed=O processamento da mensagem falhou. Estado: %1$S.
++=======
++imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Iceowl não consegue processar.
++imipBarProcessingFailed=Falha a processar a mensagem. Posição: %1$S.
++>>>>>>> Brand pt-BR:pt-BR/locale/pt-BR/lightning/lightning.properties
  imipAcceptInvitation.label=Aceitar
  imipCancelInvitation.label=Eliminar
+ imipDeclineInvitation.label=Declinar
 -- 

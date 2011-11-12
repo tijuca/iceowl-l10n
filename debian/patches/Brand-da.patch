@@ -21,7 +21,7 @@ index 53c4e66..75bb864 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label "Begivenhed…">
 diff --git a/da/locale/da/lightning/lightning.properties b/da/locale/da/lightning/lightning.properties
-index 1f8b087..0040584 100644
+index 667f91a..6122a8c 100644
 --- a/da/locale/da/lightning/lightning.properties
 +++ b/da/locale/da/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -45,7 +45,7 @@ index 1f8b087..0040584 100644
  imipBarReplyText=Denne meddelelse indeholder et svar til en invitation.
 -imipBarUnsupportedText=Denne meddelelse indeholder en begivenhed, som denne version af Lightning ikke kan håndtere.
 +imipBarUnsupportedText=Denne meddelelse indeholder en begivenhed, som denne version af Iceowl ikke kan håndtere.
- imipBarProcessingFailed=Behandlingen af meddelelsen fejlede. Status: %1$S.
+ imipBarProcessingFailed=Behandlingen af meddelelsen mislykkedes. Status: %1$S.
  imipAcceptInvitation.label=Accepter
  imipCancelInvitation.label=Slet
 -- 

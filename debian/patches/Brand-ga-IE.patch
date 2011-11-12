@@ -8,7 +8,7 @@ Subject: Brand ga-IE
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.dtd b/ga-IE/locale/ga-IE/lightning/lightning.dtd
-index da26deb..db300a0 100644
+index 7ea692d..d563228 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.dtd
 +++ b/ga-IE/locale/ga-IE/lightning/lightning.dtd
 @@ -46,7 +46,7 @@

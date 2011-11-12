@@ -8,7 +8,7 @@ Subject: Brand pa-IN
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/pa-IN/locale/pa-IN/lightning/lightning.dtd b/pa-IN/locale/pa-IN/lightning/lightning.dtd
-index a4b532d..84aa1ba 100644
+index f9b554b..7192414 100644
 --- a/pa-IN/locale/pa-IN/lightning/lightning.dtd
 +++ b/pa-IN/locale/pa-IN/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -19,9 +19,9 @@ index a4b532d..84aa1ba 100644
 +<!ENTITY lightning.taskLabel "Iceowl">
  
  <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Event…">
+ <!ENTITY lightning.menupopup.new.event.label    "ਈਵੈਂਟ…">
 diff --git a/pa-IN/locale/pa-IN/lightning/lightning.properties b/pa-IN/locale/pa-IN/lightning/lightning.properties
-index 639a103..ba2699a 100644
+index c80954e..e0fc883 100644
 --- a/pa-IN/locale/pa-IN/lightning/lightning.properties
 +++ b/pa-IN/locale/pa-IN/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -34,11 +34,11 @@ index 639a103..ba2699a 100644
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding
--brandShortName=Lightning
+-brandShortName=ਲਾਈਟਨਿੰਗ
 +brandShortName=Iceowl
  
  # Task mode title
- taskModeApplicationTitle=Tasks
+ taskModeApplicationTitle=ਟਾਸਕ
 @@ -72,7 +72,7 @@ imipBarRequestText=This message contains an invitation to an event.
  imipBarUpdateText=This message contains an update to an existing event.
  imipBarAlreadyProcessedText=This message contains an event that has already been processed.
@@ -46,6 +46,6 @@ index 639a103..ba2699a 100644
 -imipBarUnsupportedText=This message contains an event that this version of Lightning cannot process.
 +imipBarUnsupportedText=This message contains an event that this version of Iceowl cannot process.
  imipBarProcessingFailed=Processing message failed. Status: %1$S.
- imipAcceptInvitation.label=Accept
- imipCancelInvitation.label=Delete
+ imipAcceptInvitation.label=ਮਨਜ਼ੂਰ
+ imipCancelInvitation.label=ਹਟਾਓ
 -- 

@@ -8,7 +8,7 @@ Subject: Brand cs
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.dtd b/cs/locale/cs/lightning/lightning.dtd
-index d67f666..9903add 100644
+index f04a31b..642da3a 100644
 --- a/cs/locale/cs/lightning/lightning.dtd
 +++ b/cs/locale/cs/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -21,7 +21,7 @@ index d67f666..9903add 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label "Událost…">
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index 8a5bbf2..29e3ca8 100644
+index 9caab4d..bf9d6ae 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -38,12 +38,12 @@

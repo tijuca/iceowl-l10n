@@ -21,7 +21,7 @@ index 990a846..32b8997 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Événement…">
 diff --git a/fr/locale/fr/lightning/lightning.properties b/fr/locale/fr/lightning/lightning.properties
-index 8863814..1ed9d8a 100644
+index d0f6645..abcb753 100644
 --- a/fr/locale/fr/lightning/lightning.properties
 +++ b/fr/locale/fr/lightning/lightning.properties
 @@ -38,12 +38,12 @@

@@ -5,16 +5,16 @@ Subject: Brand de
 ---
  de/locale/de/calendar/calendar.properties   |    4 ++--
  de/locale/de/calendar/migration.properties  |    2 +-
+ de/locale/de/calendar/timezones.properties  |    2 +-
  de/locale/de/lightning/lightning.dtd        |    2 +-
  de/locale/de/lightning/lightning.properties |    6 +++---
- de/locale/de/lightning/timezones.properties |    2 +-
  5 files changed, 8 insertions(+), 8 deletions(-)
 
 diff --git a/de/locale/de/calendar/calendar.properties b/de/locale/de/calendar/calendar.properties
-index fee7198..88a3ee8 100644
+index 542fe8b..1a27268 100644
 --- a/de/locale/de/calendar/calendar.properties
 +++ b/de/locale/de/calendar/calendar.properties
-@@ -369,8 +369,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
+@@ -381,8 +381,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
  pw_change_failed_title=Ändern des Passworts fehlgeschlagen
  
  # Check for Updates     (SUNBIRD_ONLY)
@@ -35,6 +35,19 @@ index ba97110..bd7e3c2 100644
  disableExtTitle = Inkompatible Erweiterung gefunden
 -disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Lightning nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
 +disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Iceowl nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
+diff --git a/de/locale/de/calendar/timezones.properties b/de/locale/de/calendar/timezones.properties
+index b5ffd0d..e944d0a 100644
+--- a/de/locale/de/calendar/timezones.properties
++++ b/de/locale/de/calendar/timezones.properties
+@@ -41,7 +41,7 @@
+ 
+ # extension:
+ extensions.calendar-timezones@mozilla.org.name=Zeitzonendefinitionen für Mozilla Calendar
+-extensions.calendar-timezones@mozilla.org.description=Von Sunbird und Lightning benötigte Zeitzonendefinitionen
++extensions.calendar-timezones@mozilla.org.description=Von Sunbird und Iceowl benötigte Zeitzonendefinitionen
+ extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar Project
+ 
+ pref.timezone.floating=Lokale Zeit
 diff --git a/de/locale/de/lightning/lightning.dtd b/de/locale/de/lightning/lightning.dtd
 index 26ee6a6..425abb3 100644
 --- a/de/locale/de/lightning/lightning.dtd
@@ -76,17 +89,4 @@ index d870348..ec763d8 100644
  imipBarProcessingFailed=Bearbeiten der Nachricht fehlgeschlagen. Status: %1$S.
  imipAcceptInvitation.label=Akzeptieren
  imipCancelInvitation.label=Löschen
-diff --git a/de/locale/de/lightning/timezones.properties b/de/locale/de/lightning/timezones.properties
-index f35ae7c..918ee2d 100644
---- a/de/locale/de/lightning/timezones.properties
-+++ b/de/locale/de/lightning/timezones.properties
-@@ -41,7 +41,7 @@
- 
- # extension:
- extensions.calendar-timezones@mozilla.org.name=Zeitzonendefinitionen für Mozilla Calendar
--extensions.calendar-timezones@mozilla.org.description=Von Sunbird und Lightning benötigte Zeitzonendefinitionen
-+extensions.calendar-timezones@mozilla.org.description=Von Sunbird und Iceowl benötigte Zeitzonendefinitionen
- extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar Project
- 
- pref.timezone.floating=Lokale Zeit
 -- 
