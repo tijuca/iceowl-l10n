@@ -44,6 +44,9 @@
 
 <!ENTITY event.title.label "Modifier l'élément" >
 
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Conserver la durée lors de la modification de la date de fin">
+<!ENTITY event.dialog.keepDurationButton.accesskey "C">
+
 <!ENTITY newevent.from.label "Du" >
 <!ENTITY newevent.to.label "Au" >
 <!ENTITY newevent.attendees.notify.label "Notifier les participants">
@@ -360,7 +363,7 @@
 <!ENTITY event.freebusy.minus " Heure précédente" >
 <!ENTITY event.freebusy.legend.free "Disponible" >
 <!ENTITY event.freebusy.legend.busy "Occupé" >
-<!ENTITY event.freebusy.legend.busy_tentative "Tentative" >
+<!ENTITY event.freebusy.legend.busy_tentative "Provisoire" >
 <!ENTITY event.freebusy.legend.busy_unavailable "Absent" >
 <!ENTITY event.freebusy.legend.unknown "Pas d'information" >
 <!ENTITY event.attendee.role.required "Participation obligatoire">
@@ -374,6 +377,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label "Général">
 <!ENTITY read.only.title.label "Titre :">
+<!ENTITY read.only.event.start.label "Date de début :">
+<!ENTITY read.only.task.start.label "Date de début :">
+<!ENTITY read.only.event.end.label "Date de fin :">
+<!ENTITY read.only.task.due.label "Fin prévue :">
 <!ENTITY read.only.repeat.label "Répétition :">
 <!ENTITY read.only.location.label "Lieu :">
 <!ENTITY read.only.category.label "Catégorie :">

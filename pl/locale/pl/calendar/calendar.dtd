@@ -84,7 +84,7 @@
 <!ENTITY calendar.unifinder.tree.location.label    "Miejsce">
 <!ENTITY calendar.unifinder.tree.status.label    "Stan">
 <!ENTITY calendar.unifinder.tree.calendarname.label    "Nazwa kalendarza">
-<!ENTITY calendar.unifinder.tree.duration.label      "Termin">
+<!ENTITY calendar.unifinder.tree.duration.label      "Pozostało">
 <!ENTITY calendar.unifinder.close.tooltip            "Zamknij ten panel">
 
 <!ENTITY calendar.today.button.tooltip        "Przejdź do dnia dzisiejszego" >
@@ -155,6 +155,16 @@
 <!ENTITY calendar.task.filter.open.label            "Nieukończone zadania">
 <!ENTITY calendar.task.filter.open.accesskey        "k">
 
+<!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
+     "Current Tasks" will show all tasks, except those with a start date set
+     that is after today and after the selected date. If a task repeats, a
+     separate entry will be shown for each of the occurrences that happen on or
+     before today (or the selected date, whichever is later). -->
+<!ENTITY calendar.task.filter.current.label         "Bieżące zadania">
+<!ENTITY calendar.task.filter.current.accesskey     "B">
+<!ENTITY calendar.task.filter.repeating.label       "Powtarzające się zadania">
+<!ENTITY calendar.task.filter.repeating.accesskey   "P">
+
 <!ENTITY calendar.task-details.title.label           "Nazwa:">
 <!ENTITY calendar.task-details.organizer.label       "Od:">
 <!ENTITY calendar.task-details.priority.label        "Priorytet:">
@@ -165,6 +175,8 @@
 <!ENTITY calendar.task-details.category.label        "Kategoria:">
 <!ENTITY calendar.task-details.repeat.label          "Powtarzaj:">
 <!ENTITY calendar.task-details.attachments.label     "Załączniki:">
+<!ENTITY calendar.task-details.start.label           "Początek:">
+<!ENTITY calendar.task-details.due.label             "Koniec:">
 
 <!ENTITY calendar.task.category.button.tooltip  "Przyporządkuj zadaniom kategorie">
 <!ENTITY calendar.task.complete.button.tooltip  "Oznacz wybrane zadania jako ukończone">
@@ -182,35 +194,23 @@
 <!ENTITY calendar.context.newevent.accesskey          "w">
 <!ENTITY calendar.context.newtodo.label               "Nowe zadanie">
 <!ENTITY calendar.context.newtodo.accesskey           "z">
-<!ENTITY calendar.context.modifytask.label            "Edytuj zadanie…">
-<!ENTITY calendar.context.modifytask.accesskey        "E">
-<!ENTITY calendar.context.modifyitem.label            "Edytuj element…">
-<!ENTITY calendar.context.modifyitem.accesskey        "E">
 <!ENTITY calendar.context.deletetask.label            "Usuń zadanie">
 <!ENTITY calendar.context.deletetask.accesskey        "U">
-<!ENTITY calendar.context.deleteitem.label            "Usuń">
-<!ENTITY calendar.context.deleteitem.accesskey        "U">
 <!ENTITY calendar.context.deleteevent.label           "Usuń wydarzenie">
 <!ENTITY calendar.context.deleteevent.accesskey       "U">
-<!ENTITY calendar.context.deletethisevent.label       "To wydarzenie">
-<!ENTITY calendar.context.deletethisevent.accesskey   "T">
-<!ENTITY calendar.context.deletecompleteseries.label  "Ukończone serie"><!-- FIXME Complete Series (hubert) -->
-<!ENTITY calendar.context.deletecompleteseries.accesskey   "U">
-<!ENTITY calendar.context.deletefutureevents.label     "Wszystkie przyszłe wydarzenia">
-<!ENTITY calendar.context.deletefutureevents.accesskey "W">
-<!ENTITY calendar.context.deletefuturetasks.label     "Wszystkie przyszłe zadania">
-<!ENTITY calendar.context.deletefuturetasks.accesskey "W">
 <!ENTITY calendar.context.cutevent.label              "Wytnij">
 <!ENTITY calendar.context.cutevent.accesskey          "t">
 <!ENTITY calendar.context.copyevent.label             "Kopiuj">
 <!ENTITY calendar.context.copyevent.accesskey         "o">
 <!ENTITY calendar.context.pasteevent.label            "Wklej">
 <!ENTITY calendar.context.pasteevent.accesskey        "k">
-<!ENTITY calendar.context.selectall.label             "Zaznacz wszystko">
-<!ENTITY calendar.context.selectall.accesskey         "a">
 <!ENTITY calendar.context.button.label                "Bieżące">
 <!ENTITY calendar.context.button.accesskey            "B" >
-
+<!ENTITY calendar.context.attendance.menu.label       "Uczestnictwo" >
+<!ENTITY calendar.context.attendance.menu.accesskey   "c" >
+<!ENTITY calendar.context.attendance.occurrence.label "To wystąpienie" >
+<!ENTITY calendar.context.attendance.all.label        "Wszystkie wystąpienia" >
+    
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label              "Postęp">
 <!ENTITY calendar.context.progress.accesskey          "P">
@@ -242,11 +242,17 @@
 <!ENTITY priority.level.high                "Wysoki" >
 <!ENTITY priority.level.high.accesskey      "W">
 
+<!-- Task View -->
+<!-- Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label     "Usuń">
+<!ENTITY calendar.taskview.delete.accesskey "U">
+    
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label              "Nowy kalendarz…">
 <!ENTITY calendar.context.newserver.accesskey          "N">
 <!ENTITY calendar.context.findcalendar.label           "Znajdź kalendarz…" >
-<!ENTITY calendar.context.findcalendar.accesskey       "F" >
+<!ENTITY calendar.context.findcalendar.accesskey       "Z" >
 <!ENTITY calendar.context.deleteserver.label           "Usuń kalendarz">
 <!ENTITY calendar.context.deleteserver.accesskey       "U">
 <!ENTITY calendar.context.reloadserver.label           "Odśwież zdalne kalendarze">
@@ -281,7 +287,7 @@
 <!ENTITY calendar.alarm.location.label              "Miejsce:" >
 <!ENTITY calendar.alarm.details.label               "Szczegóły…">
 <!ENTITY calendar.alarm.snoozefor.label             "Przypomnij za" >
-<!ENTITY calendar.alarm.snoozeallfor.label          "Przypomnij wszystkie za" >
+<!ENTITY calendar.alarm.snoozeallfor.label          "Przypomnij o wszystkich za" >
 <!ENTITY calendar.alarm.title.label                 "Przypomnienie kalendarza" >
 <!ENTITY calendar.alarm.dismiss.label               "Wyłącz" >
 <!ENTITY calendar.alarm.dismissall.label            "Wyłącz wszystkie przypomnienia" >
@@ -295,6 +301,12 @@
 <!ENTITY calendar.alarm.snooze.2hours.label         "2 godziny" >
 <!ENTITY calendar.alarm.snooze.1day.label           "1 dzień" >
 
+<!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
+This string is not seen in the UI, it is read by screen readers when the
+user focuses the "Cancel" button in the "Snooze for..." popup of the alarm
+dialog. -->
+<!ENTITY calendar.alarm.snooze.cancel               "Anuluj przypomnienie">
+
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit          "Właściwości kalendarza">
 <!ENTITY calendar.server.dialog.name.label          "Nazwa kalendarza:">
@@ -306,10 +318,12 @@
 <!ENTITY calendarproperties.wcap.label             "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label           "Format:">
 <!ENTITY calendarproperties.location.label         "Położenie:">
+<!ENTITY calendarproperties.refreshInterval.label          "Odświeżaj kalendarz:">
+<!ENTITY calendarproperties.refreshInterval.manual.label   "ręcznie">
 <!ENTITY calendarproperties.name.label             "Nazwa:">
 <!ENTITY calendarproperties.readonly.label         "Tylko do odczytu">
 <!ENTITY calendarproperties.firealarms.label       "Wyświetlaj powiadomienia">
-<!ENTITY calendarproperties.cache.label            "Pamięć podręczna (EKSPERYMENTALNE, wymaga ponownego uruchomienia)">
+<!ENTITY calendarproperties.cache.label            "Pamięć podręczna (EKSPERYMENTALNE)">
 <!ENTITY calendarproperties.enabled.label          "Włącz ten kalendarz">
 <!ENTITY calendarproperties.forceDisabled.label    "Nie znaleziono dostawcy dla tego kalendarza. Zdarza się to często, gdy zostały wyłączone lub odinstalowane pewne rozszerzenia.">
 <!ENTITY calendarproperties.unsubscribe.label      "Zrezygnuj z subskrypcji">

@@ -151,6 +151,16 @@
 <!ENTITY calendar.task.filter.open.label            "Nebaigtus darbus">
 <!ENTITY calendar.task.filter.open.accesskey        "b">
 
+<!-- LOCALIZATION NOTE(calendar.task.filter.current.label)
+     "Current Tasks" will show all tasks, except those with a start date set
+     that is after today and after the selected date. If a task repeats, a
+     separate entry will be shown for each of the occurrences that happen on or
+     before today (or the selected date, whichever is later). -->
+<!ENTITY calendar.task.filter.current.label         "Aktualius darbus">
+<!ENTITY calendar.task.filter.current.accesskey     "k">
+<!ENTITY calendar.task.filter.repeating.label       "Pasikartojančius darbus">
+<!ENTITY calendar.task.filter.repeating.accesskey   "P">
+
 <!ENTITY calendar.task-details.title.label           "pavadinimas">
 <!ENTITY calendar.task-details.organizer.label       "nuo">
 <!ENTITY calendar.task-details.priority.label        "prioritetas">
@@ -161,6 +171,8 @@
 <!ENTITY calendar.task-details.category.label        "tipas">
 <!ENTITY calendar.task-details.repeat.label          "pasikartojimas">
 <!ENTITY calendar.task-details.attachments.label     "priedai">
+<!ENTITY calendar.task-details.start.label           "pradžia">
+<!ENTITY calendar.task-details.due.label             "terminas">
 
 <!ENTITY calendar.task.category.button.tooltip  "Priskirti darbams tipus">
 <!ENTITY calendar.task.complete.button.tooltip  "Parinktus darbus pažymėti kaip užbaigtus">
@@ -178,34 +190,22 @@
 <!ENTITY calendar.context.newevent.accesskey          "N">
 <!ENTITY calendar.context.newtodo.label               "Naujas darbas…">
 <!ENTITY calendar.context.newtodo.accesskey           "d">
-<!ENTITY calendar.context.modifytask.label            "Redaguoti darbą…">
-<!ENTITY calendar.context.modifytask.accesskey        "R">
-<!ENTITY calendar.context.modifyitem.label            "Redaguoti įrašą…">
-<!ENTITY calendar.context.modifyitem.accesskey        "R">
 <!ENTITY calendar.context.deletetask.label            "Pašalinti darbą">
 <!ENTITY calendar.context.deletetask.accesskey        "š">
-<!ENTITY calendar.context.deleteitem.label            "Pašalinti">
-<!ENTITY calendar.context.deleteitem.accesskey        "š">
 <!ENTITY calendar.context.deleteevent.label           "Pašalinti įvykį">
 <!ENTITY calendar.context.deleteevent.accesskey       "š">
-<!ENTITY calendar.context.deletethisevent.label       "Tik šį įvykį">
-<!ENTITY calendar.context.deletethisevent.accesskey   "Š">
-<!ENTITY calendar.context.deletecompleteseries.label  "Visus pasikartojimus">
-<!ENTITY calendar.context.deletecompleteseries.accesskey   "V">
-<!ENTITY calendar.context.deletefutureevents.label     "Pasikartojimus ateityje">
-<!ENTITY calendar.context.deletefutureevents.accesskey "a">
-<!ENTITY calendar.context.deletefuturetasks.label     "Pasikartojimus ateityje">
-<!ENTITY calendar.context.deletefuturetasks.accesskey "a">
 <!ENTITY calendar.context.cutevent.label              "Iškirpti">
 <!ENTITY calendar.context.cutevent.accesskey          "r">
 <!ENTITY calendar.context.copyevent.label             "Kopijuoti">
 <!ENTITY calendar.context.copyevent.accesskey         "K">
 <!ENTITY calendar.context.pasteevent.label            "Įdėti">
 <!ENTITY calendar.context.pasteevent.accesskey        "d">
-<!ENTITY calendar.context.selectall.label             "Pažymėti visus">
-<!ENTITY calendar.context.selectall.accesskey         "v">
 <!ENTITY calendar.context.button.label                "Šiandienos polangis" >
 <!ENTITY calendar.context.button.accesskey            "p" >
+<!ENTITY calendar.context.attendance.menu.label       "Dalyvavimas" >
+<!ENTITY calendar.context.attendance.menu.accesskey   "D" >
+<!ENTITY calendar.context.attendance.occurrence.label "Tik šiame įvykyje" >
+<!ENTITY calendar.context.attendance.all.label        "Visuose pasikartojimuose" >
 
 <!-- Task Context Menu -->
 <!ENTITY calendar.context.progress.label              "Eiga">
@@ -237,6 +237,12 @@
 <!ENTITY priority.level.normal.accesskey    "N">
 <!ENTITY priority.level.high                "Aukštas">
 <!ENTITY priority.level.high.accesskey      "A">
+
+<!-- Task View -->
+<!-- Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label                "Pašalinti">
+<!ENTITY calendar.taskview.delete.accesskey            "š">
 
 <!-- Server Context Menu -->
 <!ENTITY calendar.context.newserver.label              "Naujas kalendorius…">
@@ -292,6 +298,12 @@
 <!ENTITY calendar.alarm.snooze.2hours.label         "2 valandoms" >
 <!ENTITY calendar.alarm.snooze.1day.label           "1 dienai" >
 
+<!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
+     This string is not seen in the UI, it is read by screen readers when the
+     user focuses the "Cancel" button in the "Snooze for..." popup of the alarm
+     dialog. -->
+<!ENTITY calendar.alarm.snooze.cancel               "Atsisakyti atidėjimo">
+
 <!-- Calendar Server Dialog -->
 <!ENTITY calendar.server.dialog.title.edit          "Kalendoriaus aprašo taisymas">
 <!ENTITY calendar.server.dialog.name.label          "Kalendoriaus pavadinimas:">
@@ -303,9 +315,11 @@
 <!ENTITY calendarproperties.wcap.label              "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label            "Tipas:">
 <!ENTITY calendarproperties.location.label          "Vieta:">
+<!ENTITY calendarproperties.refreshInterval.label        "Atšviežinimo intervalas:">
+<!ENTITY calendarproperties.refreshInterval.manual.label "Tik pagal komandą">
 <!ENTITY calendarproperties.name.label              "Pavadinimas:">
 <!ENTITY calendarproperties.readonly.label          "Skirtas tik skaitymui">
-<!ENTITY calendarproperties.cache.label             "Kešuojamas (EKSPERIMENTINĖ GALIMYBĖ, reikės perleisti programą)">
+<!ENTITY calendarproperties.cache.label             "Laikomas podėlyje">
 <!ENTITY calendarproperties.firealarms.label        "Rodyti priminimus">
 <!ENTITY calendarproperties.enabled.label           "Naudoti šį kalendorių">
 <!ENTITY calendarproperties.forceDisabled.label     "Prieigos prie šio kalendoriaus teiktuvas nerastas. Tai gali nutikti, jei esate išjungę ar pašalinę kai kuriuos priedus.">

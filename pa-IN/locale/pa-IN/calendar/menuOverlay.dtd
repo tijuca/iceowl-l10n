@@ -46,9 +46,9 @@
 <!ENTITY event.new.event.key                    "N">
 <!ENTITY event.new.event.accesskey              "N">
 
-<!ENTITY event.new.todo                         "ਨਵੀਂ ਟਾਸਕ…">
-<!ENTITY event.new.todo.key                     "T">
-<!ENTITY event.new.todo.accesskey               "T">
+<!ENTITY event.new.task                         "ਨਵਾਂ ਕੰਮ…">
+<!ENTITY event.new.task.key                     "K">
+<!ENTITY event.new.task.accesskey               "k">
 
 <!ENTITY calendar.new.server.label              "ਨਵਾਂ ਕੈਲੰਡਰ…">
 <!ENTITY calendar.new.server.key                "L">
@@ -58,19 +58,19 @@
 <!ENTITY calendar.print.key                     "P">
 <!ENTITY calendar.print.accesskey               "P">
 
-<!ENTITY calendar.import.label                  "ਇੰਪੋਰਟ…">
+<!ENTITY calendar.import.label                  "ਇੰਪੋਰਟ ਕਰੋ…">
 <!ENTITY calendar.import.key                    "I">
 <!ENTITY calendar.import.accesskey              "I">
 
-<!ENTITY calendar.export.selection.label        "ਚੋਣ ਐਕਸਪੋਰਟ…">
-<!ENTITY calendar.export.selection.accesskey    "S">
-<!ENTITY calendar.export.label                  "Export…">
+<!ENTITY calendar.export.label                  "ਐਕਸਪੋਰਟ…">
 <!ENTITY calendar.export.accesskey              "E">
+<!ENTITY calendar.export.selection.label        "ਚੁਣਿਆ ਐਕਸਪੋਰਟ ਕਰੋ…">
+<!ENTITY calendar.export.selection.accesskey    "S">
 
-<!ENTITY calendar.publish.label                 "ਪਬਲਿਸ਼…">
+<!ENTITY calendar.publish.label                 "ਪਬਲਿਸ਼ ਕਰੋ…">
 <!ENTITY calendar.publish.accesskey             "b">
 
-<!ENTITY calendar.deletecalendar.label          "Delete Selected Calendar…">
+<!ENTITY calendar.deletecalendar.label          "ਚੁਣਿਆ ਕੈਲੰਡਰ ਹਟਾਓ…">
 <!ENTITY calendar.deletecalendar.accesskey      "D">
 
 <!ENTITY calendar.menu.customize.label          "ਕਸਟਮਾਈਜ਼…">
@@ -79,10 +79,10 @@
 <!ENTITY showUnifinderCmd.label                 "ਈਵੈਂਟ ਲੱਭੋ">
 <!ENTITY showUnifinderCmd.accesskey             "F">
 
-<!ENTITY calendar.displaytodos.checkbox.label       "ਕੈਲੰਡਰ ਵਿੱਚ ਟਾਸਕ ਵੇਖੋ">
+<!ENTITY calendar.displaytodos.checkbox.label       "ਕੈਲੰਡਰ ਵਿੱਚ ਟਾਕਸ ਵੇਖਾਓ">
 <!ENTITY calendar.displaytodos.checkbox.accesskey   "T">
 
-<!ENTITY calendar.menu.numberofweeks.label      "ਕਈ ਹਫ਼ਤੇ ਝਲਕ ਸਾਈਜ਼">
+<!ENTITY calendar.menu.numberofweeks.label      "ਬਹੁ-ਹਫ਼ਤਾ ਝਲਕ ਆਕਾਰ">
 <!ENTITY calendar.menu.numberofweeks.2          "ਦੋ ਹਫ਼ਤੇ">
 <!ENTITY calendar.menu.numberofweeks.3          "ਤਿੰਨ ਹਫ਼ਤੇ">
 <!ENTITY calendar.menu.numberofweeks.4          "ਚਾਰ ਹਫ਼ਤੇ">
@@ -97,3 +97,4 @@
 
 <!ENTITY calendar.properties.label              "ਕੈਲੰਡਰ ਵਿਸ਼ੇਸ਼ਤਾ…">
 <!ENTITY calendar.properties.accesskey          "C">
+

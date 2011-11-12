@@ -75,7 +75,7 @@
 <!ENTITY calendar.unifinder.tree.location.label "Luogo">
 <!ENTITY calendar.unifinder.tree.status.label "Stato">
 <!ENTITY calendar.unifinder.tree.calendarname.label "Nome calendario">
-<!ENTITY calendar.unifinder.tree.duration.label "Scadenza">
+<!ENTITY calendar.unifinder.tree.duration.label "Scade tra">
 <!ENTITY calendar.unifinder.close.tooltip "Chiudi la ricerca e la lista degli eventi">
 <!ENTITY calendar.today.button.tooltip "Vai a Oggi">
 <!ENTITY calendar.todaypane.button.tooltip "Visualizza pannello Oggi">
@@ -134,6 +134,10 @@
 <!ENTITY calendar.task.filter.completed.accesskey "A">
 <!ENTITY calendar.task.filter.open.label "Attività non completate">
 <!ENTITY calendar.task.filter.open.accesskey "m">
+<!ENTITY calendar.task.filter.current.label "Attività correnti">
+<!ENTITY calendar.task.filter.current.accesskey "c">
+<!ENTITY calendar.task.filter.repeating.label "Attività ripetute">
+<!ENTITY calendar.task.filter.repeating.accesskey "r">
 <!ENTITY calendar.task-details.title.label "titolo">
 <!ENTITY calendar.task-details.organizer.label "da">
 <!ENTITY calendar.task-details.priority.label "priorità">
@@ -144,6 +148,8 @@
 <!ENTITY calendar.task-details.category.label "categoria">
 <!ENTITY calendar.task-details.repeat.label "ripetizione">
 <!ENTITY calendar.task-details.attachments.label "allegati">
+<!ENTITY calendar.task-details.start.label "data di inizio">
+<!ENTITY calendar.task-details.due.label "data di fine">
 <!ENTITY calendar.task.category.button.tooltip "Assegna una categoria alle attività">
 <!ENTITY calendar.task.complete.button.tooltip "Segna le attività selezionate come completate">
 <!ENTITY calendar.task.priority.button.tooltip "Cambia la priorità">
@@ -156,41 +162,29 @@
 <!ENTITY calendar.context.newevent.accesskey "u">
 <!ENTITY calendar.context.newtodo.label "Nuova attività…">
 <!ENTITY calendar.context.newtodo.accesskey "t">
-<!ENTITY calendar.context.modifytask.label "Modifica attività…">
-<!ENTITY calendar.context.modifytask.accesskey "M">
-<!ENTITY calendar.context.modifyitem.label "Modifica elemento…">
-<!ENTITY calendar.context.modifyitem.accesskey "o">
 <!ENTITY calendar.context.deletetask.label "Elimina attività">
 <!ENTITY calendar.context.deletetask.accesskey "E">
-<!ENTITY calendar.context.deleteitem.label "Elimina">
-<!ENTITY calendar.context.deleteitem.accesskey "n">
 <!ENTITY calendar.context.deleteevent.label "Elimina evento">
 <!ENTITY calendar.context.deleteevent.accesskey "n">
-<!ENTITY calendar.context.deletethisevent.label "Questo evento">
-<!ENTITY calendar.context.deletethisevent.accesskey "Q">
-<!ENTITY calendar.context.deletecompleteseries.label "Serie complete">
-<!ENTITY calendar.context.deletecompleteseries.accesskey "S">
-<!ENTITY calendar.context.deletefutureevents.label "Tutti gli eventi futuri">
-<!ENTITY calendar.context.deletefutureevents.accesskey "T">
-<!ENTITY calendar.context.deletefuturetasks.label "Tutte le attività future">
-<!ENTITY calendar.context.deletefuturetasks.accesskey "e">
 <!ENTITY calendar.context.cutevent.label "Taglia">
 <!ENTITY calendar.context.cutevent.accesskey "T">
 <!ENTITY calendar.context.copyevent.label "Copia">
 <!ENTITY calendar.context.copyevent.accesskey "C">
 <!ENTITY calendar.context.pasteevent.label "Incolla">
 <!ENTITY calendar.context.pasteevent.accesskey "n">
-<!ENTITY calendar.context.selectall.label "Seleziona tutto">
-<!ENTITY calendar.context.selectall.accesskey "S">
 <!ENTITY calendar.context.button.label "Pannello Oggi">
 <!ENTITY calendar.context.button.accesskey "P">
+<!ENTITY calendar.context.attendance.menu.label "Partecipazione">
+<!ENTITY calendar.context.attendance.menu.accesskey "P">
+<!ENTITY calendar.context.attendance.occurrence.label "Questa occorrenza">
+<!ENTITY calendar.context.attendance.all.label "Tutte le occorrenze">
 <!ENTITY calendar.context.progress.label "Progresso">
 <!ENTITY calendar.context.progress.accesskey "r">
 <!ENTITY calendar.context.priority.label "Priorità">
 <!ENTITY calendar.context.priority.accesskey "P">
 <!ENTITY percnt "&#037;">
-<!ENTITY calendar.context.markcompleted.label "Segna come completata">
-<!ENTITY calendar.context.markcompleted.accesskey "S">
+<!ENTITY calendar.context.markcompleted.label "Completata">
+<!ENTITY calendar.context.markcompleted.accesskey "o">
 <!ENTITY progress.level.0 "0&percnt; completata">
 <!ENTITY progress.level.0.accesskey "0">
 <!ENTITY progress.level.25 "25&percnt; completata">
@@ -209,6 +203,8 @@
 <!ENTITY priority.level.normal.accesskey "N">
 <!ENTITY priority.level.high "Alta">
 <!ENTITY priority.level.high.accesskey "A">
+<!ENTITY calendar.taskview.delete.label "Elimina">
+<!ENTITY calendar.taskview.delete.accesskey "E">
 <!ENTITY calendar.context.newserver.label "Nuovo calendario…">
 <!ENTITY calendar.context.newserver.accesskey "N">
 <!ENTITY calendar.context.findcalendar.label "Trova calendario…">
@@ -253,6 +249,7 @@
 <!ENTITY calendar.alarm.snooze.1hour.label "1 ora">
 <!ENTITY calendar.alarm.snooze.2hours.label "2 ore">
 <!ENTITY calendar.alarm.snooze.1day.label "1 giorno">
+<!ENTITY calendar.alarm.snooze.cancel "Elimina snooze">
 <!ENTITY calendar.server.dialog.title.edit "Modifica calendario">
 <!ENTITY calendar.server.dialog.name.label "Nome calendario:">
 <!ENTITY calendarproperties.color.label "Colore:">
@@ -261,10 +258,12 @@
 <!ENTITY calendarproperties.wcap.label "Sun Java System Calendar Server (WCAP)">
 <!ENTITY calendarproperties.format.label "Formato:">
 <!ENTITY calendarproperties.location.label "Luogo:">
+<!ENTITY calendarproperties.refreshInterval.label "Aggiorna calendario:">
+<!ENTITY calendarproperties.refreshInterval.manual.label "Manualmente">
 <!ENTITY calendarproperties.name.label "Nome:">
 <!ENTITY calendarproperties.readonly.label "Sola lettura">
 <!ENTITY calendarproperties.firealarms.label "Mostra allarmi">
-<!ENTITY calendarproperties.cache.label "Cache (SPERIMENTALE, richiede il riavvio)">
+<!ENTITY calendarproperties.cache.label "Cache">
 <!ENTITY calendarproperties.enabled.label "Attiva questo calendario">
 <!ENTITY calendarproperties.forceDisabled.label "Impossibile trovare il gestore di questo calendario. Questo accade spesso quando vengono disattivati o disinstallati alcuni componenti aggiuntivi.">
 <!ENTITY calendarproperties.unsubscribe.label "Rimuovi sottoscrizione">

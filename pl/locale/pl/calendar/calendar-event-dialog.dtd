@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>
+   -   Gianfranco Balza <bv1578@gmail.com>
    -   Marek Stępień <marcoos@aviary.pl> (Polish localization)
    -
    - Alternatively, the contents of this file may be used under the terms of
@@ -44,6 +45,9 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY event.title.label                  "Edytuj element" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip  "Zachowaj czas trwania, zmieniając datę zakończenia">
+<!ENTITY event.dialog.keepDurationButton.accesskey "c">
 
 <!ENTITY newevent.from.label                "Od:" >
 <!ENTITY newevent.to.label                  "Do:" >
@@ -379,6 +383,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Główne">
 <!ENTITY read.only.title.label           "Nazwa:">
+<!ENTITY read.only.event.start.label     "Początek:">
+<!ENTITY read.only.task.start.label      "Początek:">
+<!ENTITY read.only.event.end.label       "Koniec:">
+<!ENTITY read.only.task.due.label        "Koniec:">
 <!ENTITY read.only.repeat.label          "Powtarzaj:">
 <!ENTITY read.only.location.label        "Miejsce:">
 <!ENTITY read.only.category.label        "Kategoria:">

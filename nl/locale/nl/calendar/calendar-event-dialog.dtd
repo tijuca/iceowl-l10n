@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,10 +45,12 @@
 
 <!ENTITY event.title.label                  "Item bewerken" >
 
+<!ENTITY event.dialog.keepDurationButton.tooltip   "De tijdsperiode behouden bij wijzigen van de einddatum">
+<!ENTITY event.dialog.keepDurationButton.accesskey "D">
 
 <!ENTITY newevent.from.label                "Van" >
 <!ENTITY newevent.to.label                  "Tot" >
-<!ENTITY newevent.attendees.notify.label    "Genodigden uitnodigen">
+<!ENTITY newevent.attendees.notify.label    "Genodigden informeren">
 
 <!ENTITY newevent.status.label                    "Status" >
 <!ENTITY newevent.status.accesskey                "S" >
@@ -375,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Algemeen">
 <!ENTITY read.only.title.label           "Titel:">
+<!ENTITY read.only.event.start.label     "Begindatum:">
+<!ENTITY read.only.task.start.label      "Begindatum:">
+<!ENTITY read.only.event.end.label       "Einddatum:">
+<!ENTITY read.only.task.due.label        "Einddatum:">
 <!ENTITY read.only.repeat.label          "Herhalen:">
 <!ENTITY read.only.location.label        "Locatie:">
 <!ENTITY read.only.category.label        "Categorie:">

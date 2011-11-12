@@ -38,15 +38,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY prefWindow.titleWin "Aukerak">
-<!ENTITY prefWindow.titleGNOME "&brandShortName; Hobespenak">
-<!ENTITY prefWindow.styleWin "width: 47em; height: 37em;">
-<!ENTITY prefWindow.styleMac "width: 47em;">
-<!ENTITY prefWindow.styleGNOME "width: 47em; height: 34.5em;">
+<!ENTITY  prefWindow.titleWin     "Aukerak">
+<!ENTITY  prefWindow.titleGNOME   "&brandShortName; Hobespenak">
+<!ENTITY  prefWindow.styleWin     "width: 47em; height: 37em;">
+<!ENTITY  prefWindow.styleMac     "width: 47em;">
+<!ENTITY  prefWindow.styleGNOME   "width: 47em; height: 34.5em;">
 
-<!ENTITY paneGeneral.title "Orokorra">
-<!ENTITY paneAlarms.title "Alarmak">
-<!ENTITY paneCategories.title "Kategoriak">
-<!ENTITY paneViews.title "Ikuspegiak">
-<!ENTITY paneTimezones.title "Ordu zonaldeak">
-<!ENTITY paneAdvanced.title "Aurreratua">
+<!ENTITY  paneGeneral.title       "Orokorra">
+<!ENTITY  paneAlarms.title        "Alarmak">
+<!ENTITY  paneCategories.title    "Kategoriak">
+<!ENTITY  paneViews.title         "Ikuspegiak">
+<!ENTITY  paneTimezones.title     "Ordu Zonaldeak">
+<!ENTITY  paneAdvanced.title      "Aurreratua">

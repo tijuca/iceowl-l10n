@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,6 +45,8 @@
 
 <!ENTITY event.title.label                  "編輯項目" >
 
+<!ENTITY event.dialog.keepDurationButton.tooltip   "修改日期時保持經過時間長度">
+<!ENTITY event.dialog.keepDurationButton.accesskey "K">
 
 <!ENTITY newevent.from.label                "從" >
 <!ENTITY newevent.to.label                  "到" >
@@ -130,7 +133,7 @@
 <!ENTITY  event.menu.view.toolbars.event.accesskey        "E">
 <!ENTITY  event.menu.view.toolbars.customize.label        "自訂…">
 <!ENTITY  event.menu.view.toolbars.customize.accesskey    "C">
-<!ENTITY  event.menu.view.showlink.label                  "顯示相關連結">
+<!ENTITY  event.menu.view.showlink.label                  "顯示相關鏈結">
 <!ENTITY  event.menu.view.showlink.accesskey              "R">
 
 <!ENTITY  event.menu.options.label                            "選項">
@@ -143,7 +146,7 @@
 <!ENTITY  event.menu.options.spellcheck.accesskey             "h">
 <!ENTITY  event.menu.options.inline.spellcheck.label          "即時拼字檢查">
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "S">
-<!ENTITY  event.menu.options.link.label                       "新增鍊結…">
+<!ENTITY  event.menu.options.link.label                       "新增鏈結…">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
 <!ENTITY  event.menu.options.timezone.label                   "時區">
 <!ENTITY  event.menu.options.timezone.accesskey               "z">
@@ -157,7 +160,7 @@
 <!ENTITY  event.menu.options.priority.normal.accesskey        "N">
 <!ENTITY  event.menu.options.priority.high.label              "高">
 <!ENTITY  event.menu.options.priority.high.accesskey          "H">
-<!ENTITY  event.menu.options.privacy.label                    "個人隱私">
+<!ENTITY  event.menu.options.privacy.label                    "隱私">
 <!ENTITY  event.menu.options.privacy.accesskey                "P">
 <!ENTITY  event.menu.options.privacy.public.label             "公開事件">
 <!ENTITY  event.menu.options.privacy.public.accesskey         "u">
@@ -184,7 +187,7 @@
 <!ENTITY  event.toolbar.delete.label                      "刪除">
 <!ENTITY  event.toolbar.attendees.label                   "邀請參與者">
 <!ENTITY  event.toolbar.spellcheck.label                  "拼字檢查">
-<!ENTITY  event.toolbar.privacy.label                     "個人隱私">
+<!ENTITY  event.toolbar.privacy.label                     "隱私">
 <!ENTITY  event.toolbar.attachments.label                 "附件">
 
 <!-- Main page -->
@@ -226,10 +229,10 @@
 <!ENTITY event.attachments.popup.removeAll.accesskey      "A" >
 <!ENTITY event.attachments.popup.attachPage.label         "附加網頁" >
 <!ENTITY event.attachments.popup.attachPage.accesskey     "W" >
-<!ENTITY event.url.label                                  "相關連結:" >
+<!ENTITY event.url.label                                  "相關鏈結:" >
 <!ENTITY event.priority2.label                            "重要性:">
 
-<!ENTITY event.reminder.none.label                        "沒有提醒 " >
+<!ENTITY event.reminder.none.label                        "不提醒" >
 <!ENTITY event.reminder.0minutes.before.label             "0 分鐘前" >
 <!ENTITY event.reminder.5minutes.before.label             "在 5 分鐘之前" >
 <!ENTITY event.reminder.15minutes.before.label            "在 15 分鐘之前" >
@@ -251,7 +254,7 @@
 <!ENTITY event.repeat.daily.label                       "每天">
 <!ENTITY event.repeat.weekly.label                      "每星期">
 <!ENTITY event.repeat.every.weekday.label               "每個工作天">
-<!ENTITY event.repeat.bi.weekly.label                   "雙週">
+<!ENTITY event.repeat.bi.weekly.label                   "每雙週">
 <!ENTITY event.repeat.monthly.label                     "每個月">
 <!ENTITY event.repeat.yearly.label                      "每年">
 <!ENTITY event.repeat.custom.label                      "自訂…">
@@ -375,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "一般">
 <!ENTITY read.only.title.label           "標題:">
+<!ENTITY read.only.event.start.label     "開始日:">
+<!ENTITY read.only.task.start.label      "開始日:">
+<!ENTITY read.only.event.end.label       "結束日期:">
+<!ENTITY read.only.task.due.label        "到期日:">
 <!ENTITY read.only.repeat.label          "重複:">
 <!ENTITY read.only.location.label        "位置:">
 <!ENTITY read.only.category.label        "分類:">
@@ -388,4 +395,4 @@
 <!ENTITY read.only.attendees.label       "與會者">
 <!ENTITY read.only.description.label     "描述">
 <!ENTITY read.only.documents.label       "文件">
-<!ENTITY read.only.link.label            "相關連結">
+<!ENTITY read.only.link.label            "相關鏈結">
