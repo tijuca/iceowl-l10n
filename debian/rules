@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 # Upstream version as used by Mozilla
-UPSTREAM_VERSION="1.0b2"
+UPSTREAM_VERSION="1.0"
 
 SHELL := sh -e
 
