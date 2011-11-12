@@ -1,3 +1,17 @@
+iceowl-l10n (1.0-1) experimental; urgency=low
+
+  * [1ae10bc] Fix incorrect languages in package descriptions.
+    (Closes: #633733). Thanks to helix84 for the patch
+  * [45e98f7] New upstream version 1.0
+  * [3d493b8] Update patches
+  * [1bbedde] Update RDF to match Icedove 8.*
+  * [68902f6] Update dependencies on iceowl-extensions. Drop the dependency on
+    iceowl for now since we don't have a current version in the archive.
+  * [827951a] Drop translations that got removed upstream
+  * [d58cbe2] Add gbp.conf
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 12 Nov 2011 19:29:50 +0100
+
 iceowl-l10n (1.0~b2-1) unstable; urgency=low
 
   * [89f536a] New upstream version 1.0~b2 (Closes: #592907)
