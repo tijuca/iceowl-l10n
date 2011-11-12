@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -43,6 +44,9 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY event.title.label                  "Upraviť položku" >
+
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Zachovať dĺžku trvania pri zmene dátumu ukončenia">
+<!ENTITY event.dialog.keepDurationButton.accesskey "a">
 
 <!ENTITY newevent.from.label                "Od" >
 <!ENTITY newevent.to.label                  "Do" >
@@ -374,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Všeobecné">
 <!ENTITY read.only.title.label           "Názov:">
+<!ENTITY read.only.event.start.label     "Dátum začatia:">
+<!ENTITY read.only.task.start.label      "Dátum začatia:">
+<!ENTITY read.only.event.end.label       "Dátum ukončenia:">
+<!ENTITY read.only.task.due.label        "Termín splnenia:">
 <!ENTITY read.only.repeat.label          "Opakovanie:">
 <!ENTITY read.only.location.label        "Miesto konania:">
 <!ENTITY read.only.category.label        "Kategória:">

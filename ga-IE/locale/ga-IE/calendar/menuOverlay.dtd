@@ -46,9 +46,9 @@
 <!ENTITY event.new.event.key "N">
 <!ENTITY event.new.event.accesskey "N">
 
-<!ENTITY event.new.todo "Tasc Nua…">
-<!ENTITY event.new.todo.key "T">
-<!ENTITY event.new.todo.accesskey "T">
+<!ENTITY event.new.task "Tasc Nua…">
+<!ENTITY event.new.task.key "K">
+<!ENTITY event.new.task.accesskey "k">
 
 <!ENTITY calendar.new.server.label "Féilire Nua…">
 <!ENTITY calendar.new.server.key "L">
@@ -68,16 +68,16 @@
 <!ENTITY calendar.export.selection.accesskey "R">
 
 <!ENTITY calendar.publish.label "Foilsigh…">
-<!ENTITY calendar.publish.accesskey "f">
+<!ENTITY calendar.publish.accesskey "F">
 
 <!ENTITY calendar.deletecalendar.label "Scrios an Féilire Roghnaithe…">
 <!ENTITY calendar.deletecalendar.accesskey "S">
 
 <!ENTITY calendar.menu.customize.label "Saincheap…">
-<!ENTITY calendar.menu.customize.accesskey "C">
+<!ENTITY calendar.menu.customize.accesskey "c">
 
 <!ENTITY showUnifinderCmd.label "Aimsigh Imeachtaí">
-<!ENTITY showUnifinderCmd.accesskey "M">
+<!ENTITY showUnifinderCmd.accesskey "m">
 
 <!ENTITY calendar.displaytodos.checkbox.label "Taispeáin Tascanna san Fhéilire">
 <!ENTITY calendar.displaytodos.checkbox.accesskey "T">

@@ -46,7 +46,7 @@
 <!ENTITY proxyTitle.label "İnternet erişimi için vekil sunucu ayarlarını ayarla">
 <!ENTITY directTypeRadio.label "İnternete doğrudan bağlantı">
 <!ENTITY directTypeRadio.accesskey "d">
-<!ENTITY WPADTypeRadio.label "Vekil sunucu ayarları otomatik olarak bul">
+<!ENTITY WPADTypeRadio.label "Vekil sunucu ayarlarını kendin bul">
 <!ENTITY WPADTypeRadio.accesskey "V">
 <!ENTITY manualTypeRadio.label "Vekil sunucu ayarları elden yap:">
 <!ENTITY manualTypeRadio.accesskey "k">
@@ -73,6 +73,6 @@
 <!ENTITY SOCKSport.accesskey "t">
 <!ENTITY noproxy.label "Vekil sunucu kullanma:">
 <!ENTITY noproxy.accesskey "n">
-<!ENTITY noproxyExplain.label "Örnek: .mozilla.org, .linux-sevenler.org, 192.168.1.0/24">
+<!ENTITY noproxyExplain.label "Örnek: .mozilla.org, .com.tr, 192.168.1.0/24">
 <!ENTITY shareproxy.label "Bütün protokoller için bu vekil sunucusunu kullan">
 <!ENTITY shareproxy.accesskey "B">

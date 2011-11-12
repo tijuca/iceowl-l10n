@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,6 +45,8 @@
 
 <!ENTITY event.title.label "Öğeyi düzenle">
 
+<!ENTITY event.dialog.keepDurationButton.tooltip "Bitiş tarihini değiştirirken süreyi sabit tut">
+<!ENTITY event.dialog.keepDurationButton.accesskey "K">
 
 <!ENTITY newevent.from.label "Gönderen">
 <!ENTITY newevent.to.label "Alıcı">
@@ -51,12 +54,12 @@
 
 <!ENTITY newevent.status.label "Durum">
 <!ENTITY newevent.status.accesskey "u">
-<!ENTITY newevent.eventStatus.none.label "Not specified">
-<!ENTITY newevent.eventStatus.none.accesskey "o">
-<!ENTITY newevent.todoStatus.none.label "Not specified">
-<!ENTITY newevent.eventStatus.cancelled.label "Canceled">
-<!ENTITY newevent.eventStatus.cancelled.accesskey "n">
-<!ENTITY newevent.todoStatus.cancelled.label "Canceled">
+<!ENTITY newevent.eventStatus.none.label "Belirtilmemiş">
+<!ENTITY newevent.eventStatus.none.accesskey "B">
+<!ENTITY newevent.todoStatus.none.label "Belirtilmemiş">
+<!ENTITY newevent.eventStatus.cancelled.label "İptal edildi">
+<!ENTITY newevent.eventStatus.cancelled.accesskey "p">
+<!ENTITY newevent.todoStatus.cancelled.label "Vazgeçildi">
 <!ENTITY newevent.status.tentative.label "Kesin değil">
 <!ENTITY newevent.status.tentative.accesskey "d">
 <!ENTITY newevent.status.confirmed.label "Onaylandı">
@@ -66,7 +69,7 @@
 <!ENTITY newevent.status.completed.label "Tamamlanma tarihi">
 <!-- The following entity is for New Task dialog only -->
 
-<!ENTITY newtodo.percentcomplete.label "Tamamlanma &#37;">
+<!ENTITY newtodo.percentcomplete.label "&#37; tamamlandı">
 <!-- Keyboard Shortcuts -->
 
 <!ENTITY event.dialog.new.event.key2 "I">
@@ -109,7 +112,7 @@
 
 <!ENTITY event.menu.edit.label "Düzenle">
 <!ENTITY event.menu.edit.accesskey "e">
-<!ENTITY event.menu.edit.undo.label "Geri al ">
+<!ENTITY event.menu.edit.undo.label "Geri al">
 <!ENTITY event.menu.edit.undo.accesskey "G">
 <!ENTITY event.menu.edit.redo.label "Yinele">
 <!ENTITY event.menu.edit.redo.accesskey "Y">
@@ -135,7 +138,7 @@
 
 <!ENTITY event.menu.options.label "Seçenekler">
 <!ENTITY event.menu.options.accesskey "S">
-<!ENTITY event.menu.options.attachments.label "Web sayfasını ek olarak ekle…">
+<!ENTITY event.menu.options.attachments.label "Web sayfası ekle...">
 <!ENTITY event.menu.options.attachments.accesskey "W">
 <!ENTITY event.menu.options.attendees.label "Katılımcıları davet et…">
 <!ENTITY event.menu.options.attendees.accesskey "K">
@@ -147,10 +150,10 @@
 <!ENTITY event.menu.options.link.accesskey "B">
 <!ENTITY event.menu.options.timezone.label "Zaman dilimi">
 <!ENTITY event.menu.options.timezone.accesskey "Z">
-<!ENTITY event.menu.options.priority2.label "Önemlilik">
-<!ENTITY event.menu.options.priority2.accesskey "Ö">
-<!ENTITY event.menu.options.priority.notspecified.label "Tanımlanmadı">
-<!ENTITY event.menu.options.priority.notspecified.accesskey "T">
+<!ENTITY event.menu.options.priority2.label "Öncelik">
+<!ENTITY event.menu.options.priority2.accesskey "c">
+<!ENTITY event.menu.options.priority.notspecified.label "Belirtilmemiş">
+<!ENTITY event.menu.options.priority.notspecified.accesskey "B">
 <!ENTITY event.menu.options.priority.low.label "Düşük">
 <!ENTITY event.menu.options.priority.low.accesskey "D">
 <!ENTITY event.menu.options.priority.normal.label "Normal">
@@ -224,7 +227,7 @@
 <!ENTITY event.attachments.popup.open.accesskey "A">
 <!ENTITY event.attachments.popup.removeAll.label "Tümünü kaldır">
 <!ENTITY event.attachments.popup.removeAll.accesskey "a">
-<!ENTITY event.attachments.popup.attachPage.label "Web sayfasını ek olarak ekle…">
+<!ENTITY event.attachments.popup.attachPage.label "Web sayfası ekle...">
 <!ENTITY event.attachments.popup.attachPage.accesskey "W">
 <!ENTITY event.url.label "İlgili bağlantı:">
 <!ENTITY event.priority2.label "Önemlilik:">
@@ -236,7 +239,7 @@
 <!ENTITY event.reminder.30minutes.before.label "30 dakika önce">
 <!ENTITY event.reminder.1hour.before.label "1 saat önce">
 <!ENTITY event.reminder.2hours.before.label "2 saat önce">
-<!ENTITY event.reminder.12hours.before.label "12 hours before">
+<!ENTITY event.reminder.12hours.before.label "12 saat önce">
 <!ENTITY event.reminder.1day.before.label "1 gün önce">
 <!ENTITY event.reminder.2days.before.label "2 gün önce">
 <!ENTITY event.reminder.1week.before.label "1 hafta önce">
@@ -375,6 +378,10 @@
 
 <!ENTITY read.only.general.label "Genel">
 <!ENTITY read.only.title.label "Başlık:">
+<!ENTITY read.only.event.start.label "Start Date:">
+<!ENTITY read.only.task.start.label "Start Date:">
+<!ENTITY read.only.event.end.label "End Date:">
+<!ENTITY read.only.task.due.label "Due Date:">
 <!ENTITY read.only.repeat.label "Tekrarla:">
 <!ENTITY read.only.location.label "Konum:">
 <!ENTITY read.only.category.label "Kategori:">

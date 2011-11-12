@@ -26,7 +26,8 @@
    -   Martin Schroeder <mschroeder@mozilla.x-home.org>
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>  
+   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Gianfranco Balza <bv1578@gmail.com> 
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,6 +45,8 @@
 
 <!ENTITY event.title.label                  "Editar Ítem" >
 
+<!ENTITY event.dialog.keepDurationButton.tooltip  "Mantener la duración al cambiar la fecha final">
+<!ENTITY event.dialog.keepDurationButton.accesskey "M">
 
 <!ENTITY newevent.from.label                "De" >
 <!ENTITY newevent.to.label                  "Para" >
@@ -67,7 +70,7 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#37; completado">
-   
+
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
 <!ENTITY event.dialog.new.task.key2               "D">
@@ -238,7 +241,7 @@
 <!ENTITY event.reminder.2hours.before.label               "2 horas antes" >
 <!ENTITY event.reminder.12hours.before.label              "12 horas antes" >
 <!ENTITY event.reminder.1day.before.label                 "1 día antes" >
-<!ENTITY event.reminder.2days.before.label                "2 día antes" >
+<!ENTITY event.reminder.2days.before.label                "2 días antes" >
 <!ENTITY event.reminder.1week.before.label                "1 semana antes" >
 <!ENTITY event.reminder.custom.label                      "Personalizar…" >
 
@@ -353,9 +356,9 @@
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label              "Invitar participantes">
 <!ENTITY event.organizer.label "Organizador">   
-<!ENTITY event.freebusy.suggest.slot     "Suggest time slot:">
-<!ENTITY event.freebusy.next.slot "Next slot ">
-<!ENTITY event.freebusy.previous.slot " Previous slot">
+<!ENTITY event.freebusy.suggest.slot     "Proponer espacio de tiempo:">
+<!ENTITY event.freebusy.next.slot "Espacio siguiente ">
+<!ENTITY event.freebusy.previous.slot " Espacio anterior">
 <!ENTITY event.freebusy.zoom             "Zoom:">
 <!ENTITY event.freebusy.plus "Hora siguiente">
 <!ENTITY event.freebusy.minus "Hora previa">
@@ -375,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "General">
 <!ENTITY read.only.title.label           "Título:">
+<!ENTITY read.only.event.start.label     "Fecha de inicio:">
+<!ENTITY read.only.task.start.label      "Fecha de inicio:">
+<!ENTITY read.only.event.end.label       "Fecha de fin:">
+<!ENTITY read.only.task.due.label        "Fecha de fin:">
 <!ENTITY read.only.repeat.label          "Repetir:">
 <!ENTITY read.only.location.label        "Dirección:">
 <!ENTITY read.only.category.label        "Categoría:">

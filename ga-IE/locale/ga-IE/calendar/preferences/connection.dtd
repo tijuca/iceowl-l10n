@@ -47,17 +47,17 @@
 <!ENTITY directTypeRadio.label "Ceangal díreach leis an Idirlíon">
 <!ENTITY directTypeRadio.accesskey "d">
 <!ENTITY WPADTypeRadio.label "Aimsigh socruithe seachfhreastalaí an líonra seo go huathoibríoch">
-<!ENTITY WPADTypeRadio.accesskey "a">
+<!ENTITY WPADTypeRadio.accesskey "A">
 <!ENTITY manualTypeRadio.label "Lámhchumraíocht seachfhreastalaí:">
 <!ENTITY manualTypeRadio.accesskey "m">
 <!ENTITY autoTypeRadio.label "URL Uathchumraíocht Seachfhreastalaí:">
-<!ENTITY autoTypeRadio.accesskey "A">
+<!ENTITY autoTypeRadio.accesskey "a">
 <!ENTITY reload.label "Athluchtaigh">
-<!ENTITY reload.accesskey "a">
+<!ENTITY reload.accesskey "A">
 <!ENTITY ftp.label "Seachfhreastalaí FTP:">
 <!ENTITY ftp.accesskey "F">
 <!ENTITY http.label "Seachfhreastalaí HTTP:">
-<!ENTITY http.accesskey "s">
+<!ENTITY http.accesskey "S">
 <!ENTITY ssl.label "Seachfhreastalaí SSL:">
 <!ENTITY ssl.accesskey "S">
 <!ENTITY socks.label "Ósta SOCKS:">

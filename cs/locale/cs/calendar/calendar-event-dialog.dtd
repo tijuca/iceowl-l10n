@@ -27,6 +27,7 @@
  - Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
  - Fred Jendrzejewski <fred.jen@web.de>
  - Simon Vaillancourt <simon.at.orcl@gmail.com>
+ -   Gianfranco Balza <bv1578@gmail.com>
  -
  - Alternatively, the contents of this file may be used under the terms of
  - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,6 +45,8 @@
 
 <!ENTITY event.title.label "Upravit položku">
 
+<!ENTITY event.dialog.keepDurationButton.tooltip "Zachová dobu trvání při změně koncového data">
+<!ENTITY event.dialog.keepDurationButton.accesskey "e">
 
 <!ENTITY newevent.from.label "Od">
 <!ENTITY newevent.to.label "Do">
@@ -67,6 +70,7 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label "&#37; dokončeno">
+
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2 "I">
 <!ENTITY event.dialog.new.task.key2 "D">
@@ -97,10 +101,10 @@
 <!ENTITY event.menu.item.close.accesskey "Z">
 <!ENTITY event.menu.item.save.label "Uložit">
 <!ENTITY event.menu.item.save.accesskey "l">
-<!ENTITY  event.menu.item.saveandclose.label "Uložit a zavřít">
-<!ENTITY  event.menu.item.saveandclose.accesskey "U">
+<!ENTITY event.menu.item.saveandclose.label "Uložit a zavřít">
+<!ENTITY event.menu.item.saveandclose.accesskey "U">
 <!ENTITY event.menu.item.delete.label "Smazat…">
-<!ENTITY event.menu.item.delete.accesskey "S">
+<!ENTITY event.menu.item.delete.accesskey "m">
 <!ENTITY event.menu.item.page.setup.label "Vzhled stránky…">
 <!ENTITY event.menu.item.page.setup.accesskey "V">
 <!ENTITY event.menu.item.print.label "Tisk…">
@@ -113,7 +117,7 @@
 <!ENTITY event.menu.edit.redo.label "Znovu">
 <!ENTITY event.menu.edit.redo.accesskey "o">
 <!ENTITY event.menu.edit.cut.label "Vyjmout">
-<!ENTITY event.menu.edit.cut.accesskey "V">
+<!ENTITY event.menu.edit.cut.accesskey "y">
 <!ENTITY event.menu.edit.copy.label "Kopírovat">
 <!ENTITY event.menu.edit.copy.accesskey "K">
 <!ENTITY event.menu.edit.paste.label "Vložit">
@@ -122,7 +126,7 @@
 <!ENTITY event.menu.edit.select.all.accesskey "a">
 
 <!ENTITY event.menu.view.label "Zobrazení">
-<!ENTITY event.menu.view.accesskey "Z">
+<!ENTITY event.menu.view.accesskey "b">
 <!ENTITY event.menu.view.toolbars.label "Nástrojové lišty">
 <!ENTITY event.menu.view.toolbars.accesskey "N">
 <!ENTITY event.menu.view.toolbars.event.label "Lišta událostí">
@@ -147,7 +151,7 @@
 <!ENTITY event.menu.options.timezone.label "Časová zóna">
 <!ENTITY event.menu.options.timezone.accesskey "z">
 <!ENTITY event.menu.options.priority2.label "Priorita">
-<!ENTITY event.menu.options.priority2.accesskey "P">
+<!ENTITY event.menu.options.priority2.accesskey "r">
 <!ENTITY event.menu.options.priority.notspecified.label "Není určena">
 <!ENTITY event.menu.options.priority.notspecified.accesskey "u">
 <!ENTITY event.menu.options.priority.low.label "Nízká">
@@ -205,8 +209,8 @@
 <!ENTITY task.from.accesskey "t">
 <!ENTITY event.to.label "Konec:">
 <!ENTITY event.to.accesskey "K">
-<!ENTITY task.to.label "Datum splnění:">
-<!ENTITY task.to.accesskey "u">
+<!ENTITY task.to.label "Splnit do:">
+<!ENTITY task.to.accesskey "d">
 <!ENTITY task.status.label "Stav:">
 <!ENTITY task.status.accesskey "S">
 <!ENTITY event.repeat.label "Opakovat:">
@@ -374,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label "Obecný">
 <!ENTITY read.only.title.label "Název:">
+<!ENTITY read.only.event.start.label "Začátek:">
+<!ENTITY read.only.task.start.label "Začátek:">
+<!ENTITY read.only.event.end.label "Konec:">
+<!ENTITY read.only.task.due.label "Splnit do:">
 <!ENTITY read.only.repeat.label "Opakování:">
 <!ENTITY read.only.location.label "Místo:">
 <!ENTITY read.only.category.label "Kategorie:">

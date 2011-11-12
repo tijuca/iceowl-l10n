@@ -34,21 +34,21 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY reminderdialog.title "Ezarri gogorarazleak">
-<!ENTITY reminder.add.label "Gehitu">
-<!ENTITY reminder.add.accesskey "G">
-<!ENTITY reminder.remove.label "Kendu">
-<!ENTITY reminder.remove.accesskey "K">
+<!ENTITY reminderdialog.title                              "Konfiguratu gogorarazleak">
+<!ENTITY reminder.add.label                                "Gehitu">
+<!ENTITY reminder.add.accesskey                            "G">
+<!ENTITY reminder.remove.label                             "Kendu">
+<!ENTITY reminder.remove.accesskey                         "K">
 
-<!ENTITY reminder.reminderDetails.label "Gogorarazleen zehaztapenak">
-<!ENTITY reminder.action.label "Aukeratu gogoratze ekintza">
+<!ENTITY reminder.reminderDetails.label                    "Gogorarazlearen xehetasunak">
+<!ENTITY reminder.action.label                             "Aukeratu gogoratze-ekintza">
 
-<!ENTITY reminder.relation.before.label "aurretik">
-<!ENTITY reminder.relation.after.label "ondoren">
+<!ENTITY reminder.relation.before.label                    "aurretik" >
+<!ENTITY reminder.relation.after.label                     "ondoren" >
 
-<!ENTITY reminder.action.alert.label "Abisua ikusi">
-<!ENTITY reminder.action.email.label "Bidali ePosta">
+<!ENTITY reminder.action.alert.label                       "Erakutsi abisua">
+<!ENTITY reminder.action.email.label                       "Bidali mezu elektronikoa">
 
-<!ENTITY alarm.units.minutes "minutu">
-<!ENTITY alarm.units.hours "ordu">
-<!ENTITY alarm.units.days "egun">
+<!ENTITY alarm.units.minutes                               "minutu" >
+<!ENTITY alarm.units.hours                                 "ordu" >
+<!ENTITY alarm.units.days                                  "egun" >

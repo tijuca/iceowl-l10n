@@ -27,6 +27,7 @@
    -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
    -   Fred Jendrzejewski <fred.jen@web.de>
    -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
+   -   Gianfranco Balza <bv1578@gmail.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,6 +45,8 @@
 
 <!ENTITY event.title.label                  "Endre hending" >
 
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Behald tidslengd når du endrar datoen">
+<!ENTITY event.dialog.keepDurationButton.accesskey "B">
 
 <!ENTITY newevent.from.label                "Frå" >
 <!ENTITY newevent.to.label                  "Til" >
@@ -236,7 +239,7 @@
 <!ENTITY event.reminder.30minutes.before.label            "30 minutt før" >
 <!ENTITY event.reminder.1hour.before.label                "1 time før" >
 <!ENTITY event.reminder.2hours.before.label               "2 timar før" >
-<!ENTITY event.reminder.12hours.before.label              "12 time før" >
+<!ENTITY event.reminder.12hours.before.label              "12 timar før" >
 <!ENTITY event.reminder.1day.before.label                 "1 dag før" >
 <!ENTITY event.reminder.2days.before.label                "2 dagar før" >
 <!ENTITY event.reminder.1week.before.label                "1 veke før" >
@@ -375,6 +378,10 @@
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Generelt">
 <!ENTITY read.only.title.label           "Tittel:">
+<!ENTITY read.only.event.start.label     "Startdato:">
+<!ENTITY read.only.task.start.label      "Startdato:">
+<!ENTITY read.only.event.end.label       "Sluttdato:">
+<!ENTITY read.only.task.due.label        "Forfalldato:">
 <!ENTITY read.only.repeat.label          "Gjenta:">
 <!ENTITY read.only.location.label        "Stad:">
 <!ENTITY read.only.category.label        "Kategori:">

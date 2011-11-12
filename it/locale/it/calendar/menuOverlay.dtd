@@ -44,9 +44,9 @@
 <!ENTITY event.new.event "Nuovo evento…">
 <!ENTITY event.new.event.key "N">
 <!ENTITY event.new.event.accesskey "u">
-<!ENTITY event.new.todo "Nuova attività…">
-<!ENTITY event.new.todo.key "T">
-<!ENTITY event.new.todo.accesskey "T">
+<!ENTITY event.new.task "Nuova attività…">
+<!ENTITY event.new.task.key "K">
+<!ENTITY event.new.task.accesskey "a">
 <!ENTITY calendar.new.server.label "Nuovo file calendario…">
 <!ENTITY calendar.new.server.key "L">
 <!ENTITY calendar.new.server.accesskey "v">
