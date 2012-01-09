@@ -1,3 +1,9 @@
+iceowl-l10n (1.0-2) unstable; urgency=low
+
+  * Upload to unstable 
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 09 Jan 2012 15:12:06 +0100
+
 iceowl-l10n (1.0-1) experimental; urgency=low
 
   * [1ae10bc] Fix incorrect languages in package descriptions.
