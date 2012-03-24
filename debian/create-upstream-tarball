@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# Create an upstream tarball from the language pack xpi
+
+XPI=lightning.xpi
+SRCPKG="iceowl-l10n"
+
+case $1 in
+	-d)
+		DOWNLOAD=1
+		shift
+		;;
+	*)
+		;;
+esac
+
+if [ -n "$1" ]; then
+	VERSION=$1
+else
+	echo "Missing version."
+	exit 1
+fi
+
+ORIGDIR="${SRCPKG}-${VERSION}/"
+
+if [ -d ${ORIGDIR} ]; then
+	echo "${ORIGDIR} exists, giving up."
+	exit 1
+fi
+
+[ -z "${DOWNLOAD}" ] || wget -O${XPI} http://releases.mozilla.org/pub/mozilla.org/calendar/lightning/releases/${VERSION}/linux/${XPI}
+
+mkdir ${ORIGDIR}
+
+tmpdir=$(mktemp -d)
+unzip -d $tmpdir ${XPI}
+
+for jar in $tmpdir/chrome/*-*.jar; do 
+	lang=$(echo $jar | sed -e 's,.*/[a-z]\+-\(.*\)\.jar,\1,')
+	unzip -d $ORIGDIR/${lang} ${jar}
+done
+# shipped with the iceowl already
+rm -rf ${ORIGDIR}en-US
+
+tar cjf ${SRCPKG}_${VERSION}.orig.tar.bz2 ${ORIGDIR}
+
+rm -rf $tmpdir
