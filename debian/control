@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: unzip, zip
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Vcs-Git: git://git.debian.org/git/users/agx/iceowl-l10n.git
 Vcs-Browser: http://git.debian.org/git/users/agx/iceowl-l10n.git
 
