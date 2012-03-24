@@ -8,7 +8,7 @@ Subject: Brand pa-IN
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/pa-IN/locale/pa-IN/lightning/lightning.dtd b/pa-IN/locale/pa-IN/lightning/lightning.dtd
-index f9b554b..7192414 100644
+index 63c685f..3c7c561 100644
 --- a/pa-IN/locale/pa-IN/lightning/lightning.dtd
 +++ b/pa-IN/locale/pa-IN/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index c80954e..e0fc883 100644
  imipBarProcessingFailed=Processing message failed. Status: %1$S.
  imipAcceptInvitation.label=ਮਨਜ਼ੂਰ
  imipCancelInvitation.label=ਹਟਾਓ
--- 

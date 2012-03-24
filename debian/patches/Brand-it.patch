@@ -8,7 +8,7 @@ Subject: Brand it
  2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/it/locale/it/lightning/lightning.dtd b/it/locale/it/lightning/lightning.dtd
-index 1004fd4..41f6c2f 100644
+index 4f1863d..95b8ad9 100644
 --- a/it/locale/it/lightning/lightning.dtd
 +++ b/it/locale/it/lightning/lightning.dtd
 @@ -40,7 +40,7 @@
@@ -21,7 +21,7 @@ index 1004fd4..41f6c2f 100644
  <!ENTITY lightning.menupopup.new.event.accesskey "E">
  <!ENTITY lightning.menupopup.new.task.label "Attività…">
 diff --git a/it/locale/it/lightning/lightning.properties b/it/locale/it/lightning/lightning.properties
-index 3a334b2..92a5178 100644
+index 33a1aea..195ac63 100644
 --- a/it/locale/it/lightning/lightning.properties
 +++ b/it/locale/it/lightning/lightning.properties
 @@ -62,7 +62,7 @@ imipBarRequestText = Questo messaggio contiene un invito ad un evento.
@@ -33,4 +33,3 @@ index 3a334b2..92a5178 100644
  imipBarProcessingFailed = Elaborazione del messaggio fallita. Stato: %1$S.
  imipAcceptInvitation.label = Accetta
  imipCancelInvitation.label = Elimina
--- 

@@ -8,7 +8,7 @@ Subject: Brand uk
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/uk/locale/uk/lightning/lightning.dtd b/uk/locale/uk/lightning/lightning.dtd
-index 836b55c..a3a10ee 100644
+index 6330fb5..79b9dc5 100644
 --- a/uk/locale/uk/lightning/lightning.dtd
 +++ b/uk/locale/uk/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index 66cd574..3de7490 100644
  imipBarProcessingFailed=Processing message failed. Status: %1$S.
  imipAcceptInvitation.label=Прийняти
  imipCancelInvitation.label=Вилучити
--- 

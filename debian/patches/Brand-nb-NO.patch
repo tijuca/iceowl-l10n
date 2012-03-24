@@ -8,7 +8,7 @@ Subject: Brand nb-NO
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/nb-NO/locale/nb-NO/lightning/lightning.dtd b/nb-NO/locale/nb-NO/lightning/lightning.dtd
-index 32b9185..53e2b10 100644
+index 4c918e2..356a965 100644
 --- a/nb-NO/locale/nb-NO/lightning/lightning.dtd
 +++ b/nb-NO/locale/nb-NO/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index 1f848d4..d8b1d2a 100644
  imipBarProcessingFailed=Klarte ikke behandle melding. Status: %1$S.
  imipAcceptInvitation.label=Aksepter
  imipCancelInvitation.label=Slett
--- 

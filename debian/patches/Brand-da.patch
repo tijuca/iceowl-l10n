@@ -8,7 +8,7 @@ Subject: Brand da
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/da/locale/da/lightning/lightning.dtd b/da/locale/da/lightning/lightning.dtd
-index 53c4e66..75bb864 100644
+index f23e207..2811819 100644
 --- a/da/locale/da/lightning/lightning.dtd
 +++ b/da/locale/da/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index 667f91a..6122a8c 100644
  imipBarProcessingFailed=Behandlingen af meddelelsen mislykkedes. Status: %1$S.
  imipAcceptInvitation.label=Accepter
  imipCancelInvitation.label=Slet
--- 

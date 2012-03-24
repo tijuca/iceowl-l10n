@@ -8,7 +8,7 @@ Subject: Brand es-ES
  2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/es-ES/locale/es-ES/lightning/lightning.dtd b/es-ES/locale/es-ES/lightning/lightning.dtd
-index 4528d9b..09c90f7 100644
+index d0089e7..7903ee4 100644
 --- a/es-ES/locale/es-ES/lightning/lightning.dtd
 +++ b/es-ES/locale/es-ES/lightning/lightning.dtd
 @@ -40,7 +40,7 @@
@@ -33,4 +33,3 @@ index ba788ff..55bf4cd 100644
  imipBarProcessingFailed = Fallo al procesar el mensaje. Estado: %1$S.
  imipAcceptInvitation.label = Aceptar
  imipCancelInvitation.label = Eliminar
--- 

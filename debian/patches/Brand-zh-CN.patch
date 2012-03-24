@@ -19,7 +19,7 @@ index 2154d8c..61e6dec 100644
 -disableExtText = 您安装了不兼容 Lightning 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
 +disableExtText = 您安装了不兼容 Iceowl 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
 diff --git a/zh-CN/locale/zh-CN/lightning/lightning.dtd b/zh-CN/locale/zh-CN/lightning/lightning.dtd
-index 9ad3fad..3c579cb 100644
+index 375f6c0..962a0c2 100644
 --- a/zh-CN/locale/zh-CN/lightning/lightning.dtd
 +++ b/zh-CN/locale/zh-CN/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -59,4 +59,3 @@ index bea4cbb..8d1e9f8 100644
  imipBarProcessingFailed=处理消息失败. 状态: %1$S.
  imipAcceptInvitation.label=接受
  imipCancelInvitation.label=删除
--- 

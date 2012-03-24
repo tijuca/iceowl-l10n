@@ -8,7 +8,7 @@ Subject: Brand is
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/is/locale/is/lightning/lightning.dtd b/is/locale/is/lightning/lightning.dtd
-index 42ca93b..a11ea7f 100644
+index ad1fdf8..e834b6c 100644
 --- a/is/locale/is/lightning/lightning.dtd
 +++ b/is/locale/is/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index e7e0fc8..c33c55b 100644
  imipBarProcessingFailed=Meðhöndlun á pósti mistókst. Staða: %1$S.
  imipAcceptInvitation.label=Samþykkja
  imipCancelInvitation.label=Eyða
--- 

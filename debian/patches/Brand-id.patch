@@ -8,7 +8,7 @@ Subject: Brand id
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/id/locale/id/lightning/lightning.dtd b/id/locale/id/lightning/lightning.dtd
-index 659532d..35f4ee1 100644
+index 3ce6790..847805c 100644
 --- a/id/locale/id/lightning/lightning.dtd
 +++ b/id/locale/id/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -39,4 +39,3 @@ index a4e612c..efc507c 100644
  
  # Task mode title
  taskModeApplicationTitle=Tugas
--- 

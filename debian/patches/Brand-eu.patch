@@ -9,20 +9,20 @@ Subject: Brand eu
  3 files changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/eu/locale/eu/calendar/timezones.properties b/eu/locale/eu/calendar/timezones.properties
-index 6bce20f..2a88553 100644
+index e22b2dc..18af3c3 100644
 --- a/eu/locale/eu/calendar/timezones.properties
 +++ b/eu/locale/eu/calendar/timezones.properties
 @@ -41,7 +41,7 @@
  
  # extension:
  extensions.calendar-timezones@mozilla.org.name=Mozilla Calendar-en ordu-zonalde definizioak
--extensions.calendar-timezones@mozilla.org.description=Sunbird eta Lightning-ek behar dituzten ordu-zonalde definizioak
-+extensions.calendar-timezones@mozilla.org.description=Iceowl eta Lightning-ek behar dituzten ordu-zonalde definizioak
+-extensions.calendar-timezones@mozilla.org.description=Sunbird eta Lightning-ek behar dituzte ordu-zonalde definizioak
++extensions.calendar-timezones@mozilla.org.description=Iceowl eta Lightning-ek behar dituzte ordu-zonalde definizioak
  extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar proiektua
  
  pref.timezone.floating=Ordu lokala
 diff --git a/eu/locale/eu/lightning/lightning.dtd b/eu/locale/eu/lightning/lightning.dtd
-index 7f41fdf..14ef0d5 100644
+index 7ee797f..a3c67f4 100644
 --- a/eu/locale/eu/lightning/lightning.dtd
 +++ b/eu/locale/eu/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -35,7 +35,7 @@ index 7f41fdf..14ef0d5 100644
  
  <!ENTITY lightning.menupopup.new.event.label    "Gertaera…">
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index e05dcf4..86f006d 100644
+index 57ebd07..7183beb 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -62,4 +62,3 @@ index e05dcf4..86f006d 100644
  imipBarProcessingFailed=Mezua prozesatzean huts egin du. Egoera: %1$S.
  imipAcceptInvitation.label=Onartu
  imipCancelInvitation.label=Ezabatu
--- 

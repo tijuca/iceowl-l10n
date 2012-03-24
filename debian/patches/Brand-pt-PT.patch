@@ -8,7 +8,7 @@ Subject: Brand pt-PT
  2 files changed, 14 insertions(+), 5 deletions(-)
 
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.dtd b/pt-PT/locale/pt-PT/lightning/lightning.dtd
-index c5fb47a..695b4d8 100644
+index eee4e05..af07bbb 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.dtd
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -59,4 +59,3 @@ index 15e0d27..1a0780d 100644
  imipAcceptInvitation.label=Aceitar
  imipCancelInvitation.label=Eliminar
  imipDeclineInvitation.label=Declinar
--- 

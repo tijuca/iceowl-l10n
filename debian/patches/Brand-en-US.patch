@@ -8,7 +8,7 @@ Subject: Brand en-US
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/en-GB/locale/en-GB/lightning/lightning.dtd b/en-GB/locale/en-GB/lightning/lightning.dtd
-index 7cc15b3..4000e7c 100644
+index 1a217d6..a755d38 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.dtd
 +++ b/en-GB/locale/en-GB/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -21,7 +21,7 @@ index 7cc15b3..4000e7c 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Event…">
 diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
-index c054b08..49ea3d5 100644
+index c1ed16a..a10065e 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.properties
 +++ b/en-GB/locale/en-GB/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -48,4 +48,3 @@ index c054b08..49ea3d5 100644
  imipBarProcessingFailed=Processing message failed. Status: %1$S.
  imipAcceptInvitation.label=Accept
  imipCancelInvitation.label=Delete
--- 

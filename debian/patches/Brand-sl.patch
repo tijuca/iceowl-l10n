@@ -8,7 +8,7 @@ Subject: Brand sl
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/sl/locale/sl/lightning/lightning.dtd b/sl/locale/sl/lightning/lightning.dtd
-index 1dd6aa6..1356b58 100644
+index 0272c63..d80bab9 100644
 --- a/sl/locale/sl/lightning/lightning.dtd
 +++ b/sl/locale/sl/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -39,4 +39,3 @@ index 2d8c068..9994d3b 100644
  
  # Task mode title
  taskModeApplicationTitle=Opravila
--- 

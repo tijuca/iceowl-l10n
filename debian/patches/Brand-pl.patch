@@ -8,7 +8,7 @@ Subject: Brand pl
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/pl/locale/pl/lightning/lightning.dtd b/pl/locale/pl/lightning/lightning.dtd
-index 59d12a3..a603fc3 100644
+index a47cff9..c98c06d 100644
 --- a/pl/locale/pl/lightning/lightning.dtd
 +++ b/pl/locale/pl/lightning/lightning.dtd
 @@ -43,7 +43,7 @@
@@ -39,4 +39,3 @@ index ac5d948..e32e88d 100644
  
  # Task mode title
  taskModeApplicationTitle=Zadania
--- 

@@ -8,7 +8,7 @@ Subject: Brand sk
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/sk/locale/sk/lightning/lightning.dtd b/sk/locale/sk/lightning/lightning.dtd
-index acbeb38..3f7900c 100644
+index e4348f3..0a55fc4 100644
 --- a/sk/locale/sk/lightning/lightning.dtd
 +++ b/sk/locale/sk/lightning/lightning.dtd
 @@ -45,7 +45,7 @@
@@ -48,4 +48,3 @@ index 1cccdc5..893b442 100644
  imipBarProcessingFailed=Spracovanie správy zlyhalo. Stav: %1$S.
  imipAcceptInvitation.label=Prijať
  imipCancelInvitation.label=Vymazať
--- 

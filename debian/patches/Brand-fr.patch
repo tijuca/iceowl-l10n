@@ -8,7 +8,7 @@ Subject: Brand fr
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fr/locale/fr/lightning/lightning.dtd b/fr/locale/fr/lightning/lightning.dtd
-index 990a846..32b8997 100644
+index d930cfd..dee1e4b 100644
 --- a/fr/locale/fr/lightning/lightning.dtd
 +++ b/fr/locale/fr/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index d0f6645..abcb753 100644
  imipBarProcessingFailed=Le traitement du message a échoué. État : %1$S.
  imipAcceptInvitation.label=Accepter
  imipCancelInvitation.label=Supprimer
--- 

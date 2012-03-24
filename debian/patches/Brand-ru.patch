@@ -8,7 +8,7 @@ Subject: Brand ru
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ru/locale/ru/lightning/lightning.dtd b/ru/locale/ru/lightning/lightning.dtd
-index c6f5749..d830727 100644
+index d6c0ef2..837db07 100644
 --- a/ru/locale/ru/lightning/lightning.dtd
 +++ b/ru/locale/ru/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index a0d6de7..9565c99 100644
  imipBarProcessingFailed=Ошибка обработки письма. Состояние: %1$S.
  imipAcceptInvitation.label=Принять
  imipCancelInvitation.label=Удалить
--- 

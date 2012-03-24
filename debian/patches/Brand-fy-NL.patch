@@ -8,7 +8,7 @@ Subject: Brand fy-NL
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fy-NL/locale/fy-NL/lightning/lightning.dtd b/fy-NL/locale/fy-NL/lightning/lightning.dtd
-index ab3f927..feda517 100644
+index aaa94cf..4e96b02 100644
 --- a/fy-NL/locale/fy-NL/lightning/lightning.dtd
 +++ b/fy-NL/locale/fy-NL/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -48,4 +48,3 @@ index c00def7..58f5785 100644
  imipBarProcessingFailed=Berjochtferwurking mislearre. Steat: %1$S.
  imipAcceptInvitation.label=Akseptearje
  imipCancelInvitation.label=Fuortsmite
--- 
