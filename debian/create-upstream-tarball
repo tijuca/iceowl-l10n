@@ -1,0 +1,89 @@
+#!/bin/sh
+#
+# Create an upstream tarball from the language pack xpi
+# and (optionally) import it via git-import-orig.
+
+XPI=lightning.xpi
+SRCPKG="iceowl-l10n"
+
+fail() {
+    echo $*
+    exit 1
+}
+
+while [ -n "$1" ]; do
+    case $1 in
+        -d) DOWNLOAD=1
+            shift
+            ;;
+        -n) NO_CLEAN=1
+            shift
+            ;;
+        -g) GIT_IMPORT=$2
+            shift;shift
+            ;;
+        *)
+            VERSION=$1
+            shift
+            ;;
+    esac
+done
+
+[ -n "$VERSION" ] || fail "Missing version."
+
+echo "Download xpi: ${DOWNLOAD:-off}"
+echo "No cleanup: ${NO_CLEAN:-off}"
+echo "Run git-import-orig: ${GIT_IMPORT:-off}"
+echo "Version: ${VERSION}"
+
+export TMPDIR=$(mktemp --tmpdir=$PWD -d)/
+UNPACKDIR=${TMPDIR}unpack/
+ORIGDIR="${TMPDIR}${SRCPKG}-${VERSION}/"
+
+if [ -n "${GIT_IMPORT}" ]; then
+    test -d ${SRCPKG}/.git || fail "Not in ${SRCPKG}/.."
+fi
+
+if [ -n "${DOWNLOAD}" ]; then
+    rm -f ${XPI}
+    wget -O${XPI} http://releases.mozilla.org/pub/mozilla.org/calendar/lightning/releases/${VERSION}/linux/${XPI}
+fi
+
+XPI=$(readlink -f ${XPI})
+echo "XPI: ${XPI}"
+
+mkdir ${ORIGDIR}
+unzip -q -d ${UNPACKDIR} ${XPI} || fail "Failed to unzip ${XPI}"
+
+ICEDOVE_VER=$(grep -A2 '{3550f703-e582-4d05-9a08-453d09bdfdc6}' ${UNPACKDIR}install.rdf)
+ICEAPE_VER=$(grep -A2 '{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}' ${UNPACKDIR}install.rdf)
+
+for jar in ${UNPACKDIR}chrome/*-*.jar; do
+    lang=$(echo $jar | sed -e 's,.*/[a-z]\+-\(.*\)\.jar,\1,')
+    unzip -q -d $ORIGDIR/${lang} ${jar} || fail "Failed to unzip ${jar}"
+done
+# shipped with the iceowl already
+rm -rf ${ORIGDIR}en-US
+
+TARBALL="${SRCPKG}_${VERSION}.orig.tar.xz"
+TARBALL=$(readlink -f ${TARBALL})
+echo "Tarball: ${TARBALL}"
+tar caf ${TARBALL} -C ${ORIGDIR}/.. ${SRCPKG}-${VERSION}
+
+[ -n "${NO_CLEAN}" ] || rm -rf ${TMPDIR}
+
+echo "Icedove version information"
+echo ${ICEDOVE_VER}
+
+echo "Iceape version information"
+echo ${ICEAPE_VER}
+
+if [ -n "$GIT_IMPORT" ]; then
+    cd $SRCPKG
+    git-import-orig --debian-branch=debian/${GIT_IMPORT} \
+                    --upstream-branch=upstream/${GIT_IMPORT} \
+                    --pristine-tar \
+                    ${TARBALL}
+fi
+
+echo "done."
