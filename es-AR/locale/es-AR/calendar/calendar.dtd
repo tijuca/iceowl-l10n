@@ -252,8 +252,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "B" >
 <!ENTITY calendar.context.deleteserver.label           "Borrar calendario">
 <!ENTITY calendar.context.deleteserver.accesskey       "o">
-<!ENTITY calendar.context.reloadserver.label           "Recargar calendarios remotos">
-<!ENTITY calendar.context.reloadserver.accesskey       "R">
+<!ENTITY calendar.context.synccalendars.label          "Sincronizar calendarios">
+<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publicar calendario…">
 <!ENTITY calendar.context.publish.accesskey            "u">
 <!ENTITY calendar.context.export.label                 "Exportar calendario…">
@@ -322,7 +322,7 @@
 <!ENTITY calendarproperties.name.label     "Nombre:">
 <!ENTITY calendarproperties.readonly.label "Sólo lectura">
 <!ENTITY calendarproperties.firealarms.label "Mostrar alarmas">
-<!ENTITY calendarproperties.cache.label    "Caché">
+<!ENTITY calendarproperties.cache2.label    "Caché">
 <!ENTITY calendarproperties.enabled.label "Cambiar a este calendario">
 <!ENTITY calendarproperties.forceDisabled.label            "No pudo encontrase el proveedor de este calendario. Ésto pasa a menudo si ha deshabilitado o desinstalado ciertos complementos.">
 <!ENTITY calendarproperties.unsubscribe.label              "Desuscribir">

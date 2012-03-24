@@ -252,8 +252,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "а" >
 <!ENTITY calendar.context.deleteserver.label           "Удалить календарь">
 <!ENTITY calendar.context.deleteserver.accesskey       "У">
-<!ENTITY calendar.context.reloadserver.label           "Обновить удалённые календари">
-<!ENTITY calendar.context.reloadserver.accesskey       "О">
+<!ENTITY calendar.context.synccalendars.label          "Синхронизировать календари">
+<!ENTITY calendar.context.synccalendars.accesskey      "и">
 <!ENTITY calendar.context.publish.label                "Опубликовать календарь…">
 <!ENTITY calendar.context.publish.accesskey            "к">
 <!ENTITY calendar.context.export.label                 "Экспортировать календарь…">
@@ -322,7 +322,7 @@
 <!ENTITY calendarproperties.name.label                     "Название:">
 <!ENTITY calendarproperties.readonly.label                 "Только для чтения">
 <!ENTITY calendarproperties.firealarms.label               "Показывать оповещения">
-<!ENTITY calendarproperties.cache.label                    "Кэшировать (ЭКСПЕРИМЕНТАЛЬНО, требуется перезапуск)">
+<!ENTITY calendarproperties.cache2.label                    "Кэшировать">
 <!ENTITY calendarproperties.enabled.label                  "Включите этот календарь">
 <!ENTITY calendarproperties.forceDisabled.label            "Провайдер для этого календаря не найден. Зачастую это происходит после отключения или удаления специальных дополнений.">
 <!ENTITY calendarproperties.unsubscribe.label              "Отменить подписку">

@@ -138,7 +138,7 @@
 
 <!ENTITY  event.menu.options.label                            "Options">
 <!ENTITY  event.menu.options.accesskey                        "O">
-<!ENTITY  event.menu.options.attachments.label                "Attach Webpage…">
+<!ENTITY  event.menu.options.attachments.label                "Attach Web Page…">
 <!ENTITY  event.menu.options.attachments.accesskey            "W">
 <!ENTITY  event.menu.options.attendees.label                  "Invite Attendees…">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
@@ -227,7 +227,7 @@
 <!ENTITY event.attachments.popup.open.accesskey           "O" >
 <!ENTITY event.attachments.popup.removeAll.label          "Remove All" >
 <!ENTITY event.attachments.popup.removeAll.accesskey      "A" >
-<!ENTITY event.attachments.popup.attachPage.label         "Attach Webpage…" >
+<!ENTITY event.attachments.popup.attachPage.label         "Attach Web Page…" >
 <!ENTITY event.attachments.popup.attachPage.accesskey     "W" >
 <!ENTITY event.url.label                                  "Related Link:" >
 <!ENTITY event.priority2.label                            "Priority:">

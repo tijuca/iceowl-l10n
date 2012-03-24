@@ -20,6 +20,7 @@
    -
    - Contributor(s): 
    -   Cédric Corazza <cedric.corazza@wanadoo.fr>
+   -   Philipp Kewisch <mozilla@kewis.ch>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -34,35 +35,37 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 
-
-<!ENTITY pref.alarmgoesoff.label "Alarm Kapatılırsa:">
+<!ENTITY pref.alarmgoesoff.label "Hatırlatma zamanı geldiğinde:">
 <!ENTITY pref.playasound "Ses dosyası çal">
-<!ENTITY pref.calendar.alarms.playsound.accessKey "s">
+<!ENTITY pref.calendar.alarms.playsound.accessKey "S">
 <!ENTITY pref.calendar.alarms.sound.useDefault.label "Varsayılan ses dosyasını kullan">
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "d">
 <!ENTITY pref.calendar.alarms.sound.browse.label "Gözat…">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "G">
 <!ENTITY pref.calendar.alarms.sound.preview.label "Önizleme">
 <!ENTITY pref.calendar.alarms.sound.preview.accessKey "z">
-<!ENTITY pref.showalarmbox "Bir alarm kutusu göster">
+<!ENTITY pref.showalarmbox "Hatırlatma penceresini göster">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "m">
-<!ENTITY pref.missedalarms "Eksik olan alarmları göster">
+<!ENTITY pref.missedalarms "Kaçırılan hatırlatmaları göster">
 <!ENTITY pref.calendar.alarms.missedAlarms.accessKey "m">
-<!ENTITY pref.calendar.alarms.defaults.label "Varsayılan Alarm Ayarları">
-<!ENTITY pref.defalarm4events.label "Olaylar için varsayılan alarm ayarları:">
-<!ENTITY pref.defalarm4events.accesskey "a">
-<!ENTITY pref.defalarm4todos.label "Görevler için varsayılan alarm ayarları:">
-<!ENTITY pref.defalarm4todos.accesskey "a">
+<!ENTITY pref.calendar.alarms.defaults.label "Hatırlatma varsayılanları">
+<!ENTITY pref.defalarm4events.label "Etkinlikler için varsayılan hatırlatma ayarı:">
+<!ENTITY pref.defalarm4events.accesskey "v">
+<!ENTITY pref.defalarm4todos.label "Görevler için varsayılan hatırlatma ayarı:">
+<!ENTITY pref.defalarm4todos.accesskey "s">
 <!ENTITY pref.alarm.on "Açık">
 <!ENTITY pref.alarm.off "Kapalı">
-<!ENTITY pref.defalarmlen4events.label "Olay başlamadan önce alarm verilecek öntanımlı süre:">
-<!ENTITY pref.defalarmlen4events.accesskey "v">
-<!ENTITY pref.defalarmlen4todos.label "Görev başlamadan önce alarm verilecek öntanımlı süre:">
-<!ENTITY pref.defalarmlen4todos.accesskey "v">
-<!ENTITY pref.defaultemail.label "Alarmların gönderileceği öntanımlı adres:">
-<!ENTITY pref.defaulttext.label "Varsayılan alarm mesajı:">
+<!ENTITY pref.defalarmlen4events.label "Etkinlikten önce hatırlatmanın kurulacağı varsayılan süre: 
+">
+<!ENTITY pref.defalarmlen4events.accesskey "y">
+<!ENTITY pref.defalarmlen4todos.label "Görevden önce hatırlatmanın kurulacağı varsayılan süre:">
+<!ENTITY pref.defalarmlen4todos.accesskey "n">
+<!ENTITY pref.defaultemail.label "Hatırlatmaların gönderileceği varsayılan adres:">
+<!ENTITY pref.defaulttext.label "Hatırlatmalar için varsayılan metin:">
+

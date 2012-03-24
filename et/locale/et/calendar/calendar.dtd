@@ -248,8 +248,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "O" >
 <!ENTITY calendar.context.deleteserver.label           "Kustuta kalender">
 <!ENTITY calendar.context.deleteserver.accesskey       "K">
-<!ENTITY calendar.context.reloadserver.label           "Värskenda võrgukalendreid">
-<!ENTITY calendar.context.reloadserver.accesskey       "V">
+<!ENTITY calendar.context.synccalendars.label          "Sünkroniseeri kalendrid">
+<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Avalda kalender…">
 <!ENTITY calendar.context.publish.accesskey            "A">
 <!ENTITY calendar.context.export.label                 "Ekspordi kalender…">
@@ -318,7 +318,7 @@
 <!ENTITY calendarproperties.name.label                    "Nimi:">
 <!ENTITY calendarproperties.readonly.label                "Kirjutuskaitstud">
 <!ENTITY calendarproperties.firealarms.label              "Näita meeldetuletusi">
-<!ENTITY calendarproperties.cache.label                   "Puhverdatud">
+<!ENTITY calendarproperties.cache2.label                  "Puhverdatud">
 <!ENTITY calendarproperties.enabled.label                 "Lülita kalender sisse">
 <!ENTITY calendarproperties.forceDisabled.label           "Sellele kalendrile ei leitud teenusepakkujat. Sageli põhjustab seda mõne lisa keelamine või eemaldamine.">
 <!ENTITY calendarproperties.unsubscribe.label             "Lõpeta tellimine">

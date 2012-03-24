@@ -252,8 +252,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "L" >
 <!ENTITY calendar.context.deleteserver.label           "Sguab às am mìosachan">
 <!ENTITY calendar.context.deleteserver.accesskey       "S">
-<!ENTITY calendar.context.reloadserver.label           "Ath-luchdaich na mìosachain chèin">
-<!ENTITY calendar.context.reloadserver.accesskey       "A">
+<!ENTITY calendar.context.synccalendars.label          "Sioncronaich na mìosachain">
+<!ENTITY calendar.context.synccalendars.accesskey      "m">
 <!ENTITY calendar.context.publish.label                "Foillsich mìosachan…">
 <!ENTITY calendar.context.publish.accesskey            "F">
 <!ENTITY calendar.context.export.label                 "Às-phortaich mìosachan…">
@@ -322,7 +322,7 @@
 <!ENTITY calendarproperties.name.label                     "Ainm:">
 <!ENTITY calendarproperties.readonly.label                 "Ri leughadh a-mhàin">
 <!ENTITY calendarproperties.firealarms.label               "Seall caismeachdan">
-<!ENTITY calendarproperties.cache.label                    "Tasgadan (DEUCHAINN)">
+<!ENTITY calendarproperties.cache2.label                    "Tasgadan">
 <!ENTITY calendarproperties.enabled.label                  "Cuir air am mìosachan seo">
 <!ENTITY calendarproperties.forceDisabled.label            "Cha deach solaraiche a' mhìosachain seo a lorg. Tachraidh seo gu tric ma chuir thu à comas tuilleadain sònraichte no ma dhì-stàlaich thu iad.">
 <!ENTITY calendarproperties.unsubscribe.label              "Sguir dhen fho-sgrìobhadh">

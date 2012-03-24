@@ -35,10 +35,10 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY providerUninstall.title                           "Desinstalatu hornitzailea">
-<!ENTITY providerUninstall.accept.label                    "Kendu harpidetza hautatutakotik">
-<!ENTITY providerUninstall.accept.accesskey                "K">
-<!ENTITY providerUninstall.cancel.label                    "Mantendu gehigarria">
+<!ENTITY providerUninstall.accept.label                    "Aukeratutako harpidetzari baja">
+<!ENTITY providerUninstall.accept.accesskey                "d">
+<!ENTITY providerUninstall.cancel.label                    "Mantendu harpidetza">
 <!ENTITY providerUninstall.cancel.accesskey                "M">
-<!ENTITY providerUninstall.preName.label                   "Desinstalatu edo desgaitzeko eskaera egin duzu:">
+<!ENTITY providerUninstall.preName.label                   "Desinstalatu edo desgaitzeko eskaria egin duzu:">
 <!ENTITY providerUninstall.postName.label                  "Honek azpiko egutegiak ezgaitzea ekarriko du.">
-<!ENTITY providerUninstall.reinstallNote.label             "Ez bada hornitzaile hau berrinstalatzea pentsatu duzula, hornitzaile honen egutegitik harpidetza kentzea aukera dezakezu.">
+<!ENTITY providerUninstall.reinstallNote.label             "Hornitzaile hau berrinstalatzeko asmorik ez badaukazu, hornitzaile honen egutegietako harpidetzei baja eman beharko zenieke.">

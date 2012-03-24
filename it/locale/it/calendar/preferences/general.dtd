@@ -20,7 +20,7 @@
    -
    - Contributor(s): 
    -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Iacopo Benesperi
+   -   
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,3 +44,6 @@
 <!ENTITY pref.defaultlength.accesskey "D">
 <!ENTITY pref.defaultsnoozelength.label "Durata predefinita snooze:">
 <!ENTITY pref.defaultsnoozelength.accesskey "u">
+<!ENTITY pref.accessibility.label "Accessibilità">
+<!ENTITY pref.systemcolors.label "Ottimizza i colori per l'accessibilità">
+<!ENTITY pref.systemcolors.accesskey "O">

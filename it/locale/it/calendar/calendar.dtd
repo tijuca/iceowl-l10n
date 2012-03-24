@@ -31,7 +31,7 @@
    -   Diego Mira David <diegomd86@gmail.com>
    -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
    -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
-   -   Iacopo Benesperi
+   -   
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -211,8 +211,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey "v">
 <!ENTITY calendar.context.deleteserver.label "Elimina calendario">
 <!ENTITY calendar.context.deleteserver.accesskey "E">
-<!ENTITY calendar.context.reloadserver.label "Ricarica calendari remoti">
-<!ENTITY calendar.context.reloadserver.accesskey "R">
+<!ENTITY calendar.context.synccalendars.label "Sincronizza calendari">
+<!ENTITY calendar.context.synccalendars.accesskey "c">
 <!ENTITY calendar.context.publish.label "Pubblica calendario…">
 <!ENTITY calendar.context.publish.accesskey "u">
 <!ENTITY calendar.context.export.label "Esporta calendario…">
@@ -238,7 +238,7 @@
 <!ENTITY calendar.alarm.details.label "Dettagli…">
 <!ENTITY calendar.alarm.snoozefor.label "Snooze per">
 <!ENTITY calendar.alarm.snoozeallfor.label "Snooze a tutti per">
-<!ENTITY calendar.alarm.title.label "Allarme calendario">
+<!ENTITY calendar.alarm.title.label "Allarmi calendario">
 <!ENTITY calendar.alarm.dismiss.label "Elimina">
 <!ENTITY calendar.alarm.dismissall.label "Elimina tutti">
 <!ENTITY calendar.alarm.snooze.5minutes.label "5 minuti">
@@ -263,7 +263,7 @@
 <!ENTITY calendarproperties.name.label "Nome:">
 <!ENTITY calendarproperties.readonly.label "Sola lettura">
 <!ENTITY calendarproperties.firealarms.label "Mostra allarmi">
-<!ENTITY calendarproperties.cache.label "Cache">
+<!ENTITY calendarproperties.cache2.label "Cache">
 <!ENTITY calendarproperties.enabled.label "Attiva questo calendario">
 <!ENTITY calendarproperties.forceDisabled.label "Impossibile trovare il gestore di questo calendario. Questo accade spesso quando vengono disattivati o disinstallati alcuni componenti aggiuntivi.">
 <!ENTITY calendarproperties.unsubscribe.label "Rimuovi sottoscrizione">

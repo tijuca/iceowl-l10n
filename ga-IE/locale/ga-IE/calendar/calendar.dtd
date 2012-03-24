@@ -253,8 +253,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey "A">
 <!ENTITY calendar.context.deleteserver.label "Scrios Féilire">
 <!ENTITY calendar.context.deleteserver.accesskey "S">
-<!ENTITY calendar.context.reloadserver.label "Athluchtaigh Cianfhéilirí">
-<!ENTITY calendar.context.reloadserver.accesskey "A">
+<!ENTITY calendar.context.synccalendars.label "Sioncrónaigh Féilirí">
+<!ENTITY calendar.context.synccalendars.accesskey "S">
 <!ENTITY calendar.context.publish.label "Foilsigh Féilire…">
 <!ENTITY calendar.context.publish.accesskey "F">
 <!ENTITY calendar.context.export.label "Easpórtáil Féilire…">
@@ -288,7 +288,7 @@
 
 <!ENTITY calendar.alarm.snoozefor.label "Déan néal codlata ar feadh">
 <!ENTITY calendar.alarm.snoozeallfor.label "Cuir gach ceann ina chodladh go ceann">
-<!ENTITY calendar.alarm.title.label "Aláram Féilire">
+<!ENTITY calendar.alarm.title.label "Meabhrúcháin Fhéilire">
 <!ENTITY calendar.alarm.dismiss.label "Díbir">
 <!ENTITY calendar.alarm.dismissall.label "Díbir Uile">
 
@@ -322,8 +322,8 @@
 <!ENTITY calendarproperties.refreshInterval.manual.label "De Láimh">
 <!ENTITY calendarproperties.name.label "Teideal:">
 <!ENTITY calendarproperties.readonly.label "Inléite Amháin">
-<!ENTITY calendarproperties.firealarms.label "Taispeáin Aláraim">
-<!ENTITY calendarproperties.cache.label "Taisce (TRIALACH)">
+<!ENTITY calendarproperties.firealarms.label "Taispeáin Meabhrúcháin">
+<!ENTITY calendarproperties.cache2.label "Taisce">
 <!ENTITY calendarproperties.enabled.label "Cumasaigh an féilire seo">
 <!ENTITY calendarproperties.forceDisabled.label "Níorbh fhéidir soláthraí an fhéilire seo a aimsiú. Tarlaíonn sé seo go minic má tá breiseáin áirithe díchumasaithe nó díshuiteáilte agat.">
 <!ENTITY calendarproperties.unsubscribe.label "Díliostáil">
