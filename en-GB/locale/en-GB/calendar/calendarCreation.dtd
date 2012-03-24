@@ -42,7 +42,7 @@
 <!ENTITY initialpage.network.label  "On the Network">
 
 <!ENTITY locationpage.description         "Provide info about what is needed to access your remote calendar" >
-<!ENTITY locationpage.login.description   "Optional: enter an user name and password" >
+<!ENTITY locationpage.login.description   "Optional: enter a user name and password" >
 <!ENTITY locationpage.username.label      "User name:" >
 <!ENTITY locationpage.password.label      "Password:" >
 

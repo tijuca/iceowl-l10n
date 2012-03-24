@@ -65,8 +65,8 @@
 <!ENTITY lightning.menupopup.open.calendar.accesskey  "C">
 <!-- View Menu -->
 
-<!ENTITY lightning.menu.view.calendar.label            "Egutegia…">
-<!ENTITY lightning.menu.view.calendar.accesskey        "E">
+<!ENTITY lightning.menu.view.calendar.label            "Calendar">
+<!ENTITY lightning.menu.view.calendar.accesskey        "n">
 <!ENTITY lightning.menu.view.tasks.label               "Zereginak">
 <!ENTITY lightning.menu.view.tasks.accesskey           "Z">
 <!-- Events and Tasks menu -->
@@ -78,8 +78,10 @@
 <!ENTITY lightning.toolbar.mail.label         "Posta">
 <!ENTITY lightning.toolbar.mail.accesskey     "P">
 <!ENTITY lightning.toolbar.calendar.label     "Egutegia">
+<!ENTITY lightning.toolbar.calendar.tooltip   "Aldatu egutegiaren fitxara">
 <!ENTITY lightning.toolbar.calendar.accesskey "E">
 <!ENTITY lightning.toolbar.task.label         "Zeregina">
+<!ENTITY lightning.toolbar.task.tooltip       "Aldatu zereginen fitxara">
 <!ENTITY lightning.toolbar.task.accesskey     "Z">
 <!-- Toolbar write button -->
 
@@ -99,10 +101,10 @@
 
 <!ENTITY lightning.calendarproperties.showevents.inagenda.label "Ikusi zereginak gaur panelean">
 <!ENTITY lightning.calendarproperties.showtasks.label           "Ikusi zereginak gaur panelean eta ataza moduan">
-<!ENTITY lightning.calendarproperties.email.label               "Eposta:">
+<!ENTITY lightning.calendarproperties.email.label               "E-posta:">
 <!-- iMIP Bar (meeting support) -->
 
-<!ENTITY lightning.imipbar.description "Mezu honek gertaera baten gonbidapena du.">
+<!ENTITY lightning.imipbar.description "Mezu honek gertaera bati gonbidapena du.">
 <!-- Lightning specific keybindings -->
 
 <!ENTITY lightning.keys.event.showCalendar.key "C">

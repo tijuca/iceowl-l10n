@@ -25,7 +25,7 @@
    -   Philipp Kewisch <mozilla@kewis.ch>
    -   Martin Schroeder <mschroeder@mozilla.x-home.org>
    -   Berend Cornelius <berend.cornelius@sun.com>
-   -   Iacopo Benesperi
+   -   
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -62,8 +62,10 @@
 <!ENTITY lightning.toolbar.mail.label "Posta">
 <!ENTITY lightning.toolbar.mail.accesskey "P">
 <!ENTITY lightning.toolbar.calendar.label "Calendario">
+<!ENTITY lightning.toolbar.calendar.tooltip "Passa alla scheda del calendario">
 <!ENTITY lightning.toolbar.calendar.accesskey "C">
 <!ENTITY lightning.toolbar.task.label "Attività">
+<!ENTITY lightning.toolbar.task.tooltip "Passa alla scheda delle attività">
 <!ENTITY lightning.toolbar.task.accesskey "A">
 <!ENTITY lightning.toolbar.newevent.label "Evento">
 <!ENTITY lightning.toolbar.newtask.label "Attività">

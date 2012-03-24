@@ -106,11 +106,11 @@
 <!ENTITY calendar.prevmonth.accesskey           "s" >
 
 <!ENTITY calendar.navigation.nextday.tooltip    "One Day Forwards" >
-<!ENTITY calendar.navigation.prevday.tooltip    "One Day Back" >
+<!ENTITY calendar.navigation.prevday.tooltip    "One Day Backwards" >
 <!ENTITY calendar.navigation.nextweek.tooltip   "One Week Forwards" >
-<!ENTITY calendar.navigation.prevweek.tooltip   "One Week Back" >
+<!ENTITY calendar.navigation.prevweek.tooltip   "One Week Backwards" >
 <!ENTITY calendar.navigation.nextmonth.tooltip  "One Month Forwards" >
-<!ENTITY calendar.navigation.prevmonth.tooltip  "One Month Back" >
+<!ENTITY calendar.navigation.prevmonth.tooltip  "One Month Backwards" >
 
 <!ENTITY calendar.newevent.button.label         "New Event" >
 <!ENTITY calendar.newtask.button.label          "New Task" >
@@ -252,8 +252,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "F" >
 <!ENTITY calendar.context.deleteserver.label           "Delete Calendar">
 <!ENTITY calendar.context.deleteserver.accesskey       "D">
-<!ENTITY calendar.context.reloadserver.label           "Reload Remote Calendars">
-<!ENTITY calendar.context.reloadserver.accesskey       "R">
+<!ENTITY calendar.context.synccalendars.label          "Synchronise Calendars">
+<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publish Calendar…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Export Calendar…">
@@ -287,7 +287,7 @@
 
 <!ENTITY calendar.alarm.snoozefor.label             "Snooze for" >
 <!ENTITY calendar.alarm.snoozeallfor.label          "Snooze All for" >
-<!ENTITY calendar.alarm.title.label                 "Calendar Alarm" >
+<!ENTITY calendar.alarm.title.label                 "Calendar Reminders" >
 <!ENTITY calendar.alarm.dismiss.label               "Dismiss" >
 <!ENTITY calendar.alarm.dismissall.label            "Dismiss All" >
 
@@ -321,10 +321,10 @@
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Manually">
 <!ENTITY calendarproperties.name.label                     "Name:">
 <!ENTITY calendarproperties.readonly.label                 "Read Only">
-<!ENTITY calendarproperties.firealarms.label               "Show Alarms">
-<!ENTITY calendarproperties.cache.label                    "Cache (EXPERIMENTAL)">
+<!ENTITY calendarproperties.firealarms.label               "Show Reminders">
+<!ENTITY calendarproperties.cache2.label                   "Cache">
 <!ENTITY calendarproperties.enabled.label                  "Switch this calendar on">
-<!ENTITY calendarproperties.forceDisabled.label            "The provider for this calendar could not be found. This often happens if you have disabled or uninstalled certain addons.">
+<!ENTITY calendarproperties.forceDisabled.label            "The provider for this calendar could not be found. This often happens if you have disabled or uninstalled certain add-ons.">
 <!ENTITY calendarproperties.unsubscribe.label              "Unsubscribe">
 <!ENTITY calendarproperties.unsubscribe.accesskey          "U">
 

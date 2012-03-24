@@ -46,5 +46,5 @@
 <!ENTITY calendar.invitations.list.alldayevent.text                     "Egun osoko gertaera">
 <!ENTITY calendar.invitations.list.location.text                        "Kokapena: ">
 <!ENTITY calendar.invitations.list.organizer.text                       "Antolatzailea: ">
-<!ENTITY calendar.invitations.list.attendee.text                        "Partaideaa: ">
+<!ENTITY calendar.invitations.list.attendee.text                        "Bertaratzea: ">
 <!ENTITY calendar.invitations.list.none.text                            "Bat ere ez">

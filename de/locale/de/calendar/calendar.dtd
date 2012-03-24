@@ -247,8 +247,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "S">
 <!ENTITY calendar.context.deleteserver.label           "Kalender löschen">
 <!ENTITY calendar.context.deleteserver.accesskey       "Ö">
-<!ENTITY calendar.context.reloadserver.label           "Externe Kalender neu laden">
-<!ENTITY calendar.context.reloadserver.accesskey       "L">
+<!ENTITY calendar.context.synccalendars.label          "Kalender synchronisieren">
+<!ENTITY calendar.context.synccalendars.accesskey      "L">
 <!ENTITY calendar.context.publish.label                "Kalender publizieren…">
 <!ENTITY calendar.context.publish.accesskey            "K">
 <!ENTITY calendar.context.export.label                 "Kalender exportieren…">
@@ -281,7 +281,7 @@
 
 <!ENTITY calendar.alarm.snoozefor.label             "Erneut erinnern in">
 <!ENTITY calendar.alarm.snoozeallfor.label          "An alle erneut erinnern in">
-<!ENTITY calendar.alarm.title.label                 "Kalenderalarm">
+<!ENTITY calendar.alarm.title.label                 "Kalendererinnerungen">
 <!ENTITY calendar.alarm.dismiss.label               "Schließen">
 <!ENTITY calendar.alarm.dismissall.label            "Alle schließen">
 
@@ -316,7 +316,7 @@
 <!ENTITY calendarproperties.name.label                     "Name:">
 <!ENTITY calendarproperties.readonly.label                 "Schreibgeschützt">
 <!ENTITY calendarproperties.firealarms.label               "Erinnerungen anzeigen">
-<!ENTITY calendarproperties.cache.label                    "Cache">
+<!ENTITY calendarproperties.cache2.label                   "Cache">
 <!ENTITY calendarproperties.enabled.label                  "Diesen Kalender aktivieren">
 <!ENTITY calendarproperties.forceDisabled.label            "Der Provider für diesen Kalender konnte nicht gefunden werden. Ursache hierfür ist häufig, dass Sie bestimmte Add-ons deaktiviert oder deinstalliert haben.">
 <!ENTITY calendarproperties.unsubscribe.label              "Abbestellen">
