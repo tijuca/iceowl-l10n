@@ -29,7 +29,6 @@ override_dh_auto_build:
             debian/control.in > debian/control
 
 	mkdir -p build
-	# FIXME: add branding
 	for dir in ?? ??-*; do \
 		cd $${dir}; \
 		zip -r ../build/$${dir}.jar locale; \
