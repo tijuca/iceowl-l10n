@@ -1,3 +1,16 @@
+iceowl-l10n (1.3-1) experimental; urgency=low
+
+  * [d43db39] Add our script to create the upstream tarball
+  * [38bbcf5] New upstream version 1.3 (Closes: #655506)
+  * [61cd08d] Rebase branding patches
+  * [f8f1213] Bump standards version to 3.9.3
+  * [824384c] Fetch upstream version from changelog
+  * [12b264c] Update version information and add iceape
+  * [8bc495d] Also enable the extension for iceape
+  * [c7a7e26] Set versions from debian/rules
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 25 Mar 2012 01:16:00 +0100
+
 iceowl-l10n (1.0-2) unstable; urgency=low
 
   * Upload to unstable 
