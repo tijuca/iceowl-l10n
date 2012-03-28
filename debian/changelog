@@ -1,3 +1,19 @@
+iceowl-l10n (1.2-1) unstable; urgency=low
+
+  * [2b0bd12] New upstream version 1.2
+  * [00091f1] Rebase patches
+  * [44bdd00] Add our script to create the upstream tarball
+  * [2bfa230] Bump standards version to 3.9.3
+  * [bd5d0d9] Fetch upstream version from changelog
+  * [409faaf] Also enable the extension for iceape
+  * [c455601] Set versions from debian/rules
+  * [4839526] install.rdf.in: Update version information
+  * [73c7891] Make sure we don't miss a language or ship an empty package
+  * [cf9f99e] Add new languages: bg, fi, gd, gl, he, ko, sq, sv
+  * [4ce979a] Update gbp.conf with new branch layout
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 28 Mar 2012 21:19:04 +0200
+
 iceowl-l10n (1.0-2) unstable; urgency=low
 
   * Upload to unstable 
