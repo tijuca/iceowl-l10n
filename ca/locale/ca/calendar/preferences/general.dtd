@@ -19,6 +19,7 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s): 
+   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -33,11 +34,11 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
+
 
 <!ENTITY pref.mainbox.label "Paràmetres generals" >
 <!ENTITY pref.dateformat.label "Format de les dates:" >
@@ -48,6 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "e">
 <!ENTITY pref.defaultsnoozelength.label "Durada per defecte dels silencis:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "s">
-
-
-

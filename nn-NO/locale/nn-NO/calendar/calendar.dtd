@@ -307,7 +307,7 @@
 <!ENTITY calendar.alarm.snooze.cancel               "Avbryt slumring">
 
 <!-- Calendar Server Dialog -->
-<!ENTITY calendar.server.dialog.title.edit          "Endre kalenderen">
+<!ENTITY calendar.server.dialog.title.edit          "Rediger kalenderen">
 <!ENTITY calendar.server.dialog.name.label          "Kalendernamn:">
 
 <!-- Calendar Properties -->
@@ -322,7 +322,7 @@
 <!ENTITY calendarproperties.name.label                     "Namn:">
 <!ENTITY calendarproperties.readonly.label                 "Skriveverna">
 <!ENTITY calendarproperties.firealarms.label               "Vis alarmar">
-<!ENTITY calendarproperties.cache.label                    "Mellomlager (EKSPERIMENTELT, krev omstart)">
+<!ENTITY calendarproperties.cache2.label                   "Snøgglager">
 <!ENTITY calendarproperties.enabled.label                  "Slå på denne kalenderen">
 <!ENTITY calendarproperties.forceDisabled.label            "Fann ikkje tilbydaren av denne kalenderen. Dette skjer ofte om du har slått av eller avinstallert enkelte utvidingar.">
 <!ENTITY calendarproperties.unsubscribe.label              "Stopp abonnement">

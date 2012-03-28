@@ -263,7 +263,7 @@
 
 <!ENTITY calendar.context.convertmenu.label              "Muunna">
 <!ENTITY calendar.context.convertmenu.accesskey.mail     "n">
-<!ENTITY calendar.context.convertmenu.accesskey.calendar "v">
+<!ENTITY calendar.context.convertmenu.accesskey.calendar "n">
 <!ENTITY calendar.context.convertmenu.event.label        "Tapahtumaksi…">
 <!ENTITY calendar.context.convertmenu.event.accesskey    "T">
 <!ENTITY calendar.context.convertmenu.message.label      "Viestiksi…">
@@ -322,7 +322,7 @@
 <!ENTITY calendarproperties.name.label                     "Nimi:">
 <!ENTITY calendarproperties.readonly.label                 "Vain luku">
 <!ENTITY calendarproperties.firealarms.label               "Näytä hälytykset">
-<!ENTITY calendarproperties.cache.label                    "Välimuisti (KOKEELLINEN)">
+<!ENTITY calendarproperties.cache2.label                   "Välimuisti">
 <!ENTITY calendarproperties.enabled.label                  "Tämä kalenteri on aktiivinen">
 <!ENTITY calendarproperties.forceDisabled.label            "Tämän kalenterin tuottajaa ei löytynyt. Tämä tapahtuu usein tiettyjen lisäosien poistamisen tai käytöstäpoistamisen jälkeen.">
 <!ENTITY calendarproperties.unsubscribe.label              "Peruuta tilaus">
