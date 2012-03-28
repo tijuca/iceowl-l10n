@@ -36,10 +36,10 @@
 
 <!ENTITY time.midnight "Mitjanit" >
 <!ENTITY time.noon "Migdia" >
-
 <!-- Day Names -->
 <!-- LOCALIZATION NOTE : Accesskeys for day.1.Ddd to day.7.Ddd are currently
      only used in Preferences > Views > Workweek groupbox -->
+
 <!ENTITY day.1.Ddd "dg" >
 <!ENTITY day.1.Ddd.accesskey "g">
 <!ENTITY day.2.Ddd "dl" >
@@ -62,8 +62,8 @@
 <!ENTITY day.5.name "dijous" >
 <!ENTITY day.6.name "divendres" >
 <!ENTITY day.7.name "dissabte" >
+<!-- Units -->
 
- <!-- Units -->
 <!ENTITY calendar.global.units.minute   "minut">
 <!ENTITY calendar.global.units.minutes  "minuts">
 <!ENTITY calendar.global.units.hour     "hora">
@@ -90,4 +90,3 @@
 <!ENTITY onedayforward.tooltip "Un dia endavant">
 <!ENTITY onedaybackward.tooltip "Un dia enrere">
 <!ENTITY showselectedday.tooltip "Mostra les cites del dia seleccionat">
-

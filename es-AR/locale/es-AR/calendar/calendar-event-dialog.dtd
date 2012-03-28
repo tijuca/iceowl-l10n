@@ -356,9 +356,9 @@
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label              "Invitar participantes">
 <!ENTITY event.organizer.label "Organizador">   
-<!ENTITY event.freebusy.suggest.slot     "Proponer espacio de tiempo:">
-<!ENTITY event.freebusy.next.slot "Espacio siguiente ">
-<!ENTITY event.freebusy.previous.slot " Espacio anterior">
+<!ENTITY event.freebusy.suggest.slot     "Suggest time slot:">
+<!ENTITY event.freebusy.next.slot "Next slot ">
+<!ENTITY event.freebusy.previous.slot " Previous slot">
 <!ENTITY event.freebusy.zoom             "Zoom:">
 <!ENTITY event.freebusy.plus "Hora siguiente">
 <!ENTITY event.freebusy.minus "Hora previa">

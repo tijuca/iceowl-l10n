@@ -36,7 +36,7 @@
 -->
 <!-- Calendar Subscriptions Dialog -->
 
-<!ENTITY calendar.subscriptions.dialog.title                            "Egutegi Harpidetza">
+<!ENTITY calendar.subscriptions.dialog.title                            "Egutegi harpidetza">
 <!ENTITY calendar.subscriptions.dialog.search.label.value               "Ondorengoa duten egutegiak erakutsi:">
 <!ENTITY calendar.subscriptions.dialog.search.button.label              "Bilatu">
 <!ENTITY calendar.subscriptions.dialog.select.label.value               "Aukeratu egutegiak harpidetzeko:">
