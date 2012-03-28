@@ -8,7 +8,7 @@ Subject: Brand cs
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.dtd b/cs/locale/cs/lightning/lightning.dtd
-index f04a31b..642da3a 100644
+index e3e5b1e..9cd4f88 100644
 --- a/cs/locale/cs/lightning/lightning.dtd
 +++ b/cs/locale/cs/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -39,4 +39,3 @@ index 9caab4d..bf9d6ae 100644
  
  # Task mode title
  taskModeApplicationTitle=Úkoly
--- 

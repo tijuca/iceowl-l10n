@@ -3,27 +3,14 @@ Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand id
 
 ---
- id/locale/id/lightning/lightning.dtd        |    2 +-
- id/locale/id/lightning/lightning.properties |    4 ++--
+ en-GB/locale/en-GB/lightning/lightning.properties |    4 ++--
+ nb-NO/locale/nb-NO/lightning/lightning.dtd        |    2 +-
  2 files changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/id/locale/id/lightning/lightning.dtd b/id/locale/id/lightning/lightning.dtd
-index 659532d..35f4ee1 100644
---- a/id/locale/id/lightning/lightning.dtd
-+++ b/id/locale/id/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Acara…">
-diff --git a/id/locale/id/lightning/lightning.properties b/id/locale/id/lightning/lightning.properties
-index a4e612c..efc507c 100644
---- a/id/locale/id/lightning/lightning.properties
-+++ b/id/locale/id/lightning/lightning.properties
+diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
+index c1ed16a..91d674f 100644
+--- a/en-GB/locale/en-GB/lightning/lightning.properties
++++ b/en-GB/locale/en-GB/lightning/lightning.properties
 @@ -38,12 +38,12 @@
  # ***** END LICENSE BLOCK *****
  
@@ -38,5 +25,17 @@ index a4e612c..efc507c 100644
 +brandShortName=Iceowl
  
  # Task mode title
- taskModeApplicationTitle=Tugas
--- 
+ taskModeApplicationTitle=Tasks
+diff --git a/nb-NO/locale/nb-NO/lightning/lightning.dtd b/nb-NO/locale/nb-NO/lightning/lightning.dtd
+index 32b9185..53e2b10 100644
+--- a/nb-NO/locale/nb-NO/lightning/lightning.dtd
++++ b/nb-NO/locale/nb-NO/lightning/lightning.dtd
+@@ -46,7 +46,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Hendelse …">

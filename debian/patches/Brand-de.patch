@@ -36,7 +36,7 @@ index ba97110..bd7e3c2 100644
 -disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Lightning nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
 +disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Iceowl nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
 diff --git a/de/locale/de/calendar/timezones.properties b/de/locale/de/calendar/timezones.properties
-index b5ffd0d..e944d0a 100644
+index fb05138..549f6ac 100644
 --- a/de/locale/de/calendar/timezones.properties
 +++ b/de/locale/de/calendar/timezones.properties
 @@ -41,7 +41,7 @@
@@ -89,4 +89,3 @@ index d870348..ec763d8 100644
  imipBarProcessingFailed=Bearbeiten der Nachricht fehlgeschlagen. Status: %1$S.
  imipAcceptInvitation.label=Akzeptieren
  imipCancelInvitation.label=Löschen
--- 

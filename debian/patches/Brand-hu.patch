@@ -20,7 +20,7 @@ index 5e1dfcf..84b7cf4 100644
 -disableExtText = Egy régi Mozilla Calendar kiterjesztés van telepítve, amely nem kompatibilis a Lightning alkalmazással. Le  lesz tiltva, és a %1$S újraindul.
 +disableExtText = Egy régi Mozilla Calendar kiterjesztés van telepítve, amely nem kompatibilis a Iceowl alkalmazással. Le  lesz tiltva, és a %1$S újraindul.
 diff --git a/hu/locale/hu/calendar/timezones.properties b/hu/locale/hu/calendar/timezones.properties
-index 071ea4b..06263d3 100644
+index b0a45b6..71bcbe2 100644
 --- a/hu/locale/hu/calendar/timezones.properties
 +++ b/hu/locale/hu/calendar/timezones.properties
 @@ -41,7 +41,7 @@
@@ -46,7 +46,7 @@ index 6aeabb0..f090981 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Esemény...">
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index 8405077..2053dde 100644
+index 38a2873..7fe84a8 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -75,4 +75,3 @@ index 8405077..2053dde 100644
  imipBarProcessingFailed=Az üzenet feldolgozása sikertelen. Állapot: %1$S.
  imipAcceptInvitation.label=Elfogadás
  imipCancelInvitation.label=Törlés
--- 

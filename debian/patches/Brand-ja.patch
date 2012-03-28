@@ -20,7 +20,7 @@ index 0b571e4..8f793c0 100644
 -disableExtText = Lightning と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
 +disableExtText = Iceowl と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
 diff --git a/ja/locale/ja/calendar/timezones.properties b/ja/locale/ja/calendar/timezones.properties
-index 3a65088..86018d9 100644
+index 3c61c5e..6578404 100644
 --- a/ja/locale/ja/calendar/timezones.properties
 +++ b/ja/locale/ja/calendar/timezones.properties
 @@ -41,7 +41,7 @@
@@ -73,4 +73,3 @@ index de1eb90..99a1a72 100644
  imipBarProcessingFailed=メッセージの処理に失敗しました。状態: %1$S
  imipAcceptInvitation.label=承諾
  imipCancelInvitation.label=削除
--- 
