@@ -40,6 +40,9 @@ override_dh_auto_install:
 		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/icedove/extensions/; \
 		ln -s /usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/ \
 			$(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/icedove/extensions/langpack-$${locale}@iceowl.debian.org; \
+		mkdir -p $(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/iceape/extensions/; \
+		ln -s /usr/share/iceowl/extensions/langpack-$${locale}@iceowl.debian.org/ \
+			$(CURDIR)/debian/iceowl-l10n-$${locale}/usr/lib/iceape/extensions/langpack-$${locale}@iceowl.debian.org; \
 	done
 
 	# install.rdf
