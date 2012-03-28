@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+
+ret=0
+
+# Check if every language directory has a matching Debian package
+for dir in ?? ??-??; do
+    lang=$(echo $dir | tr A-Z a-z)
+    if ! grep -qa iceowl-l10n-$lang debian/control.in; then
+        echo "No package for $lang"
+        ret=1
+    fi
+done
+
+# Check if every Debian package has a language directory
+for lang in $(grep iceowl-l10n- debian/control.in | sed s/.*iceowl-l10n-//); do
+    dir=$(echo $lang | sed -e 's/\(.*\)-\(.*\)/\1-\U\2/')
+    if [ ! -d $dir ]; then
+        echo "Package for missing lang $dir"
+        ret=1
+    fi
+done
+
+for lang in ?? ??-??; do
+    if [ ! -f debian/patches/Brand-${lang}.patch ]; then
+        echo "Branding patch for $lang missing"
+        ret=1
+    fi
+done
+
+exit $ret

@@ -22,6 +22,8 @@ override_dh_auto_clean:
 	rm -rf build/
 
 override_dh_auto_build:
+	# First make sure we have all languages:
+	debian/check-lang
 	sed -e "s/IOE_MIN_VER/$(IOE_MIN_VER)/" \
 	    -e "s/IOE_MAX_VER/$(IOE_MAX_VER)/" \
 	    -e "s/IO_MIN_VER/$(IO_MIN_VER)/" \
