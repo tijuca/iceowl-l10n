@@ -1,0 +1,42 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Wed, 28 Mar 2012 21:07:50 +0200
+Subject: Brand gd
+
+---
+ gd/locale/gd/lightning/lightning.dtd        |    2 +-
+ gd/locale/gd/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/gd/locale/gd/lightning/lightning.dtd b/gd/locale/gd/lightning/lightning.dtd
+index e45d7fe..f28714b 100644
+--- a/gd/locale/gd/lightning/lightning.dtd
++++ b/gd/locale/gd/lightning/lightning.dtd
+@@ -46,7 +46,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Tachartas…">
+diff --git a/gd/locale/gd/lightning/lightning.properties b/gd/locale/gd/lightning/lightning.properties
+index 53126b4..e90da82 100644
+--- a/gd/locale/gd/lightning/lightning.properties
++++ b/gd/locale/gd/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Mìosachan a tha fillte a-staigh ann an Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Mìosachan a tha fillte a-staigh ann an Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Pròiseact mìosachan Mozilla
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Saothraichean
