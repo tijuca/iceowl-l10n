@@ -49,7 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "T">
 <!ENTITY pref.defaultsnoozelength.label "Torkun oletuspituus:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "o">
-
-<!ENTITY pref.accessibility.label "Esteettömyys" >
-<!ENTITY pref.systemcolors.label "Optimoi värit esteettömyyttä varten" >
-<!ENTITY pref.systemcolors.accesskey "v">
