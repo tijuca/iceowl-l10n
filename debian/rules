@@ -4,12 +4,12 @@
 UPSTREAM_VERSION=$(shell dpkg-parsechangelog -ldebian/changelog|grep '^Version'|sed  -e 's/Version: *//;s/^[^:]*://;s/-[^-]*$$//')
 
 # Iceowl extension min and max version
-IOE_MIN_VER=11.0
-IOE_MAX_VER=12.0~
+IOE_MIN_VER=12.0
+IOE_MAX_VER=13.0~
 
 # Iceowl min and max version
-IO_MIN_VER=1.3
-IO_MAX_VER=1.4~
+IO_MIN_VER=1.4
+IO_MAX_VER=1.5~
 
 SHELL := sh -e
 
@@ -22,6 +22,8 @@ override_dh_auto_clean:
 	rm -rf build/
 
 override_dh_auto_build:
+	# First make sure we have all languages:
+	debian/check-lang
 	sed -e "s/IOE_MIN_VER/$(IOE_MIN_VER)/" \
 	    -e "s/IOE_MAX_VER/$(IOE_MAX_VER)/" \
 	    -e "s/IO_MIN_VER/$(IO_MIN_VER)/" \
@@ -31,7 +33,7 @@ override_dh_auto_build:
 	mkdir -p build
 	for dir in ?? ??-*; do \
 		cd $${dir}; \
-		zip -r ../build/$${dir}.jar locale; \
+		zip -q -r ../build/$${dir}.jar locale; \
 		cd -; \
 	done
 	rm -rf build/en-US.jar
