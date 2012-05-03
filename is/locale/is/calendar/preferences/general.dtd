@@ -49,6 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "a">
 <!ENTITY pref.defaultsnoozelength.label "Sjálfgefin lengd blundar:">
 <!ENTITY pref.defaultsnoozelength.accesskey "b">
-<!ENTITY pref.accessibility.label "Auðveldað aðgengi">
-<!ENTITY pref.systemcolors.label "Finna bestu liti fyrir aðgengi">
-<!ENTITY pref.systemcolors.accesskey "ð">

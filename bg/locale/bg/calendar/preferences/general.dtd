@@ -49,7 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "с">
 <!ENTITY pref.defaultsnoozelength.label "Подразбираща се дължина за отлагане" >
 <!ENTITY pref.defaultsnoozelength.accesskey "о">
-
-<!ENTITY pref.accessibility.label "Достъпност" >
-<!ENTITY pref.systemcolors.label "Оптимизиране на цветовете за достъпност" >
-<!ENTITY pref.systemcolors.accesskey "ц">

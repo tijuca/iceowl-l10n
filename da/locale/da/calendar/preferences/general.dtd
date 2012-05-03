@@ -49,7 +49,3 @@
 <!ENTITY pref.defaultlength.accesskey "B">
 <!ENTITY pref.defaultsnoozelength.label "Forvalgt udsættelseslængde:">
 <!ENTITY pref.defaultsnoozelength.accesskey "S">
-
-<!ENTITY pref.accessibility.label "Tilgængelighed" >
-<!ENTITY pref.systemcolors.label "Optimer farver for tilgængelighed" >
-<!ENTITY pref.systemcolors.accesskey "O">

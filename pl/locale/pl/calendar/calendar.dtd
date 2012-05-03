@@ -255,8 +255,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "Z" >
 <!ENTITY calendar.context.deleteserver.label           "Usuń kalendarz">
 <!ENTITY calendar.context.deleteserver.accesskey       "U">
-<!ENTITY calendar.context.synccalendars.label           "Synchronizuj kalendarze">
-<!ENTITY calendar.context.synccalendars.accesskey       "S">
+<!ENTITY calendar.context.reloadserver.label           "Odśwież zdalne kalendarze">
+<!ENTITY calendar.context.reloadserver.accesskey       "O">
 <!ENTITY calendar.context.publish.label                "Publikuj kalendarz…">
 <!ENTITY calendar.context.publish.accesskey            "P">
 <!ENTITY calendar.context.export.label                 "Eksportuj kalendarz…">
