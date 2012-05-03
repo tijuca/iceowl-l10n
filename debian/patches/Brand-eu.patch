@@ -1,3 +1,10 @@
+Message-Id: <308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
+In-Reply-To: <64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
+References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
+	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
+	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
+	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
+	<64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand eu
@@ -22,7 +29,7 @@ index e22b2dc..18af3c3 100644
  
  pref.timezone.floating=Ordu lokala
 diff --git a/eu/locale/eu/lightning/lightning.dtd b/eu/locale/eu/lightning/lightning.dtd
-index 7ee797f..a3c67f4 100644
+index 0f33dc4..7d3a9e1 100644
 --- a/eu/locale/eu/lightning/lightning.dtd
 +++ b/eu/locale/eu/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -35,7 +42,7 @@ index 7ee797f..a3c67f4 100644
  
  <!ENTITY lightning.menupopup.new.event.label    "Gertaera…">
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index 57ebd07..7183beb 100644
+index a211ec9..d30e6e0 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -45,7 +52,7 @@ index 57ebd07..7183beb 100644
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbirden integratutako egutegia
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar proiektua
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla egutegi proiektua
  
  # Lightning branding
 -brandShortName=Lightning

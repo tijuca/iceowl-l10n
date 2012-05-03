@@ -1,14 +1,34 @@
+Message-Id: <54674a84ec4ad50d943b33191aa1ffa48f35e749.1336068799.git.agx@sigxcpu.org>
+In-Reply-To: <aa933d6bee9818778dd49d18cac78f61e237ae18.1336068799.git.agx@sigxcpu.org>
+References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
+	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
+	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
+	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
+	<64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
+	<308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
+	<f96b7f473f61a8e6d4866a49d9fcc861bed443b5.1336068799.git.agx@sigxcpu.org>
+	<7e773c9b5d95a42321be6b5fc7a11cf0fd51a124.1336068799.git.agx@sigxcpu.org>
+	<6d5763889d5f114ed6f149ecd47c562f06868519.1336068799.git.agx@sigxcpu.org>
+	<e82f2035cd9341f3530199e68c11a27790f041de.1336068799.git.agx@sigxcpu.org>
+	<87e0b605aa093d95c507083de601261098cd1aff.1336068799.git.agx@sigxcpu.org>
+	<d7d5684690a5110e57b4f5a5ba48b76aff0f183c.1336068799.git.agx@sigxcpu.org>
+	<574c21aa539700de7e6214f0123644312d1724b3.1336068799.git.agx@sigxcpu.org>
+	<414a2a09a0c8f8b00c5804b2d5afd2ae704fd96f.1336068799.git.agx@sigxcpu.org>
+	<bed21802c06c687175cf38a4a62f586a9945d804.1336068799.git.agx@sigxcpu.org>
+	<790f6e636b6caf5fa02e645ea0bc473892a0b86e.1336068799.git.agx@sigxcpu.org>
+	<6e9717dcb665e73ae0c596d35f77e4c60db42f5d.1336068799.git.agx@sigxcpu.org>
+	<aa933d6bee9818778dd49d18cac78f61e237ae18.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand en-US
 
 ---
  en-GB/locale/en-GB/lightning/lightning.dtd        |    2 +-
- en-GB/locale/en-GB/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ en-GB/locale/en-GB/lightning/lightning.properties |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/en-GB/locale/en-GB/lightning/lightning.dtd b/en-GB/locale/en-GB/lightning/lightning.dtd
-index 1a217d6..a755d38 100644
+index 7cc15b3..4000e7c 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.dtd
 +++ b/en-GB/locale/en-GB/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -21,24 +41,9 @@ index 1a217d6..a755d38 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Event…">
 diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
-index c1ed16a..a10065e 100644
+index 91d674f..a10065e 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.properties
 +++ b/en-GB/locale/en-GB/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
- 
- # addon description:
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Thunderbird
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
- 
- # Lightning branding
--brandShortName=Lightning
-+brandShortName=Iceowl
- 
- # Task mode title
- taskModeApplicationTitle=Tasks
 @@ -72,7 +72,7 @@ imipBarRequestText=This message contains an invitation to an event.
  imipBarUpdateText=This message contains an update to an existing event.
  imipBarAlreadyProcessedText=This message contains an event that has already been processed.

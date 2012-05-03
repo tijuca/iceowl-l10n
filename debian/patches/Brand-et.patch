@@ -1,3 +1,9 @@
+Message-Id: <64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
+In-Reply-To: <af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
+References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
+	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
+	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
+	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand et
@@ -8,7 +14,7 @@ Subject: Brand et
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/et/locale/et/lightning/lightning.dtd b/et/locale/et/lightning/lightning.dtd
-index 1203968..53aff37 100644
+index 06a78ed..618f002 100644
 --- a/et/locale/et/lightning/lightning.dtd
 +++ b/et/locale/et/lightning/lightning.dtd
 @@ -46,7 +46,7 @@

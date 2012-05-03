@@ -1,3 +1,4 @@
+Message-Id: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand ca
@@ -8,7 +9,7 @@ Subject: Brand ca
  2 files changed, 5 insertions(+), 4 deletions(-)
 
 diff --git a/ca/locale/ca/lightning/lightning.dtd b/ca/locale/ca/lightning/lightning.dtd
-index a0ed391..2a5d59c 100644
+index 4a271ef..2882878 100644
 --- a/ca/locale/ca/lightning/lightning.dtd
 +++ b/ca/locale/ca/lightning/lightning.dtd
 @@ -46,7 +46,8 @@

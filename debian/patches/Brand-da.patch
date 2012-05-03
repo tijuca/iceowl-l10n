@@ -1,3 +1,7 @@
+Message-Id: <727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
+In-Reply-To: <56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
+References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
+	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand da
@@ -8,7 +12,7 @@ Subject: Brand da
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/da/locale/da/lightning/lightning.dtd b/da/locale/da/lightning/lightning.dtd
-index f23e207..2811819 100644
+index 53c4e66..75bb864 100644
 --- a/da/locale/da/lightning/lightning.dtd
 +++ b/da/locale/da/lightning/lightning.dtd
 @@ -46,7 +46,7 @@

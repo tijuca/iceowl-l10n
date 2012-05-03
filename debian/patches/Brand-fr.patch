@@ -1,3 +1,11 @@
+Message-Id: <f96b7f473f61a8e6d4866a49d9fcc861bed443b5.1336068799.git.agx@sigxcpu.org>
+In-Reply-To: <308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
+References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
+	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
+	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
+	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
+	<64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
+	<308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand fr
@@ -8,7 +16,7 @@ Subject: Brand fr
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fr/locale/fr/lightning/lightning.dtd b/fr/locale/fr/lightning/lightning.dtd
-index d930cfd..dee1e4b 100644
+index 990a846..32b8997 100644
 --- a/fr/locale/fr/lightning/lightning.dtd
 +++ b/fr/locale/fr/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
