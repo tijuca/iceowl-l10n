@@ -11,6 +11,14 @@ fail() {
     exit 1
 }
 
+usage () {
+    echo "Usage: $0 [-d] [-n] [-g branch] version"
+    echo "    -d: download xpi"
+    echo "    -n: don't clean"
+    echo "    -g: import into git on branch debian/<branch>"
+    exit 1
+}
+
 while [ -n "$1" ]; do
     case $1 in
         -d) DOWNLOAD=1
@@ -22,6 +30,9 @@ while [ -n "$1" ]; do
         -g) GIT_IMPORT=$2
             shift;shift
             ;;
+	-h|--help)
+	    usage
+	    ;;
         *)
             VERSION=$1
             shift
