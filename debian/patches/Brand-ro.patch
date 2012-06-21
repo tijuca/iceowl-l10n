@@ -1,0 +1,42 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Thu, 21 Jun 2012 20:19:35 +0200
+Subject: Brand ro
+
+---
+ ro/locale/ro/lightning/lightning.dtd        |    2 +-
+ ro/locale/ro/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/ro/locale/ro/lightning/lightning.dtd b/ro/locale/ro/lightning/lightning.dtd
+index b8c21ae..f3d3c56 100644
+--- a/ro/locale/ro/lightning/lightning.dtd
++++ b/ro/locale/ro/lightning/lightning.dtd
+@@ -60,7 +60,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Eveniment…">
+diff --git a/ro/locale/ro/lightning/lightning.properties b/ro/locale/ro/lightning/lightning.properties
+index ab6e310..2553d99 100644
+--- a/ro/locale/ro/lightning/lightning.properties
++++ b/ro/locale/ro/lightning/lightning.properties
+@@ -49,12 +49,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendar integrat pentru Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendar integrat pentru Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Proiectul Mozilla Calendar
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Sarcini

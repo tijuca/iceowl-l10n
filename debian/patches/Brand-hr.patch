@@ -1,0 +1,42 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Thu, 21 Jun 2012 20:18:50 +0200
+Subject: Brand hr
+
+---
+ hr/locale/hr/lightning/lightning.dtd        |    2 +-
+ hr/locale/hr/lightning/lightning.properties |    6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/hr/locale/hr/lightning/lightning.dtd b/hr/locale/hr/lightning/lightning.dtd
+index 3437c47..09f988a 100644
+--- a/hr/locale/hr/lightning/lightning.dtd
++++ b/hr/locale/hr/lightning/lightning.dtd
+@@ -46,7 +46,7 @@
+   -->
+ 
+ <!-- Tools menu -->
+-<!ENTITY lightning.taskLabel "Lightning">
++<!ENTITY lightning.taskLabel "Iceowl">
+ 
+ <!-- New menu popup in File menu -->
+ <!ENTITY lightning.menupopup.new.event.label    "Događaj…">
+diff --git a/hr/locale/hr/lightning/lightning.properties b/hr/locale/hr/lightning/lightning.properties
+index 3db46db..3828db0 100644
+--- a/hr/locale/hr/lightning/lightning.properties
++++ b/hr/locale/hr/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrirani kalendar za Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrirani kalendar za Lightning
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Zadaci
