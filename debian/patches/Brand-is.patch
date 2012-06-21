@@ -1,14 +1,3 @@
-Message-Id: <e82f2035cd9341f3530199e68c11a27790f041de.1336068799.git.agx@sigxcpu.org>
-In-Reply-To: <6d5763889d5f114ed6f149ecd47c562f06868519.1336068799.git.agx@sigxcpu.org>
-References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
-	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
-	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
-	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
-	<64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
-	<308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
-	<f96b7f473f61a8e6d4866a49d9fcc861bed443b5.1336068799.git.agx@sigxcpu.org>
-	<7e773c9b5d95a42321be6b5fc7a11cf0fd51a124.1336068799.git.agx@sigxcpu.org>
-	<6d5763889d5f114ed6f149ecd47c562f06868519.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand is
@@ -19,7 +8,7 @@ Subject: Brand is
  2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/is/locale/is/lightning/lightning.dtd b/is/locale/is/lightning/lightning.dtd
-index 42ca93b..a11ea7f 100644
+index 545af17..86a3467 100644
 --- a/is/locale/is/lightning/lightning.dtd
 +++ b/is/locale/is/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -32,7 +21,7 @@ index 42ca93b..a11ea7f 100644
  <!ENTITY lightning.menupopup.new.event.label "Atburður…">
  <!ENTITY lightning.menupopup.new.event.accesskey "A">
 diff --git a/is/locale/is/lightning/lightning.properties b/is/locale/is/lightning/lightning.properties
-index e7e0fc8..c33c55b 100644
+index 40d77f3..57b399c 100644
 --- a/is/locale/is/lightning/lightning.properties
 +++ b/is/locale/is/lightning/lightning.properties
 @@ -38,12 +38,12 @@

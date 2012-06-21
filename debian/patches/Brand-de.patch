@@ -1,8 +1,3 @@
-Message-Id: <af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
-In-Reply-To: <727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
-References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
-	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
-	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand de
@@ -16,10 +11,10 @@ Subject: Brand de
  5 files changed, 8 insertions(+), 8 deletions(-)
 
 diff --git a/de/locale/de/calendar/calendar.properties b/de/locale/de/calendar/calendar.properties
-index 542fe8b..1a27268 100644
+index b178487..276dc39 100644
 --- a/de/locale/de/calendar/calendar.properties
 +++ b/de/locale/de/calendar/calendar.properties
-@@ -381,8 +381,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
+@@ -383,8 +383,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
  pw_change_failed_title=Ändern des Passworts fehlgeschlagen
  
  # Check for Updates     (SUNBIRD_ONLY)
@@ -54,7 +49,7 @@ index fb05138..549f6ac 100644
  
  pref.timezone.floating=Lokale Zeit
 diff --git a/de/locale/de/lightning/lightning.dtd b/de/locale/de/lightning/lightning.dtd
-index 26ee6a6..425abb3 100644
+index 43f2908..a708017 100644
 --- a/de/locale/de/lightning/lightning.dtd
 +++ b/de/locale/de/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -67,7 +62,7 @@ index 26ee6a6..425abb3 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label        "Termin…">
 diff --git a/de/locale/de/lightning/lightning.properties b/de/locale/de/lightning/lightning.properties
-index d870348..ec763d8 100644
+index 843c0ef..f08e034 100644
 --- a/de/locale/de/lightning/lightning.properties
 +++ b/de/locale/de/lightning/lightning.properties
 @@ -37,12 +37,12 @@

@@ -1,27 +1,3 @@
-Message-Id: <7157c037befeb30f9ae8b92232ecd4e2639d166a.1336068799.git.agx@sigxcpu.org>
-In-Reply-To: <66a30ba49e8b45c80dfde1f2921988ce1964b97f.1336068799.git.agx@sigxcpu.org>
-References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
-	<56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
-	<727a1c60fdc68e24b2f457f5b7e3611b2aae7a7b.1336068799.git.agx@sigxcpu.org>
-	<af426bb880140c2941366a3a84fd11a714b9c778.1336068799.git.agx@sigxcpu.org>
-	<64360f6da8f2d82618e0eda5d971ee6a083851ae.1336068799.git.agx@sigxcpu.org>
-	<308046ae1d09cc7cce80fdb268cfb7fee35de13d.1336068799.git.agx@sigxcpu.org>
-	<f96b7f473f61a8e6d4866a49d9fcc861bed443b5.1336068799.git.agx@sigxcpu.org>
-	<7e773c9b5d95a42321be6b5fc7a11cf0fd51a124.1336068799.git.agx@sigxcpu.org>
-	<6d5763889d5f114ed6f149ecd47c562f06868519.1336068799.git.agx@sigxcpu.org>
-	<e82f2035cd9341f3530199e68c11a27790f041de.1336068799.git.agx@sigxcpu.org>
-	<87e0b605aa093d95c507083de601261098cd1aff.1336068799.git.agx@sigxcpu.org>
-	<d7d5684690a5110e57b4f5a5ba48b76aff0f183c.1336068799.git.agx@sigxcpu.org>
-	<574c21aa539700de7e6214f0123644312d1724b3.1336068799.git.agx@sigxcpu.org>
-	<414a2a09a0c8f8b00c5804b2d5afd2ae704fd96f.1336068799.git.agx@sigxcpu.org>
-	<bed21802c06c687175cf38a4a62f586a9945d804.1336068799.git.agx@sigxcpu.org>
-	<790f6e636b6caf5fa02e645ea0bc473892a0b86e.1336068799.git.agx@sigxcpu.org>
-	<6e9717dcb665e73ae0c596d35f77e4c60db42f5d.1336068799.git.agx@sigxcpu.org>
-	<aa933d6bee9818778dd49d18cac78f61e237ae18.1336068799.git.agx@sigxcpu.org>
-	<54674a84ec4ad50d943b33191aa1ffa48f35e749.1336068799.git.agx@sigxcpu.org>
-	<37a22afe7d88ed8395011dc0c01de7bb8671a40d.1336068799.git.agx@sigxcpu.org>
-	<601f56221d0e98cb33e7d4cec1a5d37586e4a64a.1336068799.git.agx@sigxcpu.org>
-	<66a30ba49e8b45c80dfde1f2921988ce1964b97f.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand nb-NO
@@ -31,7 +7,7 @@ Subject: Brand nb-NO
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/nb-NO/locale/nb-NO/lightning/lightning.properties b/nb-NO/locale/nb-NO/lightning/lightning.properties
-index 1f848d4..d8b1d2a 100644
+index f3f020b..147d61f 100644
 --- a/nb-NO/locale/nb-NO/lightning/lightning.properties
 +++ b/nb-NO/locale/nb-NO/lightning/lightning.properties
 @@ -38,12 +38,12 @@

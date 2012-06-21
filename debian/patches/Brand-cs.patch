@@ -1,6 +1,3 @@
-Message-Id: <56db9d711b7615ece3848c57f71f362f0e5f4fea.1336068799.git.agx@sigxcpu.org>
-In-Reply-To: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
-References: <5909887366833c92178e3ed650b87d666f9f50c1.1336068799.git.agx@sigxcpu.org>
 From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
 Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand cs
@@ -11,7 +8,7 @@ Subject: Brand cs
  2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.dtd b/cs/locale/cs/lightning/lightning.dtd
-index e3e5b1e..9cd4f88 100644
+index 304600e..2d38670 100644
 --- a/cs/locale/cs/lightning/lightning.dtd
 +++ b/cs/locale/cs/lightning/lightning.dtd
 @@ -46,7 +46,7 @@
@@ -24,7 +21,7 @@ index e3e5b1e..9cd4f88 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label "Událost…">
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index 9caab4d..bf9d6ae 100644
+index 4c93925..83a8271 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -38,12 +38,12 @@
