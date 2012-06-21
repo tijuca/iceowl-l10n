@@ -1,49 +1,3 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s): Garth Smedley <garths@oeone.com>
-   -                 Mike Potter <mikep@oeone.com>
-   -                 Chris Charabaruk <coldacid@meldstar.com>
-   -                 ArentJan Banck <ajbanck@planet.nl>
-   -                 Eric Belhaire <belhaire@ief.u-psud.fr>
-   -                 Matthew Willis <mattwillis@gmail.com>
-   -                 Simon Paquet <bugzilla@babylonsounds.com>
-   -                 Stefan Sitter <ssitter@gmail.com>
-   -                 Philipp Kewisch <mozilla@kewis.ch>
-   -                 Tatjana Jevsikova <tatjanaj@julius.ktl.mii.lt>
-   -                 Rimas Kudelis <rq@akl.lt>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
-
 <!-- General -->
 <!ENTITY calendar.calendar.label     "Kalendorius">
 <!ENTITY calendar.calendar.accesskey "K">
@@ -62,6 +16,7 @@
 <!ENTITY calendar.events.filter.today.label "Šios dienos įvykiai">
 <!ENTITY calendar.events.filter.future.label "Visi būsimieji įvykiai">
 <!ENTITY calendar.events.filter.current.label "Pažymėtos dienos įvykiai">
+<!ENTITY calendar.events.filter.currentview.label "Įvykiai aktyviame rodinyje">
 <!ENTITY calendar.events.filter.next7Days.label "Įvykiai per artimiausias 7 dienas">
 <!ENTITY calendar.events.filter.next14Days.label "Įvykiai per artimiausias 14 dienų">
 <!ENTITY calendar.events.filter.next31Days.label "Įvykiai per artimiausią 31 dieną">
@@ -178,6 +133,10 @@
 <!ENTITY calendar.task.complete.button.tooltip  "Parinktus darbus pažymėti kaip užbaigtus">
 <!ENTITY calendar.task.priority.button.tooltip  "Keisti prioritetą">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base            "Filtruoti darbus… #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Vald+Lyg2+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
+
 <!-- Statusbar -->
 <!ENTITY statusText.label            "Dokumentas baigtas">
 
@@ -212,6 +171,8 @@
 <!ENTITY calendar.context.progress.accesskey          "E">
 <!ENTITY calendar.context.priority.label              "Prioritetas">
 <!ENTITY calendar.context.priority.accesskey          "P">
+<!ENTITY calendar.context.postpone.label              "Atidėti darbą">
+<!ENTITY calendar.context.postpone.accesskey          "A">
 
 <!ENTITY percnt "&#38;#37;" ><!--=percent sign-->
 
@@ -238,6 +199,16 @@
 <!ENTITY priority.level.high                "Aukštas">
 <!ENTITY priority.level.high.accesskey      "A">
 
+<!ENTITY calendar.context.postpone.1hour.label      "1 valandai">
+<!ENTITY calendar.context.postpone.1hour.accesskey  "v">
+<!ENTITY calendar.context.postpone.1day.label       "1 dienai">
+<!ENTITY calendar.context.postpone.1day.accesskey   "d">
+<!ENTITY calendar.context.postpone.1week.label      "1 savaitei">
+<!ENTITY calendar.context.postpone.1week.accesskey  "s">
+
+<!ENTITY calendar.copylink.label       "Kopijuoti saito adresą">
+<!ENTITY calendar.copylink.accesskey   "K">
+
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
      task action buttons -->
@@ -251,14 +222,14 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "R" >
 <!ENTITY calendar.context.deleteserver.label           "Pašalinti kalendorių">
 <!ENTITY calendar.context.deleteserver.accesskey       "š">
-<!ENTITY calendar.context.reloadserver.label           "Atnaujinti nuotolinius kalendorius">
-<!ENTITY calendar.context.reloadserver.accesskey       "A">
+<!ENTITY calendar.context.synccalendars.label          "Sinchronizuoti kalendorius">
+<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "Publikuoti šį kalendorių">
 <!ENTITY calendar.context.publish.accesskey            "P">
 <!ENTITY calendar.context.export.label                 "Eksportuoti kalendorių…">
 <!ENTITY calendar.context.export.accesskey             "E">
 <!ENTITY calendar.context.properties.label             "Savybės">
-<!ENTITY calendar.context.properties.accesskey         "S">
+<!ENTITY calendar.context.properties.accesskey         "a">
 
 <!ENTITY calendar.context.convertmenu.label                "Konvertuoti į">
 <!ENTITY calendar.context.convertmenu.accesskey.mail       "e">

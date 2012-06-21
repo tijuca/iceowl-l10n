@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "р">
 <!ENTITY  event.menu.options.link.label                       "Добавить ссылку…">
 <!ENTITY  event.menu.options.link.accesskey                   "Д">
-<!ENTITY  event.menu.options.timezone.label                   "Часовой пояс">
-<!ENTITY  event.menu.options.timezone.accesskey               "Ч">
+<!ENTITY  event.menu.options.timezone2.label                   "Часовой пояс">
+<!ENTITY  event.menu.options.timezone2.accesskey               "Ч">
 <!ENTITY  event.menu.options.priority2.label                  "Приоритет">
 <!ENTITY  event.menu.options.priority2.accesskey              "р">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Не определен">
@@ -360,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot               "Следующий отрезок " >
 <!ENTITY event.freebusy.previous.slot           " Предыдущий отрезок" >
 <!ENTITY event.freebusy.zoom                    "Масштаб:">
-<!ENTITY event.freebusy.plus                    "Следующий час" >
-<!ENTITY event.freebusy.minus                   "Предыдущий час" >
 <!ENTITY event.freebusy.legend.free             "Свободен" >
 <!ENTITY event.freebusy.legend.busy             "Занят" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Неопределено" >
@@ -374,6 +372,7 @@
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Укажите часовой пояс">
+<!ENTITY event.timezone.custom.label     "Дополнительные часовые пояса…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Основные">

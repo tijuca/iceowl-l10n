@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "s">
 <!ENTITY  event.menu.options.link.label                       "Lisää linkki…">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "Aikavyöhyke">
-<!ENTITY  event.menu.options.timezone.accesskey               "A">
+<!ENTITY  event.menu.options.timezone2.label                  "Näytä aikavyöhykkeet">
+<!ENTITY  event.menu.options.timezone2.accesskey              "a">
 <!ENTITY  event.menu.options.priority2.label                  "Tärkeysaste">
 <!ENTITY  event.menu.options.priority2.accesskey              "T">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Ei määritetty">
@@ -360,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot               "Seuraava aika " >
 <!ENTITY event.freebusy.previous.slot           " Edellinen aika" >
 <!ENTITY event.freebusy.zoom                    "Suurenna:">
-<!ENTITY event.freebusy.plus                    "Seuraava tunti" >
-<!ENTITY event.freebusy.minus                   "Edellinen tunti" >
 <!ENTITY event.freebusy.legend.free             "Vapaa" >
 <!ENTITY event.freebusy.legend.busy             "Varattu" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Alustava" >
@@ -374,6 +372,7 @@
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Määritä aikavyöhyke">
+<!ENTITY event.timezone.custom.label     "Muut aikavyöhykkeet…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Yleistiedot">
