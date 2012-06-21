@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "ת">
 <!ENTITY  event.menu.options.link.label                       "הוסף קישור…">
 <!ENTITY  event.menu.options.link.accesskey                   "ק">
-<!ENTITY  event.menu.options.timezone.label                   "אזור זמן">
-<!ENTITY  event.menu.options.timezone.accesskey               "ז">
+<!ENTITY  event.menu.options.timezone2.label                  "הצגת אזורי זמן">
+<!ENTITY  event.menu.options.timezone2.accesskey              "ז">
 <!ENTITY  event.menu.options.priority2.label                  "דחיפות">
 <!ENTITY  event.menu.options.priority2.accesskey              "ד">
 <!ENTITY  event.menu.options.priority.notspecified.label      "לא צוינה">
@@ -333,15 +333,6 @@
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "יום שישי" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "יום שבת" >
 <!ENTITY event.recurrence.of.label                           "מתוך" >
-<!ENTITY event.recurrence.yearly.every.label                 "בכל">
-<!ENTITY event.recurrence.yearly.first.label                 "הראשון">
-<!ENTITY event.recurrence.yearly.second.label                "השני">
-<!ENTITY event.recurrence.yearly.third.label                 "השלישי">
-<!ENTITY event.recurrence.yearly.fourth.label                "הרביעי">
-<!ENTITY event.recurrence.yearly.fifth.label                 "החמישי">
-<!ENTITY event.recurrence.yearly.last.label                  "האחרון">
-
-<!ENTITY event.recurrence.of.label                           "" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "בינואר" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "בפברואר" >
 <!ENTITY event.recurrence.pattern.yearly.month2.3.label      "במרץ" >
@@ -369,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot               "משבצת הבאה " >
 <!ENTITY event.freebusy.previous.slot           " משבצת קודמת" >
 <!ENTITY event.freebusy.zoom                    "התקרבות:">
-<!ENTITY event.freebusy.plus                    "שעה הבאה" >
-<!ENTITY event.freebusy.minus                   "שעה קודמת" >
 <!ENTITY event.freebusy.legend.free             "פנוי" >
 <!ENTITY event.freebusy.legend.busy             "עסוק" >
 <!ENTITY event.freebusy.legend.busy_tentative   "לא סופי" >
@@ -382,7 +371,8 @@
 <!ENTITY event.attendee.role.nonparticipant     "ללא השתתפות">
 
 <!-- Timezone dialog -->
-<!ENTITY timezone.title.label            "בבקשה ציין אזור זמן">
+<!ENTITY timezone.title.label            "בבקשה לציין את אזור הזמן">
+<!ENTITY event.timezone.custom.label     "אזורי זמן נוספים…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "כללי">

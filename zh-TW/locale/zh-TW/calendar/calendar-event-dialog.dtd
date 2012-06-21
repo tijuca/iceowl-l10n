@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "S">
 <!ENTITY  event.menu.options.link.label                       "新增鏈結…">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "時區">
-<!ENTITY  event.menu.options.timezone.accesskey               "z">
+<!ENTITY  event.menu.options.timezone2.label                  "顯示時區">
+<!ENTITY  event.menu.options.timezone2.accesskey              "z">
 <!ENTITY  event.menu.options.priority2.label                  "重要性">
 <!ENTITY  event.menu.options.priority2.accesskey              "y">
 <!ENTITY  event.menu.options.priority.notspecified.label      "未指定">
@@ -192,7 +192,7 @@
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "標題:" >
-<!ENTITY event.title.textbox.accesskey                    "T">
+<!ENTITY event.title.textbox.accesskey                    "i">
 <!ENTITY event.location.label                             "地點:" >
 <!ENTITY event.location.accesskey                         "L">
 <!ENTITY event.categories.label                           "分類:">
@@ -200,13 +200,13 @@
 <!ENTITY event.calendar.label                             "行事曆:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "與會者:" >
-<!ENTITY event.attendees.accesskey                        "A" >
+<!ENTITY event.attendees.accesskey                        "I" >
 <!ENTITY event.alldayevent.label                          "全天事件" >
 <!ENTITY event.alldayevent.accesskey                      "d">
 <!ENTITY event.from.label                                 "開始:" >
 <!ENTITY event.from.accesskey                             "S">
 <!ENTITY task.from.label                                  "開始:" >
-<!ENTITY task.from.accesskey                              "S">
+<!ENTITY task.from.accesskey                              "B">
 <!ENTITY event.to.label                                   "結束:" >
 <!ENTITY event.to.accesskey                               "n">
 <!ENTITY task.to.label                                    "到期日:" >
@@ -360,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot               "下一個時段 " >
 <!ENTITY event.freebusy.previous.slot           " 上一個時段" >
 <!ENTITY event.freebusy.zoom                    "放大:">
-<!ENTITY event.freebusy.plus                    "下一個小時" >
-<!ENTITY event.freebusy.minus                   "上一個小時" >
 <!ENTITY event.freebusy.legend.free             "空閒" >
 <!ENTITY event.freebusy.legend.busy             "忙碌" >
 <!ENTITY event.freebusy.legend.busy_tentative   "暫訂" >
@@ -374,6 +372,7 @@
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "請指定時區">
+<!ENTITY event.timezone.custom.label     "更多時區…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "一般">

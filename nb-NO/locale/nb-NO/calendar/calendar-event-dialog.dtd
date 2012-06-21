@@ -148,8 +148,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "v">
 <!ENTITY  event.menu.options.link.label                       "Legg til lenke …">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "Tidssone">
-<!ENTITY  event.menu.options.timezone.accesskey               "T">
+<!ENTITY  event.menu.options.timezone2.label                  "Vis tidssoner">
+<!ENTITY  event.menu.options.timezone2.accesskey              "s">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritet">
 <!ENTITY  event.menu.options.priority2.accesskey              "P">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Ikke oppgitt">
@@ -360,8 +360,6 @@
 <!ENTITY event.freebusy.next.slot               "Neste tidsluke" >
 <!ENTITY event.freebusy.previous.slot           " Forrige tidsluke" >
 <!ENTITY event.freebusy.zoom                    "Forstørring:">
-<!ENTITY event.freebusy.plus                    "Neste time" >
-<!ENTITY event.freebusy.minus                   "Forrige time" >
 <!ENTITY event.freebusy.legend.free             "Ledig" >
 <!ENTITY event.freebusy.legend.busy             "Opptatt" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Tentativ" >
@@ -374,6 +372,7 @@
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Oppgi tidssone">
+<!ENTITY event.timezone.custom.label     "Flere tidssoner …">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Generelt">
