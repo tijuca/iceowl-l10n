@@ -367,7 +367,7 @@ Architecture: all
 Depends: ${misc:Depends},
  iceowl-extension (>= IOE_MIN_VER) | iceowl (>= IO_MIN_VER),
  iceowl-extension (<< IOE_MAX_VER) | iceowl (<< IO_MAX_VER)
-Description: Romanian Nynorsk (Norway) language package for Iceowl
+Description: Romanian language package for Iceowl
  Iceowl is a Mozilla Based Calendar application. The goal is to produce a cross
  platform stand alone Calendar application using the XUL user interface
  language. Iceowl leaves a somewhat smaller memory footprint than the Mozilla
