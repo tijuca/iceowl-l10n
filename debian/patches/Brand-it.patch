@@ -3,28 +3,14 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand it
 
 ---
- it/locale/it/lightning/lightning.dtd        |    2 +-
  it/locale/it/lightning/lightning.properties |    2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/it/locale/it/lightning/lightning.dtd b/it/locale/it/lightning/lightning.dtd
-index bafbe7c..1bf0abe 100644
---- a/it/locale/it/lightning/lightning.dtd
-+++ b/it/locale/it/lightning/lightning.dtd
-@@ -40,7 +40,7 @@
-    - the terms of any one of the MPL, the GPL or the LGPL.
-    -
-    - ***** END LICENSE BLOCK ***** -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- <!ENTITY lightning.menupopup.new.event.label "Evento…">
- <!ENTITY lightning.menupopup.new.event.accesskey "E">
- <!ENTITY lightning.menupopup.new.task.label "Attività…">
 diff --git a/it/locale/it/lightning/lightning.properties b/it/locale/it/lightning/lightning.properties
-index a61465d..419be53 100644
+index 6053788..1e041c1 100644
 --- a/it/locale/it/lightning/lightning.properties
 +++ b/it/locale/it/lightning/lightning.properties
-@@ -62,7 +62,7 @@ imipBarRequestText = Questo messaggio contiene un invito ad un evento.
+@@ -63,7 +63,7 @@ imipBarRequestText = Questo messaggio contiene un invito ad un evento.
  imipBarUpdateText = Questo messaggio contiene un aggiornamento per un evento esistente.
  imipBarAlreadyProcessedText = Questo messaggio contiene un evento che è stato già processato.
  imipBarReplyText = Questo messaggio contiene una risposta ad un invito.

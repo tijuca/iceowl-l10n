@@ -3,28 +3,14 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand en-GB
 
 ---
- en-GB/locale/en-GB/lightning/lightning.dtd        |    2 +-
  en-GB/locale/en-GB/lightning/lightning.properties |    2 +-
- 2 files changed, 2 insertions(+), 2 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/en-GB/locale/en-GB/lightning/lightning.dtd b/en-GB/locale/en-GB/lightning/lightning.dtd
-index 3a27fc3..264a792 100644
---- a/en-GB/locale/en-GB/lightning/lightning.dtd
-+++ b/en-GB/locale/en-GB/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Event…">
 diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
-index 27bf51d..5609719 100644
+index 645e117..1eb8137 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.properties
 +++ b/en-GB/locale/en-GB/lightning/lightning.properties
-@@ -72,7 +72,7 @@ imipBarRequestText=This message contains an invitation to an event.
+@@ -38,7 +38,7 @@ imipBarRequestText=This message contains an invitation to an event.
  imipBarUpdateText=This message contains an update to an existing event.
  imipBarAlreadyProcessedText=This message contains an event that has already been processed.
  imipBarReplyText=This message contains a reply to an invitation.

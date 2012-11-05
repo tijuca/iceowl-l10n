@@ -3,30 +3,15 @@ Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand ca
 
 ---
- ca/locale/ca/lightning/lightning.dtd        |    3 ++-
  ca/locale/ca/lightning/lightning.properties |    6 +++---
- 2 files changed, 5 insertions(+), 4 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/ca/locale/ca/lightning/lightning.dtd b/ca/locale/ca/lightning/lightning.dtd
-index 52d3f4d..29ae5db 100644
---- a/ca/locale/ca/lightning/lightning.dtd
-+++ b/ca/locale/ca/lightning/lightning.dtd
-@@ -46,7 +46,8 @@
- <!-- Tools menu -->
- 
- 
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
-+
- <!-- New menu popup in File menu -->
- 
- <!ENTITY lightning.menupopup.new.event.label    "Cita…">
 diff --git a/ca/locale/ca/lightning/lightning.properties b/ca/locale/ca/lightning/lightning.properties
-index c5db23c..56db88b 100644
+index e97e87f..cd34886 100644
 --- a/ca/locale/ca/lightning/lightning.properties
 +++ b/ca/locale/ca/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -40,7 +25,7 @@ index c5db23c..56db88b 100644
  
  # Task mode title
  taskModeApplicationTitle=Tasques
-@@ -72,7 +72,7 @@ imipBarRequestText=Aquest missatge conté una invitació a una cita.
+@@ -38,7 +38,7 @@ imipBarRequestText=Aquest missatge conté una invitació a una cita.
  imipBarUpdateText=Aquest missatge conté un canvi d'una cita ja existent.
  imipBarAlreadyProcessedText=Aquest missatge conté una invitació a una cita que ja ha estat tractada.
  imipBarReplyText=Aquest missatge conté una resposta a una invitació.

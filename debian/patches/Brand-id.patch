@@ -4,15 +4,14 @@ Subject: Brand id
 
 ---
  en-GB/locale/en-GB/lightning/lightning.properties |    4 ++--
- nb-NO/locale/nb-NO/lightning/lightning.dtd        |    2 +-
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
-index 1b2b190..27bf51d 100644
+index e63e0c3..645e117 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.properties
 +++ b/en-GB/locale/en-GB/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -26,16 +25,3 @@ index 1b2b190..27bf51d 100644
  
  # Task mode title
  taskModeApplicationTitle=Tasks
-diff --git a/nb-NO/locale/nb-NO/lightning/lightning.dtd b/nb-NO/locale/nb-NO/lightning/lightning.dtd
-index 62a9043..d13fd54 100644
---- a/nb-NO/locale/nb-NO/lightning/lightning.dtd
-+++ b/nb-NO/locale/nb-NO/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Hendelse …">

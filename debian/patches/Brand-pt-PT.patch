@@ -3,25 +3,11 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand pt-PT
 
 ---
- pt-PT/locale/pt-PT/lightning/lightning.dtd        |    2 +-
  pt-PT/locale/pt-PT/lightning/lightning.properties |   17 +++++++++++++----
- 2 files changed, 14 insertions(+), 5 deletions(-)
+ 1 file changed, 13 insertions(+), 4 deletions(-)
 
-diff --git a/pt-PT/locale/pt-PT/lightning/lightning.dtd b/pt-PT/locale/pt-PT/lightning/lightning.dtd
-index f36e353..f200ae2 100644
---- a/pt-PT/locale/pt-PT/lightning/lightning.dtd
-+++ b/pt-PT/locale/pt-PT/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Evento…">
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
-index 344e5f9..b19401c 100644
+index d179d2e..8128b1c 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.properties
 @@ -38,12 +38,12 @@
@@ -41,7 +27,7 @@ index 344e5f9..b19401c 100644
  
  # Task mode title
  taskModeApplicationTitle=Tarefas
-@@ -72,8 +72,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
+@@ -73,8 +73,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
  imipBarUpdateText=Esta mensagem contém uma actualização para um evento.
  imipBarAlreadyProcessedText=Esta mensagem contém um evento que já foi processado.
  imipBarReplyText=Esta mensagem contém uma resposta a um convite.

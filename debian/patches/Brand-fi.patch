@@ -4,9 +4,8 @@ Subject: Brand fi
 
 ---
  fi/locale/fi/calendar/migration.properties  |    2 +-
- fi/locale/fi/lightning/lightning.dtd        |    2 +-
  fi/locale/fi/lightning/lightning.properties |    4 ++--
- 3 files changed, 4 insertions(+), 4 deletions(-)
+ 2 files changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/fi/locale/fi/calendar/migration.properties b/fi/locale/fi/calendar/migration.properties
 index 3252650..5f4446d 100644
@@ -18,25 +17,12 @@ index 3252650..5f4446d 100644
  disableExtTitle = Yhteensopimaton laajennus löytyi
 -disableExtText = Sinulla on asennettuna vanha Mozillan kalenterilaajennus, joka ei ole yhteensopiva Lightningin kanssa. Vanha laajennus poistetaan käytöstä ja %1$S käynnistetään uudelleen.
 +disableExtText = Sinulla on asennettuna vanha Mozillan kalenterilaajennus, joka ei ole yhteensopiva Iceowl kanssa. Vanha laajennus poistetaan käytöstä ja %1$S käynnistetään uudelleen.
-diff --git a/fi/locale/fi/lightning/lightning.dtd b/fi/locale/fi/lightning/lightning.dtd
-index 0eb9e30..7fd9090 100644
---- a/fi/locale/fi/lightning/lightning.dtd
-+++ b/fi/locale/fi/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Tapahtuma…">
 diff --git a/fi/locale/fi/lightning/lightning.properties b/fi/locale/fi/lightning/lightning.properties
-index cf2ee56..2ec2307 100644
+index 4490a47..f4f3be8 100644
 --- a/fi/locale/fi/lightning/lightning.properties
 +++ b/fi/locale/fi/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning

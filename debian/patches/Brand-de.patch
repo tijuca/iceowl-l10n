@@ -6,15 +6,14 @@ Subject: Brand de
  de/locale/de/calendar/calendar.properties   |    4 ++--
  de/locale/de/calendar/migration.properties  |    2 +-
  de/locale/de/calendar/timezones.properties  |    2 +-
- de/locale/de/lightning/lightning.dtd        |    2 +-
  de/locale/de/lightning/lightning.properties |    6 +++---
- 5 files changed, 8 insertions(+), 8 deletions(-)
+ 4 files changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/de/locale/de/calendar/calendar.properties b/de/locale/de/calendar/calendar.properties
-index b178487..276dc39 100644
+index 7823f78..226180d 100644
 --- a/de/locale/de/calendar/calendar.properties
 +++ b/de/locale/de/calendar/calendar.properties
-@@ -383,8 +383,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
+@@ -344,8 +344,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
  pw_change_failed_title=Ändern des Passworts fehlgeschlagen
  
  # Check for Updates     (SUNBIRD_ONLY)
@@ -26,20 +25,20 @@ index b178487..276dc39 100644
  updatesItem_downloadingFallback=Update wird heruntergeladen…
  updatesItem_resume=Herunterladen von %S fortsetzen…
 diff --git a/de/locale/de/calendar/migration.properties b/de/locale/de/calendar/migration.properties
-index ba97110..bd7e3c2 100644
+index 8ac8a9f..a1677d4 100644
 --- a/de/locale/de/calendar/migration.properties
 +++ b/de/locale/de/calendar/migration.properties
-@@ -43,4 +43,4 @@ migrationTitle = %1$S: Daten-Import
+@@ -10,4 +10,4 @@ migrationTitle = %1$S: Daten-Import
  migrationDescription=%1$S kann Kalenderdaten von vielen bekannten Programmen importieren. Es wurden Daten von folgenden Programmen auf Ihrem Computer gefunden. Bitte wählen Sie aus, von welchen Programmen Sie Daten importieren möchten.
  finished = Komplett
  disableExtTitle = Inkompatible Erweiterung gefunden
 -disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Lightning nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
 +disableExtText = Sie haben die alte Mozilla Kalendererweiterung installiert, welche mit Iceowl nicht kompatibel ist. Sie wird deaktiviert und %1$S wird neu gestartet.
 diff --git a/de/locale/de/calendar/timezones.properties b/de/locale/de/calendar/timezones.properties
-index fb05138..549f6ac 100644
+index 06a0e8e..29d77b2 100644
 --- a/de/locale/de/calendar/timezones.properties
 +++ b/de/locale/de/calendar/timezones.properties
-@@ -41,7 +41,7 @@
+@@ -4,7 +4,7 @@
  
  # extension:
  extensions.calendar-timezones@mozilla.org.name=Zeitzonendefinitionen für Mozilla Calendar
@@ -48,25 +47,12 @@ index fb05138..549f6ac 100644
  extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar Project
  
  pref.timezone.floating=Lokale Zeit
-diff --git a/de/locale/de/lightning/lightning.dtd b/de/locale/de/lightning/lightning.dtd
-index 43f2908..a708017 100644
---- a/de/locale/de/lightning/lightning.dtd
-+++ b/de/locale/de/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
-    
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label        "Termin…">
 diff --git a/de/locale/de/lightning/lightning.properties b/de/locale/de/lightning/lightning.properties
-index 843c0ef..f08e034 100644
+index b8173dd..6ca91c3 100644
 --- a/de/locale/de/lightning/lightning.properties
 +++ b/de/locale/de/lightning/lightning.properties
-@@ -37,12 +37,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -80,7 +66,7 @@ index 843c0ef..f08e034 100644
  
  # Task mode title
  taskModeApplicationTitle=Aufgaben
-@@ -71,7 +71,7 @@ imipBarRequestText=Diese Nachricht enthält eine Termineinladung.
+@@ -38,7 +38,7 @@ imipBarRequestText=Diese Nachricht enthält eine Termineinladung.
  imipBarUpdateText=Diese Nachricht enthält eine Aktualisierung für einen vorhandenen Termin.
  imipBarAlreadyProcessedText=Diese Nachricht enthält einen Termin, der bereits verarbeitet wurde.
  imipBarReplyText=Diese Nachricht enthält eine Antwort auf eine Einladung.

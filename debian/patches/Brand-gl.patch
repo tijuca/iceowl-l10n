@@ -3,25 +3,11 @@ Date: Thu, 21 Jun 2012 20:18:12 +0200
 Subject: Brand gl
 
 ---
- gl/locale/gl/lightning/lightning.dtd        |    2 +-
  gl/locale/gl/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/gl/locale/gl/lightning/lightning.dtd b/gl/locale/gl/lightning/lightning.dtd
-index f9c47ef..c966228 100644
---- a/gl/locale/gl/lightning/lightning.dtd
-+++ b/gl/locale/gl/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Evento…">
 diff --git a/gl/locale/gl/lightning/lightning.properties b/gl/locale/gl/lightning/lightning.properties
-index 12fad85..4c1f787 100644
+index d9b5324..799690c 100644
 --- a/gl/locale/gl/lightning/lightning.properties
 +++ b/gl/locale/gl/lightning/lightning.properties
 @@ -38,12 +38,12 @@

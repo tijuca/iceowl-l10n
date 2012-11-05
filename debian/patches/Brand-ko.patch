@@ -3,25 +3,11 @@ Date: Thu, 21 Jun 2012 20:19:18 +0200
 Subject: Brand ko
 
 ---
- ko/locale/ko/lightning/lightning.dtd        |    2 +-
  ko/locale/ko/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/ko/locale/ko/lightning/lightning.dtd b/ko/locale/ko/lightning/lightning.dtd
-index 82031fc..3a48630 100644
---- a/ko/locale/ko/lightning/lightning.dtd
-+++ b/ko/locale/ko/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "이벤트…">
 diff --git a/ko/locale/ko/lightning/lightning.properties b/ko/locale/ko/lightning/lightning.properties
-index 8179fe2..713af7e 100644
+index a6113d9..2bdf59b 100644
 --- a/ko/locale/ko/lightning/lightning.properties
 +++ b/ko/locale/ko/lightning/lightning.properties
 @@ -38,12 +38,12 @@

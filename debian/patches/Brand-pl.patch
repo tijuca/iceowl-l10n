@@ -3,29 +3,15 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand pl
 
 ---
- pl/locale/pl/lightning/lightning.dtd        |    2 +-
  pl/locale/pl/lightning/lightning.properties |    4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/pl/locale/pl/lightning/lightning.dtd b/pl/locale/pl/lightning/lightning.dtd
-index 5faa23d..29f0957 100644
---- a/pl/locale/pl/lightning/lightning.dtd
-+++ b/pl/locale/pl/lightning/lightning.dtd
-@@ -43,7 +43,7 @@
-    - ***** END LICENSE BLOCK ***** -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label        "Wydarzenie…">
 diff --git a/pl/locale/pl/lightning/lightning.properties b/pl/locale/pl/lightning/lightning.properties
-index 87a2beb..fc6f108 100644
+index 8665607..6f2e7d2 100644
 --- a/pl/locale/pl/lightning/lightning.properties
 +++ b/pl/locale/pl/lightning/lightning.properties
-@@ -40,12 +40,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning

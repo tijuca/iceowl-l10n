@@ -3,25 +3,11 @@ Date: Sat, 2 Apr 2011 10:37:15 +0200
 Subject: Brand et
 
 ---
- et/locale/et/lightning/lightning.dtd        |    2 +-
  et/locale/et/lightning/lightning.properties |    4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/et/locale/et/lightning/lightning.dtd b/et/locale/et/lightning/lightning.dtd
-index 9ae8eab..566c6ce 100644
---- a/et/locale/et/lightning/lightning.dtd
-+++ b/et/locale/et/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label        "Sündmus…">
 diff --git a/et/locale/et/lightning/lightning.properties b/et/locale/et/lightning/lightning.properties
-index b6cdb98..1fd621b 100644
+index 16ed539..d19248f 100644
 --- a/et/locale/et/lightning/lightning.properties
 +++ b/et/locale/et/lightning/lightning.properties
 @@ -38,12 +38,12 @@

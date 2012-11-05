@@ -4,39 +4,25 @@ Subject: Brand zh-CN
 
 ---
  zh-CN/locale/zh-CN/calendar/migration.properties  |    2 +-
- zh-CN/locale/zh-CN/lightning/lightning.dtd        |    2 +-
  zh-CN/locale/zh-CN/lightning/lightning.properties |    6 +++---
- 3 files changed, 5 insertions(+), 5 deletions(-)
+ 2 files changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/zh-CN/locale/zh-CN/calendar/migration.properties b/zh-CN/locale/zh-CN/calendar/migration.properties
-index 2154d8c..61e6dec 100644
+index 141367d..3049141 100644
 --- a/zh-CN/locale/zh-CN/calendar/migration.properties
 +++ b/zh-CN/locale/zh-CN/calendar/migration.properties
-@@ -43,4 +43,4 @@ migrationTitle = %1$S： 数据导入
+@@ -10,4 +10,4 @@ migrationTitle = %1$S： 数据导入
  migrationDescription=%1$S 可以从很多常用应用软件中导入日历数据，数据来自于您电脑中所发现的以下应用软件，请选择您想导入数据的软件。
  finished = 完成
  disableExtTitle = 发现不兼容扩展
 -disableExtText = 您安装了不兼容 Lightning 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
 +disableExtText = 您安装了不兼容 Iceowl 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
-diff --git a/zh-CN/locale/zh-CN/lightning/lightning.dtd b/zh-CN/locale/zh-CN/lightning/lightning.dtd
-index 4aca7f9..2f87ea4 100644
---- a/zh-CN/locale/zh-CN/lightning/lightning.dtd
-+++ b/zh-CN/locale/zh-CN/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "事件…">
 diff --git a/zh-CN/locale/zh-CN/lightning/lightning.properties b/zh-CN/locale/zh-CN/lightning/lightning.properties
-index 1a29369..3e06574 100644
+index 9a074ba..cb587bd 100644
 --- a/zh-CN/locale/zh-CN/lightning/lightning.properties
 +++ b/zh-CN/locale/zh-CN/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -50,7 +36,7 @@ index 1a29369..3e06574 100644
  
  # Task mode title
  taskModeApplicationTitle=任务
-@@ -72,7 +72,7 @@ imipBarRequestText=此消息包含一个事件的邀请。
+@@ -38,7 +38,7 @@ imipBarRequestText=此消息包含一个事件的邀请。
  imipBarUpdateText=此消息包含一个已经存在的事件。
  imipBarAlreadyProcessedText=此消息包含一个已处理事件。
  imipBarReplyText=此消息包含一个邀请的回复。

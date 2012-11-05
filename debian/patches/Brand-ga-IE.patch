@@ -3,29 +3,15 @@ Date: Thu, 21 Jun 2012 20:06:06 +0200
 Subject: Brand ga-IE
 
 ---
- ga-IE/locale/ga-IE/lightning/lightning.dtd        |    2 +-
  ga-IE/locale/ga-IE/lightning/lightning.properties |    4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/ga-IE/locale/ga-IE/lightning/lightning.dtd b/ga-IE/locale/ga-IE/lightning/lightning.dtd
-index 0347b98..f2b38cf 100644
---- a/ga-IE/locale/ga-IE/lightning/lightning.dtd
-+++ b/ga-IE/locale/ga-IE/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
- <!-- Tools menu -->
- 
- 
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- <!-- New menu popup in File menu -->
- 
- <!ENTITY lightning.menupopup.new.event.label "Imeacht…">
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
-index 56fc777..6635f7b 100644
+index 99f8692..b391a4c 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.properties
 +++ b/ga-IE/locale/ga-IE/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning

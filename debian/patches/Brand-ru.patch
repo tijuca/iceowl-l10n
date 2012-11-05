@@ -3,29 +3,32 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand ru
 
 ---
- ru/locale/ru/lightning/lightning.dtd        |    2 +-
+ ru/locale/ru/lightning/lightning.dtd        |    4 ++++
  ru/locale/ru/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ 2 files changed, 7 insertions(+), 3 deletions(-)
 
 diff --git a/ru/locale/ru/lightning/lightning.dtd b/ru/locale/ru/lightning/lightning.dtd
-index 5ed4672..adde9f6 100644
+index 7b75598..be80bbe 100644
 --- a/ru/locale/ru/lightning/lightning.dtd
 +++ b/ru/locale/ru/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
+@@ -8,7 +8,11 @@
    -->
  
  <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
++<<<<<<< HEAD
+ <!ENTITY lightning.preferencesLabel "Календарь">
++=======
 +<!ENTITY lightning.taskLabel "Iceowl">
++>>>>>>> Brand ru
  
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Событие…">
 diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
-index 4d7b57a..ae92d77 100644
+index b381c54..61d16c0 100644
 --- a/ru/locale/ru/lightning/lightning.properties
 +++ b/ru/locale/ru/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,7 +42,7 @@ index 4d7b57a..ae92d77 100644
  
  # Task mode title
  taskModeApplicationTitle=Задачи
-@@ -72,7 +72,7 @@ imipBarRequestText=Это письмо содержит приглашение 
+@@ -38,7 +38,7 @@ imipBarRequestText=Это письмо содержит приглашение 
  imipBarUpdateText=Это письмо содержит обновление существующего события.
  imipBarAlreadyProcessedText=Это письмо содержит событие, которое уже обработано.
  imipBarReplyText=Это письмо содержит ответ на приглашение..

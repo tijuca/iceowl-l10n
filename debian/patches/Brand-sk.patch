@@ -3,29 +3,15 @@ Date: Sat, 2 Apr 2011 10:37:16 +0200
 Subject: Brand sk
 
 ---
- sk/locale/sk/lightning/lightning.dtd        |    2 +-
  sk/locale/sk/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
-diff --git a/sk/locale/sk/lightning/lightning.dtd b/sk/locale/sk/lightning/lightning.dtd
-index 5b53868..2372686 100644
---- a/sk/locale/sk/lightning/lightning.dtd
-+++ b/sk/locale/sk/lightning/lightning.dtd
-@@ -45,7 +45,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Udalosť…">
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 4890d55..097d19f 100644
+index c30f4ae..9ea5e4d 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,7 +25,7 @@ index 4890d55..097d19f 100644
  
  # Task mode title
  taskModeApplicationTitle=Úlohy
-@@ -72,7 +72,7 @@ imipBarRequestText=Táto správa obsahuje pozvánku na udalosť.
+@@ -38,7 +38,7 @@ imipBarRequestText=Táto správa obsahuje pozvánku na udalosť.
  imipBarUpdateText=Táto správa obsahuje aktualizáciu existujúcej udalosti.
  imipBarAlreadyProcessedText=Táto správa obsahuje udalosť, ktorá už bola spracovaná.
  imipBarReplyText=Táto správa obsahuje odpoveď na pozvánku.

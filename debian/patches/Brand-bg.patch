@@ -1,0 +1,38 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Mon, 5 Nov 2012 21:27:59 +0100
+Subject: Brand bg
+
+---
+ bg/locale/bg/lightning/lightning.properties |   10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/bg/locale/bg/lightning/lightning.properties b/bg/locale/bg/lightning/lightning.properties
+index 2729920..d0603fd 100644
+--- a/bg/locale/bg/lightning/lightning.properties
++++ b/bg/locale/bg/lightning/lightning.properties
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Вграден календар за Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Вграден календар за Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Проект Мозила Календар
+ 
+-# Lightning branding
+-brandShortName=Lightning
++# Iceowl branding
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Задачи
+@@ -38,7 +38,7 @@ imipBarRequestText=Това писмо съдържа покана за съби
+ imipBarUpdateText=Това писмо съдържа промяна за съществуващо събитие.
+ imipBarAlreadyProcessedText=Това писмо съдържа информация за събитие, коете вече е изминало.
+ imipBarReplyText=Това писмо съдържа отговор на покана.
+-imipBarUnsupportedText=Това писмо съдържа информация за събитие, което тази версия на Lightning не може да обработи.
++imipBarUnsupportedText=Това писмо съдържа информация за събитие, което тази версия на Iceowl не може да обработи.
+ imipBarProcessingFailed=Неуспешна обработка на писмо. Статус: %1$S.
+ imipAcceptInvitation.label=Приемане
+ imipCancelInvitation.label=Изтриване

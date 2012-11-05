@@ -1,0 +1,38 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Mon, 5 Nov 2012 21:26:10 +0100
+Subject: Brand tr
+
+---
+ tr/locale/tr/lightning/lightning.properties |   10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/tr/locale/tr/lightning/lightning.properties b/tr/locale/tr/lightning/lightning.properties
+index ff06d9e..9780069 100644
+--- a/tr/locale/tr/lightning/lightning.properties
++++ b/tr/locale/tr/lightning/lightning.properties
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird'e Dahil Edilmiş Bir Takvim
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedove'e Dahil Edilmiş Bir Takvim
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla takvim projesi
+ 
+-# Lightning branding
+-brandShortName=Lightning
++# Iceowl branding
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Görevler
+@@ -38,7 +38,7 @@ imipBarRequestText=Bu ileti etkinliğe davetiye içeriyor.
+ imipBarUpdateText=Bu ileti var olan etkinlik güncellenme isteği içeriyor.
+ imipBarAlreadyProcessedText=Bu ileti var olan etkinliği içeriyor.
+ imipBarReplyText=Bu ileti bir davetiyeye cevap içeriyor.
+-imipBarUnsupportedText=Bu ileti bir etkinlik içeriyor ve Lightning uygulamasının bu sürümü ile desteklenmiyor.
++imipBarUnsupportedText=Bu ileti bir etkinlik içeriyor ve Iceowl uygulamasının bu sürümü ile desteklenmiyor.
+ imipBarProcessingFailed=İleti işlenemedi. Durum: %1$S.
+ imipAcceptInvitation.label=Kabul et
+ imipCancelInvitation.label=Sil

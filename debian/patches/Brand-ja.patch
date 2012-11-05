@@ -5,25 +5,24 @@ Subject: Brand ja
 ---
  ja/locale/ja/calendar/migration.properties  |    2 +-
  ja/locale/ja/calendar/timezones.properties  |    2 +-
- ja/locale/ja/lightning/lightning.dtd        |    2 +-
  ja/locale/ja/lightning/lightning.properties |    6 +++---
- 4 files changed, 6 insertions(+), 6 deletions(-)
+ 3 files changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/ja/locale/ja/calendar/migration.properties b/ja/locale/ja/calendar/migration.properties
-index 0b571e4..8f793c0 100644
+index 3e3449e..450d3f4 100644
 --- a/ja/locale/ja/calendar/migration.properties
 +++ b/ja/locale/ja/calendar/migration.properties
-@@ -43,4 +43,4 @@ migrationTitle = %1$S: データのインポート
+@@ -10,4 +10,4 @@ migrationTitle = %1$S: データのインポート
  migrationDescription=%1$S は他のプログラムからデータをインポートできます。以下のプログラムのデータが見つかりました。どのデータをインポートするか選択してください。
  finished = 完了
  disableExtTitle = 互換性のない拡張が見つかりました
 -disableExtText = Lightning と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
 +disableExtText = Iceowl と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
 diff --git a/ja/locale/ja/calendar/timezones.properties b/ja/locale/ja/calendar/timezones.properties
-index 3c61c5e..6578404 100644
+index fe46d9c..b866215 100644
 --- a/ja/locale/ja/calendar/timezones.properties
 +++ b/ja/locale/ja/calendar/timezones.properties
-@@ -41,7 +41,7 @@
+@@ -4,7 +4,7 @@
  
  # extension:
  extensions.calendar-timezones@mozilla.org.name=Timezone Definitions for Mozilla Calendar
@@ -32,25 +31,12 @@ index 3c61c5e..6578404 100644
  extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar Project
  
  pref.timezone.floating=現地時間/タイムゾーンなし (Local Time/floating)
-diff --git a/ja/locale/ja/lightning/lightning.dtd b/ja/locale/ja/lightning/lightning.dtd
-index 987a7f4..d0f81ff 100644
---- a/ja/locale/ja/lightning/lightning.dtd
-+++ b/ja/locale/ja/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel				"Lightning">
-+<!ENTITY lightning.taskLabel				"Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label		"予定...">
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index 737213b..10d473a 100644
+index 1cfb758..bc99e8e 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -64,7 +50,7 @@ index 737213b..10d473a 100644
  
  # Task mode title
  taskModeApplicationTitle=ToDo
-@@ -72,7 +72,7 @@ imipBarRequestText=メッセージに参加依頼が含まれています。
+@@ -38,7 +38,7 @@ imipBarRequestText=メッセージに参加依頼が含まれています。
  imipBarUpdateText=メッセージに既存の予定の更新が含まれています。
  imipBarAlreadyProcessedText=メッセージにすでに終了した予定が含まれています。
  imipBarReplyText=メッセージに参加依頼への返信が含まれています。

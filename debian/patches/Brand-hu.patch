@@ -10,22 +10,22 @@ Subject: Brand hu
  4 files changed, 8 insertions(+), 8 deletions(-)
 
 diff --git a/hu/locale/hu/calendar/migration.properties b/hu/locale/hu/calendar/migration.properties
-index 5e1dfcf..84b7cf4 100644
+index 857b4df..94b1441 100644
 --- a/hu/locale/hu/calendar/migration.properties
 +++ b/hu/locale/hu/calendar/migration.properties
-@@ -43,4 +43,4 @@ migrationTitle = %1$S: Adatok importálása
+@@ -11,4 +11,4 @@ migrationTitle = %1$S: Adatok importálása
  migrationDescription=A %1$S sok népszerű alkalmazásból képes adatokat importálni. A következő alkalmazásokból származó adatok találhatók a számítógépen. Válassza ki, hogy ezek közül melyikből szeretne adatokat importálni.
  finished = Teljes
  disableExtTitle = Nem kompatibilis kiterjesztés
 -disableExtText = Egy régi Mozilla Calendar kiterjesztés van telepítve, amely nem kompatibilis a Lightning alkalmazással. Le  lesz tiltva, és a %1$S újraindul.
 +disableExtText = Egy régi Mozilla Calendar kiterjesztés van telepítve, amely nem kompatibilis a Iceowl alkalmazással. Le  lesz tiltva, és a %1$S újraindul.
 diff --git a/hu/locale/hu/calendar/timezones.properties b/hu/locale/hu/calendar/timezones.properties
-index b0a45b6..71bcbe2 100644
+index 1888207..835a518 100644
 --- a/hu/locale/hu/calendar/timezones.properties
 +++ b/hu/locale/hu/calendar/timezones.properties
-@@ -41,7 +41,7 @@
- 
+@@ -5,7 +5,7 @@
  # extension:
+ # NLS_MESSAGEFORMAT_VAR
  extensions.calendar-timezones@mozilla.org.name=Időzóna-definíciók a Mozilla Calendarhoz
 -extensions.calendar-timezones@mozilla.org.description=Időzóna-definíciók a Sunbird és a Lightning programokhoz
 +extensions.calendar-timezones@mozilla.org.description=Időzóna-definíciók a Iceowl és a Lightning programokhoz
@@ -33,26 +33,26 @@ index b0a45b6..71bcbe2 100644
  
  pref.timezone.floating=Helyi idő
 diff --git a/hu/locale/hu/lightning/lightning.dtd b/hu/locale/hu/lightning/lightning.dtd
-index d41b988..0f51572 100644
+index fb1773e..615c016 100644
 --- a/hu/locale/hu/lightning/lightning.dtd
 +++ b/hu/locale/hu/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
+@@ -8,7 +8,7 @@
    -->
  
  <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
+-<!ENTITY lightning.preferencesLabel "Naptár">
 +<!ENTITY lightning.taskLabel "Iceowl">
  
  <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Esemény...">
+ <!ENTITY lightning.menupopup.new.event.label    "Esemény…">
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index 88b6785..5b5c808 100644
+index d770d83..c846a7f 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -4,12 +4,12 @@
  
  # addon description:
+ # NLS_MESSAGEFORMAT_VAR
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrált naptár a Thunderbirdhöz
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
@@ -66,7 +66,7 @@ index 88b6785..5b5c808 100644
  
  # Task mode title
  taskModeApplicationTitle=Feladatok
-@@ -72,7 +72,7 @@ imipBarRequestText=Ez az üzenet egy eseményre szóló meghívót tartalmaz.
+@@ -38,7 +38,7 @@ imipBarRequestText=Ez az üzenet egy eseményre szóló meghívót tartalmaz.
  imipBarUpdateText=Ez az üzenet egy létező esemény frissítését tartalmazza.
  imipBarAlreadyProcessedText=Ez az üzenet egy olyan eseményt tartalmaz, amely már fel van dolgozva.
  imipBarReplyText=Ez az üzenet egy meghívóra küldött választ tartalmaz.
