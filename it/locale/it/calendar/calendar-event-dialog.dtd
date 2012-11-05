@@ -204,6 +204,10 @@
 <!ENTITY event.description.accesskey "D">
 <!ENTITY event.attachments.label "Allegati:">
 <!ENTITY event.attachments.accesskey "e">
+<!ENTITY event.attachments.menubutton.label "Allega">
+<!ENTITY event.attachments.menubutton.accesskey "A">
+<!ENTITY event.attachments.url.label "Pagina web…">
+<!ENTITY event.attachments.url.accesskey "P">
 <!ENTITY event.attachments.popup.remove.label "Rimuovi">
 <!ENTITY event.attachments.popup.remove.accesskey "R">
 <!ENTITY event.attachments.popup.open.label "Apri">
@@ -337,7 +341,7 @@
 <!ENTITY read.only.event.start.label "Data di inizio:">
 <!ENTITY read.only.task.start.label "Data di inizio:">
 <!ENTITY read.only.event.end.label "Data di fine:">
-<!ENTITY read.only.task.due.label "Data di fine:">
+<!ENTITY read.only.task.due.label "Data di scadenza:">
 <!ENTITY read.only.repeat.label "Ripeti:">
 <!ENTITY read.only.location.label "Luogo:">
 <!ENTITY read.only.category.label "Categoria:">
