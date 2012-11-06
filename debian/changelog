@@ -1,3 +1,14 @@
+iceowl-l10n (1.8-1) experimental; urgency=low
+
+  * [0915590] Correct package description for Romanian.
+    (Closes: #679331)
+  * [4790768] New upstream version 1.8
+  * [0b63e56] Update branding patches
+  * [d83f222] Update package descriptions
+  * [3de7a4f] Update version information
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 06 Nov 2012 20:20:34 +0100
+
 iceowl-l10n (1.5.1-1) experimental; urgency=low
 
   * [6cec355] Adjust supported versions for 1.5.1
