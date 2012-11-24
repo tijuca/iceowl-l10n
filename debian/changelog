@@ -1,3 +1,13 @@
+iceowl-l10n (1.9-1) experimental; urgency=low
+
+  * [859897c] New upstream version 1.9
+  * [44516bf] Refresh language patches and packaging inormation:
+    New languages: Swedish, Albanian and Ukranian
+    Dropped languages: Slovenian and Punjabi
+  * [3fa62d8] Update version information
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 24 Nov 2012 19:59:23 +0100
+
 iceowl-l10n (1.8-1) experimental; urgency=low
 
   * [0915590] Correct package description for Romanian.
