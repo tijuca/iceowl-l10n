@@ -7,11 +7,11 @@ Subject: Brand pt-PT
  1 file changed, 13 insertions(+), 4 deletions(-)
 
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
-index d179d2e..8128b1c 100644
+index c9bd303..9ec5282 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning 
@@ -27,7 +27,7 @@ index d179d2e..8128b1c 100644
  
  # Task mode title
  taskModeApplicationTitle=Tarefas
-@@ -73,8 +73,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
+@@ -38,8 +38,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
  imipBarUpdateText=Esta mensagem contém uma actualização para um evento.
  imipBarAlreadyProcessedText=Esta mensagem contém um evento que já foi processado.
  imipBarReplyText=Esta mensagem contém uma resposta a um convite.

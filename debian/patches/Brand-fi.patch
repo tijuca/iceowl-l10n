@@ -18,7 +18,7 @@ index 3252650..5f4446d 100644
 -disableExtText = Sinulla on asennettuna vanha Mozillan kalenterilaajennus, joka ei ole yhteensopiva Lightningin kanssa. Vanha laajennus poistetaan käytöstä ja %1$S käynnistetään uudelleen.
 +disableExtText = Sinulla on asennettuna vanha Mozillan kalenterilaajennus, joka ei ole yhteensopiva Iceowl kanssa. Vanha laajennus poistetaan käytöstä ja %1$S käynnistetään uudelleen.
 diff --git a/fi/locale/fi/lightning/lightning.properties b/fi/locale/fi/lightning/lightning.properties
-index 4490a47..f4f3be8 100644
+index b3e861f..91a492b 100644
 --- a/fi/locale/fi/lightning/lightning.properties
 +++ b/fi/locale/fi/lightning/lightning.properties
 @@ -3,12 +3,12 @@

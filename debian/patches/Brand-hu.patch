@@ -46,7 +46,7 @@ index fb1773e..615c016 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Esemény…">
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index d770d83..c846a7f 100644
+index f244ecf..3fafa53 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
 @@ -4,12 +4,12 @@

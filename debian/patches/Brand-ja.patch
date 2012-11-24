@@ -32,7 +32,7 @@ index fe46d9c..b866215 100644
  
  pref.timezone.floating=現地時間/タイムゾーンなし (Local Time/floating)
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index 1cfb758..bc99e8e 100644
+index bc85f68..d5614b0 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
 @@ -3,12 +3,12 @@

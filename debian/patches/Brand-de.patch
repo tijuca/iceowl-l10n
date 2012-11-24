@@ -10,7 +10,7 @@ Subject: Brand de
  4 files changed, 7 insertions(+), 7 deletions(-)
 
 diff --git a/de/locale/de/calendar/calendar.properties b/de/locale/de/calendar/calendar.properties
-index 7823f78..226180d 100644
+index 0d39182..3f8df78 100644
 --- a/de/locale/de/calendar/calendar.properties
 +++ b/de/locale/de/calendar/calendar.properties
 @@ -344,8 +344,8 @@ pw_change2empty_in_fips_mode=Sie sind derzeit im FIPS-Modus. FIPS benötigt ein
@@ -48,7 +48,7 @@ index 06a0e8e..29d77b2 100644
  
  pref.timezone.floating=Lokale Zeit
 diff --git a/de/locale/de/lightning/lightning.properties b/de/locale/de/lightning/lightning.properties
-index b8173dd..6ca91c3 100644
+index dfb94ac..ee84e9f 100644
 --- a/de/locale/de/lightning/lightning.properties
 +++ b/de/locale/de/lightning/lightning.properties
 @@ -3,12 +3,12 @@

@@ -7,7 +7,7 @@ Subject: Brand pl
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/pl/locale/pl/lightning/lightning.properties b/pl/locale/pl/lightning/lightning.properties
-index 8665607..6f2e7d2 100644
+index 9393669..71c33a2 100644
 --- a/pl/locale/pl/lightning/lightning.properties
 +++ b/pl/locale/pl/lightning/lightning.properties
 @@ -3,12 +3,12 @@

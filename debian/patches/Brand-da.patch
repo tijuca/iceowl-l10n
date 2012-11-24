@@ -7,11 +7,11 @@ Subject: Brand da
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/da/locale/da/lightning/lightning.properties b/da/locale/da/lightning/lightning.properties
-index f6b7635..4d1f908 100644
+index 8ba991a..0638129 100644
 --- a/da/locale/da/lightning/lightning.properties
 +++ b/da/locale/da/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -25,7 +25,7 @@ index f6b7635..4d1f908 100644
  
  # Task mode title
  taskModeApplicationTitle=Opgaver
-@@ -73,7 +73,7 @@ imipBarRequestText=Denne meddelelse indeholder en invitation til en begivenhed.
+@@ -38,7 +38,7 @@ imipBarRequestText=Denne meddelelse indeholder en invitation til en begivenhed.
  imipBarUpdateText=Denne meddelelse indeholder en opdatering til en eksisterende begivenhed.
  imipBarAlreadyProcessedText=Denne meddelelse indeholder en begivenhed, der allerede er blevet behandlet.
  imipBarReplyText=Denne meddelelse indeholder et svar til en invitation.

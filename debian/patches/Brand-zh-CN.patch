@@ -18,7 +18,7 @@ index 141367d..3049141 100644
 -disableExtText = 您安装了不兼容 Lightning 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
 +disableExtText = 您安装了不兼容 Iceowl 的旧版 Mozilla 日历扩展。 它将被禁用并且 %1$S 将重新启动。
 diff --git a/zh-CN/locale/zh-CN/lightning/lightning.properties b/zh-CN/locale/zh-CN/lightning/lightning.properties
-index 9a074ba..cb587bd 100644
+index 8eb5a1d..8a54f38 100644
 --- a/zh-CN/locale/zh-CN/lightning/lightning.properties
 +++ b/zh-CN/locale/zh-CN/lightning/lightning.properties
 @@ -3,12 +3,12 @@

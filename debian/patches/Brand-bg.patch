@@ -7,7 +7,7 @@ Subject: Brand bg
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/bg/locale/bg/lightning/lightning.properties b/bg/locale/bg/lightning/lightning.properties
-index 2729920..d0603fd 100644
+index eb1630c..69ecf04 100644
 --- a/bg/locale/bg/lightning/lightning.properties
 +++ b/bg/locale/bg/lightning/lightning.properties
 @@ -3,12 +3,12 @@

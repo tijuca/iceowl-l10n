@@ -7,7 +7,7 @@ Subject: Brand tr
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/tr/locale/tr/lightning/lightning.properties b/tr/locale/tr/lightning/lightning.properties
-index ff06d9e..9780069 100644
+index beb2021..efa3aa7 100644
 --- a/tr/locale/tr/lightning/lightning.properties
 +++ b/tr/locale/tr/lightning/lightning.properties
 @@ -3,12 +3,12 @@

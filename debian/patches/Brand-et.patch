@@ -7,11 +7,11 @@ Subject: Brand et
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/et/locale/et/lightning/lightning.properties b/et/locale/et/lightning/lightning.properties
-index 16ed539..d19248f 100644
+index eab84b4..7adced2 100644
 --- a/et/locale/et/lightning/lightning.properties
 +++ b/et/locale/et/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning

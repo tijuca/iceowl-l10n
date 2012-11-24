@@ -7,7 +7,7 @@ Subject: Brand nb-NO
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/nb-NO/locale/nb-NO/lightning/lightning.properties b/nb-NO/locale/nb-NO/lightning/lightning.properties
-index 77f99a9..fe93c8c 100644
+index 3cd2195..bf1f7d6 100644
 --- a/nb-NO/locale/nb-NO/lightning/lightning.properties
 +++ b/nb-NO/locale/nb-NO/lightning/lightning.properties
 @@ -3,12 +3,12 @@

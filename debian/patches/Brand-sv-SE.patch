@@ -1,0 +1,37 @@
+From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 24 Nov 2012 19:51:10 +0100
+Subject: Brand sv-SE
+
+---
+ sv-SE/locale/sv-SE/lightning/lightning.properties |    8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/sv-SE/locale/sv-SE/lightning/lightning.properties b/sv-SE/locale/sv-SE/lightning/lightning.properties
+index 37b74cf..a941ca4 100644
+--- a/sv-SE/locale/sv-SE/lightning/lightning.properties
++++ b/sv-SE/locale/sv-SE/lightning/lightning.properties
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=En integrerad kalender för Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=En integrerad kalender för Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Händelser
+@@ -38,7 +38,7 @@ imipBarRequestText=Detta meddelande innehåller en inbjudan till ett möte.
+ imipBarUpdateText=Detta meddelande innehåller en uppdatering av en befintlig händelse.
+ imipBarAlreadyProcessedText=Detta meddelande innehåller en händelse som redan har bearbetats.
+ imipBarReplyText=Detta meddelande innehåller svar på en inbjudan.
+-imipBarUnsupportedText=Detta meddelande innehåller ett möte som denna version av Lightning inte kan hantera.
++imipBarUnsupportedText=Detta meddelande innehåller ett möte som denna version av Iceowl inte kan hantera.
+ imipBarProcessingFailed=Bearbetning av meddelandet misslyckades. Status: %1$S.
+ imipAcceptInvitation.label=Acceptera
+ imipCancelInvitation.label=Ta bort

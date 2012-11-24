@@ -4,21 +4,22 @@ Subject: Brand zh-TW
 
 ---
  zh-TW/locale/zh-TW/calendar/migration.properties  |    2 +-
- zh-TW/locale/zh-TW/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
+ zh-TW/locale/zh-TW/lightning/lightning.properties |    8 ++++----
+ 2 files changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/zh-TW/locale/zh-TW/calendar/migration.properties b/zh-TW/locale/zh-TW/calendar/migration.properties
-index 8c1bf4b..a8fdbe4 100644
+index c7b6a52..9a66860 100644
 --- a/zh-TW/locale/zh-TW/calendar/migration.properties
 +++ b/zh-TW/locale/zh-TW/calendar/migration.properties
-@@ -10,4 +10,4 @@ migrationTitle = %1$S: 匯入資料
+@@ -10,5 +10,5 @@ migrationTitle = %1$S: 匯入資料
  migrationDescription=%1$S 可以從許多受歡迎的應用程式匯入行事曆資料。已從您的電腦發現下列應用程式的資料，請選取想要從哪一個應用程式匯入資料。
  finished = 完成
  disableExtTitle = 發現不相容的擴充程式
 -disableExtText = 您已安裝了與 Lightning 不相容的舊版 Mozilla Calendar 擴充程式。將會停用該程式並重新啟動 %1$S。
 +disableExtText = 您已安裝了與 Iceowl 不相容的舊版 Mozilla Calendar 擴充程式。將會停用該程式並重新啟動 %1$S。
+ 
 diff --git a/zh-TW/locale/zh-TW/lightning/lightning.properties b/zh-TW/locale/zh-TW/lightning/lightning.properties
-index 2e2fba5..da4c3f4 100644
+index 4a5852e..bd76220 100644
 --- a/zh-TW/locale/zh-TW/lightning/lightning.properties
 +++ b/zh-TW/locale/zh-TW/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,8 +27,9 @@ index 2e2fba5..da4c3f4 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird 的整合行事曆
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedove 的整合行事曆
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding

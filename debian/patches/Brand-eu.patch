@@ -21,7 +21,7 @@ index 87bb869..8cace97 100644
  
  pref.timezone.floating=Ordu lokala
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index 845fc11..3eee656 100644
+index 3851f6b..5c8f93d 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -3,12 +3,12 @@

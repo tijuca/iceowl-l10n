@@ -7,7 +7,7 @@ Subject: Brand nl
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/nl/locale/nl/lightning/lightning.properties b/nl/locale/nl/lightning/lightning.properties
-index b6f49fa..90e3eb8 100644
+index aa1c0a3..6507986 100644
 --- a/nl/locale/nl/lightning/lightning.properties
 +++ b/nl/locale/nl/lightning/lightning.properties
 @@ -3,12 +3,12 @@

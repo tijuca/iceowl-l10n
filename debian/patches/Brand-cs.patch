@@ -7,7 +7,7 @@ Subject: Brand cs
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index c444e7e..bd77727 100644
+index 7d70add..6691e62 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -3,12 +3,12 @@

@@ -7,7 +7,7 @@ Subject: Brand en-GB
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/en-GB/locale/en-GB/lightning/lightning.properties b/en-GB/locale/en-GB/lightning/lightning.properties
-index 645e117..1eb8137 100644
+index bd75aeb..d47c6ff 100644
 --- a/en-GB/locale/en-GB/lightning/lightning.properties
 +++ b/en-GB/locale/en-GB/lightning/lightning.properties
 @@ -38,7 +38,7 @@ imipBarRequestText=This message contains an invitation to an event.

@@ -7,7 +7,7 @@ Subject: Brand fy-NL
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/fy-NL/locale/fy-NL/lightning/lightning.properties b/fy-NL/locale/fy-NL/lightning/lightning.properties
-index 453c2aa..2aeb413 100644
+index 7bf86ef..b4dbd82 100644
 --- a/fy-NL/locale/fy-NL/lightning/lightning.properties
 +++ b/fy-NL/locale/fy-NL/lightning/lightning.properties
 @@ -3,12 +3,12 @@

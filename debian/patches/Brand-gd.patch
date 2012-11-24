@@ -7,7 +7,7 @@ Subject: Brand gd
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/gd/locale/gd/lightning/lightning.properties b/gd/locale/gd/lightning/lightning.properties
-index a4e6654..ca6da6b 100644
+index a5298dd..ccf66b5 100644
 --- a/gd/locale/gd/lightning/lightning.properties
 +++ b/gd/locale/gd/lightning/lightning.properties
 @@ -3,12 +3,12 @@

@@ -24,7 +24,7 @@ index 7b75598..be80bbe 100644
  <!-- New menu popup in File menu -->
  <!ENTITY lightning.menupopup.new.event.label    "Событие…">
 diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
-index b381c54..61d16c0 100644
+index 2c040fd..8e24d66 100644
 --- a/ru/locale/ru/lightning/lightning.properties
 +++ b/ru/locale/ru/lightning/lightning.properties
 @@ -3,12 +3,12 @@
