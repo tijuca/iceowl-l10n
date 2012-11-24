@@ -4,11 +4,11 @@
 UPSTREAM_VERSION=$(shell dpkg-parsechangelog -ldebian/changelog|grep '^Version'|sed  -e 's/Version: *//;s/^[^:]*://;s/-[^-]*$$//')
 
 # Iceowl extension min and max version
-IOE_MIN_VER=16.0
-IOE_MAX_VER=16.0~
+IOE_MIN_VER=17.0
+IOE_MAX_VER=17.0~
 
 # Iceowl min and max version
-IO_MIN_VER=1.8
+IO_MIN_VER=1.9
 IO_MAX_VER=1.9~
 
 SHELL := sh -e
