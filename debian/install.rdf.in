@@ -3,7 +3,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-##LOCALE##@iceowl.debian.org"
-               em:name="##LOCALE## Language Pack"
+               em:name="##LOCALE## Language Pack for Iceowl"
                em:version="##VERSION##"
                em:type="8"
                em:creator="debian.org">
