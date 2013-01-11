@@ -1,3 +1,9 @@
+iceowl-l10n (1.9-2) experimental; urgency=low
+
+  * [4e38a2a] Allow for ESR releases
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 11 Jan 2013 21:31:09 +0100
+
 iceowl-l10n (1.9-1) experimental; urgency=low
 
   * [859897c] New upstream version 1.9
