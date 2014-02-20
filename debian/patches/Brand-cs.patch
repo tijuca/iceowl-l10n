@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand cs
-
----
- cs/locale/cs/lightning/lightning.properties |    4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index 7d70add..6691e62 100644
+index f964327..1587414 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,3 +17,12 @@ index 7d70add..6691e62 100644
  
  # Task mode title
  taskModeApplicationTitle=Úkoly
+@@ -42,7 +42,7 @@ imipBarUpdateText=Tato zpráva obsahuje aktualizaci existující události.
+ imipBarAlreadyProcessedText=Tato zpráva obsahuje událost, která již byla zpracována.
+ imipBarProcessedNeedsAction=Tato zpráva obsahuje událost, na kterou jste ještě neodpověděli.
+ imipBarReplyText=Tato zpráva obsahuje odpověď na pozvání.
+-imipBarUnsupportedText=Tato zpráva obsahuje akci, kterou nelze v této verzi Lightningu zpracovat.
++imipBarUnsupportedText=Tato zpráva obsahuje akci, kterou nelze v této verzi Iceowlu zpracovat.
+ imipBarProcessingFailed=Zpracování zprávy skončilo chybou. Stav: %1$S.
+ imipBarNotWritable=K vytvoření pozvánky není dostupný žádný zapisovatelný kalendář. Zkontrolujte prosím vlastnosti kalendáře.
+ imipAcceptInvitation.label=Přijmout

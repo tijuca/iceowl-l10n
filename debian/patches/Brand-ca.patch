@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand ca
-
----
- ca/locale/ca/lightning/lightning.properties |    6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
-
 diff --git a/ca/locale/ca/lightning/lightning.properties b/ca/locale/ca/lightning/lightning.properties
-index 60e1f54..b21d464 100644
+index 9efe7ac..03d41dc 100644
 --- a/ca/locale/ca/lightning/lightning.properties
 +++ b/ca/locale/ca/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,12 +17,12 @@ index 60e1f54..b21d464 100644
  
  # Task mode title
  taskModeApplicationTitle=Tasques
-@@ -38,7 +38,7 @@ imipBarRequestText=Aquest missatge conté una invitació a una cita.
- imipBarUpdateText=Aquest missatge conté un canvi d'una cita ja existent.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Aquest missatge conté un canvi d'una cita ja existent.
  imipBarAlreadyProcessedText=Aquest missatge conté una invitació a una cita que ja ha estat tractada.
+ imipBarProcessedNeedsAction=Aquest missatge conté una cita a la qual encara no heu respost.
  imipBarReplyText=Aquest missatge conté una resposta a una invitació.
 -imipBarUnsupportedText=Aquest missatge conté una cita que aquesta versió del Lightning no ha pogut tractar.
 +imipBarUnsupportedText=Aquest missatge conté una cita que aquesta versió del Iceowl no ha pogut tractar.
  imipBarProcessingFailed=El tractament del missatge ha fallat. Estat: %1$S.
+ imipBarNotWritable=No hi cap calendari per a invitacions que es pugui escriure. Comproveu les propietats del calendari.
  imipAcceptInvitation.label=Accepta
- imipCancelInvitation.label=Suprimeix

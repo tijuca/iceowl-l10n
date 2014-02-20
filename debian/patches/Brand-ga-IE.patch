@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Thu, 21 Jun 2012 20:06:06 +0200
-Subject: Brand ga-IE
-
----
- ga-IE/locale/ga-IE/lightning/lightning.properties |    4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
-index e1aa961..aa2f363 100644
+index bbd8077..504cd9e 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.properties
 +++ b/ga-IE/locale/ga-IE/lightning/lightning.properties
 @@ -3,12 +3,12 @@

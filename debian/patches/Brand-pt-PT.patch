@@ -1,47 +1,28 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand pt-PT
-
----
- pt-PT/locale/pt-PT/lightning/lightning.properties |   17 +++++++++++++----
- 1 file changed, 13 insertions(+), 4 deletions(-)
-
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
-index c9bd303..9ec5282 100644
+index 032f875..bc85367 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.properties
 @@ -3,12 +3,12 @@
  # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning 
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Thunderbird
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Icedove
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projecto Mozilla Calendar
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Um calendário para o Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projeto Mozilla Calendar
  
--# Lightning branding
+ # Lightning branding
 -brandShortName=Lightning
-+# Iceowl branding
 +brandShortName=Iceowl
  
  # Task mode title
  taskModeApplicationTitle=Tarefas
-@@ -38,8 +38,17 @@ imipBarRequestText=Esta mensagem contém um convite para um evento.
- imipBarUpdateText=Esta mensagem contém uma actualização para um evento.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Esta mensagem contém uma atualização a um evento existente.
  imipBarAlreadyProcessedText=Esta mensagem contém um evento que já foi processado.
+ imipBarProcessedNeedsAction=Esta mensagem contém um evento a que ainda não respondeu.
  imipBarReplyText=Esta mensagem contém uma resposta a um convite.
-+<<<<<<< HEAD
-+<<<<<<< HEAD:pt-PT/locale/pt-PT/lightning/lightning.properties
- imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Lightning não pode processar.
-+=======
+-imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Lightning não pode processar.
 +imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Iceowl não pode processar.
-+>>>>>>> Brand pt-PT
- imipBarProcessingFailed=O processamento da mensagem falhou. Estado: %1$S.
-+=======
-+imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Iceowl não consegue processar.
-+imipBarProcessingFailed=Falha a processar a mensagem. Posição: %1$S.
-+>>>>>>> Brand pt-BR:pt-BR/locale/pt-BR/lightning/lightning.properties
+ imipBarProcessingFailed=Erro ao processar a mensagem. Estado: %1$S.
+ imipBarNotWritable=Não existem calendários configurados para convites, verifique as propriedads do calendário.
  imipAcceptInvitation.label=Aceitar
- imipCancelInvitation.label=Eliminar
- imipDeclineInvitation.label=Declinar

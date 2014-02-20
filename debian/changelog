@@ -1,3 +1,13 @@
+iceowl-l10n (2.6.4-0.1) experimental; urgency=low
+
+  * Non-maintainer upload.
+  * New upstream version : 2.6.4 (Closes: #693150)
+  * Rebase patches for new version
+  * Dropped languages : Albanian, Bulgarian, Galician, Swedish, Turkish
+    Ukrainian
+
+ -- Jerome Charaoui <jerome@riseup.net>  Wed, 19 Feb 2014 22:04:43 -0500
+
 iceowl-l10n (1.9-2) experimental; urgency=low
 
   * [4e38a2a] Allow for ESR releases

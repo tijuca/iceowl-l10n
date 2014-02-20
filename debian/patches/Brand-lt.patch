@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand lt
-
----
- lt/locale/lt/lightning/lightning.properties |    4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
 diff --git a/lt/locale/lt/lightning/lightning.properties b/lt/locale/lt/lightning/lightning.properties
-index f8c053a..5e6b1bd 100644
+index 719fc14..06332a6 100644
 --- a/lt/locale/lt/lightning/lightning.properties
 +++ b/lt/locale/lt/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,3 +17,12 @@ index f8c053a..5e6b1bd 100644
  
  # Task mode title
  taskModeApplicationTitle=Darbai
+@@ -42,7 +42,7 @@ imipBarUpdateText=Su šiuo laišku atsiųsta atnaujinta informacija apie jau esa
+ imipBarAlreadyProcessedText=Su šiuo laišku atsiųsta informacija apie įvykį, kuris jau buvo apdorotas.
+ imipBarProcessedNeedsAction=Su šiuo laišku atsiųsta informacija apie įvykį, į kurį Jūs dar neatsakėte.
+ imipBarReplyText=Su šiuo laišku atsiųstas atsakymas į kvietimą.
+-imipBarUnsupportedText=Su šiuo laišku atsiųstas įvykis, kurio ši „Lightning“ laida negali apdodoti.
++imipBarUnsupportedText=Su šiuo laišku atsiųstas įvykis, kurio ši „Iceowl“ laida negali apdodoti.
+ imipBarProcessingFailed=Laiško apdoroti nepavyko. Pranešimas: %1$S.
+ imipBarNotWritable=Kvietimams nėra priskirtas joks rašymui prieinamas kalendorius. Patikrinkite kalendoriaus nuostatas.
+ imipAcceptInvitation.label=Priimti

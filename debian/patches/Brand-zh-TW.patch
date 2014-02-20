@@ -1,25 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:17 +0200
-Subject: Brand zh-TW
-
----
- zh-TW/locale/zh-TW/calendar/migration.properties  |    2 +-
- zh-TW/locale/zh-TW/lightning/lightning.properties |    8 ++++----
- 2 files changed, 5 insertions(+), 5 deletions(-)
-
-diff --git a/zh-TW/locale/zh-TW/calendar/migration.properties b/zh-TW/locale/zh-TW/calendar/migration.properties
-index c7b6a52..9a66860 100644
---- a/zh-TW/locale/zh-TW/calendar/migration.properties
-+++ b/zh-TW/locale/zh-TW/calendar/migration.properties
-@@ -10,5 +10,5 @@ migrationTitle = %1$S: 匯入資料
- migrationDescription=%1$S 可以從許多受歡迎的應用程式匯入行事曆資料。已從您的電腦發現下列應用程式的資料，請選取想要從哪一個應用程式匯入資料。
- finished = 完成
- disableExtTitle = 發現不相容的擴充程式
--disableExtText = 您已安裝了與 Lightning 不相容的舊版 Mozilla Calendar 擴充程式。將會停用該程式並重新啟動 %1$S。
-+disableExtText = 您已安裝了與 Iceowl 不相容的舊版 Mozilla Calendar 擴充程式。將會停用該程式並重新啟動 %1$S。
- 
 diff --git a/zh-TW/locale/zh-TW/lightning/lightning.properties b/zh-TW/locale/zh-TW/lightning/lightning.properties
-index 4a5852e..bd76220 100644
+index 7ca830d..577a8b7 100644
 --- a/zh-TW/locale/zh-TW/lightning/lightning.properties
 +++ b/zh-TW/locale/zh-TW/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -27,9 +7,8 @@ index 4a5852e..bd76220 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird 的整合行事曆
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedove 的整合行事曆
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird 的整合行事曆
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding
@@ -38,12 +17,12 @@ index 4a5852e..bd76220 100644
  
  # Task mode title
  taskModeApplicationTitle=工作
-@@ -38,7 +38,7 @@ imipBarRequestText=此郵件包含事件的邀請。
- imipBarUpdateText=此郵件包含現有事件的更新。
+@@ -42,7 +42,7 @@ imipBarUpdateText=此郵件包含現有事件的更新。
  imipBarAlreadyProcessedText=此郵件包含一已經處理過的事件。
+ imipBarProcessedNeedsAction=此訊息包含您尚未回覆的事件。
  imipBarReplyText=此郵件包含對邀請的回覆。
 -imipBarUnsupportedText=此郵件包含此版 Lightning 無法處理的事件。
 +imipBarUnsupportedText=此郵件包含此版 Iceowl 無法處理的事件。
  imipBarProcessingFailed=郵件處理失敗。狀態: %1$S。
+ imipBarNotWritable=還沒有為邀請設定可寫入的行事曆，請檢查行事曆屬性。
  imipAcceptInvitation.label=接受
- imipCancelInvitation.label=刪除

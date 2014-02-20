@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand da
-
----
- da/locale/da/lightning/lightning.properties |    6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
-
 diff --git a/da/locale/da/lightning/lightning.properties b/da/locale/da/lightning/lightning.properties
-index 8ba991a..0638129 100644
+index cea1003..80a9e25 100644
 --- a/da/locale/da/lightning/lightning.properties
 +++ b/da/locale/da/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,12 +17,12 @@ index 8ba991a..0638129 100644
  
  # Task mode title
  taskModeApplicationTitle=Opgaver
-@@ -38,7 +38,7 @@ imipBarRequestText=Denne meddelelse indeholder en invitation til en begivenhed.
- imipBarUpdateText=Denne meddelelse indeholder en opdatering til en eksisterende begivenhed.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Denne meddelelse indeholder en opdatering til en eksisterende
  imipBarAlreadyProcessedText=Denne meddelelse indeholder en begivenhed, der allerede er blevet behandlet.
+ imipBarProcessedNeedsAction=Denne meddelelse indeholder en begivenhed, som du endnu ikke har svaret på.
  imipBarReplyText=Denne meddelelse indeholder et svar til en invitation.
 -imipBarUnsupportedText=Denne meddelelse indeholder en begivenhed, som denne version af Lightning ikke kan håndtere.
 +imipBarUnsupportedText=Denne meddelelse indeholder en begivenhed, som denne version af Iceowl ikke kan håndtere.
  imipBarProcessingFailed=Behandlingen af meddelelsen mislykkedes. Status: %1$S.
+ imipBarNotWritable=Du har ikke en skrivbar kalender, der er opsat til invitationer, tjek kalenderindstillingerne.
  imipAcceptInvitation.label=Accepter
- imipCancelInvitation.label=Slet

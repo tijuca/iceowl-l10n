@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand sk
-
----
- sk/locale/sk/lightning/lightning.properties |    6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
-
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 8eae96e..9145b23 100644
+index d567ff7..45aa737 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,12 +17,12 @@ index 8eae96e..9145b23 100644
  
  # Task mode title
  taskModeApplicationTitle=Úlohy
-@@ -38,7 +38,7 @@ imipBarRequestText=Táto správa obsahuje pozvánku na udalosť.
- imipBarUpdateText=Táto správa obsahuje aktualizáciu existujúcej udalosti.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Táto správa obsahuje aktualizáciu existujúcej udalosti.
  imipBarAlreadyProcessedText=Táto správa obsahuje udalosť, ktorá už bola spracovaná.
+ imipBarProcessedNeedsAction=Táto správa obsahuje udalosť, na ktorú ste ešte neodpovedali.
  imipBarReplyText=Táto správa obsahuje odpoveď na pozvánku.
 -imipBarUnsupportedText=Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia Lightning nedokáže spracovať.
 +imipBarUnsupportedText=Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia Iceowl nedokáže spracovať.
  imipBarProcessingFailed=Spracovanie správy zlyhalo. Stav: %1$S.
+ imipBarNotWritable=Nie sú dostupné žiadne kalendáre, do ktorých sa dá zapisovať. Skontrolujte nastavenia kalendárov.
  imipAcceptInvitation.label=Prijať
- imipCancelInvitation.label=Vymazať

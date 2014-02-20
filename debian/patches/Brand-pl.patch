@@ -1,13 +1,5 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand pl
-
----
- pl/locale/pl/lightning/lightning.properties |    4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
 diff --git a/pl/locale/pl/lightning/lightning.properties b/pl/locale/pl/lightning/lightning.properties
-index 9393669..71c33a2 100644
+index 20802a4..1995e8b 100644
 --- a/pl/locale/pl/lightning/lightning.properties
 +++ b/pl/locale/pl/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,3 +17,12 @@ index 9393669..71c33a2 100644
  
  # Task mode title
  taskModeApplicationTitle=Zadania
+@@ -42,7 +42,7 @@ imipBarUpdateText=Ta wiadomość zawiera aktualizację istniejącego wydarzenia.
+ imipBarAlreadyProcessedText=Ta wiadomość zawiera wydarzenie, które zostało już przetworzone.
+ imipBarProcessedNeedsAction=Ta wiadomość zawiera wydarzenie, na które jeszcze nie odpowiedziano.
+ imipBarReplyText=Ta wiadomość zawiera odpowiedź na zaproszenie.
+-imipBarUnsupportedText=Ta wiadomość zawiera wydarzenie, którego ta wersja Lightninga nie potrafi przetworzyć.
++imipBarUnsupportedText=Ta wiadomość zawiera wydarzenie, którego ta wersja Iceowla nie potrafi przetworzyć.
+ imipBarProcessingFailed=Przetwarzanie wiadomości nie powiodło się. Status: %1$S.
+ imipBarNotWritable=Nie skonfigurowano zapisywalnych kalendarzy dla zaproszeń. Proszę sprawdzić właściwości kalendarza.
+ imipAcceptInvitation.label=Zaakceptuj

@@ -1,21 +1,26 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand it
-
----
- it/locale/it/lightning/lightning.properties |    2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
-
 diff --git a/it/locale/it/lightning/lightning.properties b/it/locale/it/lightning/lightning.properties
-index 283452e..77410c8 100644
+index f7136c7..19c3bb5 100644
 --- a/it/locale/it/lightning/lightning.properties
 +++ b/it/locale/it/lightning/lightning.properties
-@@ -63,7 +63,7 @@ imipBarRequestText = Questo messaggio contiene un invito ad un evento.
- imipBarUpdateText = Questo messaggio contiene un aggiornamento per un evento esistente.
+@@ -2,10 +2,10 @@
+ # License, v. 2.0. If a copy of the MPL was not distributed with this
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name = Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name = Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description = Un calendario integrato per Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator = Progetto calendario Mozilla
+-brandShortName = Lightning
++brandShortName = Iceowl
+ taskModeApplicationTitle = Attività
+ tabTitleCalendar = Calendario
+ tabTitleTasks = Attività
+@@ -32,7 +32,7 @@ imipBarUpdateText = Questo messaggio contiene un aggiornamento per un evento esi
  imipBarAlreadyProcessedText = Questo messaggio contiene un evento che è stato già processato.
+ imipBarProcessedNeedsAction = Questo messaggio contiene un evento a cui non si è ancora risposto.
  imipBarReplyText = Questo messaggio contiene una risposta ad un invito.
 -imipBarUnsupportedText = Questo messaggio contiene un invito che questa versione di Lightning non può processare.
 +imipBarUnsupportedText = Questo messaggio contiene un invito che questa versione di Iceowl non può processare.
  imipBarProcessingFailed = Elaborazione del messaggio fallita. Stato: %1$S.
+ imipBarNotWritable = Non ci sono calendari scrivibili configurati per gli inviti, controllare le proprietà del calendario.
  imipAcceptInvitation.label = Accetta
- imipCancelInvitation.label = Elimina
