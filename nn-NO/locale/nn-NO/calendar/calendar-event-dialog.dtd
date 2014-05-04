@@ -56,11 +56,11 @@
 <!ENTITY  event.menu.item.new.message.accesskey           "M">
 <!ENTITY  event.menu.item.new.contact.label               "Adressekontakt">
 <!ENTITY  event.menu.item.new.contact.accesskey           "A">
-<!ENTITY  event.menu.item.close.label                     "Lat att">
+<!ENTITY  event.menu.item.close.label                     "Lukk">
 <!ENTITY  event.menu.item.close.accesskey                 "L">
 <!ENTITY  event.menu.item.save.label                      "Lagre">
 <!ENTITY  event.menu.item.save.accesskey                  "a">
-<!ENTITY  event.menu.item.saveandclose.label              "Lagre og lat att">
+<!ENTITY  event.menu.item.saveandclose.label              "Lagre og lukk">
 <!ENTITY  event.menu.item.saveandclose.accesskey          "r">
 <!ENTITY  event.menu.item.delete.label                    "Slett …">
 <!ENTITY  event.menu.item.delete.accesskey                "S">
@@ -140,7 +140,7 @@
 <!ENTITY event.email.tentative.attendees.accesskey        "u">
 
 <!-- Toolbar -->
-<!ENTITY  event.toolbar.save.label                        "Lagre og lat att">
+<!ENTITY  event.toolbar.save.label                        "Lagre og lukk">
 <!ENTITY  event.toolbar.delete.label                      "Slett">
 <!ENTITY  event.toolbar.attendees.label                   "Inviter deltakarar">
 <!ENTITY  event.toolbar.spellcheck.label                  "Stavekontroll">
@@ -153,6 +153,8 @@
 <!ENTITY event.location.accesskey                         "S">
 <!ENTITY event.categories.label                           "Kategori:">
 <!ENTITY event.categories.accesskey                       "K">
+<!ENTITY event.categories.textbox.label                   "Legg til ny kategori" >
+<!ENTITY event.categories.textbox.accesskey               "L">
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "e">
 <!ENTITY event.attendees.label                            "Deltakarar:" >
@@ -171,6 +173,8 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "Gjenta:" >
 <!ENTITY event.repeat.accesskey                           "G">
+<!ENTITY event.until.label                                "Til:">
+<!ENTITY event.until.accesskey                            "T">
 <!ENTITY event.reminder.label                             "Påminning:" >
 <!ENTITY event.reminder.accesskey                         "å">
 <!ENTITY event.description.label                          "Skildring:" >
