@@ -1,31 +1,9 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand et
-
----
- et/locale/et/lightning/lightning.dtd        |    2 +-
- et/locale/et/lightning/lightning.properties |    4 ++--
- 2 files changed, 3 insertions(+), 3 deletions(-)
-
-diff --git a/et/locale/et/lightning/lightning.dtd b/et/locale/et/lightning/lightning.dtd
-index 06a78ed..618f002 100644
---- a/et/locale/et/lightning/lightning.dtd
-+++ b/et/locale/et/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label        "Sündmus…">
 diff --git a/et/locale/et/lightning/lightning.properties b/et/locale/et/lightning/lightning.properties
-index e868c1e..bd277b9 100644
+index d62a725..7f58867 100644
 --- a/et/locale/et/lightning/lightning.properties
 +++ b/et/locale/et/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,3 +17,12 @@ index e868c1e..bd277b9 100644
  
  # Task mode title
  taskModeApplicationTitle=Ülesanded
+@@ -42,7 +42,7 @@ imipBarUpdateText=See kiri sisaldab olemasoleva sündmuse uuendust.
+ imipBarAlreadyProcessedText=See kiri sisaldab sündmust, mis on juba töödeldud.
+ imipBarProcessedNeedsAction=Kiri sisaldab sündmuse kutset, millele sa pole veel vastanud.
+ imipBarReplyText=See kiri sisaldab kutse vastust.
+-imipBarUnsupportedText=See kiri sisaldab sündmust, mida Lightningi praegune versioon ei suuda töödelda.
++imipBarUnsupportedText=See kiri sisaldab sündmust, mida Iceowli praegune versioon ei suuda töödelda.
+ imipBarProcessingFailed=Sõnumi töötlemine ebaõnnestus. Olek: %1$S.
+ imipBarNotWritable=Kutsete jaoks pole seadistatud ühtegi kirjutusõigusega kalendrit. Palun kontrolli kalendri omadusi.
+ imipAcceptInvitation.label=Nõustu

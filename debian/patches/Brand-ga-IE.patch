@@ -1,0 +1,19 @@
+diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
+index bbd8077..504cd9e 100644
+--- a/ga-IE/locale/ga-IE/lightning/lightning.properties
++++ b/ga-IE/locale/ga-IE/lightning/lightning.properties
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Féilire comhtháite le haghaidh Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Tionscadal Féilire Mozilla
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Tascanna

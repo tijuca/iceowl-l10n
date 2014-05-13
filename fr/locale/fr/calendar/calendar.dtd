@@ -1,56 +1,12 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Garth Smedley <garths@oeone.com>
-   -   Mike Potter <mikep@oeone.com>
-   -   Chris Charabaruk <coldacid@meldstar.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Simon Paquet <bugzilla@babylonsounds.com>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Diego Mira David <diegomd86@gmail.com>
-   -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
-   -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- General -->
 <!ENTITY calendar.calendar.label     "Agendas">
 <!ENTITY calendar.calendar.accesskey "A">
 
-<!ENTITY calendar.newevent.button.tooltip         "Créer un nouvel événement" >
+<!ENTITY calendar.newevent.button.tooltip         "Créer un nouvel évènement" >
 <!ENTITY calendar.newtask.button.tooltip          "Créer une nouvelle tâche" >
 
 <!ENTITY calendar.unifinder.todoitems.label       "Tâches" >
@@ -60,37 +16,51 @@
 <!ENTITY calendar.tomorrow.button.label "Demain">
 <!ENTITY calendar.soon.button.label "Bientôt">
 
-<!ENTITY calendar.events.filter.all.label "Tous les événements">
-<!ENTITY calendar.events.filter.today.label "Événements du jour">
-<!ENTITY calendar.events.filter.future.label "Tous les événements futurs">
+<!ENTITY calendar.events.filter.all.label "Tous les évènements">
+<!ENTITY calendar.events.filter.today.label "Évènements du jour">
+<!ENTITY calendar.events.filter.future.label "Tous les évènements futurs">
 <!ENTITY calendar.events.filter.current.label "Jour courant">
-<!ENTITY calendar.events.filter.next7Days.label "Événements des 7 prochains jours">
-<!ENTITY calendar.events.filter.next14Days.label "Événements des 14 prochains jours">
-<!ENTITY calendar.events.filter.next31Days.label "Événements des 31 prochains jours">
-<!ENTITY calendar.events.filter.thisCalendarMonth.label "Événements du mois en cours">
+<!ENTITY calendar.events.filter.currentview.label "Évènements dans la vue courante">
+<!ENTITY calendar.events.filter.next7Days.label "Évènements des 7 prochains jours">
+<!ENTITY calendar.events.filter.next14Days.label "Évènements des 14 prochains jours">
+<!ENTITY calendar.events.filter.next31Days.label "Évènements des 31 prochains jours">
+<!ENTITY calendar.events.filter.thisCalendarMonth.label "Évènements du mois en cours">
 
-<!ENTITY calendar.unifinder.tree.done.label          "Terminé">
-<!ENTITY calendar.unifinder.tree.priority.label      "Priorité">
-<!ENTITY calendar.unifinder.tree.title.label         "Titre">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label "Progression">
-<!ENTITY calendar.unifinder.tree.startdate.label     "Début">
-<!ENTITY calendar.unifinder.tree.enddate.label       "Fin">
-<!ENTITY calendar.unifinder.tree.duedate.label       "Prévu">
-<!ENTITY calendar.unifinder.tree.completeddate.label "Achevé">
-<!ENTITY calendar.unifinder.tree.categories.label    "Catégorie">
-<!ENTITY calendar.unifinder.tree.location.label      "Lieu">
-<!ENTITY calendar.unifinder.tree.status.label        "Statut">
-<!ENTITY calendar.unifinder.tree.calendarname.label  "Nom de l'agenda">
-<!ENTITY calendar.unifinder.tree.duration.label      "Terminé en">
-<!ENTITY calendar.unifinder.close.tooltip            "Fermer la liste de recherche d'événements et la liste des événements">
+<!ENTITY calendar.unifinder.tree.done.label              "Terminé">
+<!ENTITY calendar.unifinder.tree.done.tooltip            "Trier par échéance">
+<!ENTITY calendar.unifinder.tree.priority.label          "Priorité">
+<!ENTITY calendar.unifinder.tree.priority.tooltip        "Trier par priorité">
+<!ENTITY calendar.unifinder.tree.title.label             "Titre">
+<!ENTITY calendar.unifinder.tree.title.tooltip           "Trier par titre">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label   "Progression">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip "Trier par progression">
+<!ENTITY calendar.unifinder.tree.startdate.label         "Début">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip       "Trier par date de début">
+<!ENTITY calendar.unifinder.tree.enddate.label           "Fin">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip         "Trier par date de fin">
+<!ENTITY calendar.unifinder.tree.duedate.label           "Prévu">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip         "Trier par date de fin prévue">
+<!ENTITY calendar.unifinder.tree.completeddate.label     "Achevé">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip   "Trier par achèvement">
+<!ENTITY calendar.unifinder.tree.categories.label        "Catégorie">
+<!ENTITY calendar.unifinder.tree.categories.tooltip      "Trier par catégorie">
+<!ENTITY calendar.unifinder.tree.location.label          "Lieu">
+<!ENTITY calendar.unifinder.tree.location.tooltip        "Trier par lieu">
+<!ENTITY calendar.unifinder.tree.status.label            "État">
+<!ENTITY calendar.unifinder.tree.status.tooltip          "Trier par état">
+<!ENTITY calendar.unifinder.tree.calendarname.label      "Nom de l'agenda">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip    "Trier par nom de l'agenda">
+<!ENTITY calendar.unifinder.tree.duration.label          "Terminé dans">
+<!ENTITY calendar.unifinder.tree.duration.tooltip        "Trier par temps restant">
+<!ENTITY calendar.unifinder.close.tooltip                "Fermer la liste de recherche d'évènements et la liste des évènements">
 
-<!ENTITY calendar.today.button.tooltip            "Revenir à la date d'aujourd'hui" >
-<!ENTITY calendar.todaypane.button.tooltip        "Afficher le panneau Aujourd'hui" >
+<!ENTITY calendar.today.button.tooltip          "Revenir à la date d'aujourd'hui" >
+<!ENTITY calendar.todaypane.button.tooltip      "Afficher le panneau Aujourd'hui" >
 
-<!ENTITY calendar.day.button.tooltip          "Afficher la journée" >
-<!ENTITY calendar.week.button.tooltip         "Afficher la semaine" >
-<!ENTITY calendar.month.button.tooltip        "Afficher le mois" >
-<!ENTITY calendar.multiweek.button.tooltip    "Afficher plusieurs semaines" >
+<!ENTITY calendar.day.button.tooltip            "Afficher la journée" >
+<!ENTITY calendar.week.button.tooltip           "Afficher la semaine" >
+<!ENTITY calendar.month.button.tooltip          "Afficher le mois" >
+<!ENTITY calendar.multiweek.button.tooltip      "Afficher plusieurs semaines" >
 
 <!ENTITY calendar.nextday.label                 "Jour suivant" >
 <!ENTITY calendar.prevday.label                 "Jour précédent" >
@@ -112,7 +82,7 @@
 <!ENTITY calendar.navigation.nextmonth.tooltip  "Mois suivant" >
 <!ENTITY calendar.navigation.prevmonth.tooltip  "Mois précédent" >
 
-<!ENTITY calendar.newevent.button.label         "Nouvel événement" >
+<!ENTITY calendar.newevent.button.label         "Nouvel évènement" >
 <!ENTITY calendar.newtask.button.label          "Nouvelle tâche" >
 <!ENTITY calendar.print.button.label            "Imprimer" >
 
@@ -173,6 +143,10 @@
 <!ENTITY calendar.task.complete.button.tooltip "Marquer les tâches sélectionnées comme terminées">
 <!ENTITY calendar.task.priority.button.tooltip "Changer la priorité">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base "Filtrer les tâches… #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Maj+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac "&lt;&#x21E7;&#x2318;K&gt;">
+
 <!-- Statusbar -->
 <!ENTITY statusText.label            "Document : fait">
 
@@ -181,13 +155,13 @@
 <!ENTITY calendar.context.modifyorviewitem.accesskey  "O">
 <!ENTITY calendar.context.modifyorviewtask.label      "Ouvrir la tâche…">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "O">
-<!ENTITY calendar.context.newevent.label              "Nouvel événement…">
+<!ENTITY calendar.context.newevent.label              "Nouvel évènement…">
 <!ENTITY calendar.context.newevent.accesskey          "N">
 <!ENTITY calendar.context.newtodo.label               "Nouvelle tâche…">
 <!ENTITY calendar.context.newtodo.accesskey           "v">
 <!ENTITY calendar.context.deletetask.label            "Supprimer la tâche">
 <!ENTITY calendar.context.deletetask.accesskey        "S">
-<!ENTITY calendar.context.deleteevent.label           "Supprimer l'événement">
+<!ENTITY calendar.context.deleteevent.label           "Supprimer l'évènement">
 <!ENTITY calendar.context.deleteevent.accesskey       "S">
 <!ENTITY calendar.context.cutevent.label              "Couper">
 <!ENTITY calendar.context.cutevent.accesskey          "C">
@@ -207,6 +181,8 @@
 <!ENTITY calendar.context.progress.accesskey          "P">
 <!ENTITY calendar.context.priority.label              "Priorité">
 <!ENTITY calendar.context.priority.accesskey          "r">
+<!ENTITY calendar.context.postpone.label              "Reporter la tâche">
+<!ENTITY calendar.context.postpone.accesskey          "e">
 
 <!ENTITY percnt "&#38;#37;" ><!--=percent sign-->
 
@@ -233,6 +209,16 @@
 <!ENTITY priority.level.high                "Élevée">
 <!ENTITY priority.level.high.accesskey      "v">
 
+<!ENTITY calendar.context.postpone.1hour.label      "Une heure">
+<!ENTITY calendar.context.postpone.1hour.accesskey  "h">
+<!ENTITY calendar.context.postpone.1day.label       "Un jour">
+<!ENTITY calendar.context.postpone.1day.accesskey   "U">
+<!ENTITY calendar.context.postpone.1week.label      "Une semaine">
+<!ENTITY calendar.context.postpone.1week.accesskey  "s">
+
+<!ENTITY calendar.copylink.label       "Copier l'adresse du lien">
+<!ENTITY calendar.copylink.accesskey   "C">
+
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
      task action buttons -->
@@ -246,8 +232,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "h" >
 <!ENTITY calendar.context.deleteserver.label           "Supprimer l'agenda">
 <!ENTITY calendar.context.deleteserver.accesskey       "S">
-<!ENTITY calendar.context.reloadserver.label           "Actualiser les agendas distants">
-<!ENTITY calendar.context.reloadserver.accesskey       "R">
+<!ENTITY calendar.context.synccalendars.label          "Synchroniser les agendas">
+<!ENTITY calendar.context.synccalendars.accesskey      "h">
 <!ENTITY calendar.context.publish.label                "Publier l'agenda…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "Exporter l'agenda…">
@@ -258,7 +244,7 @@
 <!ENTITY calendar.context.convertmenu.label "Convertir en">
 <!ENTITY calendar.context.convertmenu.accesskey.mail "C">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "n">
-<!ENTITY calendar.context.convertmenu.event.label "Événement…">
+<!ENTITY calendar.context.convertmenu.event.label "Évènement…">
 <!ENTITY calendar.context.convertmenu.event.accesskey "v">
 <!ENTITY calendar.context.convertmenu.message.label "Message…">
 <!ENTITY calendar.context.convertmenu.message.accesskey "M">
@@ -314,7 +300,7 @@
 <!ENTITY calendarproperties.name.label                     "Nom :">
 <!ENTITY calendarproperties.readonly.label                 "En lecture seule">
 <!ENTITY calendarproperties.firealarms.label               "Afficher les alarmes">
-<!ENTITY calendarproperties.cache2.label                   "Cache">
+<!ENTITY calendarproperties.cache3.label                   "Prise en charge du mode hors connexion">
 <!ENTITY calendarproperties.enabled.label                  "Activer cet agenda">
 <!ENTITY calendarproperties.forceDisabled.label            "Le fournisseur de cet agenda n'a pas été trouvé. Ceci arrive souvent lors de la désactivation ou de la désinstallation de certains modules complémentaires.">
 <!ENTITY calendarproperties.unsubscribe.label              "Se désabonner">
@@ -337,10 +323,10 @@
 <!ENTITY calendar.print.layout.label "Affichage :">
 <!ENTITY calendar.print.range.label "Période à imprimer">
 <!ENTITY calendar.print.currentView2.label "Vue courante">
-<!ENTITY calendar.print.selectedEventsAndTasks.label "Tâches et événements sélectionnés">
+<!ENTITY calendar.print.selectedEventsAndTasks.label "Tâches et évènements sélectionnés">
 <!ENTITY calendar.print.tasks.label "Tâches">
-<!ENTITY calendar.print.events.label "Événements">
-<!ENTITY calendar.print.selected.label "Événements sélectionnés">
+<!ENTITY calendar.print.events.label "Évènements">
+<!ENTITY calendar.print.selected.label "Évènements sélectionnés">
 <!ENTITY calendar.print.custom.label "Période personnalisée :">
 <!ENTITY calendar.print.from.label "Du :">
 <!ENTITY calendar.print.to.label "Au :">
@@ -354,3 +340,9 @@
 <!ENTITY calendar.error.code "Code d'erreur :">
 <!ENTITY calendar.error.description "Description :">
 <!ENTITY calendar.error.title "Une erreur est survenue">
+
+<!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button         "Ajouter comme évènement">
+<!ENTITY calendar.extract.task.button          "Ajouter comme tâche">
+<!ENTITY calendar.extract.event.button.tooltip "Extraire les informations temporelles du message et les ajouter à votre agenda en tant qu'évènement">
+<!ENTITY calendar.extract.task.button.tooltip  "Extraire les informations temporelles du message et les ajouter à votre agenda en tant que tâche">

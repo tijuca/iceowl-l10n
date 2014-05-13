@@ -3,6 +3,27 @@
 
 ret=0
 
+usage()
+{
+    cat <<EOF
+Usage: $0 [--find-patches]
+
+    --find-patches: look for old branding patches and apply them
+
+EOF
+    exit 0
+}
+
+MISSING_PATCHES=""
+
+case $1 in
+    --find-patches)
+        FIND_PATCHES=1
+        ;;
+    --help)
+        usage
+esac
+
 # Check if every language directory has a matching Debian package
 for dir in ?? ??-??; do
     lang=$(echo $dir | tr A-Z a-z)
@@ -24,8 +45,23 @@ done
 for lang in ?? ??-??; do
     if [ ! -f debian/patches/Brand-${lang}.patch ]; then
         echo "Branding patch for $lang missing"
+        MISSING_PATCHES="$MISSING_PATCHES ${lang}"
         ret=1
     fi
 done
+
+if [ "$FIND_PATCHES" = "1" ]; then
+    for lang in $MISSING_PATCHES; do
+        PATCH="debian/patches/Brand-${lang}.patch"
+        HASH=$(git log --format='%H' -1 -- $PATCH)
+        if [ -n "$HASH" ]; then
+            if git show ${HASH}^:$PATCH | patch -p1; then
+                git commit -a -m "Brand $lang"
+            fi
+        else
+            echo "No old patch found for ${lang}"
+        fi
+    done
+fi
 
 exit $ret

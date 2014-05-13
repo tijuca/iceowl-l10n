@@ -1,49 +1,10 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Buettner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY event.title.label                  "Muuda elementi" >
+<!ENTITY event.title.label                  "Elemendi muutmine" >
 
-<!ENTITY event.dialog.keepDurationButton.tooltip   "Säilita lõppaja muutmisel kestus">
+<!ENTITY event.dialog.keepDurationButton.tooltip   "Lõppaja muutmisel säilitatakse kestus">
 <!ENTITY event.dialog.keepDurationButton.accesskey "u">
 
 <!ENTITY newevent.from.label                "Alates" >
@@ -136,9 +97,7 @@
 
 <!ENTITY  event.menu.options.label                            "Valikud">
 <!ENTITY  event.menu.options.accesskey                        "V">
-<!ENTITY  event.menu.options.attachments.label                "Kaasa veebileht…">
-<!ENTITY  event.menu.options.attachments.accesskey            "b">
-<!ENTITY  event.menu.options.attendees.label                  "Kutsu osalejad…">
+<!ENTITY  event.menu.options.attendees.label                  "Osalejate kutsumine…">
 <!ENTITY  event.menu.options.attendees.accesskey              "o">
 <!ENTITY  event.menu.options.spellcheck.label                 "Kontrolli õigekirja…">
 <!ENTITY  event.menu.options.spellcheck.accesskey             "k">
@@ -146,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "j">
 <!ENTITY  event.menu.options.link.label                       "Lisa viide…">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "Ajavöönd">
-<!ENTITY  event.menu.options.timezone.accesskey               "n">
+<!ENTITY  event.menu.options.timezone2.label                  "Ajavööndite kuvamine">
+<!ENTITY  event.menu.options.timezone2.accesskey              "A">
 <!ENTITY  event.menu.options.priority2.label                  "Prioriteet">
 <!ENTITY  event.menu.options.priority2.accesskey              "P">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Määramata">
@@ -173,7 +132,7 @@
 <!ENTITY  event.menu.options.show.time.free.label             "Vaba">
 <!ENTITY  event.menu.options.show.time.free.accesskey         "V">
 
-<!ENTITY event.invite.attendees.label                     "Kutsu osalejad…">
+<!ENTITY event.invite.attendees.label                     "Kutsu osalejaid…">
 <!ENTITY event.invite.attendees.accesskey                 "o">
 <!ENTITY event.email.attendees.label                      "Koosta kiri kõigile osalejatele…">
 <!ENTITY event.email.attendees.accesskey                  "k">
@@ -183,10 +142,9 @@
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.save.label                        "Salvesta ja sulge">
 <!ENTITY  event.toolbar.delete.label                      "Kustuta">
-<!ENTITY  event.toolbar.attendees.label                   "Kutsu osalejad">
+<!ENTITY  event.toolbar.attendees.label                   "Kutsu osalejaid">
 <!ENTITY  event.toolbar.spellcheck.label                  "Õigekirjakontroll">
 <!ENTITY  event.toolbar.privacy.label                     "Privaatsus">
-<!ENTITY  event.toolbar.attachments.label                 "Kaasa fail">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Pealkiri:" >
@@ -195,6 +153,8 @@
 <!ENTITY event.location.accesskey                         "s">
 <!ENTITY event.categories.label                           "Kategooria:">
 <!ENTITY event.categories.accesskey                       "t">
+<!ENTITY event.categories.textbox.label                   "Lisa uus kategooria" >
+<!ENTITY event.categories.textbox.accesskey               "e">
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "K">
 <!ENTITY event.attendees.label                            "Osalejad:" >
@@ -213,12 +173,24 @@
 <!ENTITY task.status.accesskey                            "S">
 <!ENTITY event.repeat.label                               "Kordub:" >
 <!ENTITY event.repeat.accesskey                           "r">
+<!ENTITY event.until.label                                "Kuni:">
+<!ENTITY event.until.accesskey                            "n">
 <!ENTITY event.reminder.label                             "Meeldetuletus:" >
 <!ENTITY event.reminder.accesskey                         "M">
 <!ENTITY event.description.label                          "Kirjeldus:" >
 <!ENTITY event.description.accesskey                      "j">
 <!ENTITY event.attachments.label                          "Kaasatud failid:" >
 <!ENTITY event.attachments.accesskey                      "f" >
+
+<!-- LOCALIZATION NOTE - These 4 strings are not in production yet,
+  but I want to land Filelink support for Lightning soon. The attach
+  button will become a dropdown button that allows to attach links
+  as usual, but also files via the Filelink providers. -->
+<!ENTITY event.attachments.menubutton.label               "Kaasa">
+<!ENTITY event.attachments.menubutton.accesskey           "K">
+<!ENTITY event.attachments.url.label                      "Veebileht…">
+<!ENTITY event.attachments.url.accesskey                  "V">
+
 <!ENTITY event.attachments.popup.remove.label             "Eemalda" >
 <!ENTITY event.attachments.popup.remove.accesskey         "E" >
 <!ENTITY event.attachments.popup.open.label               "Ava" >
@@ -289,7 +261,7 @@
 <!ENTITY event.recurrence.pattern.monthly.week.6.label  "reedel" >
 <!ENTITY event.recurrence.pattern.monthly.week.7.label  "laupäeval" >
 <!ENTITY event.recurrence.repeat.dayofmonth.label       "päeval">
-<!ENTITY event.recurrence.repeat.recur.label            "Kordub järgmistel päevadel">
+<!ENTITY event.recurrence.repeat.recur.label            "järgmistel päevadel">
 
 <!ENTITY event.recurrence.every.label                        "iga" >
 <!ENTITY repeat.units.years.both                             "aasta järel" >
@@ -345,20 +317,18 @@
 
 <!ENTITY event.recurrence.range.label                   "Kordumise ajavahemik">
 <!ENTITY event.recurrence.forever.label                 "Lõpu kuupäev puudub" >
-<!ENTITY event.recurrence.repeat.for.label              "Määra" >
-<!ENTITY event.recurrence.appointments.label            "kohtumine/st" >
-<!ENTITY event.repeat.until.label                       "Korda kuni" >
+<!ENTITY event.recurrence.repeat.for.label              "Kohtumisi kokku" >
+<!ENTITY event.recurrence.appointments.label            "" >
+<!ENTITY event.repeat.until.label                       "Korratakse kuni" >
 <!ENTITY event.recurrence.preview.label                 "Eelvaade">
 
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Osalejate kutsumine">
-<!ENTITY event.organizer.label                  "Organiseerija">
-<!ENTITY event.freebusy.suggest.slot            "Paku aeg:">
+<!ENTITY event.organizer.label                  "Korraldaja">
+<!ENTITY event.freebusy.suggest.slot            "Aja pakkumine:">
 <!ENTITY event.freebusy.next.slot               "Järgmine aeg " >
 <!ENTITY event.freebusy.previous.slot           " Eelmine aeg" >
 <!ENTITY event.freebusy.zoom                    "Suurendamine/Vähendamine:">
-<!ENTITY event.freebusy.plus                    "Järgmine tund" >
-<!ENTITY event.freebusy.minus                   "Eelmine tund" >
 <!ENTITY event.freebusy.legend.free             "Vaba" >
 <!ENTITY event.freebusy.legend.busy             "Hõivatud" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Pole kindel" >
@@ -368,9 +338,14 @@
 <!ENTITY event.attendee.role.optional           "Vabatahtlik osaleja">
 <!ENTITY event.attendee.role.chair              "Koosoleku juhataja">
 <!ENTITY event.attendee.role.nonparticipant     "Vaatleja">
+<!ENTITY event.attendee.usertype.individual     "Isik">
+<!ENTITY event.attendee.usertype.group          "Grupp">
+<!ENTITY event.attendee.usertype.resource       "Ressurss">
+<!ENTITY event.attendee.usertype.room           "Ruum">
 
 <!-- Timezone dialog -->
-<!ENTITY timezone.title.label            "Palun määra ajavöönd">
+<!ENTITY timezone.title.label            "Ajavööndi määramine">
+<!ENTITY event.timezone.custom.label     "Veel ajavööndeid…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Üldine">
@@ -382,7 +357,7 @@
 <!ENTITY read.only.repeat.label          "Kordumine:">
 <!ENTITY read.only.location.label        "Asukoht:">
 <!ENTITY read.only.category.label        "Kategooria:">
-<!ENTITY read.only.organizer.label       "Organiseerija:">
+<!ENTITY read.only.organizer.label       "Korraldaja:">
 <!ENTITY read.only.reply.label           "Vasta:">
 <!ENTITY read.only.accept.label          "Osalen">
 <!ENTITY read.only.decline.label         "Ei osale">

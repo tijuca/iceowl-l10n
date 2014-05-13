@@ -1,31 +1,9 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand is
-
----
- is/locale/is/lightning/lightning.dtd        |    2 +-
- is/locale/is/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
-
-diff --git a/is/locale/is/lightning/lightning.dtd b/is/locale/is/lightning/lightning.dtd
-index 42ca93b..a11ea7f 100644
---- a/is/locale/is/lightning/lightning.dtd
-+++ b/is/locale/is/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label "Atburður…">
- <!ENTITY lightning.menupopup.new.event.accesskey "A">
 diff --git a/is/locale/is/lightning/lightning.properties b/is/locale/is/lightning/lightning.properties
-index e7e0fc8..c33c55b 100644
+index c28a2d1..59b61d6 100644
 --- a/is/locale/is/lightning/lightning.properties
 +++ b/is/locale/is/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,12 +17,12 @@ index e7e0fc8..c33c55b 100644
  
  # Task mode title
  taskModeApplicationTitle=Verk
-@@ -72,7 +72,7 @@ imipBarRequestText=Þessi tölvupóstur inniheldur fundarboð.
- imipBarUpdateText=Þessi tölvupóstur inniheldur uppfærslu á atburði sem er þegar til.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Þessi tölvupóstur inniheldur uppfærslu á atburði sem er
  imipBarAlreadyProcessedText=Þessi póstur inniheldur atburð sem búið er að meðhöndla.
+ imipBarProcessedNeedsAction=Þessi póstur inniheldur atburð sem þú hefur ekki ennþá svarað.
  imipBarReplyText=Þessi tölvupóstur inniheldur svar fyrir fundarboð.
 -imipBarUnsupportedText=Þessi tölvupóstur innheldur atburð sem þessi útgáfa af Lightning getur ekki lesið.
 +imipBarUnsupportedText=Þessi tölvupóstur innheldur atburð sem þessi útgáfa af Iceowl getur ekki lesið.
  imipBarProcessingFailed=Meðhöndlun á pósti mistókst. Staða: %1$S.
+ imipBarNotWritable=Engin skrifanleg dagatöl eru skilgreind fyrir fundarboð, athugaðu stillingar dagatals.
  imipAcceptInvitation.label=Samþykkja
- imipCancelInvitation.label=Eyða

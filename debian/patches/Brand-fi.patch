@@ -1,37 +1,14 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Wed, 28 Mar 2012 21:06:37 +0200
-Subject: Brand fi
-
----
- fi/locale/fi/lightning/lightning.dtd        |    2 +-
- fi/locale/fi/lightning/lightning.properties |    8 ++++----
- 2 files changed, 5 insertions(+), 5 deletions(-)
-
-diff --git a/fi/locale/fi/lightning/lightning.dtd b/fi/locale/fi/lightning/lightning.dtd
-index a0c04cd..1daf7bd 100644
---- a/fi/locale/fi/lightning/lightning.dtd
-+++ b/fi/locale/fi/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Tapahtuma…">
 diff --git a/fi/locale/fi/lightning/lightning.properties b/fi/locale/fi/lightning/lightning.properties
-index 6ec3d45..37efb08 100644
+index dee55e1..3ae06b0 100644
 --- a/fi/locale/fi/lightning/lightning.properties
 +++ b/fi/locale/fi/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Thunderbirdille
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Thunderbirdille
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozillan kalenteriprojekti
  
  # Lightning branding
@@ -40,12 +17,12 @@ index 6ec3d45..37efb08 100644
  
  # Task mode title
  taskModeApplicationTitle=Tehtävät
-@@ -72,7 +72,7 @@ imipBarRequestText=Tämä viesti sisältää tapahtumakutsun.
- imipBarUpdateText=Tämä viesti sisältää päivityksen olemassaolevaan tapahtumaan.
- imipBarAlreadyProcessedText=Tämä viesti sisältää tapahtuman, joka on jo valmiiksi käsitelty.
- imipBarReplyText=Tämä viesti sisältää vastauksen kutsuun.
--imipBarUnsupportedText=Tämä viesti sisältää tapahtuman, jota Lightningin tämä versio ei voi lukea.
-+imipBarUnsupportedText=Tämä viesti sisältää tapahtuman, jota Iceowl tämä versio ei voi lukea.
- imipBarProcessingFailed=Viestinkäsittely epäonnistui. Tila: %1$S.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Tässä viestissä on päivitys olemassaolevaan tapahtumaan.
+ imipBarAlreadyProcessedText=Tässä viestissä oleva tapahtuma on jo käsitelty.
+ imipBarProcessedNeedsAction=Tässä viestissä olevaan tapahtumakutsuun ei ole vielä vastattu.
+ imipBarReplyText=Tässä viestissä on vastaus kutsuun.
+-imipBarUnsupportedText=Tässä viestissä on tapahtuma, jota tämä Lightningin versio ei voi lukea.
++imipBarUnsupportedText=Tässä viestissä on tapahtuma, jota tämä Iceowlin versio ei voi lukea.
+ imipBarProcessingFailed=Viestin käsittely epäonnistui. Tila: %1$S.
+ imipBarNotWritable=Kutsuja varten ei ole määritetty kalenteria, johon voisi kirjoittaa. Ole hyvä ja tarkista kalenterin asetukset.
  imipAcceptInvitation.label=Hyväksy
- imipCancelInvitation.label=Poista

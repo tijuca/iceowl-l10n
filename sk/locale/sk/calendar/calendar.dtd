@@ -1,50 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Garth Smedley <garths@oeone.com>
-   -   Mike Potter <mikep@oeone.com>
-   -   Chris Charabaruk <coldacid@meldstar.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Simon Paquet <bugzilla@babylonsounds.com>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Diego Mira David <diegomd86@gmail.com>
-   -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
-   -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- General -->
 <!ENTITY calendar.calendar.label          "Kalendár">
@@ -64,26 +20,40 @@
 <!ENTITY calendar.events.filter.today.label             "Dnešné udalosti">
 <!ENTITY calendar.events.filter.future.label            "Všetky budúce udalosti">
 <!ENTITY calendar.events.filter.current.label           "Udalosti práve vybraného dňa">
+<!ENTITY calendar.events.filter.currentview.label "Udalosti v aktuálnom zobrazení">
 <!ENTITY calendar.events.filter.next7Days.label         "Udalosti za posledných 7 dní">
 <!ENTITY calendar.events.filter.next14Days.label        "Udalosti za posledných 14 dní">
 <!ENTITY calendar.events.filter.next31Days.label        "Udalosti za posledných 31 dní">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "Udalosti v aktuálnom mesačnom kalendári">
 
 <!ENTITY calendar.unifinder.tree.done.label             "Hotovo">
+<!ENTITY calendar.unifinder.tree.done.tooltip           "Kliknutím usporiadate podľa stĺpca Hotovo">
 <!ENTITY calendar.unifinder.tree.priority.label         "Priorita">
+<!ENTITY calendar.unifinder.tree.priority.tooltip        "Kliknutím usporiadate podľa stĺpca Priorita">
 <!ENTITY calendar.unifinder.tree.title.label            "Názov">
+<!ENTITY calendar.unifinder.tree.title.tooltip           "Kliknutím usporiadate podľa stĺpca Názov">
 <!ENTITY calendar.unifinder.tree.percentcomplete.label  "Hotovo">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip "Kliknutím usporiadate podľa stĺpca Hotovo">
 <!ENTITY calendar.unifinder.tree.startdate.label        "Začiatok">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip       "Kliknutím usporiadate podľa stĺpca Začiatok">
 <!ENTITY calendar.unifinder.tree.enddate.label          "Koniec">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip         "Kliknutím usporiadate podľa stĺpca Koniec">
 <!ENTITY calendar.unifinder.tree.duedate.label          "Splniť do">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip         "Kliknutím usporiadate podľa stĺpca Splniť do">
 <!ENTITY calendar.unifinder.tree.completeddate.label    "Dokončené">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip   "Kliknutím usporiadate podľa stĺpca Dokončené">
 <!ENTITY calendar.unifinder.tree.categories.label       "Kategória">
+<!ENTITY calendar.unifinder.tree.categories.tooltip      "Kliknutím usporiadate podľa stĺpca Kategória">
 <!ENTITY calendar.unifinder.tree.location.label         "Miesto konania">
+<!ENTITY calendar.unifinder.tree.location.tooltip        "Kliknutím usporiadate podľa stĺpca Miesto konania">
 <!ENTITY calendarproperties.refreshInterval.label          "Obnoviť kalendár:">
 <!ENTITY calendarproperties.refreshInterval.manual.label   "Manuálne">
 <!ENTITY calendar.unifinder.tree.status.label           "Stav">
+<!ENTITY calendar.unifinder.tree.status.tooltip          "Kliknutím usporiadate podľa stĺpca Stav">
 <!ENTITY calendar.unifinder.tree.calendarname.label     "Názov kalendára">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip    "Kliknutím usporiadate podľa stĺpca Názov kalendára">
 <!ENTITY calendar.unifinder.tree.duration.label         "Termín o">
+<!ENTITY calendar.unifinder.tree.duration.tooltip        "Kliknutím usporiadate podľa stĺpca Termín">
 <!ENTITY calendar.unifinder.close.tooltip               "Zavrieť vyhľadávanie udalostí a zoznam udalostí">
 
 <!ENTITY calendar.today.button.tooltip            "Prejsť na dnešný deň" >
@@ -181,6 +151,10 @@
 <!ENTITY calendar.task.complete.button.tooltip  "Označiť vybrané úlohy ako dokončené">
 <!ENTITY calendar.task.priority.button.tooltip  "Zmeniť prioritu">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base            "Filtrovať úlohy… #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
+
 <!-- Statusbar -->
 <!ENTITY statusText.label   "Dokument: Hotovo">
 
@@ -215,6 +189,8 @@
 <!ENTITY calendar.context.progress.accesskey          "S">
 <!ENTITY calendar.context.priority.label              "Priorita">
 <!ENTITY calendar.context.priority.accesskey          "P">
+<!ENTITY calendar.context.postpone.label              "Odložiť úlohu">
+<!ENTITY calendar.context.postpone.accesskey          "O">
 
 <!ENTITY percnt                                       "&#38;#37;" ><!--=percent sign-->
 
@@ -241,6 +217,16 @@
 <!ENTITY priority.level.high                "Vysoká">
 <!ENTITY priority.level.high.accesskey      "V">
 
+<!ENTITY calendar.context.postpone.1hour.label      "O jednu hodinu">
+<!ENTITY calendar.context.postpone.1hour.accesskey  "h">
+<!ENTITY calendar.context.postpone.1day.label       "O jeden deň">
+<!ENTITY calendar.context.postpone.1day.accesskey   "O">
+<!ENTITY calendar.context.postpone.1week.label      "O jeden týždeň">
+<!ENTITY calendar.context.postpone.1week.accesskey  "d">
+
+<!ENTITY calendar.copylink.label       "Kopírovať adresu odkazu">
+<!ENTITY calendar.copylink.accesskey   "K">
+
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
      task action buttons -->
@@ -254,8 +240,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey      "H" >
 <!ENTITY calendar.context.deleteserver.label          "Odstrániť kalendár">
 <!ENTITY calendar.context.deleteserver.accesskey      "d">
-<!ENTITY calendar.context.reloadserver.label          "Obnoviť vzdialené kalendáre">
-<!ENTITY calendar.context.reloadserver.accesskey      "b">
+<!ENTITY calendar.context.synccalendars.label          "Synchronizovať kalendáre">
+<!ENTITY calendar.context.synccalendars.accesskey      "c">
 <!ENTITY calendar.context.publish.label               "Publikovať celý kalendár…">
 <!ENTITY calendar.context.publish.accesskey           "P">
 <!ENTITY calendar.context.export.label                "Exportovať kalendár…">
@@ -322,7 +308,7 @@
 <!ENTITY calendarproperties.name.label                     "Názov:">
 <!ENTITY calendarproperties.readonly.label                 "Len na čítanie">
 <!ENTITY calendarproperties.firealarms.label               "Zobraziť upozornenia">
-<!ENTITY calendarproperties.cache2.label                   "Vyrovnávacia pamäť">
+<!ENTITY calendarproperties.cache3.label                   "Podpora pre režim offline">
 <!ENTITY calendarproperties.enabled.label                  "Zapnúť tento kalendár">
 <!ENTITY calendarproperties.forceDisabled.label            "Poskytovateľ tohto kalendára nebol nájdený. Toto sa často stáva, ak zakážete alebo odinštalujte určité rozšírenia.">
 <!ENTITY calendarproperties.unsubscribe.label              "Odhlásiť sa">
@@ -362,3 +348,9 @@
 <!ENTITY calendar.error.code                    "Kód chyby:">
 <!ENTITY calendar.error.description             "Popis:">
 <!ENTITY calendar.error.title                   "Vyskytla sa chyba:">
+
+<!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button         "Pridať ako udalosť">
+<!ENTITY calendar.extract.task.button          "Pridať ako úlohu">
+<!ENTITY calendar.extract.event.button.tooltip "Extrahuje informácie o termínoch z e-mailovej správy a pridá ich do kalendára ako udalosť">
+<!ENTITY calendar.extract.task.button.tooltip  "Extrahuje informácie o termínoch z e-mailovej správy a pridá ich do kalendára ako úlohu">

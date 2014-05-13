@@ -1,56 +1,9 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand ja
-
----
- ja/locale/ja/calendar/migration.properties  |    2 +-
- ja/locale/ja/calendar/timezones.properties  |    2 +-
- ja/locale/ja/lightning/lightning.dtd        |    2 +-
- ja/locale/ja/lightning/lightning.properties |    6 +++---
- 4 files changed, 6 insertions(+), 6 deletions(-)
-
-diff --git a/ja/locale/ja/calendar/migration.properties b/ja/locale/ja/calendar/migration.properties
-index 0b571e4..8f793c0 100644
---- a/ja/locale/ja/calendar/migration.properties
-+++ b/ja/locale/ja/calendar/migration.properties
-@@ -43,4 +43,4 @@ migrationTitle = %1$S: データのインポート
- migrationDescription=%1$S は他のプログラムからデータをインポートできます。以下のプログラムのデータが見つかりました。どのデータをインポートするか選択してください。
- finished = 完了
- disableExtTitle = 互換性のない拡張が見つかりました
--disableExtText = Lightning と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
-+disableExtText = Iceowl と互換性のない、古い Mozilla Calendar 拡張機能がインストールされています。この拡張機能を無効にして %1$S を再起動します。
-diff --git a/ja/locale/ja/calendar/timezones.properties b/ja/locale/ja/calendar/timezones.properties
-index 3c61c5e..6578404 100644
---- a/ja/locale/ja/calendar/timezones.properties
-+++ b/ja/locale/ja/calendar/timezones.properties
-@@ -41,7 +41,7 @@
- 
- # extension:
- extensions.calendar-timezones@mozilla.org.name=Timezone Definitions for Mozilla Calendar
--extensions.calendar-timezones@mozilla.org.description=Sunbird と Lightning 用のタイムゾーンデータ
-+extensions.calendar-timezones@mozilla.org.description=Iceowl と Iceowl 用のタイムゾーンデータ
- extensions.calendar-timezones@mozilla.org.creator=Mozilla Calendar Project
- 
- pref.timezone.floating=現地時間/タイムゾーンなし (Local Time/floating)
-diff --git a/ja/locale/ja/lightning/lightning.dtd b/ja/locale/ja/lightning/lightning.dtd
-index 696c53f..cfd4c77 100644
---- a/ja/locale/ja/lightning/lightning.dtd
-+++ b/ja/locale/ja/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel				"Lightning">
-+<!ENTITY lightning.taskLabel				"Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label		"予定...">
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index de1eb90..99a1a72 100644
+index c02c63d..215dd3c 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -64,12 +17,12 @@ index de1eb90..99a1a72 100644
  
  # Task mode title
  taskModeApplicationTitle=ToDo
-@@ -72,7 +72,7 @@ imipBarRequestText=メッセージに参加依頼が含まれています。
- imipBarUpdateText=メッセージに既存の予定の更新が含まれています。
- imipBarAlreadyProcessedText=メッセージにすでに終了した予定が含まれています。
+@@ -42,7 +42,7 @@ imipBarUpdateText=メッセージに既存の予定の更新が含まれてい
+ imipBarAlreadyProcessedText=メッセージにすでに処理された予定が含まれています。
+ imipBarProcessedNeedsAction=メッセージにまだ返答していない予定が含まれています。
  imipBarReplyText=メッセージに参加依頼への返信が含まれています。
--imipBarUnsupportedText=メッセージにこのバージョンの Lightning では対応できない予定が含まれています。
-+imipBarUnsupportedText=メッセージにこのバージョンの Iceowl では対応できない予定が含まれています。
+-imipBarUnsupportedText=メッセージにこのバージョンの Lightning では処理できない予定が含まれています。
++imipBarUnsupportedText=メッセージにこのバージョンの Iceowl では処理できない予定が含まれています。
  imipBarProcessingFailed=メッセージの処理に失敗しました。状態: %1$S
+ imipBarNotWritable=カレンダーに書き込みできないため参加依頼を処理できません。カレンダーのプロパティを確認してください。
  imipAcceptInvitation.label=承諾
- imipCancelInvitation.label=削除

@@ -1,31 +1,9 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:15 +0200
-Subject: Brand fr
-
----
- fr/locale/fr/lightning/lightning.dtd        |    2 +-
- fr/locale/fr/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
-
-diff --git a/fr/locale/fr/lightning/lightning.dtd b/fr/locale/fr/lightning/lightning.dtd
-index 990a846..32b8997 100644
---- a/fr/locale/fr/lightning/lightning.dtd
-+++ b/fr/locale/fr/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Événement…">
 diff --git a/fr/locale/fr/lightning/lightning.properties b/fr/locale/fr/lightning/lightning.properties
-index d0f6645..abcb753 100644
+index d859858..6213c91 100644
 --- a/fr/locale/fr/lightning/lightning.properties
 +++ b/fr/locale/fr/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,12 +17,12 @@ index d0f6645..abcb753 100644
  
  # Task mode title
  taskModeApplicationTitle=Tâches
-@@ -72,7 +72,7 @@ imipBarRequestText=Ce message contient une invitation.
- imipBarUpdateText=Ce message contient une mise à jour pour un événement existant.
- imipBarAlreadyProcessedText=Ce message contient un événement qui a déjà été traité.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Ce message contient une mise à jour pour un évènement exist
+ imipBarAlreadyProcessedText=Ce message contient un évènement qui a déjà été traité.
+ imipBarProcessedNeedsAction=Ce message contient un évènement auquel vous n'avez pas encore répondu.
  imipBarReplyText=Ce message contient une réponse à une invitation.
--imipBarUnsupportedText=Ce message contient un événement que cette version de Lightning ne peut pas traiter.
-+imipBarUnsupportedText=Ce message contient un événement que cette version de Iceowl ne peut pas traiter.
+-imipBarUnsupportedText=Ce message contient un évènement que cette version de Lightning ne peut pas traiter.
++imipBarUnsupportedText=Ce message contient un évènement que cette version de Iceowl ne peut pas traiter.
  imipBarProcessingFailed=Le traitement du message a échoué. État : %1$S.
+ imipBarNotWritable=Aucun agenda disponible à l'écriture n'est configuré pour les invitations, veuillez vérifier les propriétés de l'agenda.
  imipAcceptInvitation.label=Accepter
- imipCancelInvitation.label=Supprimer

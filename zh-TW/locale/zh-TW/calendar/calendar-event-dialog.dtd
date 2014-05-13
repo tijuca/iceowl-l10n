@@ -1,47 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Buettner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
-   -   Gianfranco Balza <bv1578@gmail.com>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label                  "編輯項目" >
 
@@ -138,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label                            "選項">
 <!ENTITY  event.menu.options.accesskey                        "O">
-<!ENTITY  event.menu.options.attachments.label                "附加網頁">
-<!ENTITY  event.menu.options.attachments.accesskey            "W">
 <!ENTITY  event.menu.options.attendees.label                  "邀請參與者…">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
 <!ENTITY  event.menu.options.spellcheck.label                 "檢查拼字…">
@@ -148,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "S">
 <!ENTITY  event.menu.options.link.label                       "新增鏈結…">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "時區">
-<!ENTITY  event.menu.options.timezone.accesskey               "z">
+<!ENTITY  event.menu.options.timezone2.label                  "顯示時區">
+<!ENTITY  event.menu.options.timezone2.accesskey              "z">
 <!ENTITY  event.menu.options.priority2.label                  "重要性">
 <!ENTITY  event.menu.options.priority2.accesskey              "y">
 <!ENTITY  event.menu.options.priority.notspecified.label      "未指定">
@@ -188,25 +145,26 @@
 <!ENTITY  event.toolbar.attendees.label                   "邀請參與者">
 <!ENTITY  event.toolbar.spellcheck.label                  "拼字檢查">
 <!ENTITY  event.toolbar.privacy.label                     "隱私">
-<!ENTITY  event.toolbar.attachments.label                 "附件">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "標題:" >
-<!ENTITY event.title.textbox.accesskey                    "T">
+<!ENTITY event.title.textbox.accesskey                    "i">
 <!ENTITY event.location.label                             "地點:" >
 <!ENTITY event.location.accesskey                         "L">
 <!ENTITY event.categories.label                           "分類:">
 <!ENTITY event.categories.accesskey                       "y">
+<!ENTITY event.categories.textbox.label                   "新增分類" >
+<!ENTITY event.categories.textbox.accesskey               "A">
 <!ENTITY event.calendar.label                             "行事曆:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "與會者:" >
-<!ENTITY event.attendees.accesskey                        "A" >
+<!ENTITY event.attendees.accesskey                        "I" >
 <!ENTITY event.alldayevent.label                          "全天事件" >
 <!ENTITY event.alldayevent.accesskey                      "d">
 <!ENTITY event.from.label                                 "開始:" >
 <!ENTITY event.from.accesskey                             "S">
 <!ENTITY task.from.label                                  "開始:" >
-<!ENTITY task.from.accesskey                              "S">
+<!ENTITY task.from.accesskey                              "B">
 <!ENTITY event.to.label                                   "結束:" >
 <!ENTITY event.to.accesskey                               "n">
 <!ENTITY task.to.label                                    "到期日:" >
@@ -215,12 +173,18 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "重複:" >
 <!ENTITY event.repeat.accesskey                           "R">
+<!ENTITY event.until.label                                "直到:">
+<!ENTITY event.until.accesskey                            "i">
 <!ENTITY event.reminder.label                             "提醒:" >
 <!ENTITY event.reminder.accesskey                         "m">
 <!ENTITY event.description.label                          "描述:" >
 <!ENTITY event.description.accesskey                      "p">
 <!ENTITY event.attachments.label                          "附加檔案:" >
 <!ENTITY event.attachments.accesskey                      "h" >
+<!ENTITY event.attachments.menubutton.label               "附件">
+<!ENTITY event.attachments.menubutton.accesskey           "A">
+<!ENTITY event.attachments.url.label                      "網頁…">
+<!ENTITY event.attachments.url.accesskey                  "W">
 <!ENTITY event.attachments.popup.remove.label             "移除" >
 <!ENTITY event.attachments.popup.remove.accesskey         "R" >
 <!ENTITY event.attachments.popup.open.label               "開啟舊檔" >
@@ -360,8 +324,6 @@
 <!ENTITY event.freebusy.next.slot               "下一個時段 " >
 <!ENTITY event.freebusy.previous.slot           " 上一個時段" >
 <!ENTITY event.freebusy.zoom                    "放大:">
-<!ENTITY event.freebusy.plus                    "下一個小時" >
-<!ENTITY event.freebusy.minus                   "上一個小時" >
 <!ENTITY event.freebusy.legend.free             "空閒" >
 <!ENTITY event.freebusy.legend.busy             "忙碌" >
 <!ENTITY event.freebusy.legend.busy_tentative   "暫訂" >
@@ -371,9 +333,14 @@
 <!ENTITY event.attendee.role.optional           "可選擇與會者">
 <!ENTITY event.attendee.role.chair              "主席">
 <!ENTITY event.attendee.role.nonparticipant     "非參加者">
+<!ENTITY event.attendee.usertype.individual     "個人">
+<!ENTITY event.attendee.usertype.group          "群組">
+<!ENTITY event.attendee.usertype.resource       "資源">
+<!ENTITY event.attendee.usertype.room           "空間">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "請指定時區">
+<!ENTITY event.timezone.custom.label     "更多時區…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "一般">
@@ -396,3 +363,4 @@
 <!ENTITY read.only.description.label     "描述">
 <!ENTITY read.only.documents.label       "文件">
 <!ENTITY read.only.link.label            "相關鏈結">
+

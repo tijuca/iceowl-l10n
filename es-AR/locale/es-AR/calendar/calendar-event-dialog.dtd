@@ -1,47 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2006
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Buettner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
-   -   Gianfranco Balza <bv1578@gmail.com> 
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label                  "Editar Ítem" >
 
@@ -138,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label                        "Opciones">
 <!ENTITY  event.menu.options.accesskey                    "O">
-<!ENTITY  event.menu.options.attachments.label                "Adjuntar página web…">
-<!ENTITY  event.menu.options.attachments.accesskey            "w">
 <!ENTITY  event.menu.options.attendees.label              "Invitar participantes…">
 <!ENTITY  event.menu.options.attendees.accesskey          "I">
 <!ENTITY  event.menu.options.spellcheck.label             "Verificar ortografía…">
@@ -148,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey  "t">
 <!ENTITY  event.menu.options.link.label                   "Agregar enlace…">
 <!ENTITY  event.menu.options.link.accesskey               "l">
-<!ENTITY  event.menu.options.timezone.label               "Huso horario">
-<!ENTITY  event.menu.options.timezone.accesskey           "H">
+<!ENTITY  event.menu.options.timezone2.label                  "Mostrar husos horarios">
+<!ENTITY  event.menu.options.timezone2.accesskey              "h">
 <!ENTITY  event.menu.options.priority2.label              "Prioridad">
 <!ENTITY  event.menu.options.priority2.accesskey          "d">
 <!ENTITY  event.menu.options.priority.notspecified.label      "No especificada">
@@ -188,7 +145,6 @@
 <!ENTITY  event.toolbar.attendees.label                   "Invitar participantes">
 <!ENTITY  event.toolbar.spellcheck.label                  "Ortografía">
 <!ENTITY  event.toolbar.privacy.label                     "Privacidad">
-<!ENTITY  event.toolbar.attachments.label                 "Adjuntar">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Título:" >
@@ -197,6 +153,8 @@
 <!ENTITY event.location.accesskey                         "D">
 <!ENTITY event.categories.label                           "Categoría:">
 <!ENTITY event.categories.accesskey                       "g">
+<!ENTITY event.categories.textbox.label                   "Agregar una nueva categoría" >
+<!ENTITY event.categories.textbox.accesskey               "A">
 <!ENTITY event.calendar.label                             "Calendario:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "Participantes:" >
@@ -215,12 +173,24 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "Repetir:" >
 <!ENTITY event.repeat.accesskey                           "R">
+<!ENTITY event.until.label                                "Hasta:">
+<!ENTITY event.until.accesskey                            "H">
 <!ENTITY event.reminder.label                             "Recordar:" >
 <!ENTITY event.reminder.accesskey                         "c">
 <!ENTITY event.description.label                          "Descripción:" >
 <!ENTITY event.description.accesskey                      "p">
 <!ENTITY event.attachments.label                          "Adjuntos:" >
 <!ENTITY event.attachments.accesskey                      "j" >
+
+<!-- LOCALIZATION NOTE - These 4 strings are not in production yet,
+   but I want to land Filelink support for Lightning soon. The attach
+   button will become a dropdown button that allows to attach links
+   as usual, but also files via the Filelink providers. -->
+<!ENTITY event.attachments.menubutton.label               "Adjuntar">
+<!ENTITY event.attachments.menubutton.accesskey           "A">
+<!ENTITY event.attachments.url.label                      "Página web…">
+<!ENTITY event.attachments.url.accesskey                  "w">
+
 <!ENTITY event.attachments.popup.remove.label             "Eliminar" >
 <!ENTITY event.attachments.popup.remove.accesskey         "r" >
 <!ENTITY event.attachments.popup.open.label               "Abrir" >
@@ -360,8 +330,6 @@
 <!ENTITY event.freebusy.next.slot "Next slot ">
 <!ENTITY event.freebusy.previous.slot " Previous slot">
 <!ENTITY event.freebusy.zoom             "Zoom:">
-<!ENTITY event.freebusy.plus "Hora siguiente">
-<!ENTITY event.freebusy.minus "Hora previa">
 <!ENTITY event.freebusy.legend.free      "Libre" >
 <!ENTITY event.freebusy.legend.busy      "Ocupado" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Tentativo" >
@@ -371,9 +339,14 @@
 <!ENTITY event.attendee.role.optional           "Asistencia opcional">
 <!ENTITY event.attendee.role.chair              "Coordinador">
 <!ENTITY event.attendee.role.nonparticipant     "No participante">
+<!ENTITY event.attendee.usertype.individual     "Individual">
+<!ENTITY event.attendee.usertype.group          "Grupo">
+<!ENTITY event.attendee.usertype.resource       "Recurso">
+<!ENTITY event.attendee.usertype.room           "Salón">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Especifique el huso horario">
+<!ENTITY event.timezone.custom.label     "Más husos horarios…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "General">

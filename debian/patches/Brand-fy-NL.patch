@@ -1,31 +1,9 @@
-From: =?UTF-8?q?Guido=20G=C3=BCnther?= <agx@sigxcpu.org>
-Date: Sat, 2 Apr 2011 10:37:16 +0200
-Subject: Brand fy-NL
-
----
- fy-NL/locale/fy-NL/lightning/lightning.dtd        |    2 +-
- fy-NL/locale/fy-NL/lightning/lightning.properties |    6 +++---
- 2 files changed, 4 insertions(+), 4 deletions(-)
-
-diff --git a/fy-NL/locale/fy-NL/lightning/lightning.dtd b/fy-NL/locale/fy-NL/lightning/lightning.dtd
-index ab3f927..feda517 100644
---- a/fy-NL/locale/fy-NL/lightning/lightning.dtd
-+++ b/fy-NL/locale/fy-NL/lightning/lightning.dtd
-@@ -46,7 +46,7 @@
-   -->
- 
- <!-- Tools menu -->
--<!ENTITY lightning.taskLabel "Lightning">
-+<!ENTITY lightning.taskLabel "Iceowl">
- 
- <!-- New menu popup in File menu -->
- <!ENTITY lightning.menupopup.new.event.label    "Barren…">
 diff --git a/fy-NL/locale/fy-NL/lightning/lightning.properties b/fy-NL/locale/fy-NL/lightning/lightning.properties
-index c00def7..58f5785 100644
+index 98907b0..52f9222 100644
 --- a/fy-NL/locale/fy-NL/lightning/lightning.properties
 +++ b/fy-NL/locale/fy-NL/lightning/lightning.properties
-@@ -38,12 +38,12 @@
- # ***** END LICENSE BLOCK *****
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -39,12 +17,12 @@ index c00def7..58f5785 100644
  
  # Task mode title
  taskModeApplicationTitle=Taken
-@@ -72,7 +72,7 @@ imipBarRequestText=Dit berjocht hat in \u00FAtnoeging foar in barren.
- imipBarUpdateText=Dit berjocht hat in fernijing foar in besteand barren.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Dit berjocht hat in fernijing foar in besteand barren.
  imipBarAlreadyProcessedText=Dit berjocht hat in barren dat al tafoege is oan jo aginda.
- imipBarReplyText=Dit berjocht hat in antwurd op in \u00FAtnoeging.
+ imipBarProcessedNeedsAction=Dit berjocht befettet in barren wêrop jo noch net reagearre hawwe.
+ imipBarReplyText=Dit berjocht hat in antwurd op in útnoeging.
 -imipBarUnsupportedText=Dit berjocht hat in barren dat dizze ferzje fan Lightning net ferwurkje kin.
 +imipBarUnsupportedText=Dit berjocht hat in barren dat dizze ferzje fan Iceowl net ferwurkje kin.
  imipBarProcessingFailed=Berjochtferwurking mislearre. Steat: %1$S.
+ imipBarNotWritable=der binne gjin skriuwbere aginda’s foar útnoegingen konfigurearre. Kontrolearje de aginda-eigenskippen.
  imipAcceptInvitation.label=Akseptearje
- imipCancelInvitation.label=Fuortsmite
