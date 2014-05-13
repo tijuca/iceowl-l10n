@@ -5,8 +5,8 @@ Maintainer: Guido Günther <agx@sigxcpu.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.9.5
-Vcs-Git: git://git.debian.org/git/users/agx/iceowl-l10n.git
-Vcs-Browser: http://git.debian.org/git/users/agx/iceowl-l10n.git
+Vcs-Git: git://anonscm.debian.org/users/agx/iceowl-l10n.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/agx/iceowl-l10n.git;a=summary
 
 Package: iceowl-l10n-ca
 Architecture: all
