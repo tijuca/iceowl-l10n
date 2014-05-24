@@ -1,3 +1,11 @@
+From: =?utf-8?q?Guido_G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 24 May 2014 14:30:26 +0200
+Subject: Brand-ga-IE
+
+---
+ ga-IE/locale/ga-IE/lightning/lightning.properties | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
 index bbd8077..504cd9e 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.properties

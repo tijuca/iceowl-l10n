@@ -1,3 +1,11 @@
+From: =?utf-8?q?Guido_G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 24 May 2014 14:30:26 +0200
+Subject: Brand-zh-CN
+
+---
+ zh-CN/locale/zh-CN/lightning/lightning.properties | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
 diff --git a/zh-CN/locale/zh-CN/lightning/lightning.properties b/zh-CN/locale/zh-CN/lightning/lightning.properties
 index 5c7aa3e..dcd02df 100644
 --- a/zh-CN/locale/zh-CN/lightning/lightning.properties

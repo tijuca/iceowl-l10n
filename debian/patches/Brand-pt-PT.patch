@@ -1,3 +1,11 @@
+From: =?utf-8?q?Guido_G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 24 May 2014 14:30:26 +0200
+Subject: Brand-pt-PT
+
+---
+ pt-PT/locale/pt-PT/lightning/lightning.properties | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
 index 032f875..bc85367 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties

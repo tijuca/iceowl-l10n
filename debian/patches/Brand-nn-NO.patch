@@ -1,3 +1,11 @@
+From: =?utf-8?q?Guido_G=C3=BCnther?= <agx@sigxcpu.org>
+Date: Sat, 24 May 2014 14:30:26 +0200
+Subject: Brand-nn-NO
+
+---
+ nn-NO/locale/nn-NO/lightning/lightning.properties | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
 diff --git a/nn-NO/locale/nn-NO/lightning/lightning.properties b/nn-NO/locale/nn-NO/lightning/lightning.properties
 index 816f19a..8821e50 100644
 --- a/nn-NO/locale/nn-NO/lightning/lightning.properties
