@@ -1,51 +1,7 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Garth Smedley <garths@oeone.com>
-   -   Mike Potter <mikep@oeone.com>
-   -   Chris Charabaruk <coldacid@meldstar.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Simon Paquet <bugzilla@babylonsounds.com>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Diego Mira David <diegomd86@gmail.com>
-   -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
-   -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
-   -   
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
 <!ENTITY calendar.calendar.label "Calendario">
 <!ENTITY calendar.calendar.accesskey "C">
 <!ENTITY calendar.newevent.button.tooltip "Crear un nuevo evento en el calendario">
@@ -59,23 +15,37 @@
 <!ENTITY calendar.events.filter.today.label "Eventos de hoy">
 <!ENTITY calendar.events.filter.future.label "Todos los eventos futuros">
 <!ENTITY calendar.events.filter.current.label "Día seleccionado">
+<!ENTITY calendar.events.filter.currentview.label "Eventos en la vista actual">
 <!ENTITY calendar.events.filter.next7Days.label "Eventos en los próximos 7 días">
 <!ENTITY calendar.events.filter.next14Days.label "Eventos en los próximos 14 días">
 <!ENTITY calendar.events.filter.next31Days.label "Eventos en los próximos 31 días">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "Eventos en este mes del calendario">
 <!ENTITY calendar.unifinder.tree.done.label "Hecho">
+<!ENTITY calendar.unifinder.tree.done.tooltip "Haga clic para ordenar por marca Terminado">
 <!ENTITY calendar.unifinder.tree.priority.label "Prioridad">
+<!ENTITY calendar.unifinder.tree.priority.tooltip "Haga clic para ordenar por prioridad">
 <!ENTITY calendar.unifinder.tree.title.label "Título">
+<!ENTITY calendar.unifinder.tree.title.tooltip "Haga clic para ordenar por título">
 <!ENTITY calendar.unifinder.tree.percentcomplete.label "&#037; Completo">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip "Haga clic para ordenar por &#037; completo">
 <!ENTITY calendar.unifinder.tree.startdate.label "Inicio">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip "Haga clic para ordenar por fecha de inicio">
 <!ENTITY calendar.unifinder.tree.enddate.label "Fin">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip "Haga clic para ordenar por fecha de finalización">
 <!ENTITY calendar.unifinder.tree.duedate.label "Vencimiento">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip "Haga clic para ordenar por fecha de vencimiento">
 <!ENTITY calendar.unifinder.tree.completeddate.label "Completado">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip "Haga clic para ordenar por completitud">
 <!ENTITY calendar.unifinder.tree.categories.label "Categoría">
+<!ENTITY calendar.unifinder.tree.categories.tooltip "Haga clic para ordenar por categoría">
 <!ENTITY calendar.unifinder.tree.location.label "Lugar">
+<!ENTITY calendar.unifinder.tree.location.tooltip "Haga clic para ordenar por lugar">
 <!ENTITY calendar.unifinder.tree.status.label "Estado">
+<!ENTITY calendar.unifinder.tree.status.tooltip "Haga clic para ordenar por estado">
 <!ENTITY calendar.unifinder.tree.calendarname.label "Nombre del calendario">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip "Haga clic para ordenar por nombre del calendario">
 <!ENTITY calendar.unifinder.tree.duration.label "Vence en">
+<!ENTITY calendar.unifinder.tree.duration.tooltip "Haga clic para ordenar por días hasta vencimiento">
 <!ENTITY calendar.unifinder.close.tooltip "Cerrar búsqueda y lista de eventos">
 <!ENTITY calendar.today.button.tooltip "Ir a hoy">
 <!ENTITY calendar.todaypane.button.tooltip "Mostrar panel Para hoy">
@@ -153,6 +123,9 @@
 <!ENTITY calendar.task.category.button.tooltip "Categorizar tareas">
 <!ENTITY calendar.task.complete.button.tooltip "Marcar tareas seleccionadas como completadas">
 <!ENTITY calendar.task.priority.button.tooltip "Cambiar la prioridad">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base "Filtrar tareas… #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Mayús+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac "&lt;⇧⌘K&gt;">
 <!ENTITY statusText.label "Documento: finalizado">
 <!ENTITY calendar.context.modifyorviewitem.label "Abrir">
 <!ENTITY calendar.context.modifyorviewitem.accesskey "A">
@@ -182,6 +155,8 @@
 <!ENTITY calendar.context.progress.accesskey "P">
 <!ENTITY calendar.context.priority.label "Prioridad">
 <!ENTITY calendar.context.priority.accesskey "r">
+<!ENTITY calendar.context.postpone.label "Postponer tarea">
+<!ENTITY calendar.context.postpone.accesskey "P">
 <!ENTITY percnt "&#037;">
 <!ENTITY calendar.context.markcompleted.label "Marcar como completada">
 <!ENTITY calendar.context.markcompleted.accesskey "o">
@@ -203,6 +178,14 @@
 <!ENTITY priority.level.normal.accesskey "N">
 <!ENTITY priority.level.high "Alta">
 <!ENTITY priority.level.high.accesskey "A">
+<!ENTITY calendar.context.postpone.1hour.label "1 hora">
+<!ENTITY calendar.context.postpone.1hour.accesskey "h">
+<!ENTITY calendar.context.postpone.1day.label "1 día">
+<!ENTITY calendar.context.postpone.1day.accesskey "d">
+<!ENTITY calendar.context.postpone.1week.label "1 semana">
+<!ENTITY calendar.context.postpone.1week.accesskey "s">
+<!ENTITY calendar.copylink.label "Copiar la dirección del enlace">
+<!ENTITY calendar.copylink.accesskey "C">
 <!ENTITY calendar.taskview.delete.label "Eliminar">
 <!ENTITY calendar.taskview.delete.accesskey "E">
 <!ENTITY calendar.context.newserver.label "Nuevo calendario…">
@@ -211,8 +194,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey "c">
 <!ENTITY calendar.context.deleteserver.label "Borrar calendario">
 <!ENTITY calendar.context.deleteserver.accesskey "D">
-<!ENTITY calendar.context.reloadserver.label "Recargar calendarios remotos">
-<!ENTITY calendar.context.reloadserver.accesskey "R">
+<!ENTITY calendar.context.synccalendars.label "Sincronizar calendarios">
+<!ENTITY calendar.context.synccalendars.accesskey "S">
 <!ENTITY calendar.context.publish.label "Publicar calendario…">
 <!ENTITY calendar.context.publish.accesskey "b">
 <!ENTITY calendar.context.export.label "Exportar calendario...">
@@ -263,7 +246,7 @@
 <!ENTITY calendarproperties.name.label "Nombre:">
 <!ENTITY calendarproperties.readonly.label "Sólo lectura">
 <!ENTITY calendarproperties.firealarms.label "Mostrar avisos">
-<!ENTITY calendarproperties.cache2.label "Caché">
+<!ENTITY calendarproperties.cache3.label "Compatible con el modo sin conexión">
 <!ENTITY calendarproperties.enabled.label "Activar este calendario">
 <!ENTITY calendarproperties.forceDisabled.label "No se ha encontrado el proveedor de este calendario. Esto sucede a menudo si ha desactivado o desinstalado ciertos complementos.">
 <!ENTITY calendarproperties.unsubscribe.label "Cancelar suscripción">
@@ -294,3 +277,7 @@
 <!ENTITY calendar.error.code "Código de error:">
 <!ENTITY calendar.error.description "Descripción:">
 <!ENTITY calendar.error.title "Ha ocurrido un error">
+<!ENTITY calendar.extract.event.button "Añadir como evento">
+<!ENTITY calendar.extract.task.button "Añadir como tarea">
+<!ENTITY calendar.extract.event.button.tooltip "Extraer información de calendario del mensaje y añadirla a su calendario como un evento">
+<!ENTITY calendar.extract.task.button.tooltip "Extraer información de calendario del mensaje y añadirla a su calendario como una tarea">

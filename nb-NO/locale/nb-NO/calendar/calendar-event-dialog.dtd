@@ -1,47 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Buettner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Simon Vaillancourt <simon.at.orcl@gmail.com>   
-   -   Gianfranco Balza <bv1578@gmail.com>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label                  "Rediger hendelse" >
 
@@ -138,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label                            "Innstillinger">
 <!ENTITY  event.menu.options.accesskey                        "I">
-<!ENTITY  event.menu.options.attachments.label                "Legg ved nettside …">
-<!ENTITY  event.menu.options.attachments.accesskey            "L">
 <!ENTITY  event.menu.options.attendees.label                  "Inviter deltakere …">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
 <!ENTITY  event.menu.options.spellcheck.label                 "Stavekontroll …">
@@ -148,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "v">
 <!ENTITY  event.menu.options.link.label                       "Legg til lenke …">
 <!ENTITY  event.menu.options.link.accesskey                   "L">
-<!ENTITY  event.menu.options.timezone.label                   "Tidssone">
-<!ENTITY  event.menu.options.timezone.accesskey               "T">
+<!ENTITY  event.menu.options.timezone2.label                  "Vis tidssoner">
+<!ENTITY  event.menu.options.timezone2.accesskey              "s">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritet">
 <!ENTITY  event.menu.options.priority2.accesskey              "P">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Ikke oppgitt">
@@ -188,7 +145,6 @@
 <!ENTITY  event.toolbar.attendees.label                   "Inviter deltakere">
 <!ENTITY  event.toolbar.spellcheck.label                  "Stavekontroller">
 <!ENTITY  event.toolbar.privacy.label                     "Personvern">
-<!ENTITY  event.toolbar.attachments.label                 "Legg ved">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Tittel:" >
@@ -197,6 +153,8 @@
 <!ENTITY event.location.accesskey                         "S">
 <!ENTITY event.categories.label                           "Kategori:">
 <!ENTITY event.categories.accesskey                       "K">
+<!ENTITY event.categories.textbox.label                   "Legg til ny kategori" >
+<!ENTITY event.categories.textbox.accesskey               "L">
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "e">
 <!ENTITY event.attendees.label                            "Deltakere:" >
@@ -215,12 +173,18 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "Gjenta:" >
 <!ENTITY event.repeat.accesskey                           "G">
+<!ENTITY event.until.label                                "Inntil:">
+<!ENTITY event.until.accesskey                            "I">
 <!ENTITY event.reminder.label                             "Husk:" >
 <!ENTITY event.reminder.accesskey                         "u">
 <!ENTITY event.description.label                          "Beskrivelse:" >
 <!ENTITY event.description.accesskey                      "B">
 <!ENTITY event.attachments.label                          "Vedlegg:" >
 <!ENTITY event.attachments.accesskey                      "V" >
+<!ENTITY event.attachments.menubutton.label               "Legg ved">
+<!ENTITY event.attachments.menubutton.accesskey           "L">
+<!ENTITY event.attachments.url.label                      "Nettside …">
+<!ENTITY event.attachments.url.accesskey                  "N">
 <!ENTITY event.attachments.popup.remove.label             "Fjern" >
 <!ENTITY event.attachments.popup.remove.accesskey         "F" >
 <!ENTITY event.attachments.popup.open.label               "Åpne" >
@@ -360,8 +324,6 @@
 <!ENTITY event.freebusy.next.slot               "Neste tidsluke" >
 <!ENTITY event.freebusy.previous.slot           " Forrige tidsluke" >
 <!ENTITY event.freebusy.zoom                    "Forstørring:">
-<!ENTITY event.freebusy.plus                    "Neste time" >
-<!ENTITY event.freebusy.minus                   "Forrige time" >
 <!ENTITY event.freebusy.legend.free             "Ledig" >
 <!ENTITY event.freebusy.legend.busy             "Opptatt" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Tentativ" >
@@ -371,9 +333,14 @@
 <!ENTITY event.attendee.role.optional           "Deltakelse valgfritt">
 <!ENTITY event.attendee.role.chair              "Møteleder">
 <!ENTITY event.attendee.role.nonparticipant     "Deltar ikke">
+<!ENTITY event.attendee.usertype.individual     "Individuell">
+<!ENTITY event.attendee.usertype.group          "Gruppe">
+<!ENTITY event.attendee.usertype.resource       "Ressurs">
+<!ENTITY event.attendee.usertype.room           "Rom">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Oppgi tidssone">
+<!ENTITY event.timezone.custom.label     "Flere tidssoner …">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Generelt">

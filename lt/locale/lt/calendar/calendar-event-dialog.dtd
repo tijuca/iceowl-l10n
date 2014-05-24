@@ -1,47 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Cédric Corazza <cedric.corazza@wanadoo.fr>
-   -   Michael Büttner <michael.buettner@sun.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Martin Schroeder <mschroeder@mozilla.x-home.org>
-   -   Hubert Gajewski <hubert@hubertgajewski.com>, Aviary.pl
-   -   Fred Jendrzejewski <fred.jen@web.de>
-   -   Tatjana Jevsikova <tatjanaj@julius.ktl.mii.lt>
-   -   Rimas Kudelis <rq@akl.lt>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label                                "Taisomas įrašas" >
 
@@ -138,8 +97,6 @@
 
 <!ENTITY  event.menu.options.label                            "Nuostatos">
 <!ENTITY  event.menu.options.accesskey                        "N">
-<!ENTITY  event.menu.options.attachments.label                "Pridėti tinklalapį…">
-<!ENTITY  event.menu.options.attachments.accesskey            "t">
 <!ENTITY  event.menu.options.attendees.label                  "Pakviesti dalyvius…">
 <!ENTITY  event.menu.options.attendees.accesskey              "d">
 <!ENTITY  event.menu.options.spellcheck.label                 "Tikrinti rašybą…">
@@ -148,8 +105,8 @@
 <!ENTITY  event.menu.options.inline.spellcheck.accesskey      "R">
 <!ENTITY  event.menu.options.link.label                       "Pridėti saitą…">
 <!ENTITY  event.menu.options.link.accesskey                   "s">
-<!ENTITY  event.menu.options.timezone.label                   "Laiko juosta">
-<!ENTITY  event.menu.options.timezone.accesskey               "j">
+<!ENTITY  event.menu.options.timezone2.label                  "Rodyti laiko juostas">
+<!ENTITY  event.menu.options.timezone2.accesskey              "j">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritetas">
 <!ENTITY  event.menu.options.priority2.accesskey              "P">
 <!ENTITY  event.menu.options.priority.notspecified.label      "Neapibrėžtas">
@@ -188,17 +145,18 @@
 <!ENTITY  event.toolbar.attendees.label                   "Pakviesti dalyvius">
 <!ENTITY  event.toolbar.spellcheck.label                  "Tikrinti rašybą">
 <!ENTITY  event.toolbar.privacy.label                     "Viešumas">
-<!ENTITY  event.toolbar.attachments.label                 "Pridėti">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Pavadinimas:" >
 <!ENTITY event.title.textbox.accesskey                    "P">
 <!ENTITY event.location.label                             "Vieta:" >
 <!ENTITY event.location.accesskey                         "V">
-<!ENTITY event.categories.label                           "Tipas:">
-<!ENTITY event.categories.accesskey                       "T">
+<!ENTITY event.categories.label                           "Kategorija:">
+<!ENTITY event.categories.accesskey                       "K">
+<!ENTITY event.categories.textbox.label                   "Pridėti naują kategoriją" >
+<!ENTITY event.categories.textbox.accesskey               "n">
 <!ENTITY event.calendar.label                             "Kalendorius:" >
-<!ENTITY event.calendar.accesskey                         "K">
+<!ENTITY event.calendar.accesskey                         "o">
 <!ENTITY event.attendees.label                            "Dalyviai:" >
 <!ENTITY event.attendees.accesskey                        "D" >
 <!ENTITY event.alldayevent.label                          "Visos dienos įvykis" >
@@ -215,12 +173,24 @@
 <!ENTITY task.status.accesskey                            "B">
 <!ENTITY event.repeat.label                               "Kartojimasis:" >
 <!ENTITY event.repeat.accesskey                           "t">
+<!ENTITY event.until.label                                "Iki:">
+<!ENTITY event.until.accesskey                            "I">
 <!ENTITY event.reminder.label                             "Priminimas:" >
 <!ENTITY event.reminder.accesskey                         "m">
 <!ENTITY event.description.label                          "Aprašas:" >
 <!ENTITY event.description.accesskey                      "š">
 <!ENTITY event.attachments.label                          "Priedai:" >
 <!ENTITY event.attachments.accesskey                      "P" >
+
+<!-- LOCALIZATION NOTE - These 4 strings are not in production yet,
+  but I want to land Filelink support for Lightning soon. The attach
+  button will become a dropdown button that allows to attach links
+  as usual, but also files via the Filelink providers. -->
+<!ENTITY event.attachments.menubutton.label               "Pridėti">
+<!ENTITY event.attachments.menubutton.accesskey           "d">
+<!ENTITY event.attachments.url.label                      "tinklalapį…">
+<!ENTITY event.attachments.url.accesskey                  "t">
+
 <!ENTITY event.attachments.popup.remove.label             "Pašalinti" >
 <!ENTITY event.attachments.popup.remove.accesskey         "š" >
 <!ENTITY event.attachments.popup.open.label               "Atverti" >
@@ -360,8 +330,6 @@
 <!ENTITY event.freebusy.next.slot                 "Vėliau " >
 <!ENTITY event.freebusy.previous.slot             " Anksčiau" >
 <!ENTITY event.freebusy.zoom                      "Mastelis:">
-<!ENTITY event.freebusy.plus                      "Vėlesnė valanda" >
-<!ENTITY event.freebusy.minus                     "Ankstesnė valanda" >
 <!ENTITY event.freebusy.legend.free               "Laisvas" >
 <!ENTITY event.freebusy.legend.busy               "Užimtas" >
 <!ENTITY event.freebusy.legend.busy_tentative     "Galbūt užimtas" >
@@ -371,9 +339,14 @@
 <!ENTITY event.attendee.role.optional             "Nebūtinas dalyvis">
 <!ENTITY event.attendee.role.chair                "Pirmininkas">
 <!ENTITY event.attendee.role.nonparticipant       "Nedalyvauja">
+<!ENTITY event.attendee.usertype.individual       "Asmuo">
+<!ENTITY event.attendee.usertype.group            "Grupė">
+<!ENTITY event.attendee.usertype.resource         "Išteklius">
+<!ENTITY event.attendee.usertype.room             "Kambarys">
 
 <!-- Timezone dialog -->
 <!ENTITY timezone.title.label            "Prašom parinkti laiko juostą">
+<!ENTITY event.timezone.custom.label     "Daugiau laiko juostų…">
 
 <!-- Read-Only dialog -->
 <!ENTITY read.only.general.label         "Įvykis">
@@ -384,7 +357,7 @@
 <!ENTITY read.only.task.due.label        "Terminas:">
 <!ENTITY read.only.repeat.label          "Pasikartojimas:">
 <!ENTITY read.only.location.label        "Vieta:">
-<!ENTITY read.only.category.label        "Tipas:">
+<!ENTITY read.only.category.label        "Kategorija:">
 <!ENTITY read.only.organizer.label       "Organizuoja:">
 <!ENTITY read.only.reply.label           "Atsakyti:">
 <!ENTITY read.only.accept.label          "Aš dalyvausiu">

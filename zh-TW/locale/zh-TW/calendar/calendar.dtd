@@ -1,50 +1,6 @@
-<!-- ***** BEGIN LICENSE BLOCK *****
-   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
-   -
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at
-   - http://www.mozilla.org/MPL/
-   -
-   - Software distributed under the License is distributed on an "AS IS" basis,
-   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
-   - for the specific language governing rights and limitations under the
-   - License.
-   -
-   - The Original Code is OEone Calendar Code, released October 31st, 2001.
-   -
-   - The Initial Developer of the Original Code is
-   - OEone Corporation.
-   - Portions created by the Initial Developer are Copyright (C) 2001
-   - the Initial Developer. All Rights Reserved.
-   -
-   - Contributor(s):
-   -   Garth Smedley <garths@oeone.com>
-   -   Mike Potter <mikep@oeone.com>
-   -   Chris Charabaruk <coldacid@meldstar.com>
-   -   ArentJan Banck <ajbanck@planet.nl>
-   -   Eric Belhaire <belhaire@ief.u-psud.fr>
-   -   Matthew Willis <mattwillis@gmail.com>
-   -   Simon Paquet <bugzilla@babylonsounds.com>
-   -   Stefan Sitter <ssitter@gmail.com>
-   -   Philipp Kewisch <mozilla@kewis.ch>
-   -   Diego Mira David <diegomd86@gmail.com>
-   -   Eduardo Teruo Katayama <eduardo@ime.usp.br>
-   -   Glaucus Augustus Grecco Cardoso <glaucus@ime.usp.br>
-   -
-   - Alternatively, the contents of this file may be used under the terms of
-   - either the GNU General Public License Version 2 or later (the "GPL"), or
-   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
-   - in which case the provisions of the GPL or the LGPL are applicable instead
-   - of those above. If you wish to allow use of your version of this file only
-   - under the terms of either the GPL or the LGPL, and not to allow others to
-   - use your version of this file under the terms of the MPL, indicate your
-   - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the LGPL or the GPL. If you do not delete
-   - the provisions above, a recipient may use your version of this file under
-   - the terms of any one of the MPL, the GPL or the LGPL.
-   -
-   - ***** END LICENSE BLOCK ***** -->
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- General -->
 <!ENTITY calendar.calendar.label     "行事曆">
@@ -64,25 +20,39 @@
 <!ENTITY calendar.events.filter.today.label "本日事件">
 <!ENTITY calendar.events.filter.future.label "所有未來的事件">
 <!ENTITY calendar.events.filter.current.label "選取日期的事件">
+<!ENTITY calendar.events.filter.currentview.label "目前顯示模式當中的事件">
 <!ENTITY calendar.events.filter.next7Days.label " 7 天內的事件">
 <!ENTITY calendar.events.filter.next14Days.label "14 天內的事件">
 <!ENTITY calendar.events.filter.next31Days.label "31 天內的事件">
 <!ENTITY calendar.events.filter.thisCalendarMonth.label "本月事件">
 
-<!ENTITY calendar.unifinder.tree.done.label          "完成">
-<!ENTITY calendar.unifinder.tree.priority.label      "重要性">
-<!ENTITY calendar.unifinder.tree.title.label         "標題">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label "&#37; 完成">
-<!ENTITY calendar.unifinder.tree.startdate.label     "開始時間">
-<!ENTITY calendar.unifinder.tree.enddate.label       "結束時間">
-<!ENTITY calendar.unifinder.tree.duedate.label       "期限">
-<!ENTITY calendar.unifinder.tree.completeddate.label "完成">
-<!ENTITY calendar.unifinder.tree.categories.label    "類別">
-<!ENTITY calendar.unifinder.tree.location.label      "地點">
-<!ENTITY calendar.unifinder.tree.status.label        "狀態">
-<!ENTITY calendar.unifinder.tree.calendarname.label  "行事曆名稱">
-<!ENTITY calendar.unifinder.tree.duration.label      "緣由">
-<!ENTITY calendar.unifinder.close.tooltip            "關閉搜尋事件與事件清單">
+<!ENTITY calendar.unifinder.tree.done.label              "完成">
+<!ENTITY calendar.unifinder.tree.done.tooltip            "點下以依照完成狀態排序">
+<!ENTITY calendar.unifinder.tree.priority.label          "重要性">
+<!ENTITY calendar.unifinder.tree.priority.tooltip        "點下以依照優先程度排序">
+<!ENTITY calendar.unifinder.tree.title.label             "標題">
+<!ENTITY calendar.unifinder.tree.title.tooltip           "點下以依照標題排序">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label   "&#37; 完成">
+<!ENTITY calendar.unifinder.tree.percentcomplete.tooltip "點下以依照完成百分比排序">
+<!ENTITY calendar.unifinder.tree.startdate.label         "開始時間">
+<!ENTITY calendar.unifinder.tree.startdate.tooltip       "點下以依照開始日期排序">
+<!ENTITY calendar.unifinder.tree.enddate.label           "結束時間">
+<!ENTITY calendar.unifinder.tree.enddate.tooltip         "點下以依照結束日期排序">
+<!ENTITY calendar.unifinder.tree.duedate.label           "期限">
+<!ENTITY calendar.unifinder.tree.duedate.tooltip         "點下以依照到期日期排序">
+<!ENTITY calendar.unifinder.tree.completeddate.label     "完成">
+<!ENTITY calendar.unifinder.tree.completeddate.tooltip   "點下以依照完成日期排序">
+<!ENTITY calendar.unifinder.tree.categories.label        "類別">
+<!ENTITY calendar.unifinder.tree.categories.tooltip      "點下以依照分類排序">
+<!ENTITY calendar.unifinder.tree.location.label          "地點">
+<!ENTITY calendar.unifinder.tree.location.tooltip        "點下以依照位置排序">
+<!ENTITY calendar.unifinder.tree.status.label            "狀態">
+<!ENTITY calendar.unifinder.tree.status.tooltip          "點下以依照狀態排序">
+<!ENTITY calendar.unifinder.tree.calendarname.label      "行事曆名稱">
+<!ENTITY calendar.unifinder.tree.calendarname.tooltip    "點下以依照行事曆名稱排序">
+<!ENTITY calendar.unifinder.tree.duration.label          "緣由">
+<!ENTITY calendar.unifinder.tree.duration.tooltip        "點下以依照至期限的剩餘時間排序">
+<!ENTITY calendar.unifinder.close.tooltip                "關閉搜尋事件與事件清單">
 
 <!ENTITY calendar.today.button.tooltip          "前往今日" >
 <!ENTITY calendar.todaypane.button.tooltip      "前往今日窗格" >
@@ -166,7 +136,7 @@
 <!ENTITY calendar.task-details.organizer.label       "從">
 <!ENTITY calendar.task-details.priority.label        "優先權">
 <!ENTITY calendar.task-details.priority.low.label    "低">
-<!ENTITY calendar.task-details.priority.normal.label "正常">
+<!ENTITY calendar.task-details.priority.normal.label "標準">
 <!ENTITY calendar.task-details.priority.high.label   "高">
 <!ENTITY calendar.task-details.status.label          "狀態">
 <!ENTITY calendar.task-details.category.label        "類別">
@@ -178,6 +148,10 @@
 <!ENTITY calendar.task.category.button.tooltip  "將工作分類">
 <!ENTITY calendar.task.complete.button.tooltip  "將工作標示為已完成">
 <!ENTITY calendar.task.priority.button.tooltip  "修改重要性">
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base            "過濾工作… #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 
 <!-- Statusbar -->
 <!ENTITY statusText.label            "文件: 完成">
@@ -213,6 +187,8 @@
 <!ENTITY calendar.context.progress.accesskey          "P">
 <!ENTITY calendar.context.priority.label              "重要性">
 <!ENTITY calendar.context.priority.accesskey          "r">
+<!ENTITY calendar.context.postpone.label              "推遲工作">
+<!ENTITY calendar.context.postpone.accesskey          "s">
 
 <!ENTITY percnt "&#38;#37;" ><!--=percent sign-->
 
@@ -234,10 +210,20 @@
 <!ENTITY priority.level.none.accesskey      "s">
 <!ENTITY priority.level.low                 "低">
 <!ENTITY priority.level.low.accesskey       "L">
-<!ENTITY priority.level.normal              "正常">
+<!ENTITY priority.level.normal              "標準">
 <!ENTITY priority.level.normal.accesskey    "N">
 <!ENTITY priority.level.high                "高">
 <!ENTITY priority.level.high.accesskey      "H">
+
+<!ENTITY calendar.context.postpone.1hour.label      "1 小時">
+<!ENTITY calendar.context.postpone.1hour.accesskey  "H">
+<!ENTITY calendar.context.postpone.1day.label       "1 天">
+<!ENTITY calendar.context.postpone.1day.accesskey   "D">
+<!ENTITY calendar.context.postpone.1week.label      "1 週">
+<!ENTITY calendar.context.postpone.1week.accesskey  "W">
+
+<!ENTITY calendar.copylink.label       "複製鏈結網址">
+<!ENTITY calendar.copylink.accesskey   "C">
 
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
@@ -252,8 +238,8 @@
 <!ENTITY calendar.context.findcalendar.accesskey       "F" >
 <!ENTITY calendar.context.deleteserver.label           "刪除行事曆">
 <!ENTITY calendar.context.deleteserver.accesskey       "D">
-<!ENTITY calendar.context.reloadserver.label           "重新讀取遠端行事曆">
-<!ENTITY calendar.context.reloadserver.accesskey       "R">
+<!ENTITY calendar.context.synccalendars.label          "同步行事曆">
+<!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.publish.label                "發佈整個行事曆…">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.export.label                 "匯出行事曆…">
@@ -311,7 +297,7 @@
 <!ENTITY calendar.server.dialog.name.label          "行事曆名稱:">
 
 <!-- Calendar Properties -->
-<!ENTITY calendarproperties.color.label                    "色彩:">
+<!ENTITY calendarproperties.color.label                    "顏色:">
 <!ENTITY calendarproperties.webdav.label                   "iCalendar (ICS)">
 <!ENTITY calendarproperties.caldav.label                   "CalDAV">
 <!ENTITY calendarproperties.wcap.label                     "Sun Java System Calendar Server (WCAP)">
@@ -322,7 +308,7 @@
 <!ENTITY calendarproperties.name.label                     "名稱:">
 <!ENTITY calendarproperties.readonly.label                 "唯讀">
 <!ENTITY calendarproperties.firealarms.label               "顯示鬧鈴">
-<!ENTITY calendarproperties.cache2.label                   "快取">
+<!ENTITY calendarproperties.cache3.label                   "離線支援">
 <!ENTITY calendarproperties.enabled.label                  "顯示此行事曆">
 <!ENTITY calendarproperties.forceDisabled.label            "無法找到此行事曆的提供者，此狀況通常發生於您停用或移除某些套件。">
 <!ENTITY calendarproperties.unsubscribe.label              "取消訂閱">
@@ -362,3 +348,10 @@
 <!ENTITY calendar.error.code "錯誤代碼:">
 <!ENTITY calendar.error.description "描述:">
 <!ENTITY calendar.error.title "發生錯誤">
+
+<!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button         "新增為事件">
+<!ENTITY calendar.extract.task.button          "新增為工作">
+<!ENTITY calendar.extract.event.button.tooltip "從訊息中找出行事曆資訊，並新增為您的行事曆事件">
+<!ENTITY calendar.extract.task.button.tooltip  "從訊息中找出行事曆資訊，並新增為您的行事曆工作">
+
