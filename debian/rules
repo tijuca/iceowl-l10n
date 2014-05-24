@@ -7,10 +7,6 @@ UPSTREAM_VERSION=$(shell dpkg-parsechangelog -ldebian/changelog|grep '^Version'|
 IOE_MIN_VER=24.2
 IOE_MAX_VER=25.0~
 
-# Iceowl min and max version
-IO_MIN_VER=1.9
-IO_MAX_VER=1.9~
-
 SHELL := sh -e
 
 %:
@@ -26,8 +22,6 @@ override_dh_auto_build:
 	debian/check-lang
 	sed -e "s/IOE_MIN_VER/$(IOE_MIN_VER)/" \
 	    -e "s/IOE_MAX_VER/$(IOE_MAX_VER)/" \
-	    -e "s/IO_MIN_VER/$(IO_MIN_VER)/" \
-	    -e "s/IO_MAX_VER/$(IO_MAX_VER)/" \
             debian/control.in > debian/control
 
 	mkdir -p build
