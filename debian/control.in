@@ -2,11 +2,12 @@ Source: iceowl-l10n
 Section: localization
 Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
+Uploaders: Christoph Goehre <chris@sigxcpu.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.9.5
-Vcs-Git: git://anonscm.debian.org/users/agx/iceowl-l10n.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/agx/iceowl-l10n.git;a=summary
+Vcs-Git: git://anonscm.debian.org/git/pkg-mozext/iceowl-l10n.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozext/iceowl-l10n.git
 Homepage: http://www.mozilla.org/en-US/projects/calendar/
 
 Package: iceowl-l10n-ca
