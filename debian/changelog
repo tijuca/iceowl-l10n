@@ -1,3 +1,22 @@
+iceowl-l10n (2.6.5-1) unstable; urgency=low
+
+  [ Carsten Schoenert ]
+  * [07eb32a] debian/control: bump standard version
+  * [23bc0ef] debian/watch: adding a watch file
+  * [c52edf9] debian/control: fixing Vcs URLs
+  * [349c418] debian/control: remove dep on Iceowl
+  * [58b092e] debian/control*: adopting package description
+  * [5471902] Imported Upstream version 2.6.5
+  * [56a21be] rebuild patch queue from patch-queue branch
+  * [d64af39] debian/copyright: update copyright to MPL-2.0
+  * [6a71e97] debian/control: adding project homepage
+
+  [ Christoph Goehre ]
+  * [06fa916] sync debian/control and debian/control.in
+  * [0ccf961] add myself to the Uploaders
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Mon, 26 May 2014 14:03:33 -0400
+
 iceowl-l10n (2.6.4-0.1) experimental; urgency=low
 
   * Non-maintainer upload.
