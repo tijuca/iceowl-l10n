@@ -7,7 +7,7 @@ Subject: Brand-is
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/is/locale/is/lightning/lightning.properties b/is/locale/is/lightning/lightning.properties
-index c28a2d1..59b61d6 100644
+index 3ed60d7..7f0d070 100644
 --- a/is/locale/is/lightning/lightning.properties
 +++ b/is/locale/is/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -24,7 +24,7 @@ index c28a2d1..59b61d6 100644
 +brandShortName=Iceowl
  
  # Task mode title
- taskModeApplicationTitle=Verk
+ taskModeApplicationTitle=Verkefni
 @@ -42,7 +42,7 @@ imipBarUpdateText=Þessi tölvupóstur inniheldur uppfærslu á atburði sem er
  imipBarAlreadyProcessedText=Þessi póstur inniheldur atburð sem búið er að meðhöndla.
  imipBarProcessedNeedsAction=Þessi póstur inniheldur atburð sem þú hefur ekki ennþá svarað.

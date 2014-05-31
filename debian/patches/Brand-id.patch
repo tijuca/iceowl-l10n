@@ -1,0 +1,36 @@
+From: Carsten Schoenert <c.schoenert@t-online.de>
+Date: Sat, 31 May 2014 12:23:17 +0200
+Subject: Brand-id
+
+---
+ id/locale/id/lightning/lightning.properties | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/id/locale/id/lightning/lightning.properties b/id/locale/id/lightning/lightning.properties
+index 949c1f2..0919b13 100644
+--- a/id/locale/id/lightning/lightning.properties
++++ b/id/locale/id/lightning/lightning.properties
+@@ -38,12 +38,12 @@
+ # ***** END LICENSE BLOCK *****
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Thunderbird
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
+ 
+ # Lightning branding
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Tugas
+@@ -72,7 +72,7 @@ imipBarRequestText=Pesan ini berisi undangan sebuah acara.
+ imipBarUpdateText=Pesan ini berisi pemutakhiran pada acara yang sudah ada.
+ imipBarAlreadyProcessedText=Pesan ini berisi acara yang sudah pernah diproses.
+ imipBarReplyText=Pesan ini berisi jawaban atas undangan acara.
+-imipBarUnsupportedText=Pesan ini berisi acara dalam format yang tidak dapat diproses Lightning.
++imipBarUnsupportedText=Pesan ini berisi acara dalam format yang tidak dapat diproses Iceowl.
+ imipBarProcessingFailed=Pemrosesan pesan gagal. Status: %1$S.
+ imipAcceptInvitation.label=Setuju
+ imipCancelInvitation.label=Hapus

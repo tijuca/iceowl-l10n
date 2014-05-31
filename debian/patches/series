@@ -12,12 +12,11 @@ Brand-fr.patch
 Brand-fy-NL.patch
 Brand-ga-IE.patch
 Brand-gd.patch
-Brand-hr.patch
 Brand-hu.patch
+Brand-id.patch
 Brand-is.patch
 Brand-it.patch
 Brand-ja.patch
-Brand-ko.patch
 Brand-lt.patch
 Brand-nb-NO.patch
 Brand-nl.patch
@@ -26,5 +25,11 @@ Brand-pl.patch
 Brand-pt-PT.patch
 Brand-ru.patch
 Brand-sk.patch
+Brand-sq.patch
+Brand-sr.patch
+Brand-sv-SE.patch
+Brand-tr.patch
+Brand-uk.patch
+Brand-pa-IN.patch
 Brand-zh-CN.patch
 Brand-zh-TW.patch

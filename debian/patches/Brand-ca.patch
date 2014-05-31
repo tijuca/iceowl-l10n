@@ -7,7 +7,7 @@ Subject: Brand-ca
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ca/locale/ca/lightning/lightning.properties b/ca/locale/ca/lightning/lightning.properties
-index 9efe7ac..03d41dc 100644
+index c02cd11..0b58328 100644
 --- a/ca/locale/ca/lightning/lightning.properties
 +++ b/ca/locale/ca/lightning/lightning.properties
 @@ -3,12 +3,12 @@
