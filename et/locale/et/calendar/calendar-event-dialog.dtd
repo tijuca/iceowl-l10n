@@ -11,6 +11,9 @@
 <!ENTITY newevent.to.label                  "Kuni" >
 <!ENTITY newevent.attendees.notify.label    "Teavita osalejaid">
 
+<!ENTITY newevent.attendees.notifyundisclosed.label    "Osalejaid ei avalikustata kutsetes">
+<!ENTITY newevent.attendees.notifyundisclosed.tooltip  "Lubamisel ei näe osalejad üksteist kutsetes. Rakendub vaid e-postiga saadetud kutsetele.">
+
 <!ENTITY newevent.status.label                    "Seisund" >
 <!ENTITY newevent.status.accesskey                "i" >
 <!ENTITY newevent.eventStatus.none.label          "Määramata" >
@@ -99,12 +102,6 @@
 <!ENTITY  event.menu.options.accesskey                        "V">
 <!ENTITY  event.menu.options.attendees.label                  "Osalejate kutsumine…">
 <!ENTITY  event.menu.options.attendees.accesskey              "o">
-<!ENTITY  event.menu.options.spellcheck.label                 "Kontrolli õigekirja…">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "k">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Kontrolli kirjutamisel õigekirja">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "j">
-<!ENTITY  event.menu.options.link.label                       "Lisa viide…">
-<!ENTITY  event.menu.options.link.accesskey                   "L">
 <!ENTITY  event.menu.options.timezone2.label                  "Ajavööndite kuvamine">
 <!ENTITY  event.menu.options.timezone2.accesskey              "A">
 <!ENTITY  event.menu.options.priority2.label                  "Prioriteet">
@@ -143,8 +140,16 @@
 <!ENTITY  event.toolbar.save.label                        "Salvesta ja sulge">
 <!ENTITY  event.toolbar.delete.label                      "Kustuta">
 <!ENTITY  event.toolbar.attendees.label                   "Kutsu osalejaid">
-<!ENTITY  event.toolbar.spellcheck.label                  "Õigekirjakontroll">
 <!ENTITY  event.toolbar.privacy.label                     "Privaatsus">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Salvesta ja sulge">
+<!ENTITY  event.toolbar.delete.tooltip                    "Kustuta">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Kutsu osalejaid">
+<!ENTITY  event.toolbar.attachments.tooltip               "Kaasa veebilehti">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Muuda privaatsust">
+<!ENTITY  event.toolbar.priority.tooltip                  "Muuda prioriteeti">
+<!ENTITY  event.toolbar.status.tooltip                    "Muuda seisundit">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Muuda aja näitamist (hõivatud/vaba)">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Pealkiri:" >
@@ -154,7 +159,6 @@
 <!ENTITY event.categories.label                           "Kategooria:">
 <!ENTITY event.categories.accesskey                       "t">
 <!ENTITY event.categories.textbox.label                   "Lisa uus kategooria" >
-<!ENTITY event.categories.textbox.accesskey               "e">
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "K">
 <!ENTITY event.attendees.label                            "Osalejad:" >
@@ -216,6 +220,9 @@
 <!ENTITY event.reminder.custom.label                      "kohandatud…" >
 
 <!ENTITY event.reminder.multiple.label                    "Mitu meeldetuletust…" >
+
+<!ENTITY event.statusbarpanel.freebusy.label              "Aega näidatakse kui:">
+<!ENTITY event.statusbarpanel.privacy.label               "Privaatsus:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Kordumise muutmine">
@@ -366,5 +373,4 @@
 <!ENTITY read.only.reminder.label        "Meeldetuletus:">
 <!ENTITY read.only.attendees.label       "Osalejad">
 <!ENTITY read.only.description.label     "Kirjeldus">
-<!ENTITY read.only.documents.label       "Dokumendid">
 <!ENTITY read.only.link.label            "Seotud viide">
