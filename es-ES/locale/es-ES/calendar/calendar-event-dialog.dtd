@@ -8,6 +8,8 @@
 <!ENTITY newevent.from.label "Desde">
 <!ENTITY newevent.to.label "Hasta">
 <!ENTITY newevent.attendees.notify.label "Notificar asistentes">
+<!ENTITY newevent.attendees.notifyundisclosed.label "Mantener asistente oculto en las invitaciones">
+<!ENTITY newevent.attendees.notifyundisclosed.tooltip "Si está activado, los asistentes no se verán los unos a los otros en las invitaciones. Sólo se aplica a las invitaciones de correo.">
 <!ENTITY newevent.status.label "Estado">
 <!ENTITY newevent.status.accesskey "E">
 <!ENTITY newevent.eventStatus.none.label "No especificado">
@@ -87,12 +89,6 @@
 <!ENTITY event.menu.options.accesskey "O">
 <!ENTITY event.menu.options.attendees.label "Invitar a asistentes…">
 <!ENTITY event.menu.options.attendees.accesskey "I">
-<!ENTITY event.menu.options.spellcheck.label "Revisar ortografía…">
-<!ENTITY event.menu.options.spellcheck.accesskey "v">
-<!ENTITY event.menu.options.inline.spellcheck.label "Revisar ortografía según se escribe">
-<!ENTITY event.menu.options.inline.spellcheck.accesskey "S">
-<!ENTITY event.menu.options.link.label "Añadir enlace…">
-<!ENTITY event.menu.options.link.accesskey "L">
 <!ENTITY event.menu.options.timezone2.label "Mostrar zonas horarias">
 <!ENTITY event.menu.options.timezone2.accesskey "z">
 <!ENTITY event.menu.options.priority2.label "Prioridad">
@@ -128,8 +124,15 @@
 <!ENTITY event.toolbar.save.label "Guardar y cerrar">
 <!ENTITY event.toolbar.delete.label "Eliminar">
 <!ENTITY event.toolbar.attendees.label "Invitar a asistentes">
-<!ENTITY event.toolbar.spellcheck.label "Revisar ortografía">
 <!ENTITY event.toolbar.privacy.label "Privacidad">
+<!ENTITY event.toolbar.save.tooltip "Guardar y cerrar">
+<!ENTITY event.toolbar.delete.tooltip "Eliminar">
+<!ENTITY event.toolbar.attendees.tooltip "Invitar a asistentes">
+<!ENTITY event.toolbar.attachments.tooltip "Añadir adjuntos">
+<!ENTITY event.toolbar.privacy.tooltip "Cambiar privacidad">
+<!ENTITY event.toolbar.priority.tooltip "Cambiar prioridad">
+<!ENTITY event.toolbar.status.tooltip "Cambiar estado">
+<!ENTITY event.toolbar.freebusy.tooltip "Cambiar horario libre/ocupado">
 <!ENTITY event.title.textbox.label "Título:">
 <!ENTITY event.title.textbox.accesskey "u">
 <!ENTITY event.location.label "Lugar:">
@@ -137,7 +140,6 @@
 <!ENTITY event.categories.label "Categoría:">
 <!ENTITY event.categories.accesskey "C">
 <!ENTITY event.categories.textbox.label "Añadir una nueva categoría">
-<!ENTITY event.categories.textbox.accesskey "A">
 <!ENTITY event.calendar.label "Calendario:">
 <!ENTITY event.calendar.accesskey "n">
 <!ENTITY event.attendees.label "Asistentes:">
@@ -191,6 +193,8 @@
 <!ENTITY event.reminder.1week.before.label "1 semana antes">
 <!ENTITY event.reminder.custom.label "Personalizar…">
 <!ENTITY event.reminder.multiple.label "Múltiples recordatorios…">
+<!ENTITY event.statusbarpanel.freebusy.label "Tiempo como:">
+<!ENTITY event.statusbarpanel.privacy.label "Privacidad:">
 <!ENTITY recurrence.title.label "Editar recurrencia">
 <!ENTITY event.repeat.does.not.repeat.label "No se repite">
 <!ENTITY event.repeat.daily.label "Diariamente">
@@ -298,7 +302,7 @@
 <!ENTITY event.attendee.usertype.group "Grupo">
 <!ENTITY event.attendee.usertype.resource "Recurso">
 <!ENTITY event.attendee.usertype.room "Sala">
-<!ENTITY timezone.title.label "Por favor, especifique la zona horaria">
+<!ENTITY timezone.title.label "Especifique la zona horaria">
 <!ENTITY event.timezone.custom.label "Más zonas horarias…">
 <!ENTITY read.only.general.label "General">
 <!ENTITY read.only.title.label "Título:">
@@ -318,5 +322,4 @@
 <!ENTITY read.only.reminder.label "Recordatorio:">
 <!ENTITY read.only.attendees.label "Asistentes">
 <!ENTITY read.only.description.label "Descripción">
-<!ENTITY read.only.documents.label "Documentos">
 <!ENTITY read.only.link.label "Enlace relacionado">
