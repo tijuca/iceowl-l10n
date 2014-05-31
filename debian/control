@@ -174,17 +174,6 @@ Description: Scottish Gaelic language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Scottish Gaelic.
 
-Package: iceowl-l10n-hr
-Architecture: all
-Depends: ${misc:Depends},
- iceowl-extension (>= 24.2), iceowl-extension (<< 25.0~)
-Description: Croatian language package for iceowl-extension
- The iceowl-extension is a Mozilla based calendar extension for Icedove.
- It's goal is to integrate a Calendar and Task application using the XUL
- user interface language.
- .
- This package contains the localization of iceowl-extension in Croatian.
-
 Package: iceowl-l10n-hu
 Architecture: all
 Depends: ${misc:Depends},
@@ -231,17 +220,6 @@ Description: Japanese language package for iceowl-extension
  user interface language.
  .
  This package contains the localization of iceowl-extension in Japanese.
-
-Package: iceowl-l10n-ko
-Architecture: all
-Depends: ${misc:Depends},
- iceowl-extension (>= 24.2), iceowl-extension (<< 25.0~)
-Description: Korean language package for iceowl-extension
- The iceowl-extension is a Mozilla based calendar extension for Icedove.
- It's goal is to integrate a Calendar and Task application using the XUL
- user interface language.
- .
- This package contains the localization of iceowl-extension in Korean.
 
 Package: iceowl-l10n-lt
 Architecture: all
