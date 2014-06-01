@@ -7,7 +7,9 @@
                em:version="##VERSION##"
                em:type="8"
                em:creator="debian.org">
-    <!-- Sunbird/Iceowl -->
+    <!-- Sunbird/Iceowl
+         Sunbird is no longer maintained by Mozilla
+         see also ROM #742946 for Iceowl
     <em:targetApplication>
        <Description>
          <em:id>{718e30fb-e89b-41dd-9da7-e25a45638b28}</em:id>
@@ -16,6 +18,7 @@
        </Description>
     </em:targetApplication>
     <em:appManaged>true</em:appManaged>
+    -->
 
     <!-- Thunderbird/Icedove -->
     <em:targetApplication>
@@ -27,7 +30,9 @@
     </em:targetApplication>
     <em:appManaged>true</em:appManaged>
 
-    <!-- Seamonkey/Iceape -->
+    <!-- Seamonkey/Iceape
+         Iceape is dropped out because of no availability for security updates.
+         see #732314 and https://www.debian.org/security/2013/dsa-2819
     <em:targetApplication>
       <Description>
         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
@@ -36,5 +41,6 @@
       </Description>
     </em:targetApplication>
     <em:appManaged>true</em:appManaged>
+    -->
   </Description>
 </RDF>
