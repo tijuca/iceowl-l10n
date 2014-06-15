@@ -7,7 +7,7 @@ Subject: Brand-da
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/da/locale/da/lightning/lightning.properties b/da/locale/da/lightning/lightning.properties
-index cea1003..80a9e25 100644
+index be81374..1b464a9 100644
 --- a/da/locale/da/lightning/lightning.properties
 +++ b/da/locale/da/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index cea1003..80a9e25 100644
 +imipBarUnsupportedText=Denne meddelelse indeholder en begivenhed, som denne version af Iceowl ikke kan håndtere.
  imipBarProcessingFailed=Behandlingen af meddelelsen mislykkedes. Status: %1$S.
  imipBarNotWritable=Du har ikke en skrivbar kalender, der er opsat til invitationer, tjek kalenderindstillingerne.
- imipAcceptInvitation.label=Accepter
+ imipSendMail.title=Mail

@@ -7,7 +7,7 @@ Subject: Brand-hu
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index 61486ad..45dcb41 100644
+index 48e26b4..9c65269 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 61486ad..45dcb41 100644
 +imipBarUnsupportedText=Ez az üzenet egy olyan eseményt tartalmaz, amelyet a Iceowl ezen verziója nem tud feldolgozni.
  imipBarProcessingFailed=Az üzenet feldolgozása sikertelen. Állapot: %1$S.
  imipBarNotWritable=Nincsenek beállítva írható naptárak a meghívókhoz, ellenőrizze a naptár beállításait.
- imipAcceptInvitation.label=Elfogadás
+ imipSendMail.title=E-mail értesítés

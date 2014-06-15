@@ -7,7 +7,7 @@ Subject: Brand-nl
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/nl/locale/nl/lightning/lightning.properties b/nl/locale/nl/lightning/lightning.properties
-index 375872f..fda6fb9 100644
+index d5a62c1..3c5bc0f 100644
 --- a/nl/locale/nl/lightning/lightning.properties
 +++ b/nl/locale/nl/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 375872f..fda6fb9 100644
 +imipBarUnsupportedText=Dit bericht bevat een gebeurtenis die deze versie van Iceowl niet kan verwerken.
  imipBarProcessingFailed=Verwerken van bericht mislukt. Status: %1$S.
  imipBarNotWritable=Er zijn geen schrijfbare agenda’s voor uitnodigingen geconfigureerd. Controleer de agenda-eigenschappen.
- imipAcceptInvitation.label=Accepteren
+ imipSendMail.title=E-mailnotificatie

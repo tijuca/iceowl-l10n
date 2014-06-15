@@ -7,7 +7,7 @@ Subject: Brand-zh-TW
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/zh-TW/locale/zh-TW/lightning/lightning.properties b/zh-TW/locale/zh-TW/lightning/lightning.properties
-index 7ca830d..577a8b7 100644
+index 1f85906..36451fe 100644
 --- a/zh-TW/locale/zh-TW/lightning/lightning.properties
 +++ b/zh-TW/locale/zh-TW/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 7ca830d..577a8b7 100644
 +imipBarUnsupportedText=此郵件包含此版 Iceowl 無法處理的事件。
  imipBarProcessingFailed=郵件處理失敗。狀態: %1$S。
  imipBarNotWritable=還沒有為邀請設定可寫入的行事曆，請檢查行事曆屬性。
- imipAcceptInvitation.label=接受
+ imipSendMail.title=電子郵件通知

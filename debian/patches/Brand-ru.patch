@@ -7,7 +7,7 @@ Subject: Brand-ru
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
-index 52ef7f5..6228e6f 100644
+index 6e836a9..921d996 100644
 --- a/ru/locale/ru/lightning/lightning.properties
 +++ b/ru/locale/ru/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 52ef7f5..6228e6f 100644
 +imipBarUnsupportedText=Это письмо содержит событие, которое эта версия Iceowl не может обработать.
  imipBarProcessingFailed=Ошибка обработки письма. Состояние: %1$S.
  imipBarNotWritable=Нет календарей доступных для записи настроенных для приглашений, проверьте настройки календаря.
- imipAcceptInvitation.label=Принять
+ imipSendMail.title=Уведомление участников

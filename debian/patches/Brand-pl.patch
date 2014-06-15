@@ -7,7 +7,7 @@ Subject: Brand-pl
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/pl/locale/pl/lightning/lightning.properties b/pl/locale/pl/lightning/lightning.properties
-index 20802a4..1995e8b 100644
+index b2c3d6c..24fa9db 100644
 --- a/pl/locale/pl/lightning/lightning.properties
 +++ b/pl/locale/pl/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 20802a4..1995e8b 100644
 +imipBarUnsupportedText=Ta wiadomość zawiera wydarzenie, którego ta wersja Iceowla nie potrafi przetworzyć.
  imipBarProcessingFailed=Przetwarzanie wiadomości nie powiodło się. Status: %1$S.
  imipBarNotWritable=Nie skonfigurowano zapisywalnych kalendarzy dla zaproszeń. Proszę sprawdzić właściwości kalendarza.
- imipAcceptInvitation.label=Zaakceptuj
+ imipSendMail.title=Powiadomienie e-mailowe

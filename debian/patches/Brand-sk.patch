@@ -7,7 +7,7 @@ Subject: Brand-sk
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 28e73d3..2e422b3 100644
+index 79d74f5..d61d578 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 28e73d3..2e422b3 100644
 +imipBarUnsupportedText=Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia Iceowl nedokáže spracovať.
  imipBarProcessingFailed=Spracovanie správy zlyhalo. Stav: %1$S.
  imipBarNotWritable=Nie sú dostupné žiadne kalendáre, do ktorých sa dá zapisovať. Skontrolujte nastavenia kalendárov.
- imipAcceptInvitation.label=Prijať
+ imipSendMail.title=E-mailová notifikácia

@@ -7,7 +7,7 @@ Subject: Brand-eu
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index be35744..5c6df50 100644
+index 71eefba..a38eec1 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index be35744..5c6df50 100644
 +imipBarUnsupportedText=Mezu honek Iceowl bertsio honek kudeatu ezin duen gertaera bat dauka.
  imipBarProcessingFailed=Mezua prozesatzean huts egin du. Egoera: %1$S.
  imipBarNotWritable=Ez da egutegi idazgarririk konfiguratu gonbidapenetarako, egiaztatu egutegiaren propietateak.
- imipAcceptInvitation.label=Onartu
+ imipSendMail.title=Posta elektroniko bidezko jakinarazpena

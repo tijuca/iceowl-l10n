@@ -7,7 +7,7 @@ Subject: Brand-ca
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ca/locale/ca/lightning/lightning.properties b/ca/locale/ca/lightning/lightning.properties
-index c02cd11..0b58328 100644
+index 723c552..5357b32 100644
 --- a/ca/locale/ca/lightning/lightning.properties
 +++ b/ca/locale/ca/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index c02cd11..0b58328 100644
 +imipBarUnsupportedText=Aquest missatge conté una cita que aquesta versió del Iceowl no ha pogut tractar.
  imipBarProcessingFailed=El tractament del missatge ha fallat. Estat: %1$S.
  imipBarNotWritable=No hi cap calendari per a invitacions que es pugui escriure. Comproveu les propietats del calendari.
- imipAcceptInvitation.label=Accepta
+ imipSendMail.title=Notificació via correu electrònic

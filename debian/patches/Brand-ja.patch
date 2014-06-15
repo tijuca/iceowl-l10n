@@ -7,7 +7,7 @@ Subject: Brand-ja
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index c02c63d..215dd3c 100644
+index 77bd059..4aad9d7 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index c02c63d..215dd3c 100644
 +imipBarUnsupportedText=メッセージにこのバージョンの Iceowl では処理できない予定が含まれています。
  imipBarProcessingFailed=メッセージの処理に失敗しました。状態: %1$S
  imipBarNotWritable=カレンダーに書き込みできないため参加依頼を処理できません。カレンダーのプロパティを確認してください。
- imipAcceptInvitation.label=承諾
+ imipSendMail.title=メール通知

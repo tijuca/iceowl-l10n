@@ -7,7 +7,7 @@ Subject: Brand-fy-NL
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/fy-NL/locale/fy-NL/lightning/lightning.properties b/fy-NL/locale/fy-NL/lightning/lightning.properties
-index 98907b0..52f9222 100644
+index d39b4e6..46ad5ef 100644
 --- a/fy-NL/locale/fy-NL/lightning/lightning.properties
 +++ b/fy-NL/locale/fy-NL/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 98907b0..52f9222 100644
 +imipBarUnsupportedText=Dit berjocht hat in barren dat dizze ferzje fan Iceowl net ferwurkje kin.
  imipBarProcessingFailed=Berjochtferwurking mislearre. Steat: %1$S.
  imipBarNotWritable=der binne gjin skriuwbere aginda’s foar útnoegingen konfigurearre. Kontrolearje de aginda-eigenskippen.
- imipAcceptInvitation.label=Akseptearje
+ imipSendMail.title=E-mailnotifikaasje

@@ -7,7 +7,7 @@ Subject: Brand-fr
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/fr/locale/fr/lightning/lightning.properties b/fr/locale/fr/lightning/lightning.properties
-index d859858..6213c91 100644
+index 199fc8e..d2fd3a0 100644
 --- a/fr/locale/fr/lightning/lightning.properties
 +++ b/fr/locale/fr/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index d859858..6213c91 100644
 +imipBarUnsupportedText=Ce message contient un évènement que cette version de Iceowl ne peut pas traiter.
  imipBarProcessingFailed=Le traitement du message a échoué. État : %1$S.
  imipBarNotWritable=Aucun agenda disponible à l'écriture n'est configuré pour les invitations, veuillez vérifier les propriétés de l'agenda.
- imipAcceptInvitation.label=Accepter
+ imipSendMail.title=Notification par courrier électronique

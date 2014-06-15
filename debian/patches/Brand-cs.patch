@@ -7,7 +7,7 @@ Subject: Brand-cs
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index f964327..1587414 100644
+index a7d86f7..d8a18af 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index f964327..1587414 100644
 +imipBarUnsupportedText=Tato zpráva obsahuje akci, kterou nelze v této verzi Iceowlu zpracovat.
  imipBarProcessingFailed=Zpracování zprávy skončilo chybou. Stav: %1$S.
  imipBarNotWritable=K vytvoření pozvánky není dostupný žádný zapisovatelný kalendář. Zkontrolujte prosím vlastnosti kalendáře.
- imipAcceptInvitation.label=Přijmout
+ imipSendMail.title=Oznamovací e-mail

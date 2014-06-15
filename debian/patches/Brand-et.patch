@@ -7,7 +7,7 @@ Subject: Brand-et
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/et/locale/et/lightning/lightning.properties b/et/locale/et/lightning/lightning.properties
-index d62a725..7f58867 100644
+index f459346..41460a5 100644
 --- a/et/locale/et/lightning/lightning.properties
 +++ b/et/locale/et/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index d62a725..7f58867 100644
 +imipBarUnsupportedText=See kiri sisaldab sündmust, mida Iceowli praegune versioon ei suuda töödelda.
  imipBarProcessingFailed=Sõnumi töötlemine ebaõnnestus. Olek: %1$S.
  imipBarNotWritable=Kutsete jaoks pole seadistatud ühtegi kirjutusõigusega kalendrit. Palun kontrolli kalendri omadusi.
- imipAcceptInvitation.label=Nõustu
+ imipSendMail.title=Teavitus meiliga

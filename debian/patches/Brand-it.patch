@@ -7,7 +7,7 @@ Subject: Brand-it
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/it/locale/it/lightning/lightning.properties b/it/locale/it/lightning/lightning.properties
-index f7136c7..19c3bb5 100644
+index f70653c..3e550b4 100644
 --- a/it/locale/it/lightning/lightning.properties
 +++ b/it/locale/it/lightning/lightning.properties
 @@ -2,10 +2,10 @@
@@ -31,4 +31,4 @@ index f7136c7..19c3bb5 100644
 +imipBarUnsupportedText = Questo messaggio contiene un invito che questa versione di Iceowl non può processare.
  imipBarProcessingFailed = Elaborazione del messaggio fallita. Stato: %1$S.
  imipBarNotWritable = Non ci sono calendari scrivibili configurati per gli inviti, controllare le proprietà del calendario.
- imipAcceptInvitation.label = Accetta
+ imipSendMail.title = Notifica e-mail

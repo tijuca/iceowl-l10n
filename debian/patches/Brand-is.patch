@@ -7,7 +7,7 @@ Subject: Brand-is
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/is/locale/is/lightning/lightning.properties b/is/locale/is/lightning/lightning.properties
-index 3ed60d7..7f0d070 100644
+index f266fb3..75caed0 100644
 --- a/is/locale/is/lightning/lightning.properties
 +++ b/is/locale/is/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 3ed60d7..7f0d070 100644
 +imipBarUnsupportedText=Þessi tölvupóstur innheldur atburð sem þessi útgáfa af Iceowl getur ekki lesið.
  imipBarProcessingFailed=Meðhöndlun á pósti mistókst. Staða: %1$S.
  imipBarNotWritable=Engin skrifanleg dagatöl eru skilgreind fyrir fundarboð, athugaðu stillingar dagatals.
- imipAcceptInvitation.label=Samþykkja
+ imipSendMail.title=Tilkynna þátttakendum
