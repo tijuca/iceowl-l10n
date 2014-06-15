@@ -1,93 +1,295 @@
 #!/bin/sh
 #
-# Create an upstream tarball from the language pack xpi
-# and (optionally) import it via git-import-orig.
+# create-upstream-tarball
+# Porpose:
+# Create an upstream tarball from the language pack xpi and (optionally)
+# import it via git-import-orig into the repository.
+# Current stable and beta version can be found on
+#    https://addons.mozilla.org/de/thunderbird/addon/lightning/versions/
+#
+# The download option is only useful for stable releases and usage with 'uscan'.
 
+EXIT_SUCCESS=0
+EXIT_FAILURE=1
+
+# Initialize our own variables:
+VERBOSE=0
+FILE=""
+ARG_COUNT=0
+LANG_COUNT=0
+CURDIR_FULL=`pwd`
+CURDIR=$(basename `pwd`)
+
+# default package name
 XPI=lightning.xpi
 SRCPKG="iceowl-l10n"
 
-fail() {
+# local functions
+function usage {
+cat << EOF
+
+Usage: ${0##*/} [-h|-vd] [-e BETA_VER] [-g BRANCH] [-f INFILE] VERSION
+The options have to be used in the correct order!
+
+    -h         display this help and exit
+    -v         verbose mode, increase the output messages
+    -f INFILE  use a input file instead of a web download
+                 (Can't be combinated with '-d' !)
+    -d         download given [VERSION]
+    -e         download [BETA_VER] from the beta versions
+                 (Used in combination with '-d' to get beta marked upstream
+                  versions.)
+    -g         import into git on branch debian/<branch>
+    -f         use a given local file eate/import a *.orig.tar.xz
+    [VERSION]  given version in Debian format for downloading and/or creating
+                 the *.orig.tar.xz
+
+Examples:
+  ${0##*/} -d 3.0
+    Download version '3.0' of Lightning from Mozilla and creates a file
+    'iceowl-l10n_3.0.orig.tar.xz' that can be imported with 'git-import-orig'.
+
+  ${0##*/} -d -g sid 3.0
+    Download version '3.0' of Lightning from Mozilla and import the created
+    'iceowl-l10n_3.0.orig.tar.xz' automatically with 'git-import-orig' into the
+    Branch "debian/sid".
+
+  ${0##*/} -de 3.2b1 3.2~b1
+    Download the beta version '3.2b1' of Lightning from Mozilla and created a
+    file 'iceowl-l10n_3.2~b1.orig.tar.xz'. This file can be automatically
+    imported with 'git-import-orig'.
+
+  ${0##*/} -f /path/to/lightning_local.xpi 3.3~b1
+    Extract the given file "lightning_local.xpi" and create a file
+    'iceowl-l10n_3.3~b1.orig.tar.xz' that can be imported with 'git-import-orig'.
+
+  ${0##*/} -vf /path/to/lightning_local.xpi 3.0~b1
+    Same as above, but use verbose mode.
+
+EOF
+}
+
+function debug {
+if [ "${VERBOSE}" = "1" ]; then
+    echo "DEBUG -> $1"
+fi
+}
+
+function fail {
     echo $*
-    exit 1
+    exit ${EXIT_FAILURE}
 }
 
-usage () {
-    echo "Usage: $0 [-d] [-n] [-g branch] version"
-    echo "    -d: download xpi"
-    echo "    -n: don't clean"
-    echo "    -g: import into git on branch debian/<branch>"
-    exit 1
-}
+########################
+# We are starting here #
+########################
 
-while [ -n "$1" ]; do
-    case $1 in
-        -d) DOWNLOAD=1
-            shift
+# check for wget and curl
+test -f /usr/bin/wget || fail "wget is missing, please install first!"
+test -f /usr/bin/curl || fail "curl is missing, please install first!"
+
+# check if we are inside iceowl-l10n/ and have a git environment
+if [ "${CURDIR}" != "${SRCPKG}" ]; then
+    echo "Not in ${SRCPKG}/.."
+    exit ${EXIT_FAILURE}
+else
+    if [ ! -d .git ]; then
+        echo "no directory .git/ found! You are in the correct directory?"
+        exit ${EXIT_FAILURE}
+    fi
+fi
+
+# we have no options found?
+if (( $# < 1 )); then
+    echo "You need at least one option!" >&2
+    echo
+    usage ${EXIT_FAILURE}
+fi
+
+OPTIND=1 # Reset is necessary if getopts was used previously in the script. It is a good idea to make this local in a function.
+while getopts "hvde:g:f:" opt; do
+    case "$opt" in
+        h)  HELP=1
+            usage
+            exit
             ;;
-        -n) NO_CLEAN=1
-            shift
+        v)  echo "[[ ... using verbose mode ... ]]"
+            VERBOSE=1
             ;;
-        -g) GIT_IMPORT=$2
-            shift;shift
+        d)  DOWNLOAD=yes
+            debug "found option '-d'"
             ;;
-	-h|--help)
-	    usage
-	    ;;
-        *)
-            VERSION=$1
-            shift
+        e)  BETA_VER=${OPTARG}
+            EXPERIMENTAL=1
+            debug "found option '-e' with given BETA_VER: ${BETA_VER}"
+            ;;
+        g)  BRANCH=${OPTARG}
+            debug "found option '-g' with given branch: ${BRANCH}"
+            ;;
+        f)  FILE=${OPTARG}
+            debug "found option '-f' with given file: ${FILE}"
+            if [ "$HELP" = "1" -a "${FILE}" != "" ]; then
+                echo "You can't use option -h and -f together!" >&2
+                echo
+                usage
+                exit ${EXIT_FAILURE}
+            elif [ "$DOWNLOAD" = "yes" -a "${FILE}" != "" ]; then
+                echo "You can't use option -d and -f together!" >&2
+                usage
+                exit ${EXIT_FAILURE}
+            fi
+            debug "checking existence for ${FILE}"
+            if [ ! -f ${FILE} ]; then
+                echo "file ${FILE} does not exist!" >&2
+                exit ${EXIT_FAILURE}
+            fi
+            ;;
+        :)  "Option -${OPTARG} requires an argument." >&2
+            exit 1
+            ;;
+        '?')
+            usage >&2
+            exit 1
             ;;
     esac
 done
 
-[ -n "$VERSION" ] || fail "Missing version."
+# shift found options
+shift $(( OPTIND - 1 ))
 
-echo "Download xpi: ${DOWNLOAD:-off}"
-echo "No cleanup: ${NO_CLEAN:-off}"
-echo "Run git-import-orig: ${GIT_IMPORT:-off}"
-echo "Version: ${VERSION}"
-
-export TMPDIR=$(mktemp --tmpdir=$PWD -d)/
-UNPACKDIR=${TMPDIR}unpack/
-ORIGDIR="${TMPDIR}${SRCPKG}-${VERSION}/"
-
-if [ -n "${GIT_IMPORT}" ]; then
-    test -d ${SRCPKG}/.git || fail "Not in ${SRCPKG}/.."
+# looping the arguments, we should have at least only one without an option!
+for ARG; do
+    ARG_COUNT=`expr ${ARG_COUNT} + 1`
+    debug "given argument: ${ARG}"
+    debug "ARG_COUNT = ${ARG_COUNT}"
+done
+if [ "${ARG_COUNT}" = "0" ]; then
+    echo "missing argument for VERSION!"
+    exit ${EXIT_FAILURE}
+elif [ "${ARG_COUNT}" != "1" ]; then
+    echo "more than one argument for VERSION given!"
+    exit ${EXIT_FAILURE}
 fi
 
+# o.k. the last argument should be the version
+VERSION=${ARG}
+
+debug "Download xpi: ........ ${DOWNLOAD:-off}"
+debug "Run git-import-orig: . ${GIT_IMPORT:-off}"
+if [ -n ${BETA_VER} ]; then
+    debug "Upstream beta version: ${BETA_VER}"
+fi
+debug "Debian version: ...... ${VERSION}"
+
+# creating temporary directories inside /tmp
+# UNPACKDIR -> the directory there the original 'lightning.xpi' or the single
+#            'lightning-${BETA_VER}.$LANG.linux-i686.xpi' will be extracted, it
+#             contains the complete content of the lightning.xpi
+# ORIGDIR   -> the directory for the plain needed content of the ${LANG}.jar,
+#              will be used for the debian.orig.tar.xz
+
+export TMPDIR=$(mktemp --tmpdir=/tmp -d)/
+       UNPACKDIR=${TMPDIR}unpack/
+       ORIGDIR="${TMPDIR}${SRCPKG}-${VERSION}/"
+
+# download Lightning from the CDN of Mozilla
 if [ -n "${DOWNLOAD}" ]; then
     rm -f ${XPI}
-    wget -O${XPI} http://releases.mozilla.org/pub/mozilla.org/calendar/lightning/releases/${VERSION}/linux/${XPI}
+    if [ -n "${EXPERIMENTAL}" ]; then
+        # The beta Lightning packages can have various builds for one version,
+        # we want at least the last build of a beta version. Also there are
+        # packages for every single language instead of one single file without
+        # all languages.
+        # getting the latest build inside a release candidates
+        RET=`curl --silent http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/ \
+             | grep "<a href=\"build" | awk '{print $5,$6;}' | tr '<>/"' ' ' | awk '{print $2,$9;}' | tail -n 1`
+        if [ "$?" = "0" -a "${RET}" != "" ]; then
+            DIRECTORY=`echo ${RET} | tr ' ' '\n' | head -1`
+            DATE=`echo ${RET} | tr ' ' '\n' | tail -1`
+            debug "found directory '${BETA_VER}-candidates/${DIRECTORY}' from '${DATE}'"
+            debug "creating ${TMPDIR}download"
+            mkdir ${TMPDIR}download
+            debug "creating ${UNPACKDIR}"
+            mkdir ${UNPACKDIR}
+            debug "going downloading *.xpi files from http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/"
+            cd /tmp
+            wget -m -r -l 1 -A xpi http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/
+            for XPIFILE in `ls download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/*.xpi`; do
+                LANG=`basename ${XPIFILE} | cut -d . -f 3`
+                debug "extracting '`basename ${XPIFILE}`' to '${UNPACKDIR}'"
+                unzip -q -o -d ${UNPACKDIR} ${XPIFILE} || fail "Oops! Failed to unzip ${XPIFILE}"
+            done
+            cd ${TMPDIR}
+        else
+            fail "Couldn't find version ${BETA_VER}, correct version for option '-e' selected?"
+        fi
+    else
+        # getting the stable version
+        wget -O${XPI} http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/releases/${VERSION}/linux/${XPI}
+        XPI=$(readlink -f ${XPI})
+        echo "XPI saved to: ${XPI}"
+    fi
+else
+    if [ "${FILE}" != "" ]; then
+        # we should have a local *.xpi file
+        XPI=${FILE}
+    fi
 fi
 
-XPI=$(readlink -f ${XPI})
-echo "XPI: ${XPI}"
-
+debug "creating ${ORIGDIR}"
 mkdir ${ORIGDIR}
-unzip -q -d ${UNPACKDIR} ${XPI} || fail "Failed to unzip ${XPI}"
 
-ICEDOVE_VER=$(grep -A2 '{3550f703-e582-4d05-9a08-453d09bdfdc6}' ${UNPACKDIR}install.rdf)
-ICEAPE_VER=$(grep -A2 '{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}' ${UNPACKDIR}install.rdf)
+if [ "$EXPERIMENTAL" != "1" ]; then
+    # don't try to anything if we have download beta versions'
+    unzip -q -d ${UNPACKDIR} ${XPI} || fail "Oops! Failed to unzip ${XPI}"
+fi
 
+# extract l10n files
+debug "extracting *.jar in ${UNPACKDIR}chrome into ${ORIGDIR}\$LANG"
+LANG_COUNT_CAL=`ls -l ${UNPACKDIR}chrome/calendar*.jar | wc -l`
+LANG_COUNT_LIG=`ls -l ${UNPACKDIR}chrome/lightning*.jar | wc -l`
 for jar in ${UNPACKDIR}chrome/*-*.jar; do
     lang=$(echo $jar | sed -e 's,.*/[a-z]\+-\(.*\)\.jar,\1,')
-    unzip -q -d $ORIGDIR/${lang} ${jar} || fail "Failed to unzip ${jar}"
+    LANG_COUNT=`expr $LANG_COUNT + 1`
+    debug "unzip $lang"
+    if [ -n "$VERBOSE" ]; then
+        unzip -d ${ORIGDIR}${lang} ${jar} || fail "Failed to unzip ${jar}"
+    else
+        unzip -q -d ${ORIGDIR}${lang} ${jar} || fail "Failed to unzip ${jar}"
+    fi
 done
-# shipped with the iceowl already
+
+# shipped with the iceowl already, removing en-US
+debug "removing language 'en-US'"
 rm -rf ${ORIGDIR}en-US
 
-TARBALL="${SRCPKG}_${VERSION}.orig.tar.xz"
+debug "creating '${SRCPKG}_${VERSION}.orig.tar.xz''"
+TARBALL="../${SRCPKG}_${VERSION}.orig.tar.xz"
 TARBALL=$(readlink -f ${TARBALL})
-echo "Tarball: ${TARBALL}"
 tar caf ${TARBALL} -C ${ORIGDIR}/.. ${SRCPKG}-${VERSION}
 
-[ -n "${NO_CLEAN}" ] || rm -rf ${TMPDIR}
+ICEDOVE_VER=$(grep -A2 '{3550f703-e582-4d05-9a08-453d09bdfdc6}' ${UNPACKDIR}install.rdf)
+# currently Iceape is no longer existing inside Debian, see https://bugs.debian.org/732314
+#ICEAPE_VER=$(grep -A2 '{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}' ${UNPACKDIR}install.rdf)
 
+echo
 echo "Icedove version information"
 echo ${ICEDOVE_VER}
+#echo "Iceape version information"
+#echo ${ICEAPE_VER}
 
-echo "Iceape version information"
-echo ${ICEAPE_VER}
+# moving orig.tar.xz back
+cd ${CURDIR_FULL}
+mv $TARBALL ../
+TARBALL=$(readlink -f ../${SRCPKG}_${VERSION}.orig.tar.xz)
+echo
+echo "Tarball created in:"
+echo "  -> ${TARBALL} <-"
+echo "     (count calendar: $LANG_COUNT_CAL, count lightning: $LANG_COUNT_LIG, cout all files: $LANG_COUNT)"
+
+# always remove temporary things
+debug "cleanup ..."
+rm -rf ${TMPDIR}
 
 if [ -n "$GIT_IMPORT" ]; then
     cd $SRCPKG
@@ -98,3 +300,5 @@ if [ -n "$GIT_IMPORT" ]; then
 fi
 
 echo "done."
+
+exit $EXIT_SUCCESS
