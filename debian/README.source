@@ -1,0 +1,56 @@
+iceowl-l10n for Debian - source package notes
+---------------------------------------------
+
+Mozilla provides various ways to get the source files that is needed to
+create the iceowl-l10n*.deb files.
+The original lightning.xpi contains the lightning extension of course but
+also the localisations for this extensions. We use only that locales to
+generate a 'orig.tar.xz' from if you choose to get the sources this way.
+
+The debian directory contains a file 'create-upstream-tarball' that will do
+the download, the extraction of the needed files, creation of the
+orig.tar.xz and automatically import of the upstream source to the
+pristine-tar and upstream branch if you want.
+You can also use a local downloaded file to create and optionally import the
+orig.tar.xz to the repository.
+
+Usage:
+You must be in the top directory of the repository. From there you can call
+the helper script in the debian folder.
+
+ debian/create-upstream-tarball -h (or use of onknown options)
+
+will show you the usage screen.
+
+##################
+# Stable version #
+##################
+If you want to import a Mozilla stable Release with a version '2.6' you will
+do:
+
+  $ debian/create-upstream-tarball -d 2.6
+
+This downloads automatically the lightning.xpi from the CDN of Mozilla and
+create a file '../iceowl-l10_2.6.orig.tar.xz'.
+If this version should be directly imported to the branch 'debian/sid' of the
+repository than you can use:
+
+  $ debian/create-upstream-tarball -d -g sid 2.6
+
+################
+# Beta version #
+################
+A beta version differs a little bit because the Mozilla CDN places beta
+version in a different path on the FTP/HTTP Server. But the script can
+handle this too. You have to give the version to download and the Debian
+version that will be later used.
+
+  $ debian/create-upstream-tarball -d -e 3.3b1 3.3~b1
+
+That does the same job as above but renames the version to a Debian conform
+version.
+
+There are more combination of options possible, please consider the help
+screen.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 15 Jun 2014 16:48:55 +0200
