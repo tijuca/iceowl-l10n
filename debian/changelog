@@ -1,3 +1,29 @@
+iceowl-l10n (3.3~b1-1) unstable; urgency=low
+
+  [ Christoph Goehre ]
+  * [d430789] debian/control: adjust Vcs fields to group maintained git archive
+
+  [ Carsten Schoenert ]
+  * [7aed79e] Imported Upstream version 3.2~b1
+  * [a3ed6b3] rebuild patch queue from patch-queue branch
+  * [be79702] debian/install.rdf.in: removing Sunbird/Iceowl, Iceape
+  * [7e6f6fe] debian/control*: removing iceowl-l10-{hr,ko}
+  * [4f046dd] debian/control*: adding iceowl-l10n-id
+  * [7591032] debian/control*: adding iceowl-l10n-pa-in
+  * [bbd5bc4] debian/control*: adding iceowl-l10n-sq
+  * [18df63f] debian/control*: adding iceowl-l10n-sr
+  * [87853b4] debian/control*: adding iceowl-l10n-sv-se
+  * [bda00a8] debian/control*: adding iceowl-l10n-tr
+  * [ace4939] debian/control*: adding iceowl-l10n-uk
+  * [5e32592] adjusting iceowl-extension deps
+  * [4d6f91c] debian/create-upstream-tarball: improve script usage
+  * [9d5157f] debian/README.source: adding hints for importing upstream sources
+  * [5039357] Imported Upstream version 3.3~b1 (Closes: #750389)
+  * [332f5ee] rebuild patch queue from patch-queue branch
+  * [9328963] adjusting iceowl-extension deps
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Sun, 22 Jun 2014 20:55:42 -0400
+
 iceowl-l10n (2.6.5-1) unstable; urgency=low
 
   [ Carsten Schoenert ]
