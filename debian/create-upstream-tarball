@@ -25,7 +25,7 @@ XPI=lightning.xpi
 SRCPKG="iceowl-l10n"
 
 # local functions
-function usage {
+usage () {
 cat << EOF
 
 Usage: ${0##*/} [-h|-vd] [-e BETA_VER] [-g BRANCH] [-f INFILE] VERSION
@@ -69,13 +69,13 @@ Examples:
 EOF
 }
 
-function debug {
+debug () {
 if [ "${VERBOSE}" = "1" ]; then
     echo "DEBUG -> $1"
 fi
 }
 
-function fail {
+fail () {
     echo $*
     exit ${EXIT_FAILURE}
 }
