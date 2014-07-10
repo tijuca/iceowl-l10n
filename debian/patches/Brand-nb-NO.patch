@@ -7,7 +7,7 @@ Subject: Brand-nb-NO
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/nb-NO/locale/nb-NO/lightning/lightning.properties b/nb-NO/locale/nb-NO/lightning/lightning.properties
-index 7b40128..bfd8b11 100644
+index d83f18f..5cb8606 100644
 --- a/nb-NO/locale/nb-NO/lightning/lightning.properties
 +++ b/nb-NO/locale/nb-NO/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 7b40128..bfd8b11 100644
 +imipBarUnsupportedText=Denne meldingen inneholder en hendelse som denne versjonen av Iceowl ikke kan behandle.
  imipBarProcessingFailed=Klarte ikke behandle melding. Status: %1$S.
  imipBarNotWritable=Ingen skrivbare kalendre er konfigurert for invitasjoner. Kontroller kalenderinnstillingene.
- imipAcceptInvitation.label=Aksepter
+ imipSendMail.title=Informer deltakere

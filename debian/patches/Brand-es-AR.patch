@@ -7,7 +7,7 @@ Subject: Brand-es-AR
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/es-AR/locale/es-AR/lightning/lightning.properties b/es-AR/locale/es-AR/lightning/lightning.properties
-index 99cd600..d0536b5 100644
+index 93265ea..faf3cd3 100644
 --- a/es-AR/locale/es-AR/lightning/lightning.properties
 +++ b/es-AR/locale/es-AR/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,4 +33,4 @@ index 99cd600..d0536b5 100644
 +imipBarUnsupportedText=Este mensaje contiene un evento que esta versión de Iceowl no puede procesar.
  imipBarProcessingFailed=Falla al procesar el mensaje. Estado: %1$S.
  imipBarNotWritable=No hay calendarios que se puedan escribir configurados para invitaciones, verifique las propiedades del calendario.
- imipAcceptInvitation.label=Aceptar
+ imipSendMail.title=Notificación por correo electrónico

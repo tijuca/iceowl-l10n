@@ -7,7 +7,7 @@ Subject: Brand-ru
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
-index 6e836a9..921d996 100644
+index 8ab51d8..99d9178 100644
 --- a/ru/locale/ru/lightning/lightning.properties
 +++ b/ru/locale/ru/lightning/lightning.properties
 @@ -3,12 +3,12 @@
