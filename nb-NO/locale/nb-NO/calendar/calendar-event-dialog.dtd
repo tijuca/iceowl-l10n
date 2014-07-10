@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label                "Fra" >
 <!ENTITY newevent.to.label                  "Til" >
-<!ENTITY newevent.attendees.notify.label    "Varsle deltakere">
 
 <!ENTITY newevent.status.label                    "Status" >
 <!ENTITY newevent.status.accesskey                "S" >
@@ -29,6 +28,13 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#37; fullført">
+
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label               "Varsle deltakere">
+<!ENTITY event.attendees.notifyundisclosed.label    "Egen invitasjon for hver deltaker">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "Denne innstillingen sender en invitasjon for hver deltaker. Hver invitasjon inneholder bare informasjon om om den enkelte deltaker, slik at andre deltakere ikke vises.">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -99,12 +105,6 @@
 <!ENTITY  event.menu.options.accesskey                        "I">
 <!ENTITY  event.menu.options.attendees.label                  "Inviter deltakere …">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
-<!ENTITY  event.menu.options.spellcheck.label                 "Stavekontroll …">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "a">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Stavekontroll mens du skriver">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "v">
-<!ENTITY  event.menu.options.link.label                       "Legg til lenke …">
-<!ENTITY  event.menu.options.link.accesskey                   "L">
 <!ENTITY  event.menu.options.timezone2.label                  "Vis tidssoner">
 <!ENTITY  event.menu.options.timezone2.accesskey              "s">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritet">
@@ -143,8 +143,16 @@
 <!ENTITY  event.toolbar.save.label                        "Lagre og lukk">
 <!ENTITY  event.toolbar.delete.label                      "Slett">
 <!ENTITY  event.toolbar.attendees.label                   "Inviter deltakere">
-<!ENTITY  event.toolbar.spellcheck.label                  "Stavekontroller">
 <!ENTITY  event.toolbar.privacy.label                     "Personvern">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Lagre og lukk">
+<!ENTITY  event.toolbar.delete.tooltip                    "Slett">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Inviter deltakere">
+<!ENTITY  event.toolbar.attachments.tooltip               "Nytt vedlegg">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Endre personvern">
+<!ENTITY  event.toolbar.priority.tooltip                  "Endre prioritet">
+<!ENTITY  event.toolbar.status.tooltip                    "Endre status">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Endre ledig/opptatt-tid">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Tittel:" >
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label                           "Kategori:">
 <!ENTITY event.categories.accesskey                       "K">
 <!ENTITY event.categories.textbox.label                   "Legg til ny kategori" >
-<!ENTITY event.categories.textbox.accesskey               "L">
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "e">
 <!ENTITY event.attendees.label                            "Deltakere:" >
@@ -207,9 +214,12 @@
 <!ENTITY event.reminder.1day.before.label                 "1 dag før" >
 <!ENTITY event.reminder.2days.before.label                "2 dager før" >
 <!ENTITY event.reminder.1week.before.label                "1 uker før" >
-<!ENTITY event.reminder.custom.label                      "Egendefinert …" >
+<!ENTITY event.reminder.custom.label                      "Annet …" >
 
 <!ENTITY event.reminder.multiple.label                    "Flere påminnelser …" >
+
+<!ENTITY event.statusbarpanel.freebusy.label              "Tid som:">
+<!ENTITY event.statusbarpanel.privacy.label               "Personvern:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Rediger gjentakelse">
@@ -221,7 +231,7 @@
 <!ENTITY event.repeat.bi.weekly.label                   "Hver andre uke">
 <!ENTITY event.repeat.monthly.label                     "Månedlig">
 <!ENTITY event.repeat.yearly.label                      "Årlig">
-<!ENTITY event.repeat.custom.label                      "Egendefinert …">
+<!ENTITY event.repeat.custom.label                      "Annet …">
 
 <!ENTITY event.recurrence.pattern.label                 "Gjentakelsesmønster">
 <!ENTITY event.recurrence.occurs.label                  "Gjenta" >
@@ -361,5 +371,4 @@
 <!ENTITY read.only.reminder.label        "Påminnelse:">
 <!ENTITY read.only.attendees.label       "Deltakere">
 <!ENTITY read.only.description.label     "Beskrivelse">
-<!ENTITY read.only.documents.label       "Dokumenter">
 <!ENTITY read.only.link.label            "Relatert lenke">
