@@ -1,3 +1,11 @@
+iceowl-l10n (3.3~b2-1) unstable; urgency=low
+
+  [ Carsten Schoenert ]
+  * [36ff82b] remove "bashism" from debian/c-u-t script
+  * [9456c33] Imported Upstream version 3.3~b2
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Sat, 19 Jul 2014 12:15:46 +0200
+
 iceowl-l10n (3.3~b1-1) unstable; urgency=low
 
   [ Christoph Goehre ]
