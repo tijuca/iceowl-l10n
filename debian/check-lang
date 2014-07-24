@@ -15,6 +15,9 @@ EOF
 }
 
 MISSING_PATCHES=""
+ADJUST_CONTROL=""
+ADJUST_PATCHES=""
+ADJUST_BRANDS=""
 
 case $1 in
     --find-patches)
@@ -28,27 +31,41 @@ esac
 for dir in ?? ??-??; do
     lang=$(echo $dir | tr A-Z a-z)
     if ! grep -qa iceowl-l10n-$lang debian/control.in; then
-        echo "No package for $lang"
+        echo "No package in debian/control{.in} for '$lang'."
         ret=1
+        ADJUST_CONTROL=1
     fi
 done
+if [ "$ADJUST_CONTROL" = "1" ]; then
+    echo "Please modify debian/control{.in}!"
+    echo
+fi
 
 # Check if every Debian package has a language directory
 for lang in $(grep iceowl-l10n- debian/control.in | sed s/.*iceowl-l10n-//); do
     dir=$(echo $lang | sed -e 's/\(.*\)-\(.*\)/\1-\U\2/')
     if [ ! -d $dir ]; then
-        echo "Package for missing lang $dir"
+        echo "Package in debian/control{.in} for not existing language '$dir'."
         ret=1
+        ADJUST_PATCHES=1
     fi
 done
+if [ "$ADJUST_PATCHES" = "1" ]; then
+    echo "Please modify debian/patches/series, debian/control{.in} and rebuild the patchqueue!"
+    echo
+fi
 
 for lang in ?? ??-??; do
     if [ ! -f debian/patches/Brand-${lang}.patch ]; then
-        echo "Branding patch for $lang missing"
+        echo "Branding patch for '$lang' missing"
         MISSING_PATCHES="$MISSING_PATCHES ${lang}"
         ret=1
+        ADJUST_BRANDS=1
     fi
 done
+if [ "$ADJUST_BRANDS" = "1" ]; then
+    echo "Please modify the remarked files while working inside the patchqueue!"
+fi
 
 if [ "$FIND_PATCHES" = "1" ]; then
     for lang in $MISSING_PATCHES; do
