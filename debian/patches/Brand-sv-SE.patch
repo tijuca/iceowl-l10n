@@ -1,5 +1,5 @@
 From: Carsten Schoenert <c.schoenert@t-online.de>
-Date: Sat, 31 May 2014 12:34:24 +0200
+Date: Thu, 24 Jul 2014 18:12:03 +0200
 Subject: Brand-sv-SE
 
 ---
@@ -7,7 +7,7 @@ Subject: Brand-sv-SE
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/sv-SE/locale/sv-SE/lightning/lightning.properties b/sv-SE/locale/sv-SE/lightning/lightning.properties
-index 37b74cf..6002989 100644
+index 6b2b2be..58a8abb 100644
 --- a/sv-SE/locale/sv-SE/lightning/lightning.properties
 +++ b/sv-SE/locale/sv-SE/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,12 +25,12 @@ index 37b74cf..6002989 100644
  
  # Task mode title
  taskModeApplicationTitle=Händelser
-@@ -38,7 +38,7 @@ imipBarRequestText=Detta meddelande innehåller en inbjudan till ett möte.
- imipBarUpdateText=Detta meddelande innehåller en uppdatering av en befintlig händelse.
+@@ -42,7 +42,7 @@ imipBarUpdateText=Detta meddelande innehåller en uppdatering av en befintlig h
  imipBarAlreadyProcessedText=Detta meddelande innehåller en händelse som redan har bearbetats.
+ imipBarProcessedNeedsAction=Detta meddelande innehåller en händelse som du ännu inte har svarat på.
  imipBarReplyText=Detta meddelande innehåller svar på en inbjudan.
 -imipBarUnsupportedText=Detta meddelande innehåller ett möte som denna version av Lightning inte kan hantera.
 +imipBarUnsupportedText=Detta meddelande innehåller ett möte som denna version av Iceowl inte kan hantera.
  imipBarProcessingFailed=Bearbetning av meddelandet misslyckades. Status: %1$S.
- imipAcceptInvitation.label=Acceptera
- imipCancelInvitation.label=Ta bort
+ imipBarNotWritable=Ingen skrivbar kalender är inställd för inbjudningar, vänligen kontrollera kalenderinställningarna.
+ imipSendMail.title=Meddela deltagare
