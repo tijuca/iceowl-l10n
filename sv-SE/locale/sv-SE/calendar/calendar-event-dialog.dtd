@@ -10,7 +10,6 @@
 
 <!ENTITY newevent.from.label                "Från" >
 <!ENTITY newevent.to.label                  "Till" >
-<!ENTITY newevent.attendees.notify.label    "Meddela deltagare">
 
 <!ENTITY newevent.status.label 		    	"Status" >
 <!ENTITY newevent.status.accesskey 	    	"S" >
@@ -31,6 +30,13 @@
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#37; färdigt">
 
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label               "Meddela deltagare">
+<!ENTITY event.attendees.notifyundisclosed.label    "Separat inbjudan till varje deltagare">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "Detta alternativ skickar en inbjudan per deltagare. Varje inbjudan innehåller bara en mottagare så att övriga deltagares identitet inte lämnas ut.">
+
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
 <!ENTITY event.dialog.new.task.key2               "D">
@@ -45,15 +51,6 @@
 <!ENTITY event.dialog.copy.key                    "C">
 <!ENTITY event.dialog.paste.key                   "V">
 <!ENTITY event.dialog.select.all.key              "A">
-
-<!-- Alarm -->
-
-<!ENTITY event.invite.attendees.label                     "Bjud in deltagare…">
-<!ENTITY event.invite.attendees.accesskey                 "B">
-<!ENTITY event.email.attendees.label                      "Skicka e-post till alla deltagare…">
-<!ENTITY event.email.attendees.accesskey                  "S">
-<!ENTITY event.email.tentative.attendees.label            "Skicka e-post till alla preliminära deltagare…">
-<!ENTITY event.email.tentative.attendees.accesskey        "e">
 
 <!-- Menubar -->
 <!ENTITY  event.menu.item.new.label                       "Ny">
@@ -109,12 +106,6 @@
 <!ENTITY  event.menu.options.accesskey                        "A">
 <!ENTITY  event.menu.options.attendees.label                  "Bjud in deltagare…">
 <!ENTITY  event.menu.options.attendees.accesskey              "B">
-<!ENTITY  event.menu.options.spellcheck.label                 "Kontrollera stavning…">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "K">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Kontrollera stavning medan du skriver">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "s">
-<!ENTITY  event.menu.options.link.label                       "Lägg till länk…">
-<!ENTITY  event.menu.options.link.accesskey                   "L">
 <!ENTITY  event.menu.options.timezone2.label                  "Visa tidszoner">
 <!ENTITY  event.menu.options.timezone2.accesskey              "z">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritet">
@@ -142,12 +133,27 @@
 <!ENTITY  event.menu.options.show.time.free.label             "Ledig">
 <!ENTITY  event.menu.options.show.time.free.accesskey         "L">
 
+<!ENTITY event.invite.attendees.label                     "Bjud in deltagare…">
+<!ENTITY event.invite.attendees.accesskey                 "B">
+<!ENTITY event.email.attendees.label                      "Skicka e-post till alla deltagare…">
+<!ENTITY event.email.attendees.accesskey                  "S">
+<!ENTITY event.email.tentative.attendees.label            "Skicka e-post till alla preliminära deltagare…">
+<!ENTITY event.email.tentative.attendees.accesskey        "e">
+
 <!-- Toolbar -->
 <!ENTITY  event.toolbar.save.label                        "Spara och stäng">
 <!ENTITY  event.toolbar.delete.label                      "Radera">
 <!ENTITY  event.toolbar.attendees.label                   "Bjud in deltagare">
-<!ENTITY  event.toolbar.spellcheck.label                  "Stavningskontroll">
 <!ENTITY  event.toolbar.privacy.label                     "Sekretess">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Spara och stäng">
+<!ENTITY  event.toolbar.delete.tooltip                    "Radera">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Bjud in deltagare">
+<!ENTITY  event.toolbar.attachments.tooltip               "Lägg till bilagor">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Ändra sekretess">
+<!ENTITY  event.toolbar.priority.tooltip                  "Ändra prioritet">
+<!ENTITY  event.toolbar.status.tooltip                    "Ändra status">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Ändra ledig/upptagen tid">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Titel:" >
@@ -156,6 +162,7 @@
 <!ENTITY event.location.accesskey                         "P">
 <!ENTITY event.categories.label                           "Kategori:">
 <!ENTITY event.categories.accesskey                       "i">
+<!ENTITY event.categories.textbox.label                   "Lägg till ny kategori" >
 <!ENTITY event.calendar.label                             "Kalender:" >
 <!ENTITY event.calendar.accesskey                         "K">
 <!ENTITY event.attendees.label                            "Deltagare:" >
@@ -174,6 +181,8 @@
 <!ENTITY task.status.accesskey                            "a">
 <!ENTITY event.repeat.label                               "Upprepa:" >
 <!ENTITY event.repeat.accesskey                           "U">
+<!ENTITY event.until.label                                "Till och med:">
+<!ENTITY event.until.accesskey                            "o">
 <!ENTITY event.reminder.label                             "Påminnelse:" >
 <!ENTITY event.reminder.accesskey                         "m">
 <!ENTITY event.description.label                          "Beskrivning:" >
@@ -209,6 +218,9 @@
 <!ENTITY event.reminder.custom.label                      "Anpassad…" >
 
 <!ENTITY event.reminder.multiple.label                    "Flera påminnelser…" >
+
+<!ENTITY event.statusbarpanel.freebusy.label              "Tiden är:">
+<!ENTITY event.statusbarpanel.privacy.label               "Sekretess:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Redigera upprepning">
@@ -360,6 +372,5 @@
 <!ENTITY read.only.reminder.label        "Påminnelse:">
 <!ENTITY read.only.attendees.label       "Deltagare">
 <!ENTITY read.only.description.label     "beskrivning">
-<!ENTITY read.only.documents.label       "Dokument">
 <!ENTITY read.only.link.label            "Liknande länk">
 
