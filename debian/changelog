@@ -1,3 +1,20 @@
+iceowl-l10n (3.3-1) unstable; urgency=low
+
+  [ Carsten Schoenert ]
+  * [b8534db] Imported Upstream version 3.3
+  * [28d5741] debian/check-lang: more explaining output
+  * [9bb4dce] rebuild patch queue from patch-queue branch
+    - added new languages: Bulgarian, Croatian, Korean
+    - removed languages: Finnish, Scottisch Galic, Indonesian, Lithuanian,
+                         Bokmaal (Norway), Punjabi (India), Portuguese,
+                         Albanian, Serbian, Turkish, Ukrainian
+  * [45f10bb] debian/control*: removing various iceowl-l10n-*
+  * [a22e73c] debian/control*: adding iceowl-l10n-bg.
+  * [60c3478] debian/control*: adding iceowl-l10n-hr.
+  * [1861ba5] debian/control*: adding iceowl-l10n-ko.
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Wed, 06 Aug 2014 13:56:23 -0400
+
 iceowl-l10n (3.3~b2-1) unstable; urgency=low
 
   [ Carsten Schoenert ]
