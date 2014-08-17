@@ -281,6 +281,17 @@ Description: Nynorsk (Norway) language package for iceowl-extension
  This package contains the localization of iceowl-extension in Nynorsk
  (Norway).
 
+Package: iceowl-l10n-pa-in
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 31.0~), iceowl-extension (<< 32)
+Description: Punjabi language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Punjabi (India).
+
 Package: iceowl-l10n-pl
 Architecture: all
 Depends: ${misc:Depends},
