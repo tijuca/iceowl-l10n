@@ -162,6 +162,17 @@ Description: Irish (Ireland) language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Irish (Ireland).
 
+Package: iceowl-l10n-gd
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 31.0~), iceowl-extension (<< 32)
+Description: Scottish Gaelic language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Scottish Gaelic.
+
 Package: iceowl-l10n-hu
 Architecture: all
 Depends: ${misc:Depends},
