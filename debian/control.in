@@ -185,6 +185,17 @@ Description: Hungarian language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Hungarian.
 
+Package: iceowl-l10n-id
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Description: Indonesian language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Indonesian.
+
 Package: iceowl-l10n-is
 Architecture: all
 Depends: ${misc:Depends},
