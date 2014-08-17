@@ -117,6 +117,17 @@ Description: Basque language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Basque.
 
+Package: iceowl-l10n-fi
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 31.0~), iceowl-extension (<< 32)
+Description: Finnish language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Finnish.
+
 Package: iceowl-l10n-fr
 Architecture: all
 Depends: ${misc:Depends},
