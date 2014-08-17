@@ -7,7 +7,6 @@
 <!ENTITY event.dialog.keepDurationButton.accesskey "M">
 <!ENTITY newevent.from.label "Da">
 <!ENTITY newevent.to.label "A">
-<!ENTITY newevent.attendees.notify.label "Notifica partecipanti">
 <!ENTITY newevent.status.label "Stato">
 <!ENTITY newevent.status.accesskey "S">
 <!ENTITY newevent.eventStatus.none.label "Non specificato">
@@ -24,6 +23,9 @@
 <!ENTITY newevent.status.inprogress.label "In corso">
 <!ENTITY newevent.status.completed.label "Completata il">
 <!ENTITY newtodo.percentcomplete.label "&#037; completata">
+<!ENTITY event.attendees.notify.label "Notifica partecipanti">
+<!ENTITY event.attendees.notifyundisclosed.label "Separa inviti per partecipante">
+<!ENTITY event.attendees.notifyundisclosed.tooltip "Questa opzione invia una e-mail di invito per ogni partecipante. Ogni invito contiene solo il partecipante destinatario in modo che le identità degli altri partecipanti non siano rivelate.">
 <!ENTITY event.dialog.new.event.key2 "I">
 <!ENTITY event.dialog.new.task.key2 "D">
 <!ENTITY event.dialog.new.message.key2 "N">
@@ -87,12 +89,6 @@
 <!ENTITY event.menu.options.accesskey "O">
 <!ENTITY event.menu.options.attendees.label "Invita partecipanti…">
 <!ENTITY event.menu.options.attendees.accesskey "n">
-<!ENTITY event.menu.options.spellcheck.label "Correzione ortografica…">
-<!ENTITY event.menu.options.spellcheck.accesskey "C">
-<!ENTITY event.menu.options.inline.spellcheck.label "Controllo ortografico durante la digitazione">
-<!ENTITY event.menu.options.inline.spellcheck.accesskey "C">
-<!ENTITY event.menu.options.link.label "Aggiungi collegamento…">
-<!ENTITY event.menu.options.link.accesskey "u">
 <!ENTITY event.menu.options.timezone2.label "Mostra fusi orari">
 <!ENTITY event.menu.options.timezone2.accesskey "M">
 <!ENTITY event.menu.options.priority2.label "Priorità">
@@ -128,8 +124,15 @@
 <!ENTITY event.toolbar.save.label "Salva ed esci">
 <!ENTITY event.toolbar.delete.label "Elimina">
 <!ENTITY event.toolbar.attendees.label "Invita partecipanti">
-<!ENTITY event.toolbar.spellcheck.label "Correttore ortografico">
 <!ENTITY event.toolbar.privacy.label "Privacy">
+<!ENTITY event.toolbar.save.tooltip "Salva ed esci">
+<!ENTITY event.toolbar.delete.tooltip "Elimina">
+<!ENTITY event.toolbar.attendees.tooltip "Invita partecipanti">
+<!ENTITY event.toolbar.attachments.tooltip "Aggiungi allegati">
+<!ENTITY event.toolbar.privacy.tooltip "Cambia privacy">
+<!ENTITY event.toolbar.priority.tooltip "Cambia priorità">
+<!ENTITY event.toolbar.status.tooltip "Cambia stato">
+<!ENTITY event.toolbar.freebusy.tooltip "Cambia tempo libero/occupato">
 <!ENTITY event.title.textbox.label "Titolo:">
 <!ENTITY event.title.textbox.accesskey "T">
 <!ENTITY event.location.label "Luogo:">
@@ -137,7 +140,6 @@
 <!ENTITY event.categories.label "Categoria:">
 <!ENTITY event.categories.accesskey "C">
 <!ENTITY event.categories.textbox.label "Aggiungi una nuova categoria">
-<!ENTITY event.categories.textbox.accesskey "A">
 <!ENTITY event.calendar.label "Calendario:">
 <!ENTITY event.calendar.accesskey "d">
 <!ENTITY event.attendees.label "Partecipanti:">
@@ -191,6 +193,8 @@
 <!ENTITY event.reminder.1week.before.label "1 settimana prima">
 <!ENTITY event.reminder.custom.label "Personalizzato…">
 <!ENTITY event.reminder.multiple.label "Promemoria multipli…">
+<!ENTITY event.statusbarpanel.freebusy.label "Tempo come:">
+<!ENTITY event.statusbarpanel.privacy.label "Privacy:">
 <!ENTITY recurrence.title.label "Modifica ricorrenza">
 <!ENTITY event.repeat.does.not.repeat.label "Nessuna ricorrenza">
 <!ENTITY event.repeat.daily.label "Giornaliera">
@@ -318,5 +322,4 @@
 <!ENTITY read.only.reminder.label "Promemoria:">
 <!ENTITY read.only.attendees.label "Partecipanti">
 <!ENTITY read.only.description.label "Descrizione">
-<!ENTITY read.only.documents.label "Documenti">
 <!ENTITY read.only.link.label "Collegamenti correlati">

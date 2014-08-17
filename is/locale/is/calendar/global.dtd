@@ -18,7 +18,7 @@
 <!ENTITY day.5.Ddd "Fim">
 <!ENTITY day.5.Ddd.accesskey "F">
 <!ENTITY day.6.Ddd "Fös">
-<!ENTITY day.6.Ddd.accesskey "s">
+<!ENTITY day.6.Ddd.accesskey "ö">
 <!ENTITY day.7.Ddd "Lau">
 <!ENTITY day.7.Ddd.accesskey "L">
 <!ENTITY day.1.name "Sunnudagur">
@@ -28,13 +28,6 @@
 <!ENTITY day.5.name "Fimmtudagur">
 <!ENTITY day.6.name "Föstudagur">
 <!ENTITY day.7.name "Laugardagur">
-<!-- Units -->
-<!ENTITY calendar.global.units.minute "mínúta">
-<!ENTITY calendar.global.units.minutes "mínútur">
-<!ENTITY calendar.global.units.hour "klukkustund">
-<!ENTITY calendar.global.units.hours "klukkustundir">
-<!ENTITY calendar.global.units.day "dagur">
-<!ENTITY calendar.global.units.days "dagar">
 <!ENTITY month.1.name "Janúar">
 <!ENTITY month.2.name "Febrúar">
 <!ENTITY month.3.name "Mars">

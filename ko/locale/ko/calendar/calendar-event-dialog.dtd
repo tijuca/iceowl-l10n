@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label                "개시일" >
 <!ENTITY newevent.to.label                  "종료일" >
-<!ENTITY newevent.attendees.notify.label    "참석자 알림">
 
 <!ENTITY newevent.status.label                "상태" >
 <!ENTITY newevent.status.accesskey            "S" >
@@ -29,6 +28,13 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#37; 완료">
+
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label               "참석자 알림">
+<!ENTITY event.attendees.notifyundisclosed.label    "참석자 별로 초대 분리하기">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "이 옵션은 각 참석자에게 따로 이메일을 보내는 옵션입니다. 각 초대에는 받는 사람만 참석자로 나와 있어 다른 참석자를 볼 수 없습니다.">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -99,12 +105,6 @@
 <!ENTITY  event.menu.options.accesskey                        "O">
 <!ENTITY  event.menu.options.attendees.label                  "참석자 초대…">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
-<!ENTITY  event.menu.options.spellcheck.label                 "철자 검사…">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "h">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Spell Check As You Type">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "S">
-<!ENTITY  event.menu.options.link.label                       "링크 추가…">
-<!ENTITY  event.menu.options.link.accesskey                   "L">
 <!ENTITY  event.menu.options.timezone2.label                   "시간대 표시">
 <!ENTITY  event.menu.options.timezone2.accesskey               "z">
 <!ENTITY  event.menu.options.priority2.label                  "중요도">
@@ -143,8 +143,16 @@
 <!ENTITY  event.toolbar.save.label                        "저장 후 종료">
 <!ENTITY  event.toolbar.delete.label                      "삭제">
 <!ENTITY  event.toolbar.attendees.label                   "초대">
-<!ENTITY  event.toolbar.spellcheck.label                  "철자 검사">
 <!ENTITY  event.toolbar.privacy.label                     "공개여부">
+
+<!ENTITY  event.toolbar.save.tooltip                      "저장하고 닫기">
+<!ENTITY  event.toolbar.delete.tooltip                    "삭제">
+<!ENTITY  event.toolbar.attendees.tooltip                 "참석자 초대하기">
+<!ENTITY  event.toolbar.attachments.tooltip               "첨부하기">
+<!ENTITY  event.toolbar.privacy.tooltip                   "공개 범위 바꾸기">
+<!ENTITY  event.toolbar.priority.tooltip                  "중요도 바꾸기">
+<!ENTITY  event.toolbar.status.tooltip                    "상태 바꾸기">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "일정 상태 바꾸기">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "제목:" >
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label                           "분류:">
 <!ENTITY event.categories.accesskey                       "y">
 <!ENTITY event.categories.textbox.label                   "분류 추가" >
-<!ENTITY event.categories.textbox.accesskey               "A">
 <!ENTITY event.calendar.label                             "캘린더:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "참석자:" >
@@ -210,6 +217,9 @@
 <!ENTITY event.reminder.custom.label                      "설정…" >
 
 <!ENTITY event.reminder.multiple.label                    "다중 알림…" >
+
+<!ENTITY event.statusbarpanel.freebusy.label              "일정 상태:">
+<!ENTITY event.statusbarpanel.privacy.label               "공개여부:">
 
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "되풀이 편집">
@@ -361,5 +371,4 @@
 <!ENTITY read.only.reminder.label        "알림:">
 <!ENTITY read.only.attendees.label       "참석자">
 <!ENTITY read.only.description.label     "설명">
-<!ENTITY read.only.documents.label       "문서">
 <!ENTITY read.only.link.label            "관련 링크">

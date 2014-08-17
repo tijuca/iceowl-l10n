@@ -1,11 +1,11 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
+
 
 <!ENTITY pref.alarmgoesoff.label "Kada je podsjetnik dospio:">
 <!ENTITY pref.playasound "Reproduciraj zvuk">
@@ -33,3 +33,6 @@
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
 <!ENTITY pref.defaultemail.label "Zadana adresa e-pošte na koju slati podsjetnike:">
 <!ENTITY pref.defaulttext.label "Zadani tekst za podsjetnike :">
+
+<!ENTITY pref.defaultsnoozelength.label "Zadano trajanje odgode:" >
+<!ENTITY pref.defaultsnoozelength.accesskey "a">

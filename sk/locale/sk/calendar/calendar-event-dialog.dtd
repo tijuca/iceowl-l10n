@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label                "Od" >
 <!ENTITY newevent.to.label                  "Do" >
-<!ENTITY newevent.attendees.notify.label    "Upozorniť účastníkov">
 
 <!ENTITY newevent.status.label                    "Stav" >
 <!ENTITY newevent.status.accesskey                "S" >
@@ -29,6 +28,13 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "Dokončené na &#37;">
+
+<!-- LOCALIZATON NOTE(newevent.attendees.notify.label,newevent.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label               "Upozorniť účastníkov">
+<!ENTITY event.attendees.notifyundisclosed.label    "Poslať každému účastníkovi zvlášť">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "Použitím tejto voľby odošlete každému z účastníkov samostatnú pozvánku. Každá pozvánka obsahuje len účastníka, ktorému je posielaná. Identita ostatných účastníkov ostáva utajená.">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -99,12 +105,6 @@
 <!ENTITY  event.menu.options.accesskey                    "M">
 <!ENTITY  event.menu.options.attendees.label              "Pozvať účastníkov…">
 <!ENTITY  event.menu.options.attendees.accesskey          "P">
-<!ENTITY  event.menu.options.spellcheck.label             "Kontrola pravopisu…">
-<!ENTITY  event.menu.options.spellcheck.accesskey         "K">
-<!ENTITY  event.menu.options.inline.spellcheck.label      "Automatická kontrola pravopisu">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey  "A">
-<!ENTITY  event.menu.options.link.label                   "Pridať odkaz…">
-<!ENTITY  event.menu.options.link.accesskey               "o">
 <!ENTITY  event.menu.options.timezone2.label              "Zobraziť časové pásma">
 <!ENTITY  event.menu.options.timezone2.accesskey          "a">
 <!ENTITY  event.menu.options.priority2.label              "Priorita">
@@ -143,8 +143,16 @@
 <!ENTITY  event.toolbar.save.label                        "Uložiť a zavrieť">
 <!ENTITY  event.toolbar.delete.label                      "Odstrániť">
 <!ENTITY  event.toolbar.attendees.label                   "Pozvať účastníkov">
-<!ENTITY  event.toolbar.spellcheck.label                  "Kontrola pravopisu">
 <!ENTITY  event.toolbar.privacy.label                     "Súkromie">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Uložiť a zavrieť">
+<!ENTITY  event.toolbar.delete.tooltip                    "Odstrániť">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Pozvať účastníkov">
+<!ENTITY  event.toolbar.attachments.tooltip               "Pridať prílohy">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Zmeniť súkromie">
+<!ENTITY  event.toolbar.priority.tooltip                  "Zmeniť prioritu">
+<!ENTITY  event.toolbar.status.tooltip                    "Zmeniť stav">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Zmeniť čas zaneprázdnený/dostupný">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Názov:" >
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label                           "Kategória:">
 <!ENTITY event.categories.accesskey                       "g">
 <!ENTITY event.categories.textbox.label                   "Pridať novú kategóriu" >
-<!ENTITY event.categories.textbox.accesskey               "r">
 <!ENTITY event.calendar.label                             "Kalendár:" >
 <!ENTITY event.calendar.accesskey                         "K">
 <!ENTITY event.attendees.label                            "Účastníci:" >
@@ -212,6 +219,9 @@
 
 <!ENTITY event.reminder.multiple.label                    "Viacnásobné pripomienky…" >
 
+<!ENTITY event.statusbarpanel.freebusy.label              "Čas ako:">
+<!ENTITY event.statusbarpanel.privacy.label               "Súkromie:">
+    
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Úprava opakovaní">
 
@@ -362,5 +372,4 @@
 <!ENTITY read.only.reminder.label        "Pripomienka:">
 <!ENTITY read.only.attendees.label       "Účastníci">
 <!ENTITY read.only.description.label     "Popis">
-<!ENTITY read.only.documents.label       "Dokumenty">
 <!ENTITY read.only.link.label            "Súvisiaci odkaz">

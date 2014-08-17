@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label                "Des de" >
 <!ENTITY newevent.to.label                  "Fins a" >
-<!ENTITY newevent.attendees.notify.label    "Notifica els assistents">
 
 <!ENTITY newevent.status.label                    "Estat" >
 <!ENTITY newevent.status.accesskey                "s" >
@@ -29,6 +28,13 @@
 <!-- The following entity is for New Task dialog only -->
 
 <!ENTITY newtodo.percentcomplete.label      "&#037; acabat">
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+
+<!ENTITY event.attendees.notify.label               "Notifica els assistents">
+<!ENTITY event.attendees.notifyundisclosed.label    "Invitació separada per a cada assistent">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "Aquesta opció envia un missatge d'invitació per assistent. Cada invitació conté l'assistent com a únic destinatari, de forma que els assistents no veuen la identitat els uns dels altres.">
 <!-- Keyboard Shortcuts -->
 
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -99,12 +105,6 @@
 <!ENTITY  event.menu.options.accesskey                        "O">
 <!ENTITY  event.menu.options.attendees.label                  "Invita assistents…">
 <!ENTITY  event.menu.options.attendees.accesskey              "I">
-<!ENTITY  event.menu.options.spellcheck.label                 "Comprova l'ortografia…">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "o">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Comprova l'ortografia mentre s'escriu">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "s">
-<!ENTITY  event.menu.options.link.label                       "Afegeix un enllaç…">
-<!ENTITY  event.menu.options.link.accesskey                   "l">
 <!ENTITY  event.menu.options.timezone2.label                  "Mostra els fusos horaris">
 <!ENTITY  event.menu.options.timezone2.accesskey              "h">
 <!ENTITY  event.menu.options.priority2.label                  "Prioritat">
@@ -125,7 +125,7 @@
 <!ENTITY  event.menu.options.privacy.confidential.accesskey   "s">
 <!ENTITY  event.menu.options.privacy.private.label            "Cita privada">
 <!ENTITY  event.menu.options.privacy.private.accesskey        "r">
-<!ENTITY  event.menu.options.show.time.label                  "Mostra l'hora com a">
+<!ENTITY  event.menu.options.show.time.label                  "Disponibilitat">
 <!ENTITY  event.menu.options.show.time.accesskey              "t">
 <!ENTITY  event.menu.options.show.time.busy.label             "Ocupat">
 <!ENTITY  event.menu.options.show.time.busy.accesskey         "O">
@@ -143,8 +143,16 @@
 <!ENTITY  event.toolbar.save.label                        "Desa i tanca">
 <!ENTITY  event.toolbar.delete.label                      "Suprimeix">
 <!ENTITY  event.toolbar.attendees.label                   "Invita assistents">
-<!ENTITY  event.toolbar.spellcheck.label                  "Verificació ortogràfica">
 <!ENTITY  event.toolbar.privacy.label                     "Privadesa">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Desa i tanca">
+<!ENTITY  event.toolbar.delete.tooltip                    "Suprimeix">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Invita assistents">
+<!ENTITY  event.toolbar.attachments.tooltip               "Afegeix adjuncions">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Canvia la privadesa">
+<!ENTITY  event.toolbar.priority.tooltip                  "Canvia la prioritat">
+<!ENTITY  event.toolbar.status.tooltip                    "Canvia l'estat">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Canvia la disponibilitat (lliure/ocupat)">
 <!-- Main page -->
 
 <!ENTITY event.title.textbox.label                        "Títol:" >
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label                           "Categoria:">
 <!ENTITY event.categories.accesskey                       "g">
 <!ENTITY event.categories.textbox.label                   "Afegeix una categoria nova" >
-<!ENTITY event.categories.textbox.accesskey               "f">
 <!ENTITY event.calendar.label                             "Calendari:" >
 <!ENTITY event.calendar.accesskey                         "C">
 <!ENTITY event.attendees.label                            "Assistents:" >
@@ -210,6 +217,9 @@
 <!ENTITY event.reminder.custom.label                      "Personalitzat…" >
 
 <!ENTITY event.reminder.multiple.label                    "Recordatoris múltiples…" >
+
+<!ENTITY event.statusbarpanel.freebusy.label              "Disponibilitat:">
+<!ENTITY event.statusbarpanel.privacy.label               "Privadesa:">
 <!-- Recurrence dialog -->
 
 <!ENTITY recurrence.title.label                         "Edita la repetició">
@@ -326,7 +336,7 @@
 <!ENTITY event.freebusy.zoom                    "Escala:">
 <!ENTITY event.freebusy.legend.free             "Lliure" >
 <!ENTITY event.freebusy.legend.busy             "Ocupat" >
-<!ENTITY event.freebusy.legend.busy_tentative   "Intent" >
+<!ENTITY event.freebusy.legend.busy_tentative   "Provisional" >
 <!ENTITY event.freebusy.legend.busy_unavailable "Fora de l'oficina" >
 <!ENTITY event.freebusy.legend.unknown          "Sense informació" >
 <!ENTITY event.attendee.role.required           "Assistent necessari">
@@ -361,5 +371,4 @@
 <!ENTITY read.only.reminder.label        "Recorda-m'ho:">
 <!ENTITY read.only.attendees.label       "Assistents">
 <!ENTITY read.only.description.label     "Descripció">
-<!ENTITY read.only.documents.label       "Documents">
 <!ENTITY read.only.link.label            "Enllaç relacionat">

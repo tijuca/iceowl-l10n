@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label                "Fan" >
 <!ENTITY newevent.to.label                  "Oant" >
-<!ENTITY newevent.attendees.notify.label	"Dielnimmers ynljochtsje">
 
 <!ENTITY newevent.status.label              "Steat" >
 <!ENTITY newevent.status.accesskey          "S" >
@@ -29,6 +28,13 @@
 
 <!-- The following entity is for New Task dialog only -->
 <!ENTITY newtodo.percentcomplete.label      "&#37; foltôge">
+
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+<!ENTITY event.attendees.notify.label               "Dielnimmers ynljochtsje">
+<!ENTITY event.attendees.notifyundisclosed.label    "Utnoeging skiede per dielnimmer">
+<!ENTITY event.attendees.notifyundisclosed.tooltip  "Dizze opsje stjoert ien útnoegingse-mail per dielnimmer. Eltse útnoeging befettet allinnich de ûntfangende dielnimmer sadat oare dielnimmers net ferjitten wurde.">
 
 <!-- Keyboard Shortcuts -->
 <!ENTITY event.dialog.new.event.key2              "I">
@@ -99,12 +105,6 @@
 <!ENTITY  event.menu.options.accesskey                        "O">
 <!ENTITY  event.menu.options.attendees.label                  "Dielnimmers útnoegje…">
 <!ENTITY  event.menu.options.attendees.accesskey              "D">
-<!ENTITY  event.menu.options.spellcheck.label                 "Stavering kontrolearje…">
-<!ENTITY  event.menu.options.spellcheck.accesskey             "k">
-<!ENTITY  event.menu.options.inline.spellcheck.label          "Stavering kontrolearje tiidens it typen">
-<!ENTITY  event.menu.options.inline.spellcheck.accesskey      "S">
-<!ENTITY  event.menu.options.link.label                       "Keppeling tafoegje…">
-<!ENTITY  event.menu.options.link.accesskey                   "K">
 <!ENTITY  event.menu.options.timezone2.label                   "Tiidsoanes toane">
 <!ENTITY  event.menu.options.timezone2.accesskey               "s">
 <!ENTITY  event.menu.options.priority2.label                  "Prioriteit">
@@ -143,8 +143,16 @@
 <!ENTITY  event.toolbar.save.label                        "Bewarje en slute">
 <!ENTITY  event.toolbar.delete.label                      "Fuortsmite">
 <!ENTITY  event.toolbar.attendees.label                   "Dielnimmers útnoegje">
-<!ENTITY  event.toolbar.spellcheck.label                  "Staveringskontrole">
 <!ENTITY  event.toolbar.privacy.label                     "Privacy">
+
+<!ENTITY  event.toolbar.save.tooltip                      "Bewarje en slute">
+<!ENTITY  event.toolbar.delete.tooltip                    "Fuortsmite">
+<!ENTITY  event.toolbar.attendees.tooltip                 "Dielnimmers útnoegje">
+<!ENTITY  event.toolbar.attachments.tooltip               "Bylagen taheakje">
+<!ENTITY  event.toolbar.privacy.tooltip                   "Privacy wizigje">
+<!ENTITY  event.toolbar.priority.tooltip                  "Priority wizigje">
+<!ENTITY  event.toolbar.status.tooltip                    "Steat wizigje">
+<!ENTITY  event.toolbar.freebusy.tooltip                  "Frij/Beskikber-tiid wizigje">
 
 <!-- Main page -->
 <!ENTITY event.title.textbox.label                        "Titel:" >
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label                           "Kategory:">
 <!ENTITY event.categories.accesskey                       "K">
 <!ENTITY event.categories.textbox.label                   "Foegje in nije kategory ta" >
-<!ENTITY event.categories.textbox.accesskey               "F">
 <!ENTITY event.calendar.label                             "Aginda:" >
 <!ENTITY event.calendar.accesskey                         "A">
 <!ENTITY event.attendees.label                            "Dielnimmers:" >
@@ -217,13 +224,16 @@
 
 <!ENTITY event.reminder.multiple.label                    "Mear warskôgingen…" >
 
+<!ENTITY event.statusbarpanel.freebusy.label              "Tiid as:">
+<!ENTITY event.statusbarpanel.privacy.label               "Privacy:">
+
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label                         "Werhelling bewurkje">
 
 <!ENTITY event.repeat.does.not.repeat.label             "Net werhelje">
 <!ENTITY event.repeat.daily.label                       "Deistich">
 <!ENTITY event.repeat.weekly.label                      "Wykliks">
-<!ENTITY event.repeat.every.weekday.label               "Elke wykdei">
+<!ENTITY event.repeat.every.weekday.label               "Eltse wykdei">
 <!ENTITY event.repeat.bi.weekly.label                   "Twawykliks">
 <!ENTITY event.repeat.monthly.label                     "Moanliks">
 <!ENTITY event.repeat.yearly.label                      "Jierliks">
@@ -236,15 +246,15 @@
 <!ENTITY event.recurrence.month.label                   "moanliks" >
 <!ENTITY event.recurrence.year.label                    "jierliks" >
 
-<!ENTITY event.recurrence.pattern.every.label           "Elke" >
+<!ENTITY event.recurrence.pattern.every.label           "Eltse" >
 <!ENTITY repeat.units.days.both                         "dei (dagen)" >
-<!ENTITY event.recurrence.pattern.every.weekday.label   "Elke wykdei" >
+<!ENTITY event.recurrence.pattern.every.weekday.label   "Eltse wykdei" >
 
-<!ENTITY event.recurrence.pattern.weekly.every.label    "Elke" >
+<!ENTITY event.recurrence.pattern.weekly.every.label    "Eltse" >
 <!ENTITY repeat.units.weeks.both                        "wike(n)">
 <!ENTITY event.recurrence.on.label                      "Op:" >
 
-<!ENTITY event.recurrence.pattern.monthly.every.label   "Elke" >
+<!ENTITY event.recurrence.pattern.monthly.every.label   "Eltse" >
 <!ENTITY repeat.units.months.both                       "moanne(n)" >
 <!ENTITY event.recurrence.monthly.every.label           "Every" >
 <!ENTITY event.recurrence.monthly.first.label           "De earste">
@@ -263,9 +273,9 @@
 <!ENTITY event.recurrence.repeat.dayofmonth.label       "dei fan de moanne">
 <!ENTITY event.recurrence.repeat.recur.label            "Werhelje op dei(dagen)">
 
-<!ENTITY event.recurrence.every.label                        "Elke:" >
+<!ENTITY event.recurrence.every.label                        "Eltse:" >
 <!ENTITY repeat.units.years.both                             "jier" >
-<!ENTITY event.recurrence.pattern.yearly.every.month.label   "Elke" >
+<!ENTITY event.recurrence.pattern.yearly.every.month.label   "Eltse" >
 
 <!-- LOCALIZATON NOTE
      Some languages use a preposition when describing dates:
@@ -288,7 +298,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label      "oktober" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label      "novimber" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label      "desimber" >
-<!ENTITY event.recurrence.yearly.every.label                 "Elke">
+<!ENTITY event.recurrence.yearly.every.label                 "Eltse">
 <!ENTITY event.recurrence.yearly.first.label                 "De earste">
 <!ENTITY event.recurrence.yearly.second.label                "De twadde">
 <!ENTITY event.recurrence.yearly.third.label                 "De tredde">
@@ -367,5 +377,4 @@
 <!ENTITY read.only.reminder.label        "Warskôging:">
 <!ENTITY read.only.attendees.label       "Dielnimmers">
 <!ENTITY read.only.description.label     "Beskriuwing">
-<!ENTITY read.only.documents.label       "Dokuminten">
-<!ENTITY read.only.link.label            "Byhearende keppeling">
+<!ENTITY read.only.link.label            "Byhearrende keppeling">

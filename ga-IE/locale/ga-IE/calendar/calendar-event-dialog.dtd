@@ -9,7 +9,6 @@
 
 <!ENTITY newevent.from.label "Ó">
 <!ENTITY newevent.to.label "Chuig">
-<!ENTITY newevent.attendees.notify.label "Cuir in iúl don lucht freastail">
 
 <!ENTITY newevent.status.label "Stádas">
 <!ENTITY newevent.status.accesskey "S">
@@ -29,6 +28,13 @@
 <!-- The following entity is for New Task dialog only -->
 
 <!ENTITY newtodo.percentcomplete.label "&#37; críochnaithe">
+<!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
+   - These two labels are displayed side by side in the event dialog, make sure
+   - they still fit in. -->
+
+<!ENTITY event.attendees.notify.label "Cuir in iúl don lucht freastail">
+<!ENTITY event.attendees.notifyundisclosed.label "Cuireadh ar léith do gach rannpháirtí">
+<!ENTITY event.attendees.notifyundisclosed.tooltip "This option sends one invitation email per attendee. Each invitation only contains the recipient attendee so that other attendee identities are not disclosed.">
 <!-- Keyboard Shortcuts -->
 
 <!ENTITY event.dialog.new.event.key2 "I">
@@ -99,12 +105,6 @@
 <!ENTITY event.menu.options.accesskey "o">
 <!ENTITY event.menu.options.attendees.label "Tabhair Cuireadh Do Rannpháirtithe…">
 <!ENTITY event.menu.options.attendees.accesskey "T">
-<!ENTITY event.menu.options.spellcheck.label "Seiceáil an Litriú…">
-<!ENTITY event.menu.options.spellcheck.accesskey "L">
-<!ENTITY event.menu.options.inline.spellcheck.label "Litriú Beo">
-<!ENTITY event.menu.options.inline.spellcheck.accesskey "L">
-<!ENTITY event.menu.options.link.label "Cuir Nasc Leis…">
-<!ENTITY event.menu.options.link.accesskey "L">
 <!ENTITY event.menu.options.timezone2.label "Taispeáin Criosanna Ama">
 <!ENTITY event.menu.options.timezone2.accesskey "s">
 <!ENTITY event.menu.options.priority2.label "Tosaíocht">
@@ -143,8 +143,16 @@
 <!ENTITY event.toolbar.save.label "Sábháil agus Dún">
 <!ENTITY event.toolbar.delete.label "Scrios">
 <!ENTITY event.toolbar.attendees.label "Tabhair Cuireadh Do Rannpháirtithe">
-<!ENTITY event.toolbar.spellcheck.label "Seiceáil Litrithe">
 <!ENTITY event.toolbar.privacy.label "Príobháideachas">
+
+<!ENTITY event.toolbar.save.tooltip "Sábháil agus Dún">
+<!ENTITY event.toolbar.delete.tooltip "Scrios">
+<!ENTITY event.toolbar.attendees.tooltip "Tabhair Cuireadh Do Rannpháirtithe">
+<!ENTITY event.toolbar.attachments.tooltip "Cuir Iatáin Leis">
+<!ENTITY event.toolbar.privacy.tooltip "Athraigh Príobháideacht">
+<!ENTITY event.toolbar.priority.tooltip "Athraigh Tosaíocht">
+<!ENTITY event.toolbar.status.tooltip "Athraigh Stádas">
+<!ENTITY event.toolbar.freebusy.tooltip "Athraigh Saor/Gafa">
 <!-- Main page -->
 
 <!ENTITY event.title.textbox.label "Teideal:">
@@ -154,7 +162,6 @@
 <!ENTITY event.categories.label "Catagóir:">
 <!ENTITY event.categories.accesskey "r">
 <!ENTITY event.categories.textbox.label "Cuir catagóir nua leis">
-<!ENTITY event.categories.textbox.accesskey "C">
 <!ENTITY event.calendar.label "Féilire:">
 <!ENTITY event.calendar.accesskey "F">
 <!ENTITY event.attendees.label "Rannpháirtithe:">
@@ -210,6 +217,9 @@
 <!ENTITY event.reminder.custom.label "Saincheaptha…">
 
 <!ENTITY event.reminder.multiple.label "Meabhrúcháin iolracha…">
+
+<!ENTITY event.statusbarpanel.freebusy.label "Am mar:">
+<!ENTITY event.statusbarpanel.privacy.label "Príobháideacht:">
 <!-- Recurrence dialog -->
 
 <!ENTITY recurrence.title.label "Cuir Atarlú in Eagar">
@@ -361,5 +371,4 @@
 <!ENTITY read.only.reminder.label "Meabhrúchán:">
 <!ENTITY read.only.attendees.label "Rannpháirtithe">
 <!ENTITY read.only.description.label "Cur Síos">
-<!ENTITY read.only.documents.label "Cáipéisí">
 <!ENTITY read.only.link.label "Nasc Gaolta">
