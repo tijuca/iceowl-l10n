@@ -10,18 +10,6 @@ Vcs-Git: git://anonscm.debian.org/pkg-mozext/iceowl-l10n.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozext/iceowl-l10n.git;a=summary
 Homepage: http://www.mozilla.org/en-US/projects/calendar/
 
-Package: iceowl-l10n-bg
-Architecture: all
-Depends: ${misc:Depends},
- iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
-Recommends: myspell-bg
-Description: Bulgarian language package for iceowl-extension
- The iceowl-extension is a Mozilla based calendar extension for Icedove.
- It's goal is to integrate a Calendar and Task application using the XUL
- user interface language.
- .
- This package contains the localization of iceowl-extension in Bulgarian.
-
 Package: iceowl-l10n-ca
 Architecture: all
 Depends: ${misc:Depends},
@@ -163,18 +151,6 @@ Description: Irish (Ireland) language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Irish (Ireland).
 
-Package: iceowl-l10n-hr
-Architecture: all
-Depends: ${misc:Depends},
- iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
-Recommends: myspell-hr
-Description: Croatian language package for iceowl-extension
- The iceowl-extension is a Mozilla based calendar extension for Icedove.
- It's goal is to integrate a Calendar and Task application using the XUL
- user interface language.
- .
- This package contains the localization of iceowl-extension in Croatian.
-
 Package: iceowl-l10n-hu
 Architecture: all
 Depends: ${misc:Depends},
@@ -210,18 +186,6 @@ Description: Italian language package for iceowl-extension
  user interface language.
  .
  This package contains the localization of iceowl-extension in Italian.
-
-Package: iceowl-l10n-ko
-Architecture: all
-Depends: ${misc:Depends},
- iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
-Recommends: hunspell-ko
-Description: Korean language package for iceowl-extension
- The iceowl-extension is a Mozilla based calendar extension for Icedove.
- It's goal is to integrate a Calendar and Task application using the XUL
- user interface language.
- .
- This package contains the localization of iceowl-extension in Korean.
 
 Package: iceowl-l10n-ja
 Architecture: all
