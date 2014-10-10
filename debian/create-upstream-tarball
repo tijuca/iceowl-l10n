@@ -100,7 +100,7 @@ else
 fi
 
 # we have no options found?
-if (( $# < 1 )); then
+if [ "$#" -le 1 ]; then
     echo "You need at least one option!" >&2
     echo
     usage ${EXIT_FAILURE}
