@@ -1,3 +1,13 @@
+iceowl-l10n (3.5~b1-1) experimental; urgency=low
+
+  [ Carsten Schoenert ]
+  * [7de1625] Imported Upstream version 3.5~b1
+  * [ad9c17b] debian/c-u-t: remove once more bashism
+  * [5bbf3f7] adjusting iceowl-extension deps
+  * [52e0970] linitan: bump up standards version to 3.9.6
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Mon, 27 Oct 2014 18:28:25 -0400
+
 iceowl-l10n (3.4~b1-1) experimental; urgency=low
 
   [ Carsten Schoenert ]
