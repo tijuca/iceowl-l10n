@@ -1,3 +1,11 @@
+iceowl-l10n (3.6~b1-1) experimental; urgency=low
+
+  [ Carsten Schoenert ]
+  * [fdb2f58] Imported Upstream version 3.6~b1
+  * [b34a916] adjusting iceowl-extension deps
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Wed, 19 Nov 2014 20:58:50 -0500
+
 iceowl-l10n (3.5~b1-1) experimental; urgency=low
 
   [ Carsten Schoenert ]
