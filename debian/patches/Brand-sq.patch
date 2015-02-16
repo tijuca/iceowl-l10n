@@ -7,7 +7,7 @@ Subject: Brand-sq
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/sq/locale/sq/lightning/lightning.properties b/sq/locale/sq/lightning/lightning.properties
-index fcf80ba..e7b207c 100644
+index f2c4eb2..92a29af 100644
 --- a/sq/locale/sq/lightning/lightning.properties
 +++ b/sq/locale/sq/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -25,12 +25,12 @@ index fcf80ba..e7b207c 100644
  
  # Task mode title
  taskModeApplicationTitle=Punë
-@@ -34,7 +34,7 @@ imipBarRequestText=Ky mesazh përmban ftesë për një ngjarje.
- imipBarUpdateText=Ky mesazh përmban përditësim të një ngjarjeje ekzistuese.
- imipBarAlreadyProcessedText=Ky mesazh përmban ngjarje që është përpunuar tashmë.
+@@ -38,7 +38,7 @@ imipBarUpdateText=Ky mesazh përmban përditësim të një veprimtarie ekzistues
+ imipBarAlreadyProcessedText=Ky mesazh përmban veprimtari që është përpunuar tashmë.
+ imipBarProcessedNeedsAction=Ky mesazh përmban veprimtari për të cilën nuk jeni përgjigjur ende.
  imipBarReplyText=Ky mesazh përmban përgjigje ndaj një ftese.
--imipBarUnsupportedText=Ky mesazh përmban ngjarje të cilën ky version i Lightning-ut nuk e përpunon dot.
-+imipBarUnsupportedText=Ky mesazh përmban ngjarje të cilën ky version i Iceowl-ut nuk e përpunon dot.
+-imipBarUnsupportedText=Ky mesazh përmban veprimtari të cilën ky version i Lightning-ut nuk e përpunon dot.
++imipBarUnsupportedText=Ky mesazh përmban veprimtari të cilën ky version i Iceowl-ut nuk e përpunon dot.
  imipBarProcessingFailed=Përpunimi i mesazhit dështoi. Gjendje: %1$S.
- imipAcceptInvitation.label=Pranoje
- imipCancelInvitation.label=Fshije
+ imipBarNotWritable=Nuk ka kalendarë të shkrueshëm të formësuar për ftesa, ju lutemi, kontrolloni vetitë e kalendarit.
+ imipSendMail.title=Njoftim me E-Mail
