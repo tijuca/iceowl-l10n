@@ -304,6 +304,19 @@ Description: Croatian language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Croatian.
 
+Package: iceowl-l10n-hy-am
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 36.0~), iceowl-extension (<< 37)
+Recommends: myspell-hy
+Description: Armenian language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in
+ Armenian (Armenia).
+
 Package: iceowl-l10n-id
 Architecture: all
 Depends: ${misc:Depends},
