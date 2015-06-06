@@ -34,3 +34,6 @@
 
 <!ENTITY pref.defaultsnoozelength.label "Durada per defecte dels ajornaments:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "s">
+
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
+<!ENTITY pref.calendar.alarms.sound.play.label "Play">

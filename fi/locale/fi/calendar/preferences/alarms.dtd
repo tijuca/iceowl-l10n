@@ -34,3 +34,6 @@
 
 <!ENTITY pref.defaultsnoozelength.label "Lykkäyksen oletuspituus:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "L">
+
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
+<!ENTITY pref.calendar.alarms.sound.play.label "Play">

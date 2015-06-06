@@ -34,3 +34,6 @@
 
 <!ENTITY pref.defaultsnoozelength.label "Kohëzgjatje Parazgjedhje Dremitjeje:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "K">
+
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
+<!ENTITY pref.calendar.alarms.sound.play.label "Play">

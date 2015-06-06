@@ -373,3 +373,5 @@
 <!ENTITY read.only.attendees.label       "Pjesëmarrës">
 <!ENTITY read.only.description.label     "Përshkrim">
 <!ENTITY read.only.link.label            "Lidhje e Afërt">
+
+<!ENTITY event.recurrence.pattern.yearly.day.label           "day" >

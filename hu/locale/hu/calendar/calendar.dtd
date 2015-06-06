@@ -12,9 +12,9 @@
 <!ENTITY calendar.unifinder.todoitems.label       "Feladatok" >
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Befejezett feladatok megjelenítése">
 
-<!ENTITY calendar.today.button.label       "Ma">
+<!ENTITY calendar.today.button.label          "Ma">
 <!ENTITY calendar.tomorrow.button.label       "Holnap">
-<!ENTITY calendar.soon.button.label           "Nemsokára">
+<!ENTITY calendar.upcoming.button.label       "Várakozó">
 
 <!ENTITY calendar.events.filter.all.label "Minden esemény">
 <!ENTITY calendar.events.filter.today.label "Mai események">
@@ -211,7 +211,7 @@
 <!ENTITY priority.level.normal              "Normál">
 <!ENTITY priority.level.normal.accesskey    "N">
 <!ENTITY priority.level.high                "Magas">
-
+<!ENTITY priority.level.high.accesskey      "M">
 
 <!ENTITY calendar.context.postpone.1hour.label      "1 óra">
 <!ENTITY calendar.context.postpone.1hour.accesskey  "r">
@@ -233,8 +233,17 @@
 <!ENTITY calendar.context.newserver.accesskey          "n">
 <!ENTITY calendar.context.findcalendar.label           "Naptár keresése…" >
 <!ENTITY calendar.context.findcalendar.accesskey       "k" >
-<!ENTITY calendar.context.deleteserver.label           "Naptár törlése">
-<!ENTITY calendar.context.deleteserver.accesskey       "t">
+<!ENTITY calendar.context.deleteserver2.label          "Naptár törlése…">
+<!ENTITY calendar.context.deleteserver2.accesskey      "t">
+<!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
+      calendar is the general action of removing it, while deleting means to
+      clear the data and unsubscribing means just taking it out of the calendar
+      list. -->
+
+<!ENTITY calendar.context.removeserver.label           "Naptár eltávolítása…">
+<!ENTITY calendar.context.removeserver.accesskey       "e">
+<!ENTITY calendar.context.unsubscribeserver.label      "Leiratkozás a naptárról…">
+<!ENTITY calendar.context.unsubscribeserver.accesskey  "L">
 <!ENTITY calendar.context.synccalendars.label          "Naptárak szinkronizálása">
 <!ENTITY calendar.context.synccalendars.accesskey      "s">
 <!ENTITY calendar.context.publish.label                "Naptár közzététele…">
@@ -245,10 +254,14 @@
 <!ENTITY calendar.context.properties.accesskey         "T">
 <!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
      This is the access key used for the showCalendar string -->
+
+<!ENTITY calendar.context.togglevisible.accesskey      "N">
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 
-
+<!ENTITY calendar.context.showonly.accesskey           "c">
+<!ENTITY calendar.context.showall.label                "Minden naptár megjelenítése">
+<!ENTITY calendar.context.showall.accesskey            "a">
 
 <!ENTITY calendar.context.convertmenu.label              "Konvertálás">
 <!ENTITY calendar.context.convertmenu.accesskey.mail     "n">

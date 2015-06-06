@@ -66,3 +66,8 @@
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
 <!ENTITY pref.defaultemail.label "ਅਲਾਰਮ ਭੇਜਣ ਲਈ ਡਿਫਾਲਟ ਐਡਰੈੱਸ:">
 <!ENTITY pref.defaulttext.label "ਅਲਾਰਮ ਲਈ ਮੂਲ ਸ਼ਬਦ:">
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "P">
+<!ENTITY pref.calendar.alarms.sound.play.label "Play">
+<!ENTITY pref.defaultsnoozelength.accesskey "S">
+
+<!ENTITY pref.defaultsnoozelength.label "Default Snooze Length:" >
