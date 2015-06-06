@@ -474,6 +474,17 @@ Description: Portuguese (Portugal) language package for iceowl-extension
  This package contains the localization of iceowl-extension in Portuguese
  (Portugal).
 
+Package: iceowl-l10n-rm
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Description: Romansh language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Romansh.
+
 Package: iceowl-l10n-ru
 Architecture: all
 Depends: ${misc:Depends},
