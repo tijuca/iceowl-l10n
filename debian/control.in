@@ -268,6 +268,18 @@ Description: Galician language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Galician.
 
+Package: iceowl-l10n-he
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Recommends: myspell-he
+Description: Hebrew language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Hebrew.
+
 Package: iceowl-l10n-hu
 Architecture: all
 Depends: ${misc:Depends},
