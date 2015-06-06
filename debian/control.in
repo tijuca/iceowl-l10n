@@ -46,6 +46,18 @@ Description: Bulgarian language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Bulgarian.
 
+Package: iceowl-l10n-bn-bd
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Description: Bengali (Bangladesh) language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in
+ Bengali/Bangladesh.
+
 Package: iceowl-l10n-ca
 Architecture: all
 Depends: ${misc:Depends},
