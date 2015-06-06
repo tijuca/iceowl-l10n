@@ -130,6 +130,18 @@ Description: German language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in German.
 
+Package: iceowl-l10n-el
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 36.0~), iceowl-extension (<< 37)
+Recommends: myspell-el-gr
+Description: Greek language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Greek.
+
 Package: iceowl-l10n-es-ar
 Architecture: all
 Depends: ${misc:Depends},
