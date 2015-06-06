@@ -448,6 +448,19 @@ Description: Polish language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Polish.
 
+Package: iceowl-l10n-pt-br
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Recommends: myspell-pt-br | myspell-pt
+Description: Portuguese (Brazil) language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Portuguese
+ (Brazil).
+
 Package: iceowl-l10n-pt-pt
 Architecture: all
 Depends: ${misc:Depends},
