@@ -521,6 +521,17 @@ Description: Slovak language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Slovak.
 
+Package: iceowl-l10n-si
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 36.0~), iceowl-extension (<< 37)
+Description: Sinhala language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Sinhala.
+
 Package: iceowl-l10n-sq
 Architecture: all
 Depends: ${misc:Depends},
