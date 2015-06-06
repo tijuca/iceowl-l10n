@@ -10,6 +10,18 @@ Vcs-Git: git://anonscm.debian.org/pkg-mozext/iceowl-l10n.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozext/iceowl-l10n.git;a=summary
 Homepage: http://www.mozilla.org/en-US/projects/calendar/
 
+Package: iceowl-l10n-ar
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= IOE_MIN_VER), iceowl-extension (<< IOE_MAX_VER)
+Recommends: hunspell-ar
+Description: Arabic language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Arabian.
+
 Package: iceowl-l10n-ca
 Architecture: all
 Depends: ${misc:Depends},
