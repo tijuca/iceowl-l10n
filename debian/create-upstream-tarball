@@ -207,17 +207,17 @@ if [ -n "${DOWNLOAD}" ]; then
             DIRECTORY=`echo ${RET} | tr ' ' '\n' | head -1`
             DATE=`echo ${RET} | tr ' ' '\n' | tail -1`
             debug "found directory '${BETA_VER}-candidates/${DIRECTORY}' from '${DATE}'"
-            debug "creating ${TMPDIR}download"
-            mkdir ${TMPDIR}download
             debug "creating ${UNPACKDIR}"
             mkdir ${UNPACKDIR}
             debug "going downloading *.xpi files from http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/"
             cd /tmp
+            # going to download the files
             wget -m -r -l 1 -A xpi http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/
-            for XPIFILE in `ls download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/*.xpi`; do
-                LANG=`basename ${XPIFILE} | cut -d . -f 3`
-                debug "extracting '`basename ${XPIFILE}`' to '${UNPACKDIR}'"
-                unzip -q -o -d ${UNPACKDIR} ${XPIFILE} || fail "Oops! Failed to unzip ${XPIFILE}"
+            for XPIFILE in `ls download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/lightning-*.*.linux-i686.xpi`; do
+                LANG=`basename ${XPIFILE} | sed s/lightning-${BETA_VER}.// | sed s/.linux-i686.xpi//`
+                debug "extracting '`basename ${XPIFILE}`' to '${UNPACKDIR}/${LANG}'"
+                mkdir ${UNPACKDIR}/${LANG}
+                unzip -q -o -d ${UNPACKDIR}/${LANG} ${XPIFILE} || fail "Oops! Failed to unzip ${XPIFILE}"
             done
             cd ${TMPDIR}
         else
@@ -240,43 +240,46 @@ debug "creating ${ORIGDIR}"
 mkdir ${ORIGDIR}
 
 if [ "$EXPERIMENTAL" != "1" ]; then
-    # don't try to anything if we have download beta versions'
+    # don't try to do anything if we have download beta versions'
+    # FIXME --> this wont with version 4.0 or greater <-- needs to be fixed
+    # with the release of 4.0
     unzip -q -d ${UNPACKDIR} ${XPI} || fail "Oops! Failed to unzip ${XPI}"
 fi
 
-# extract l10n files
-debug "extracting *.jar in ${UNPACKDIR}chrome into ${ORIGDIR}\$LANG"
-LANG_COUNT_CAL=`ls -l ${UNPACKDIR}chrome/calendar*.jar | wc -l`
-LANG_COUNT_LIG=`ls -l ${UNPACKDIR}chrome/lightning*.jar | wc -l`
-for jar in ${UNPACKDIR}chrome/*-*.jar; do
-    lang=$(echo $jar | sed -e 's,.*/[a-z]\+-\(.*\)\.jar,\1,')
-    LANG_COUNT=`expr $LANG_COUNT + 1`
-    debug "unzip $lang"
-    if [ -n "$VERBOSE" ]; then
-        unzip -d ${ORIGDIR}${lang} ${jar} || fail "Failed to unzip ${jar}"
-    else
-        unzip -q -d ${ORIGDIR}${lang} ${jar} || fail "Failed to unzip ${jar}"
-    fi
+# getting the versions
+ICEDOVE_VER=$(grep -A2 '{3550f703-e582-4d05-9a08-453d09bdfdc6}' ${UNPACKDIR}/en-US/install.rdf)
+
+# shipped with the iceowl already, removing the folder 'en-US'
+debug "removing language 'en-US' ${UNPACKDIR}en-US"
+rm -rf ${UNPACKDIR}en-US
+
+LANG=`ls ${UNPACKDIR}`
+debug "moving extracted source into directory for tarball creation"
+for i in ${LANG}; do
+    echo "processing ${ORIGDIR}/locale/${i}"
+    TARGET_DIR=${ORIGDIR}/${i}/locale/${i}
+    # creating the folder for the localization
+    mkdir -p ${TARGET_DIR}
+    # move the files from the extracted source into the target
+    debug "moving files ${i}/chrome/calendar-${i}/locale/${i}/calendar"
+    debug "moving files ${i}/chrome/calendar-${i}/locale/${i}/lightning"
+    debug "        into ${TARGET_DIR}"
+    mv ${UNPACKDIR}${i}/chrome/calendar-${i}/locale/${i}/calendar ${TARGET_DIR}
+    mv ${UNPACKDIR}${i}/chrome/lightning-${i}/locale/${i}/lightning ${TARGET_DIR}
 done
 
-# shipped with the iceowl already, removing en-US
-debug "removing language 'en-US'"
-rm -rf ${ORIGDIR}en-US
-
-debug "creating '${SRCPKG}_${VERSION}.orig.tar.xz''"
+debug "creating '${SRCPKG}_${VERSION}.orig.tar.xz'"
 TARBALL="../${SRCPKG}_${VERSION}.orig.tar.xz"
+cd ${ORIGDIR}
+tar Jcf ${TARBALL} .
 TARBALL=$(readlink -f ${TARBALL})
-tar caf ${TARBALL} -C ${ORIGDIR}/.. ${SRCPKG}-${VERSION}
-
-ICEDOVE_VER=$(grep -A2 '{3550f703-e582-4d05-9a08-453d09bdfdc6}' ${UNPACKDIR}install.rdf)
-# currently Iceape is no longer existing inside Debian, see https://bugs.debian.org/732314
-#ICEAPE_VER=$(grep -A2 '{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}' ${UNPACKDIR}install.rdf)
 
 echo
 echo "Icedove version information"
 echo ${ICEDOVE_VER}
-#echo "Iceape version information"
-#echo ${ICEAPE_VER}
+
+# counting languages
+LANG_COUNT=`ls -l ${ORIGDIR} | wc -l`
 
 # moving orig.tar.xz back
 cd ${CURDIR_FULL}
@@ -285,7 +288,7 @@ TARBALL=$(readlink -f ../${SRCPKG}_${VERSION}.orig.tar.xz)
 echo
 echo "Tarball created in:"
 echo "  -> ${TARBALL} <-"
-echo "     (count calendar: $LANG_COUNT_CAL, count lightning: $LANG_COUNT_LIG, cout all files: $LANG_COUNT)"
+echo "     (language count: ${LANG_COUNT})"
 
 # always remove temporary things
 debug "cleanup ..."
@@ -293,8 +296,9 @@ rm -rf ${TMPDIR}
 
 if [ -n "$GIT_IMPORT" ]; then
     cd $SRCPKG
-    git-import-orig --debian-branch=debian/${GIT_IMPORT} \
+    gbp import-orig --debian-branch=debian/${GIT_IMPORT} \
                     --upstream-branch=upstream/${GIT_IMPORT} \
+                    --sign-tags \
                     --pristine-tar \
                     ${TARBALL}
 fi
