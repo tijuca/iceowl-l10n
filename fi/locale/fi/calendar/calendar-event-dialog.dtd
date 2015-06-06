@@ -372,3 +372,5 @@
 <!ENTITY read.only.attendees.label       "Osallistujat">
 <!ENTITY read.only.description.label     "Kuvaus">
 <!ENTITY read.only.link.label            "Aiheeseen liittyvä linkki">
+
+<!ENTITY event.recurrence.pattern.yearly.day.label           "day" >

@@ -7,6 +7,9 @@
 <!ENTITY pref.dateformat.accesskey "F">
 <!ENTITY pref.dateformat.long "Lungo">
 <!ENTITY pref.dateformat.short "Corto">
+<!ENTITY pref.timezones.caption "Fuso orario">
+<!ENTITY pref.timezones.label "Selezionare la città più vicina nel proprio fuso orario:">
+<!ENTITY pref.timezones.accesskey "S">
 <!ENTITY pref.defaults.label "Valori predefiniti per nuovi elementi">
 <!ENTITY pref.events.label "Eventi">
 <!ENTITY pref.tasks.label "Attività">
@@ -20,6 +23,9 @@
 <!ENTITY pref.default_task_offset_current.label "Relativa alla data corrente">
 <!ENTITY pref.default_task_offset_start.label "Relativa all'inizio">
 <!ENTITY pref.default_task_offset_next_hour.label "Relativa alla prossima ora">
+<!ENTITY pref.calendar.todaypane.agenda.caption "Pannello Oggi">
+<!ENTITY pref.soondays.label "La sezione Presto mostra:">
+<!ENTITY pref.soondays.accesskey "P">
 <!ENTITY pref.accessibility.label "Accessibilità">
 <!ENTITY pref.systemcolors.label "Ottimizza i colori per l'accessibilità">
 <!ENTITY pref.systemcolors.accesskey "O">

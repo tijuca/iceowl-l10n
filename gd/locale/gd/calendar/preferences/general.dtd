@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "Fada" >
 <!ENTITY pref.dateformat.short "Goirid"  >
 
+<!ENTITY pref.timezones.caption "An roinn-tìde">
+<!ENTITY pref.timezones.label "Tagh am baile as fhaisge ort 'nad roinn-tìde:">
+<!ENTITY pref.timezones.accesskey "s">
+
 <!ENTITY pref.defaults.label "Luachan bunaiteach airson nithean ùra">
 <!ENTITY pref.events.label "Tachartasan">
 <!ENTITY pref.tasks.label "Saothraichean">
@@ -28,6 +32,10 @@
 <!ENTITY pref.default_task_offset_current.label "Dàimheach ris an àm làithreach">
 <!ENTITY pref.default_task_offset_start.label "Dàimheach ris an toiseach">
 <!ENTITY pref.default_task_offset_next_hour.label "Dàimheach ris an an-uair">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "Leòsan an latha">
+<!ENTITY pref.soondays.label "Seallaidh earrann nan tachartasan a tha gu bhith ann:">
+<!ENTITY pref.soondays.accesskey "u">
 
 <!ENTITY pref.accessibility.label "So-inntrigeachd" >
 <!ENTITY pref.systemcolors.label "Pisich na dathan a chum so-inntrigeachd" >

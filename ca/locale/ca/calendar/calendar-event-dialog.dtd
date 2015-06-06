@@ -372,3 +372,5 @@
 <!ENTITY read.only.attendees.label       "Assistents">
 <!ENTITY read.only.description.label     "Descripció">
 <!ENTITY read.only.link.label            "Enllaç relacionat">
+
+<!ENTITY event.recurrence.pattern.yearly.day.label           "day" >

@@ -12,6 +12,10 @@
 <!ENTITY pref.dateformat.long "Dlouhý" >
 <!ENTITY pref.dateformat.short "Krátký"  >
 
+<!ENTITY pref.timezones.caption "Časová zóna">
+<!ENTITY pref.timezones.label "Zvolte nejbližší město ve vaší časové zóně:">
+<!ENTITY pref.timezones.accesskey "Z">
+
 <!ENTITY pref.defaults.label "Výchozí hodnota pro nové položky">
 <!ENTITY pref.events.label "Události">
 <!ENTITY pref.tasks.label "Úkoly">
@@ -27,6 +31,10 @@
 <!ENTITY pref.default_task_offset_current.label "Relativně k aktuálnímu času">
 <!ENTITY pref.default_task_offset_start.label "Relativně k začátku">
 <!ENTITY pref.default_task_offset_next_hour.label "Relativně k následující hodině">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "Dnešní panel">
+<!ENTITY pref.soondays.label "Sekce nadcházející zobrazuje:">
+<!ENTITY pref.soondays.accesskey "n">
 
 <!ENTITY pref.accessibility.label "Přístupnost">
 <!ENTITY pref.systemcolors.label "Optimalizovat barvy kvůli přístupnosti">

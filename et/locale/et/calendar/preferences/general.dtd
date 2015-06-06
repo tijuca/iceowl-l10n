@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "pikk" >
 <!ENTITY pref.dateformat.short "lühike"  >
 
+<!ENTITY pref.timezones.caption "Ajavöönd">
+<!ENTITY pref.timezones.label "Vali oma ajavööndi lähim linn:">
+<!ENTITY pref.timezones.accesskey "a">
+
 <!ENTITY pref.defaults.label "Vaikimisi väärtused">
 <!ENTITY pref.events.label "Sündmused">
 <!ENTITY pref.tasks.label "Ülesanded">
@@ -28,6 +32,10 @@
 <!ENTITY pref.default_task_offset_current.label "Hetkeajast">
 <!ENTITY pref.default_task_offset_start.label "Algusest">
 <!ENTITY pref.default_task_offset_next_hour.label "Järgmise tunni algusest">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "Tänaste tegemiste paneel">
+<!ENTITY pref.soondays.label "Peatselt saabuvate osas kuvatakse:">
+<!ENTITY pref.soondays.accesskey "P">
 
 <!ENTITY pref.accessibility.label "Hõlbustus">
 <!ENTITY pref.systemcolors.label "Kasutamise hõlbustamiseks optimeeritakse värve">

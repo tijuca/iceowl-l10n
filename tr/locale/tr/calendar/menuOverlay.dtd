@@ -4,7 +4,7 @@
 <!-- Event Menu -->
 
 <!ENTITY event.new.event                        "Yeni etkinlik…">
-
+<!ENTITY event.new.event.accesskey              "Y">
 
 <!ENTITY event.new.task                         "Yeni görev…">
 <!ENTITY event.new.task.accesskey               "k">
@@ -15,11 +15,18 @@
 <!ENTITY calendar.export.label                  "Seçimi dışa aktar…">
 <!ENTITY calendar.export.accesskey              "e">
 
-<!ENTITY calendar.publish.label                 "Yayınla…">
+<!ENTITY calendar.publish.label                 "Yayımla…">
 <!ENTITY calendar.publish.accesskey             "Y">
 
 <!ENTITY calendar.deletecalendar.label          "Seçili takvimi sil">
 <!ENTITY calendar.deletecalendar.accesskey      "l">
+
+
+<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
+      is the general action of removing it, while deleting means to clear the
+      data and unsubscribing means just taking it out of the calendar list. -->
+
+
 
 <!ENTITY calendar.menu.customize.label          "Özelleştir…">
 <!ENTITY calendar.menu.customize.accesskey      "z">
@@ -31,10 +38,19 @@
 <!ENTITY calendar.displaytodos.checkbox.accesskey   "t">
 
 <!ENTITY goTodayCmd.label                       "Bugün">
-<!ENTITY goTodayCmd.accesskey                   "g">
+<!ENTITY goTodayCmd.accesskey                   "B">
 
 <!ENTITY showCurrentView.label                  "Güncel görünüm">
 <!ENTITY showCurrentView.accesskey              "G">
 
 <!ENTITY calendar.properties.label              "Takvim özellikleri…">
 <!ENTITY calendar.properties.accesskey          "k">
+
+<!ENTITY calendar.removecalendar.accesskey      "R">
+
+<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
+      is the general action of removing it, while deleting means to clear the
+      data and unsubscribing means just taking it out of the calendar list. -->
+<!ENTITY calendar.removecalendar.label          "Remove Selected Calendar…">
+<!ENTITY calendar.unsubscribecalendar.accesskey "U">
+<!ENTITY calendar.unsubscribecalendar.label     "Unsubscribe Selected Calendar…">

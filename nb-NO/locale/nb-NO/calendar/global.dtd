@@ -31,14 +31,6 @@
 <!ENTITY day.6.name "Fredag" >
 <!ENTITY day.7.name "Lørdag" >
 
-<!-- Units -->
-<!ENTITY calendar.global.units.minute   "minutt">
-<!ENTITY calendar.global.units.minutes  "minutter">
-<!ENTITY calendar.global.units.hour     "time">
-<!ENTITY calendar.global.units.hours    "timer">
-<!ENTITY calendar.global.units.day      "dag">
-<!ENTITY calendar.global.units.days     "dager">
-
 <!ENTITY month.1.name "Januar" >
 <!ENTITY month.2.name "Februar" >
 <!ENTITY month.3.name "Mars" >
@@ -55,6 +47,6 @@
 <!ENTITY onemonthbackward.tooltip "En måned tilbake" >
 <!ENTITY onemonthforward.tooltip "En måned frem" >
 <!ENTITY showToday.tooltip "Gå til i dag">
-<!ENTITY onedayforward.tooltip "En dag tilbake">
-<!ENTITY onedaybackward.tooltip "En dag frem">
+<!ENTITY onedayforward.tooltip "En dag frem">
+<!ENTITY onedaybackward.tooltip "En dag tilbake">
 <!ENTITY showselectedday.tooltip "Vis hendelser på valgt dag">

@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "ilgasis" >
 <!ENTITY pref.dateformat.short "trumpasis"  >
 
+<!ENTITY pref.timezones.caption "Laiko juostos">
+<!ENTITY pref.timezones.label "Pasirinkite artimiausią miestą savo laiko juostoje:">
+<!ENTITY pref.timezones.accesskey "P">
+
 <!ENTITY pref.defaults.label "Numatytosios kuriamų įvykių reikšmės">
 <!ENTITY pref.events.label "Įvykiai">
 <!ENTITY pref.tasks.label "Darbai">
@@ -28,6 +32,10 @@
 <!ENTITY pref.default_task_offset_current.label "Skaičiuojant nuo sukūrimo laiko">
 <!ENTITY pref.default_task_offset_start.label "Skaičiuojant nuo pradžios">
 <!ENTITY pref.default_task_offset_next_hour.label "Skaičiuojant nuo kitos valandos">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "Šiandienos polangis">
+<!ENTITY pref.soondays.label "Skyriuje „netrukus“ rodyti:">
+<!ENTITY pref.soondays.accesskey "n">
 
 <!ENTITY pref.accessibility.label "Pritaikymas neįgaliesiems" >
 <!ENTITY pref.systemcolors.label "Optimizuoti spalvas turintiems regėjimo negalią" >
