@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-nl
 
 ---
- nl/locale/nl/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ nl/locale/nl/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/nl/locale/nl/lightning/lightning.properties b/nl/locale/nl/lightning/lightning.properties
-index 112694d..d76a424 100644
+index 49b7831..a9358f8 100644
 --- a/nl/locale/nl/lightning/lightning.properties
 +++ b/nl/locale/nl/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 112694d..d76a424 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Een geïntegreerde agenda voor Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Een geïntegreerde agenda voor Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Een geïntegreerde agenda voor Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding

@@ -3,11 +3,11 @@ Date: Sun, 17 Aug 2014 09:57:37 +0200
 Subject: Brand-tr
 
 ---
- tr/locale/tr/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ tr/locale/tr/lightning/lightning.properties | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/tr/locale/tr/lightning/lightning.properties b/tr/locale/tr/lightning/lightning.properties
-index a1274ed..ce287dc 100644
+index dc10a10..ff9070b 100644
 --- a/tr/locale/tr/lightning/lightning.properties
 +++ b/tr/locale/tr/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,9 +15,11 @@ index a1274ed..ce287dc 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird ile bütünleşen bir takvim
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Takvim Projesi
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird'e Dahil Edilmiş Bir Takvim
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla takvim projesi
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedove'e Dahil Edilmiş Bir Takvim
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla takvim projesi
  
  # Lightning branding
 -brandShortName=Lightning

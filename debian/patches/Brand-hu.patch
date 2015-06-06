@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-hu
 
 ---
- hu/locale/hu/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ hu/locale/hu/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index 48e26b4..9c65269 100644
+index 5c9e6df..760a6f8 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 48e26b4..9c65269 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrált naptár a Thunderbirdhöz
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrált naptár a Thunderbirdhöz
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrált naptár a Icedoveöz
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding

@@ -1,17 +1,17 @@
 From: Carsten Schoenert <c.schoenert@t-online.de>
-Date: Sun, 17 Aug 2014 10:02:05 +0200
-Subject: Brand-pa-IN
+Date: Sat, 6 Jun 2015 18:02:23 +0200
+Subject: Brand-br
 
 ---
- pa-IN/locale/pa-IN/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ br/locale/br/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
-diff --git a/pa-IN/locale/pa-IN/lightning/lightning.properties b/pa-IN/locale/pa-IN/lightning/lightning.properties
-index dd4e294..5ec0282 100644
---- a/pa-IN/locale/pa-IN/lightning/lightning.properties
-+++ b/pa-IN/locale/pa-IN/lightning/lightning.properties
-@@ -38,8 +38,8 @@
- # ***** END LICENSE BLOCK *****
+diff --git a/br/locale/br/lightning/lightning.properties b/br/locale/br/lightning/lightning.properties
+index 78b15b6..5c4f6b2 100644
+--- a/br/locale/br/lightning/lightning.properties
++++ b/br/locale/br/lightning/lightning.properties
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
@@ -21,12 +21,17 @@ index dd4e294..5ec0282 100644
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding
-@@ -72,7 +72,7 @@ imipBarRequestText=This message contains an invitation to an event.
- imipBarUpdateText=This message contains an update to an existing event.
+-brandShortName=Lightning
++brandShortName=Iceowl
+ 
+ # Task mode title
+ taskModeApplicationTitle=Tasks
+@@ -42,7 +42,7 @@ imipBarUpdateText=This message contains an update to an existing event.
  imipBarAlreadyProcessedText=This message contains an event that has already been processed.
+ imipBarProcessedNeedsAction=This message contains an event that you have not yet responded to.
  imipBarReplyText=This message contains a reply to an invitation.
 -imipBarUnsupportedText=This message contains an event that this version of Lightning cannot process.
 +imipBarUnsupportedText=This message contains an event that this version of Iceowl cannot process.
  imipBarProcessingFailed=Processing message failed. Status: %1$S.
- imipAcceptInvitation.label=ਮਨਜ਼ੂਰ
- imipCancelInvitation.label=ਹਟਾਓ
+ imipBarNotWritable=No writable calendars are configured for invitations, please check the calendar properties.
+ imipSendMail.title=E-Mail Notification

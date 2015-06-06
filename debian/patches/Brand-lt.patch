@@ -3,11 +3,11 @@ Date: Sun, 17 Aug 2014 09:52:45 +0200
 Subject: Brand-lt
 
 ---
- lt/locale/lt/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ lt/locale/lt/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/lt/locale/lt/lightning/lightning.properties b/lt/locale/lt/lightning/lightning.properties
-index fa3cd4f..a15f34f 100644
+index 8fc3822..bda428e 100644
 --- a/lt/locale/lt/lightning/lightning.properties
 +++ b/lt/locale/lt/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index fa3cd4f..a15f34f 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Į „Thunderbird“ integruojamas kalendorius
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Į „Thunderbird“ integruojamas kalendorius
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Į „Icedove“ integruojamas kalendorius
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=„Mozilla Calendar“ projektas
  
  # Lightning branding

@@ -3,11 +3,11 @@ Date: Sun, 17 Aug 2014 09:58:36 +0200
 Subject: Brand-uk
 
 ---
- uk/locale/uk/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ uk/locale/uk/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/uk/locale/uk/lightning/lightning.properties b/uk/locale/uk/lightning/lightning.properties
-index 93eb661..e4f0aee 100644
+index a1e1a1e..ff1e0bc 100644
 --- a/uk/locale/uk/lightning/lightning.properties
 +++ b/uk/locale/uk/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 93eb661..e4f0aee 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Вбудований у Thunderbird календар
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Вбудований у Thunderbird календар
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Вбудований у Icedove календар
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Проект Mozilla Calendar
  
  # Lightning branding

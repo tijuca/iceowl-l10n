@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-sk
 
 ---
- sk/locale/sk/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ sk/locale/sk/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 79d74f5..d61d578 100644
+index 638db53..79fa254 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 79d74f5..d61d578 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrovaný kalendár pre Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrovaný kalendár pre Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integrovaný kalendár pre Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projekt Mozilla Calendar
  
  # Lightning branding

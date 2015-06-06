@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-nn-NO
 
 ---
- nn-NO/locale/nn-NO/lightning/lightning.properties | 8 ++++----
- 1 file changed, 4 insertions(+), 4 deletions(-)
+ nn-NO/locale/nn-NO/lightning/lightning.properties | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/nn-NO/locale/nn-NO/lightning/lightning.properties b/nn-NO/locale/nn-NO/lightning/lightning.properties
-index 0c4fc2d..998bc0a 100644
+index 46754e1..90c8aa5 100644
 --- a/nn-NO/locale/nn-NO/lightning/lightning.properties
 +++ b/nn-NO/locale/nn-NO/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 0c4fc2d..998bc0a 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Ein integrert kalender for Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Ein integrert kalender for Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Ein integrert kalender for Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar-prosjektet
  
  # Lightning branding

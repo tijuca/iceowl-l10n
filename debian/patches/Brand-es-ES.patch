@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:25 +0200
 Subject: Brand-es-ES
 
 ---
- es-ES/locale/es-ES/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ es-ES/locale/es-ES/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/es-ES/locale/es-ES/lightning/lightning.properties b/es-ES/locale/es-ES/lightning/lightning.properties
-index 24e17e0..ffb8976 100644
+index 40fbb1c..a098294 100644
 --- a/es-ES/locale/es-ES/lightning/lightning.properties
 +++ b/es-ES/locale/es-ES/lightning/lightning.properties
 @@ -2,10 +2,10 @@
@@ -15,8 +15,9 @@ index 24e17e0..ffb8976 100644
  # file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name = Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description = Un calendario integrado para Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name = Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description = Un calendario integrado para Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description = Un calendario integrado para Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator = Mozilla Calendar Project
 -brandShortName = Lightning
 +brandShortName = Iceowl

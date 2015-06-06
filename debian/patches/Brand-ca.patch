@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:25 +0200
 Subject: Brand-ca
 
 ---
- ca/locale/ca/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ ca/locale/ca/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ca/locale/ca/lightning/lightning.properties b/ca/locale/ca/lightning/lightning.properties
-index 723c552..5357b32 100644
+index d2b06de..1d538eb 100644
 --- a/ca/locale/ca/lightning/lightning.properties
 +++ b/ca/locale/ca/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 723c552..5357b32 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendari integrat per al Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendari integrat per al Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Un calendari integrat per al Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Projecte Mozilla Calendar
  
  # Lightning branding

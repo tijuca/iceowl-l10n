@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:25 +0200
 Subject: Brand-eu
 
 ---
- eu/locale/eu/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ eu/locale/eu/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index 71eefba..a38eec1 100644
+index 7e239d9..0244ef2 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 71eefba..a38eec1 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbirden integratutako egutegia
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbirden integratutako egutegia
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedoven integratutako egutegia
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar proiektua
  
  # Lightning branding
@@ -33,4 +34,4 @@ index 71eefba..a38eec1 100644
 +imipBarUnsupportedText=Mezu honek Iceowl bertsio honek kudeatu ezin duen gertaera bat dauka.
  imipBarProcessingFailed=Mezua prozesatzean huts egin du. Egoera: %1$S.
  imipBarNotWritable=Ez da egutegi idazgarririk konfiguratu gonbidapenetarako, egiaztatu egutegiaren propietateak.
- imipSendMail.title=Posta elektroniko bidezko jakinarazpena
+ imipSendMail.title=E-posta jakinarazpena

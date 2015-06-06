@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:25 +0200
 Subject: Brand-da
 
 ---
- da/locale/da/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ da/locale/da/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/da/locale/da/lightning/lightning.properties b/da/locale/da/lightning/lightning.properties
-index be81374..1b464a9 100644
+index a9309ce..312a251 100644
 --- a/da/locale/da/lightning/lightning.properties
 +++ b/da/locale/da/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index be81374..1b464a9 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=En integreret kalender til Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=En integreret kalender til Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=En integreret kalender til Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozillas kalender-projekt
  
  # Lightning branding

@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-ga-IE
 
 ---
- ga-IE/locale/ga-IE/lightning/lightning.properties | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ ga-IE/locale/ga-IE/lightning/lightning.properties | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
-index 2f4d039..02717f5 100644
+index 6dc6522..8d7bb43 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.properties
 +++ b/ga-IE/locale/ga-IE/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 2f4d039..02717f5 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Féilire comhtháite le haghaidh Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Féilire comhtháite le haghaidh Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Féilire comhtháite le haghaidh Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Tionscadal Féilire Mozilla
  
  # Lightning branding

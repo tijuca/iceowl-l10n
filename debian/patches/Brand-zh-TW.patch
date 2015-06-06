@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:26 +0200
 Subject: Brand-zh-TW
 
 ---
- zh-TW/locale/zh-TW/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ zh-TW/locale/zh-TW/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/zh-TW/locale/zh-TW/lightning/lightning.properties b/zh-TW/locale/zh-TW/lightning/lightning.properties
-index 1f85906..36451fe 100644
+index d5d517e..94343a0 100644
 --- a/zh-TW/locale/zh-TW/lightning/lightning.properties
 +++ b/zh-TW/locale/zh-TW/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 1f85906..36451fe 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird 的整合行事曆
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Thunderbird 的整合行事曆
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Icedove 的整合行事曆
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
  
  # Lightning branding

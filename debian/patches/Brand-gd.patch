@@ -3,11 +3,11 @@ Date: Sun, 17 Aug 2014 09:48:10 +0200
 Subject: Brand-gd
 
 ---
- gd/locale/gd/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ gd/locale/gd/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/gd/locale/gd/lightning/lightning.properties b/gd/locale/gd/lightning/lightning.properties
-index e713ce8..206cbf8 100644
+index fd59372..8447c12 100644
 --- a/gd/locale/gd/lightning/lightning.properties
 +++ b/gd/locale/gd/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index e713ce8..206cbf8 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Mìosachan a tha fillte a-staigh ann an Thunderbird
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Mìosachan a tha fillte a-staigh ann an Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Mìosachan a tha fillte a-staigh ann an Icedove
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Pròiseact mìosachan Mozilla
  
  # Lightning branding

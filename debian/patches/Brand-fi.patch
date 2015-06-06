@@ -3,11 +3,11 @@ Date: Sun, 17 Aug 2014 09:46:58 +0200
 Subject: Brand-fi
 
 ---
- fi/locale/fi/lightning/lightning.properties | 6 +++---
- 1 file changed, 3 insertions(+), 3 deletions(-)
+ fi/locale/fi/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fi/locale/fi/lightning/lightning.properties b/fi/locale/fi/lightning/lightning.properties
-index 58c08e6..11c0efa 100644
+index 23d5986..291963a 100644
 --- a/fi/locale/fi/lightning/lightning.properties
 +++ b/fi/locale/fi/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -15,8 +15,9 @@ index 58c08e6..11c0efa 100644
  
  # addon description:
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Thunderbirdille
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Thunderbirdille
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=Integroitu kalenteri Icedoveille
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozillan kalenteriprojekti
  
  # Lightning branding
