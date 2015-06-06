@@ -602,6 +602,18 @@ Description: Turkish language package for iceowl-extension
  .
  This package contains the localization of iceowl-extension in Turkish.
 
+Package: iceowl-l10n-vi
+Architecture: all
+Depends: ${misc:Depends},
+ iceowl-extension (>= 36.0~), iceowl-extension (<< 37)
+Recommends: hunspell-vi
+Description: Vietnamese language package for iceowl-extension
+ The iceowl-extension is a Mozilla based calendar extension for Icedove.
+ It's goal is to integrate a Calendar and Task application using the XUL
+ user interface language.
+ .
+ This package contains the localization of iceowl-extension in Vietnamese.
+
 Package: iceowl-l10n-uk
 Architecture: all
 Depends: ${misc:Depends},
