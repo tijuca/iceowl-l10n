@@ -7,7 +7,7 @@ Subject: Brand-sk
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/sk/locale/sk/lightning/lightning.properties b/sk/locale/sk/lightning/lightning.properties
-index 638db53..79fa254 100644
+index 2174398..1047e4e 100644
 --- a/sk/locale/sk/lightning/lightning.properties
 +++ b/sk/locale/sk/lightning/lightning.properties
 @@ -3,12 +3,12 @@

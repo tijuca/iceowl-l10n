@@ -7,7 +7,7 @@ Subject: Brand-hr
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/hr/locale/hr/lightning/lightning.properties b/hr/locale/hr/lightning/lightning.properties
-index 37b68ec..40cb84c 100644
+index 52e68e3..21d3b71 100644
 --- a/hr/locale/hr/lightning/lightning.properties
 +++ b/hr/locale/hr/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,5 +33,5 @@ index 37b68ec..40cb84c 100644
 -imipBarUnsupportedText=Poruka sadrži događaj koji ova inačica Lightning kalendara ne može obraditi.
 +imipBarUnsupportedText=Poruka sadrži događaj koji ova inačica Iceowl kalendara ne može obraditi.
  imipBarProcessingFailed=Obrada poruke neuspješna. Status: %1$S.
- imipBarNotWritable=Nije postavljen niti jedan kalendar za pozivnice sa mogućnosti pisanja, provjerite postavke kalendara.
+ imipBarNotWritable=Nije postavljen niti jedan kalendar za pozivnice s mogućnosti pisanja, provjerite postavke kalendara.
  imipSendMail.title=Obavjest preko e-pošte

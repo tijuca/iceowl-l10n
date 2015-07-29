@@ -7,10 +7,10 @@ Subject: Brand-ar
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ar/locale/ar/lightning/lightning.properties b/ar/locale/ar/lightning/lightning.properties
-index ff6e07d..25a8a21 100644
+index a379f70..ba60752 100644
 --- a/ar/locale/ar/lightning/lightning.properties
 +++ b/ar/locale/ar/lightning/lightning.properties
-@@ -80,13 +80,13 @@ binaryComponentTitle=Mismatching %1$S Version
+@@ -79,13 +79,13 @@ binaryComponentTitle=Mismatching %1$S Version
  binaryComponentUnknown=The binary component required for %1$S could not be loaded, likely because the wrong version combination is being used. You are using %2$S %3$S together with %1$S %4$S. Please check https://developer.mozilla.org/en/Calendar/Calendar_Versions for details.
  
  # Lightning branding
@@ -27,7 +27,7 @@ index ff6e07d..25a8a21 100644
  
  imipAddToCalendar.label=Add To Calendar
  imipAddedItemToCal=Event Added to Calendar
-@@ -99,7 +99,7 @@ imipBarPublishText=This message contains an event.
+@@ -98,7 +98,7 @@ imipBarPublishText=This message contains an event.
  imipBarRefreshText=This message asks for an event update.
  imipBarReplyText=This message contains a reply to an invitation.
  imipBarRequestText=This message contains an invitation to an event.
@@ -35,4 +35,4 @@ index ff6e07d..25a8a21 100644
 +imipBarUnsupportedText=This message contains an event that this version of Iceowl cannot process.
  imipBarUpdateText=This message contains an update to an existing event.
  imipCanceledItem=Event has been deleted
- imipHtml.canceledOccurrences=Canceled Occurrences:
+ imipHtml.attendees=Attendees:
