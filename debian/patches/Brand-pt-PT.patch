@@ -7,7 +7,7 @@ Subject: Brand-pt-PT
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/pt-PT/locale/pt-PT/lightning/lightning.properties b/pt-PT/locale/pt-PT/lightning/lightning.properties
-index 2562c16..b610689 100644
+index 2ab5858..ed6b97f 100644
 --- a/pt-PT/locale/pt-PT/lightning/lightning.properties
 +++ b/pt-PT/locale/pt-PT/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -34,4 +34,4 @@ index 2562c16..b610689 100644
 +imipBarUnsupportedText=Esta mensagem contém um evento que esta versão do Iceowl não pode processar.
  imipBarProcessingFailed=Erro ao processar a mensagem. Estado: %1$S.
  imipBarNotWritable=Não existem calendários configurados para convites, verifique as propriedads do calendário.
- imipSendMail.title=Notificação por correio eletrónico
+ imipSendMail.title=Notificação por e-mail

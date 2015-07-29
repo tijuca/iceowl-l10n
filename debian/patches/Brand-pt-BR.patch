@@ -7,7 +7,7 @@ Subject: Brand-pt-BR
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/pt-BR/locale/pt-BR/lightning/lightning.properties b/pt-BR/locale/pt-BR/lightning/lightning.properties
-index dbffb1d..3ea4b41 100644
+index cbed867..3043a7e 100644
 --- a/pt-BR/locale/pt-BR/lightning/lightning.properties
 +++ b/pt-BR/locale/pt-BR/lightning/lightning.properties
 @@ -3,12 +3,12 @@

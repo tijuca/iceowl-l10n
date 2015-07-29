@@ -7,7 +7,7 @@ Subject: Brand-ja
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index 1a7ade7..c2b76f5 100644
+index 7fbcaaf..9cfcdfb 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
 @@ -3,12 +3,12 @@
