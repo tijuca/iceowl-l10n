@@ -5,7 +5,7 @@
 
 
 
-<!ENTITY lightning.toolbar.delete.label "احذف">
+
 
 
 
@@ -54,6 +54,7 @@
 
 <!-- Calendar and Task Mode Toolbar -->
 <!ENTITY lightning.toolbar.day.label                 "Day">
+<!ENTITY lightning.toolbar.delete.label "Delete">
 <!ENTITY lightning.toolbar.edit.label "Edit">
 <!ENTITY lightning.toolbar.gototoday.label "Go to Today">
 <!ENTITY lightning.toolbar.month.accesskey           "M">

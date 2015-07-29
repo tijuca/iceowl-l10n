@@ -325,14 +325,14 @@
 
 
 
-<!ENTITY event.attendee.role.required           "الحضور إلزامي">
-<!ENTITY event.attendee.role.optional           "الحضور اختياري">
 
-<!ENTITY event.attendee.role.nonparticipant     "غير مشارك">
-<!ENTITY event.attendee.usertype.individual     "فرد">
-<!ENTITY event.attendee.usertype.group          "مجموعة">
-<!ENTITY event.attendee.usertype.resource       "مورِد">
-<!ENTITY event.attendee.usertype.room           "غرفة">
+
+
+
+
+
+
+
 <!-- Timezone dialog -->
 
 <!-- Read-Only dialog -->
@@ -370,6 +370,13 @@
 <!ENTITY event.attachments.url.accesskey                  "W">
 <!ENTITY event.attachments.url.label                      "Webpage…">
 <!ENTITY event.attendee.role.chair              "Chair">
+<!ENTITY event.attendee.role.nonparticipant     "Non Participant">
+<!ENTITY event.attendee.role.optional           "Optional Attendee">
+<!ENTITY event.attendee.role.required           "Required Attendee">
+<!ENTITY event.attendee.usertype.group          "Group">
+<!ENTITY event.attendee.usertype.individual     "Individual">
+<!ENTITY event.attendee.usertype.resource       "Resource">
+<!ENTITY event.attendee.usertype.room           "Room">
 <!ENTITY event.description.accesskey                      "p">
 <!ENTITY event.description.label                          "Description:" >
 <!ENTITY event.freebusy.button.next.slot        "Next slot">

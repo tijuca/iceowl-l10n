@@ -1,89 +1,113 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
 <!-- WARNING! This file contains UTF-8 encoded characters!
    - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
-
 <!-- Tools menu -->
-<!ENTITY lightning.preferencesLabel "Calendar">
 
+
+<!ENTITY lightning.preferencesLabel "Deiziataer">
 <!-- New menu popup in File menu -->
-<!ENTITY lightning.menupopup.new.event.label    "Event…">
-<!ENTITY lightning.menupopup.new.event.accesskey "E">
-<!ENTITY lightning.menupopup.new.task.label     "Task…">
+
+<!ENTITY lightning.menupopup.new.event.label    "Degouezh...">
+<!ENTITY lightning.menupopup.new.event.accesskey "D">
+<!ENTITY lightning.menupopup.new.task.label     "Trevell...">
 <!ENTITY lightning.menupopup.new.task.accesskey "T">
-<!ENTITY lightning.menupopup.new.calendar.label "Calendar…">
-<!ENTITY lightning.menupopup.new.calendar.accesskey "n">
-
+<!ENTITY lightning.menupopup.new.calendar.label "Deizataer...">
+<!ENTITY lightning.menupopup.new.calendar.accesskey "D">
 <!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Open">
-<!ENTITY lightning.menupopup.open.accesskey           "O">
-<!ENTITY lightning.menupopup.open.message.label       "Saved Message…">
-<!ENTITY lightning.menupopup.open.message.accesskey   "M">
-<!ENTITY lightning.menupopup.open.calendar.label      "Calendar File…">
-<!ENTITY lightning.menupopup.open.calendar.accesskey  "C">
 
+<!ENTITY lightning.menupopup.open.label               "Digeriñ">
+<!ENTITY lightning.menupopup.open.accesskey           "D">
+<!ENTITY lightning.menupopup.open.message.label       "Kemennadennoù enrollet...">
+<!ENTITY lightning.menupopup.open.message.accesskey   "K">
+<!ENTITY lightning.menupopup.open.calendar.label      "Restr deiziataer...">
+<!ENTITY lightning.menupopup.open.calendar.accesskey  "R">
 <!-- View Menu -->
-<!ENTITY lightning.menu.view.calendar.label            "Calendar">
-<!ENTITY lightning.menu.view.calendar.accesskey        "n">
-<!ENTITY lightning.menu.view.tasks.label               "Tasks">
-<!ENTITY lightning.menu.view.tasks.accesskey           "k">
 
+<!ENTITY lightning.menu.view.calendar.label            "Deiziataer">
+<!ENTITY lightning.menu.view.calendar.accesskey        "i">
+<!ENTITY lightning.menu.view.tasks.label               "Trevelloù">
+<!ENTITY lightning.menu.view.tasks.accesskey           "e">
 <!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label                "Events and Tasks">
-<!ENTITY lightning.menu.eventtask.accesskey            "n">
 
+<!ENTITY lightning.menu.eventtask.label                "Darvoudoù ha trevelloù">
+<!ENTITY lightning.menu.eventtask.accesskey            "h">
 <!-- properties dialog, calendar creation wizard -->
-<!ENTITY lightning.calendarproperties.email.label               "E-Mail:">
 
+<!ENTITY lightning.calendarproperties.email.label               "Postel :">
 <!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.btnAccept.label                                  "Accept">
-<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Accept event invitation">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Accept all">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Accept event invitation for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnAdd.label                                     "Add">
-<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Add the event to the calendar">
-<!ENTITY lightning.imipbar.btnDecline.label                                 "Decline">
-<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Decline event invitation">
+
+<!ENTITY lightning.imipbar.btnAccept.label                                  "Asantiñ">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Asantiñ ar bedadenn degouezh">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Asantiñ an holl">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Asantiñ ar bedadenn degouezh evit an holl reveziadennoù eus an degouezh">
+<!ENTITY lightning.imipbar.btnAdd.label                                     "Ouzhpennañ">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Ouzhpennañ un degouezh d'an deiziataer">
+<!ENTITY lightning.imipbar.btnDecline.label                                 "Nac'hañ">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Nac'h ar bedadenn degouezh">
+
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Nac'h ar bedadenn degouezh evit an holl reveziadennoù eus an degouezh">
+<!ENTITY lightning.imipbar.btnDelete.label                                  "Dilemel">
+
+<!ENTITY lightning.imipbar.btnDetails.label                                 "Munudoù...">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Diskouez munudoù an degouezh">
+
+
+
+
+
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Enrollañ un eilad eus an degouezh war an deiziataer, distag eus ur respont d'an aozer. Roll ar berzhidi a vo goullonderet.">
+
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Asantiñ ar bedadenn degouezh evit ar mare">
+
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Asantiñ ar bedadenn darvoud evit holl reveziadennoù an degouezh evit ar mare">
+<!ENTITY lightning.imipbar.btnUpdate.label                                  "Hizivaat">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Hizivaat an degouezh en deiziataer">
+<!ENTITY lightning.imipbar.description                                      "Ur bedadenn d'un darvoud a zo endalc'het er gemennadenn-mañ.">
+<!-- Lightning specific keybindings -->
+
+
+
+<!-- Account Central page -->
+<!-- today-pane-specific -->
+
+
+
+
+
+
+
+
+
+
+<!-- Account Central page -->
+<!ENTITY lightning.acctCentral.newCalendar.label "Create a new calendar">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Decline all">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Decline event invitation for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnDelete.label                                  "Delete">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Delete from calendar">
-<!ENTITY lightning.imipbar.btnDetails.label                                 "Details…">
-<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Show event details">
 <!ENTITY lightning.imipbar.btnMore.label                                    "More">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Click to show more options">
-<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Reconfirm">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Sends a reconfirmation to the organizer">
+<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Reconfirm">
 <!ENTITY lightning.imipbar.btnSaveCopy.label                                "Save a copy">
-<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Save a copy of the event to the calendar independently of replying to the organizer. The list of attendees will be cleared.">
 <!ENTITY lightning.imipbar.btnTentative.label                               "Tentative">
-<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Accept event invitation tentatively">
 <!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Tentative all">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Accept event invitation tentatively for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnUpdate.label                                  "Update">
-<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Update event in calendar">
-<!ENTITY lightning.imipbar.description                                      "This message contains an invitation to an event.">
+<!ENTITY lightning.keys.event.new "I">
 
 <!-- Lightning specific keybindings -->
 <!ENTITY lightning.keys.event.showCalendar.key "C">
 <!ENTITY lightning.keys.event.showTasks.key "D">
-<!ENTITY lightning.keys.event.new "I">
 <!ENTITY lightning.keys.todo.new "D">
-
-<!-- Account Central page -->
-<!ENTITY lightning.acctCentral.newCalendar.label "Create a new calendar">
+<!ENTITY todaypane.showMiniday.accesskey  "d">
+<!ENTITY todaypane.showMiniday.label "Show Mini-Day">
+<!ENTITY todaypane.showMinimonth.accesskey "M">
 
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Show Mini-Month">
-<!ENTITY todaypane.showMinimonth.accesskey "M">
-<!ENTITY todaypane.showMiniday.label "Show Mini-Day">
-<!ENTITY todaypane.showMiniday.accesskey  "d">
-<!ENTITY todaypane.showNone.label "Show None">
 <!ENTITY todaypane.showNone.accesskey "N">
-<!ENTITY todaypane.showTodayPane.label "Show Today Pane">
+<!ENTITY todaypane.showNone.label "Show None">
 <!ENTITY todaypane.showTodayPane.accesskey "o">
+<!ENTITY todaypane.showTodayPane.label "Show Today Pane">
 <!ENTITY todaypane.statusButton.label "Today Pane">
