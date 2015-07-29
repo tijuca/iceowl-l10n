@@ -35,7 +35,7 @@
 
 
 
-<!ENTITY lightning.imipbar.btnDelete.label                                  "احذف">
+
 
 
 
@@ -85,6 +85,7 @@
 <!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Decline event invitation">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Decline all">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Decline event invitation for all occurrences of the event">
+<!ENTITY lightning.imipbar.btnDelete.label                                  "Delete">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Delete from calendar">
 <!ENTITY lightning.imipbar.btnDetails.label                                 "Details…">
 <!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Show event details">

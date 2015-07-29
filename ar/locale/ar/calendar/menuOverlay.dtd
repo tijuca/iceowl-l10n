@@ -21,8 +21,6 @@
 
 
 
-<!ENTITY calendar.menu.customize.label          "خصص…">
-<!ENTITY calendar.menu.customize.accesskey      "ص">
 
 
 
@@ -46,6 +44,10 @@
 <!ENTITY calendar.import.accesskey              "I">
 
 <!ENTITY calendar.import.label                  "Import…">
+<!ENTITY calendar.menu.customize.accesskey      "C">
+
+
+<!ENTITY calendar.menu.customize.label          "Customize…">
 <!ENTITY calendar.properties.accesskey          "C">
 
 <!ENTITY calendar.properties.label              "Calendar Properties…">
