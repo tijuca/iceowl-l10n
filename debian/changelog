@@ -1,3 +1,37 @@
+iceowl-l10n (4.2~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [f9a5011] d/c-u-t: update script due new archive content for beta versions
+  * [610ff13] Imported Upstream version 4.0~b6
+  * [66affea] debian/gbp.conf: respect new git-buildpackage behaviour
+  * [eab3850] rebuild patch queue from patch-queue branch
+  * [25b6936] debian/control*: adding iceowl-l10n-ar
+  * [790dc6f] debian/control*: adding iceowl-l10n-be
+  * [c5ea433] debian/control*: adding iceowl-l10n-bg
+  * [d74869b] debian/control*: adding iceowl-l10n-bn-bd
+  * [f435461] debian/control*: adding iceowl-l10n-br
+  * [b06dcf8] debian/control*: adding iceowl-l10n-cy
+  * [8c05743] debian/control*: adding iceowl-l10n-el
+  * [9d19213] debian/control*: adding iceowl-l10n-gl
+  * [84001be] debian/control*: adding iceowl-l10n-he
+  * [f963542] debian/control*: adding iceowl-l10n-hr
+  * [0f1f0f9] debian/control*: adding iceowl-l10n-hy-am
+  * [cb06283] debian/control*: adding iceowl-l10n-ko
+  * [6cdc7a1] debian/control*: adding iceowl-l10n-pt-br
+  * [28fb140] debian/control*: adding iceowl-l10n-rm
+  * [de7d919] debian/control*: adding iceowl-l10n-ro
+  * [f1b5c15] debian/control*: adding iceowl-l10n-si
+  * [70886fd] debian/control*: adding iceowl-l10n-sl
+  * [60f68c9] debian/control*: adding iceowl-l10n-sr
+  * [e7e16c4] debian/control*: adding iceowl-l10n-ta-lk
+  * [87f36e4] debian/control*: adding iceowl-l10n-vi
+  * [f522343] adjusting iceowl-extension deps
+  * [ca2df46] Imported Upstream version 4.2~b1
+  * [0bf4f77] rebuild patch queue from patch-queue branch
+  * [62d984a] adjusting iceowl-extension deps
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Thu, 30 Jul 2015 18:44:42 +0200
+
 iceowl-l10n (3.8~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
