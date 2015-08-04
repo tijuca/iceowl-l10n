@@ -9,8 +9,8 @@
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "U">
 <!ENTITY pref.calendar.alarms.sound.browse.label "Sfoglia…">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "S">
-<!ENTITY pref.calendar.alarms.sound.preview.label "Anteprima">
-<!ENTITY pref.calendar.alarms.sound.preview.accessKey "A">
+<!ENTITY pref.calendar.alarms.sound.play.label "Suona">
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "S">
 <!ENTITY pref.showalarmbox "Visualizza un messaggio di allarme">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "m">
 <!ENTITY pref.missedalarms "Visualizza allarmi persi">
@@ -26,7 +26,5 @@
 <!ENTITY pref.defalarmlen4events.accesskey "T">
 <!ENTITY pref.defalarmlen4todos.label "Tempo di attivazione allarme prima di un'attività:">
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
-<!ENTITY pref.defaultemail.label "Indirizzo predefinito a cui inviare gli allarmi:">
-<!ENTITY pref.defaulttext.label "Testo predefinito per gli allarmi:">
 <!ENTITY pref.defaultsnoozelength.label "Lunghezza predefinita snooze:">
 <!ENTITY pref.defaultsnoozelength.accesskey "s">

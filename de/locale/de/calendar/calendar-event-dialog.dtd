@@ -306,6 +306,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label        "Donnerstag">
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "Freitag">
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Samstag">
+<!ENTITY event.recurrence.pattern.yearly.day.label           "Tag" >
 <!ENTITY event.recurrence.of.label                           "im">
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januar">
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februar">
@@ -330,9 +331,9 @@
 <!-- Attendees dialog -->
 <!ENTITY invite.title.label                     "Teilnehmer einladen">
 <!ENTITY event.organizer.label                  "Organisator">
-<!ENTITY event.freebusy.suggest.slot            "Termin vorschlagen:">
-<!ENTITY event.freebusy.next.slot               "Nächster Termin">
-<!ENTITY event.freebusy.previous.slot           "Vorheriger Termin">
+<!ENTITY event.freebusy.suggest.slot            "Zeitfenster vorschlagen:">
+<!ENTITY event.freebusy.button.next.slot        "Nächstes Zeitfenster">
+<!ENTITY event.freebusy.button.previous.slot    "Früheres Zeitfenster">
 <!ENTITY event.freebusy.zoom                    "Zoom:">
 <!ENTITY event.freebusy.legend.free             "Verfügbar">
 <!ENTITY event.freebusy.legend.busy             "Beschäftigt">
@@ -370,7 +371,7 @@
 <!ENTITY read.only.decline.label         "Ich nehme nicht teil">
 <!ENTITY read.only.tentative.label       "Ich nehme eventuell teil">
 <!ENTITY read.only.needs.action.label    "Ich bestätige später">
-<!ENTITY read.only.reminder.label        "Alarm:">
+<!ENTITY read.only.reminder.label        "Erinnerung:">
 <!ENTITY read.only.attendees.label       "Teilnehmer">
 <!ENTITY read.only.description.label     "Beschreibung">
 <!ENTITY read.only.link.label            "Zugehöriger Link">

@@ -9,8 +9,8 @@
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "d">
 <!ENTITY pref.calendar.alarms.sound.browse.label "Examinar...">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "x">
-<!ENTITY pref.calendar.alarms.sound.preview.label "Escuchar">
-<!ENTITY pref.calendar.alarms.sound.preview.accessKey "E">
+<!ENTITY pref.calendar.alarms.sound.play.label "Reproducir">
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "e">
 <!ENTITY pref.showalarmbox "Mostrar la ventana de aviso">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "M">
 <!ENTITY pref.missedalarms "Mostrar avisos vencidos">
@@ -26,7 +26,5 @@
 <!ENTITY pref.defalarmlen4events.accesskey "P">
 <!ENTITY pref.defalarmlen4todos.label "Antelación predet. con la que un aviso aparece antes de una tarea:">
 <!ENTITY pref.defalarmlen4todos.accesskey "v">
-<!ENTITY pref.defaultemail.label "Dirección predet. a la que enviar los avisos:">
-<!ENTITY pref.defaulttext.label "Texto predeterminado de los avisos:">
 <!ENTITY pref.defaultsnoozelength.label "Duración por defecto del retardo:">
 <!ENTITY pref.defaultsnoozelength.accesskey "u">

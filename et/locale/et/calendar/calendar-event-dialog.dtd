@@ -311,6 +311,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label        "neljapäeval" >
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "reedel" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "laupäeval" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "päeval" >
 <!ENTITY event.recurrence.of.label                           "" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "jaanuari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "veebruari" >
@@ -336,8 +337,8 @@
 <!ENTITY invite.title.label                     "Osalejate kutsumine">
 <!ENTITY event.organizer.label                  "Korraldaja">
 <!ENTITY event.freebusy.suggest.slot            "Aja pakkumine:">
-<!ENTITY event.freebusy.next.slot               "Järgmine aeg " >
-<!ENTITY event.freebusy.previous.slot           " Eelmine aeg" >
+<!ENTITY event.freebusy.button.next.slot        "Järgmine aeg">
+<!ENTITY event.freebusy.button.previous.slot    "Eelmine aeg">
 <!ENTITY event.freebusy.zoom                    "Suurendamine/Vähendamine:">
 <!ENTITY event.freebusy.legend.free             "Vaba" >
 <!ENTITY event.freebusy.legend.busy             "Hõivatud" >

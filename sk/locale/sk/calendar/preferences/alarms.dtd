@@ -14,8 +14,8 @@
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "d">
 <!ENTITY pref.calendar.alarms.sound.browse.label "Prehľadávať…">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "P">
-<!ENTITY pref.calendar.alarms.sound.preview.label "Ukážka">
-<!ENTITY pref.calendar.alarms.sound.preview.accessKey "U">
+<!ENTITY pref.calendar.alarms.sound.play.label "Prehrať">
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "r">
 <!ENTITY pref.showalarmbox "Zobrazovať dialóg upozornení">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "Z">
 <!ENTITY pref.missedalarms "Zobrazovať premeškané upozornenia">
@@ -31,8 +31,6 @@
 <!ENTITY pref.defalarmlen4events.accesskey "a">
 <!ENTITY pref.defalarmlen4todos.label "Čas upozornenia pred úlohou:">
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
-<!ENTITY pref.defaultemail.label "Prednastavená adresa, kam odosielať upozornenia:">
-<!ENTITY pref.defaulttext.label "Prednastavený text upozornení:">
 
 <!ENTITY pref.defaultsnoozelength.label "Predvolený čas oneskoreného upozornenia po udalosti:" >
 <!ENTITY pref.defaultsnoozelength.accesskey "e">

@@ -293,7 +293,7 @@
 <!ENTITY event.recurrence.pattern.yearly.month.10.label		"10月" >
 <!ENTITY event.recurrence.pattern.yearly.month.11.label		"11月" >
 <!ENTITY event.recurrence.pattern.yearly.month.12.label		"12月" >
-<!ENTITY event.recurrence.yearly.every.label			"">
+<!ENTITY event.recurrence.yearly.every.label			"毎">
 <!ENTITY event.recurrence.yearly.first.label			"第 1">
 <!ENTITY event.recurrence.yearly.second.label			"第 2">
 <!ENTITY event.recurrence.yearly.third.label			"第 3">
@@ -307,6 +307,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label		"木曜日" >
 <!ENTITY event.recurrence.pattern.yearly.week.6.label		"金曜日" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label		"土曜日" >
+<!ENTITY event.recurrence.pattern.yearly.day.label		"日" >
 <!ENTITY event.recurrence.of.label				"" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label		"1月" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label		"2月" >
@@ -332,8 +333,8 @@
 <!ENTITY invite.title.label				"参加者の追加">
 <!ENTITY event.organizer.label				"主催者">
 <!ENTITY event.freebusy.suggest.slot			"提案時間帯:">
-<!ENTITY event.freebusy.next.slot			"次の時間帯 " >
-<!ENTITY event.freebusy.previous.slot			" 前の時間帯" >
+<!ENTITY event.freebusy.button.next.slot		"次の時間帯">
+<!ENTITY event.freebusy.button.previous.slot		"前の時間帯">
 <!ENTITY event.freebusy.zoom				"拡大/縮小:">
 <!ENTITY event.freebusy.legend.free			"空き" >
 <!ENTITY event.freebusy.legend.busy			"予定あり" >

@@ -280,6 +280,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label "fimmtudag">
 <!ENTITY event.recurrence.pattern.yearly.week.6.label "föstudag">
 <!ENTITY event.recurrence.pattern.yearly.week.7.label "laugardag">
+<!ENTITY event.recurrence.pattern.yearly.day.label "dagur">
 <!ENTITY event.recurrence.of.label "í">
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label "janúar">
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label "febrúar">
@@ -303,8 +304,8 @@
 <!ENTITY invite.title.label "Bjóða þátttakendum">
 <!ENTITY event.organizer.label "Stjórnandi">
 <!ENTITY event.freebusy.suggest.slot "Leggja til tíma:">
-<!ENTITY event.freebusy.next.slot "Næsta hólf ">
-<!ENTITY event.freebusy.previous.slot " Fyrra hólf">
+<!ENTITY event.freebusy.button.next.slot "Næsta hólf">
+<!ENTITY event.freebusy.button.previous.slot "Fyrra hólf">
 <!ENTITY event.freebusy.zoom "Aðdráttur:">
 <!ENTITY event.freebusy.legend.free "Laus">
 <!ENTITY event.freebusy.legend.busy "Upptekinn">

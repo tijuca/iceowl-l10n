@@ -10,7 +10,7 @@
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Mostra attività completate">
 <!ENTITY calendar.today.button.label "Oggi">
 <!ENTITY calendar.tomorrow.button.label "Domani">
-<!ENTITY calendar.soon.button.label "Presto">
+<!ENTITY calendar.upcoming.button.label "Presto">
 <!ENTITY calendar.events.filter.all.label "Tutti gli eventi">
 <!ENTITY calendar.events.filter.today.label "Eventi di oggi">
 <!ENTITY calendar.events.filter.future.label "Tutti gli eventi futuri">
@@ -188,8 +188,12 @@
 <!ENTITY calendar.context.newserver.accesskey "N">
 <!ENTITY calendar.context.findcalendar.label "Trova calendario…">
 <!ENTITY calendar.context.findcalendar.accesskey "v">
-<!ENTITY calendar.context.deleteserver.label "Elimina calendario">
-<!ENTITY calendar.context.deleteserver.accesskey "E">
+<!ENTITY calendar.context.deleteserver2.label "Elimina calendario…">
+<!ENTITY calendar.context.deleteserver2.accesskey "E">
+<!ENTITY calendar.context.removeserver.label "Rimuovi calendario… (conserva i dati)">
+<!ENTITY calendar.context.removeserver.accesskey "R">
+<!ENTITY calendar.context.unsubscribeserver.label "Rimuovi sottoscrizione a calendario…">
+<!ENTITY calendar.context.unsubscribeserver.accesskey "c">
 <!ENTITY calendar.context.synccalendars.label "Sincronizza calendari">
 <!ENTITY calendar.context.synccalendars.accesskey "c">
 <!ENTITY calendar.context.publish.label "Pubblica calendario…">
@@ -198,6 +202,10 @@
 <!ENTITY calendar.context.export.accesskey "s">
 <!ENTITY calendar.context.properties.label "Proprietà">
 <!ENTITY calendar.context.properties.accesskey "P">
+<!ENTITY calendar.context.togglevisible.accesskey "N">
+<!ENTITY calendar.context.showonly.accesskey "o">
+<!ENTITY calendar.context.showall.label "Mostra tutti i calendari">
+<!ENTITY calendar.context.showall.accesskey "M">
 <!ENTITY calendar.context.convertmenu.label "Converti in">
 <!ENTITY calendar.context.convertmenu.accesskey.mail "n">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "v">

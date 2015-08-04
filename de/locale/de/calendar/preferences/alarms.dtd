@@ -14,8 +14,8 @@
 <!ENTITY pref.calendar.alarms.sound.useDefault.accessKey "s">
 <!ENTITY pref.calendar.alarms.sound.browse.label "Durchsuchen…">
 <!ENTITY pref.calendar.alarms.sound.browse.accessKey "D">
-<!ENTITY pref.calendar.alarms.sound.preview.label "Vorschau">
-<!ENTITY pref.calendar.alarms.sound.preview.accessKey "V">
+<!ENTITY pref.calendar.alarms.sound.play.label "Abspielen">
+<!ENTITY pref.calendar.alarms.sound.play.accessKey "b">
 <!ENTITY pref.showalarmbox "Den Erinnerungen-Dialog anzeigen">
 <!ENTITY pref.calendar.alarms.showAlarmBox.accessKey "n">
 <!ENTITY pref.missedalarms "Versäumte Erinnerungen anzeigen">
@@ -31,8 +31,6 @@
 <!ENTITY pref.defalarmlen4events.accesskey "u">
 <!ENTITY pref.defalarmlen4todos.label "Erinnerungszeitpunkt vor Aufgabenbeginn:">
 <!ENTITY pref.defalarmlen4todos.accesskey "o">
-<!ENTITY pref.defaultemail.label "Standardadresse, an die Erinnerungen gesendet werden:">
-<!ENTITY pref.defaulttext.label "Standardtext für Erinnerungen:">
 
 <!ENTITY pref.defaultsnoozelength.label "Standardintervall für erneutes Erinnern:">
 <!ENTITY pref.defaultsnoozelength.accesskey "R">

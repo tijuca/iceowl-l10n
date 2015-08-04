@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "긴 형식" >
 <!ENTITY pref.dateformat.short "짧은 형식"  >
 
+<!ENTITY pref.timezones.caption "시간대">
+<!ENTITY pref.timezones.label "여러분의 시간대에서 가장 가까운 도시를 고르세요:">
+<!ENTITY pref.timezones.accesskey "S">
+
 <!ENTITY pref.defaults.label "기본 값">
 <!ENTITY pref.events.label "이벤트">
 <!ENTITY pref.tasks.label "태스크">
@@ -28,6 +32,10 @@
 <!ENTITY pref.default_task_offset_current.label "지금 시간부터">
 <!ENTITY pref.default_task_offset_start.label "시작 시간 부터">
 <!ENTITY pref.default_task_offset_next_hour.label "다음 시간 부터">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "오늘 창">
+<!ENTITY pref.soondays.label "다가오는 이벤트 섹션:">
+<!ENTITY pref.soondays.accesskey "u">
 
 <!ENTITY pref.accessibility.label "접근성" >
 <!ENTITY pref.systemcolors.label "시스템 색상 최적화" >

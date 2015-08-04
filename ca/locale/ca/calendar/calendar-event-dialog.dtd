@@ -331,8 +331,8 @@
 <!ENTITY invite.title.label                     "Invita assistents">
 <!ENTITY event.organizer.label                  "Organitzador">
 <!ENTITY event.freebusy.suggest.slot            "Franja horària suggerida:">
-<!ENTITY event.freebusy.next.slot               "Franja següent " >
-<!ENTITY event.freebusy.previous.slot           " Franja anterior" >
+<!ENTITY event.freebusy.button.next.slot        "Franja següent">
+<!ENTITY event.freebusy.button.previous.slot    "Franja anterior">
 <!ENTITY event.freebusy.zoom                    "Escala:">
 <!ENTITY event.freebusy.legend.free             "Lliure" >
 <!ENTITY event.freebusy.legend.busy             "Ocupat" >
@@ -372,3 +372,5 @@
 <!ENTITY read.only.attendees.label       "Assistents">
 <!ENTITY read.only.description.label     "Descripció">
 <!ENTITY read.only.link.label            "Enllaç relacionat">
+
+<!ENTITY event.recurrence.pattern.yearly.day.label           "day" >

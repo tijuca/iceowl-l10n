@@ -13,6 +13,10 @@
 <!ENTITY pref.dateformat.long "長" >
 <!ENTITY pref.dateformat.short "短" >
 
+<!ENTITY pref.timezones.caption "時區">
+<!ENTITY pref.timezones.label "選擇離您的時區最近的城市:">
+<!ENTITY pref.timezones.accesskey "S">
+
 <!ENTITY pref.defaults.label "新項目的預設值">
 <!ENTITY pref.events.label "事件">
 <!ENTITY pref.tasks.label "工作">
@@ -28,6 +32,10 @@
 <!ENTITY pref.default_task_offset_current.label "相對於目前時間">
 <!ENTITY pref.default_task_offset_start.label "相對於開始時間">
 <!ENTITY pref.default_task_offset_next_hour.label "相對於下一小時">
+
+<!ENTITY pref.calendar.todaypane.agenda.caption "今日窗格">
+<!ENTITY pref.soondays.label "「即將到來」區塊將顯示:">
+<!ENTITY pref.soondays.accesskey "u">
 
 <!ENTITY pref.accessibility.label "輔助功能" >
 <!ENTITY pref.systemcolors.label "使用較具親和力的色彩" >

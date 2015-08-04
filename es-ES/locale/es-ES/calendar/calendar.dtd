@@ -10,7 +10,7 @@
 <!ENTITY calendar.unifinder.showcompletedtodos.label "Mostrar tareas completadas">
 <!ENTITY calendar.today.button.label "Hoy">
 <!ENTITY calendar.tomorrow.button.label "Mañana">
-<!ENTITY calendar.soon.button.label "Pronto">
+<!ENTITY calendar.upcoming.button.label "Próximamente">
 <!ENTITY calendar.events.filter.all.label "Todos los eventos">
 <!ENTITY calendar.events.filter.today.label "Eventos de hoy">
 <!ENTITY calendar.events.filter.future.label "Todos los eventos futuros">
@@ -26,7 +26,7 @@
 <!ENTITY calendar.unifinder.tree.priority.tooltip2 "Ordenar por prioridad">
 <!ENTITY calendar.unifinder.tree.title.label "Título">
 <!ENTITY calendar.unifinder.tree.title.tooltip2 "Ordenar por tamaño">
-<!ENTITY calendar.unifinder.tree.percentcomplete.label "&#037; Completo">
+<!ENTITY calendar.unifinder.tree.percentcomplete.label "&#037; completo">
 <!ENTITY calendar.unifinder.tree.percentcomplete.tooltip2 "Ordenar por &#037; progreso">
 <!ENTITY calendar.unifinder.tree.startdate.label "Inicio">
 <!ENTITY calendar.unifinder.tree.startdate.tooltip2 "Ordenar por fecha de inicio">
@@ -154,7 +154,7 @@
 <!ENTITY calendar.context.priority.accesskey "r">
 <!ENTITY calendar.context.postpone.label "Postponer tarea">
 <!ENTITY calendar.context.postpone.accesskey "P">
-<!ENTITY percnt "&#037;">
+<!ENTITY percnt " &#037;">
 <!ENTITY calendar.context.markcompleted.label "Marcar como completada">
 <!ENTITY calendar.context.markcompleted.accesskey "o">
 <!ENTITY progress.level.0 "0&percnt; completado">
@@ -188,8 +188,12 @@
 <!ENTITY calendar.context.newserver.accesskey "N">
 <!ENTITY calendar.context.findcalendar.label "Encontrar calendario…">
 <!ENTITY calendar.context.findcalendar.accesskey "c">
-<!ENTITY calendar.context.deleteserver.label "Borrar calendario">
-<!ENTITY calendar.context.deleteserver.accesskey "D">
+<!ENTITY calendar.context.deleteserver2.label "Vaciar calendario…">
+<!ENTITY calendar.context.deleteserver2.accesskey "V">
+<!ENTITY calendar.context.removeserver.label "Eliminar calendario…">
+<!ENTITY calendar.context.removeserver.accesskey "E">
+<!ENTITY calendar.context.unsubscribeserver.label "Cancelar suscripción a calendario…">
+<!ENTITY calendar.context.unsubscribeserver.accesskey "C">
 <!ENTITY calendar.context.synccalendars.label "Sincronizar calendarios">
 <!ENTITY calendar.context.synccalendars.accesskey "S">
 <!ENTITY calendar.context.publish.label "Publicar calendario…">
@@ -198,6 +202,10 @@
 <!ENTITY calendar.context.export.accesskey "E">
 <!ENTITY calendar.context.properties.label "Propiedades">
 <!ENTITY calendar.context.properties.accesskey "P">
+<!ENTITY calendar.context.togglevisible.accesskey "l">
+<!ENTITY calendar.context.showonly.accesskey "O">
+<!ENTITY calendar.context.showall.label "Mostrar todos los calendarios">
+<!ENTITY calendar.context.showall.accesskey "i">
 <!ENTITY calendar.context.convertmenu.label "Convertir a">
 <!ENTITY calendar.context.convertmenu.accesskey.mail "n">
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "v">

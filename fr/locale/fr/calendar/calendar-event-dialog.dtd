@@ -264,6 +264,7 @@
 <!ENTITY event.recurrence.pattern.monthly.week.5.label "Jeudi">
 <!ENTITY event.recurrence.pattern.monthly.week.6.label "Vendredi">
 <!ENTITY event.recurrence.pattern.monthly.week.7.label "Samedi">
+<!ENTITY event.recurrence.pattern.yearly.day.label "jour" >
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Jour du mois">
 <!ENTITY event.recurrence.repeat.recur.label "Se répète le(s) jour(s)">
 <!ENTITY event.recurrence.every.label "Chaque :" >
@@ -331,8 +332,8 @@
 <!ENTITY invite.title.label "Inviter des participants">
 <!ENTITY event.organizer.label "Organisateur">
 <!ENTITY event.freebusy.suggest.slot "Suggérer un créneau horaire :">
-<!ENTITY event.freebusy.next.slot "Créneau horaire suivant" >
-<!ENTITY event.freebusy.previous.slot "Créneau horaire précédent" >
+<!ENTITY event.freebusy.button.next.slot "Créneau horaire suivant">
+<!ENTITY event.freebusy.button.previous.slot "Créneau horaire précédent">
 <!ENTITY event.freebusy.zoom "Zoom :">
 <!ENTITY event.freebusy.legend.free "Disponible" >
 <!ENTITY event.freebusy.legend.busy "Occupé" >

@@ -306,6 +306,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label        "donderdag" >
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "vrijdag" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "zaterdag" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "dag" >
 <!ENTITY event.recurrence.of.label                           "van" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "januari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "februari" >
@@ -331,8 +332,8 @@
 <!ENTITY invite.title.label                     "Genodigden uitnodigen">
 <!ENTITY event.organizer.label                  "Organisator">
 <!ENTITY event.freebusy.suggest.slot            "Vrij tijdstip voorstellen:">
-<!ENTITY event.freebusy.next.slot               "Volgend vrij tijdstip " >
-<!ENTITY event.freebusy.previous.slot           " Vorig vrij tijdstip" >
+<!ENTITY event.freebusy.button.next.slot        "Volgend vrij tijdstip">
+<!ENTITY event.freebusy.button.previous.slot    "Vorig vrij tijdstip">
 <!ENTITY event.freebusy.zoom                    "Zoomen:">
 <!ENTITY event.freebusy.legend.free             "Beschikbaar" >
 <!ENTITY event.freebusy.legend.busy             "Bezet" >

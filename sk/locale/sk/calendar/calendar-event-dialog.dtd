@@ -307,6 +307,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label        "štvrtok" >
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "piatok" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "sobota" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "deň" >
 <!ENTITY event.recurrence.of.label                           "v mesiaci" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "január" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "február" >
@@ -332,8 +333,8 @@
 <!ENTITY invite.title.label                     "Pozvaní účastníci">
 <!ENTITY event.organizer.label                  "Organizátor">
 <!ENTITY event.freebusy.suggest.slot            "Navrhnutý vhodný čas:">
-<!ENTITY event.freebusy.next.slot               "Ďalší vhodný čas " >
-<!ENTITY event.freebusy.previous.slot           " Predchádzajúci vhodný čas" >
+<!ENTITY event.freebusy.button.next.slot        "Ďalší vhodný čas">
+<!ENTITY event.freebusy.button.previous.slot    "Predchádzajúci vhodný čas">
 <!ENTITY event.freebusy.zoom                    "Zmena veľkosti:">
 <!ENTITY event.freebusy.legend.free             "Voľný" >
 <!ENTITY event.freebusy.legend.busy_tentative   "Neistý" >

@@ -314,6 +314,7 @@
 <!ENTITY event.recurrence.pattern.yearly.week.5.label        "Torsdag" >
 <!ENTITY event.recurrence.pattern.yearly.week.6.label        "Fredag" >
 <!ENTITY event.recurrence.pattern.yearly.week.7.label        "Lördag" >
+<!ENTITY event.recurrence.pattern.yearly.day.label           "dag" >
 <!ENTITY event.recurrence.of.label                           "på" >
 <!ENTITY event.recurrence.pattern.yearly.month2.1.label      "Januari" >
 <!ENTITY event.recurrence.pattern.yearly.month2.2.label      "Februari" >
@@ -332,8 +333,8 @@
 <!ENTITY invite.title.label                     "Bjud in deltagare">
 <!ENTITY event.organizer.label                  "Organisatör">
 <!ENTITY event.freebusy.suggest.slot            "Föreslå tidslucka:">
-<!ENTITY event.freebusy.next.slot               "Nästa lucka " >
-<!ENTITY event.freebusy.previous.slot           " Föregående lucka" >
+<!ENTITY event.freebusy.button.next.slot        "Nästa lucka">
+<!ENTITY event.freebusy.button.previous.slot    "Föregående lucka">
 <!ENTITY event.freebusy.zoom                    "Zooma:">
 <!ENTITY event.freebusy.legend.free             "Ledig" >
 <!ENTITY event.freebusy.legend.busy             "Upptagen" >

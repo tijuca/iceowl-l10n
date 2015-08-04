@@ -85,3 +85,6 @@
 <!ENTITY todaypane.showTodayPane.label "Показване на дневния плот">
 <!ENTITY todaypane.showTodayPane.accesskey "к">
 <!ENTITY todaypane.statusButton.label "Дневен плот">
+
+<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Save a copy">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Save a copy of the event to the calendar independently of replying to the organizer. The list of attendees will be cleared.">
