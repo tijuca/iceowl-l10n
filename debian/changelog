@@ -1,3 +1,19 @@
+iceowl-l10n (4.0.0.1-1) unstable; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [f9a5011] d/c-u-t: update script due new archive content for beta versions
+  * [7e5fbca] Imported Upstream version 4.0.0.1
+  * [66affea] debian/gbp.conf: respect new git-buildpackage behaviour
+  * [eab3850] rebuild patch queue from patch-queue branch
+    - added new languages: Arabic, Belarusian, Bulgarian, Bengali
+                           (Bangladesh), Breton, Welsh, Greek, Galician,
+                           Hebrew, Croatian, Armenian (Armenia), Korean,
+                           Portuguese (Brazil), Romansh, Romanian, Sinhala,
+                           Slovenian, Serbian, Tamil (Sri Lanka), Vietnamese
+  * [f522343] adjusting iceowl-extension deps
+
+ -- Christoph Goehre <chris@sigxcpu.org>  Wed, 05 Aug 2015 21:36:38 -0400
+
 iceowl-l10n (3.8~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
