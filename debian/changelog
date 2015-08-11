@@ -1,3 +1,23 @@
+iceowl-l10n (4.2~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [f9a5011] d/c-u-t: update script due new archive content for beta versions
+  * [610ff13] Imported Upstream version 4.0~b6
+  * [66affea] debian/gbp.conf: respect new git-buildpackage behaviour
+  * [eab3850] rebuild patch queue from patch-queue branch
+    - added new languages: Arabic, Belarusian, Bulgarian, Bengali
+                           (Bangladesh), Breton, Welsh, Greek, Galician,
+                           Hebrew, Croatian, Armenian (Armenia), Korean,
+                           Portuguese (Brazil), Romansh, Romanian, Sinhala,
+                           Slovenian, Serbian, Tamil (Sri Lanka), Vietnamese
+  * [f522343] adjusting iceowl-extension deps
+  * [b01f08b] Imported Upstream version 4.2~b1
+  * [d6b0033] rebuild patch queue from patch-queue branch
+  * [21e57ae] adjusting iceowl-extension deps
+  * [9210e1b] debian/control: add myself as uploader
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Tue, 11 Aug 2015 14:04:35 +0200
+
 iceowl-l10n (3.8~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
