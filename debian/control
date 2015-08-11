@@ -2,7 +2,8 @@ Source: iceowl-l10n
 Section: localization
 Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
-Uploaders: Christoph Goehre <chris@sigxcpu.org>
+Uploaders: Christoph Goehre <chris@sigxcpu.org>,
+           Carsten Schoenert <c.schoenert@t-online.de>
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.9.6
