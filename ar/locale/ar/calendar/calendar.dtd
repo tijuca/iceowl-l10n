@@ -74,8 +74,8 @@
 
 
 
-<!ENTITY calendar.print.button.label            "اطبع" >
-<!ENTITY calendar.print.button.accesskey        "ط">
+
+
 
 
 
@@ -141,12 +141,12 @@
 
 
 
-<!ENTITY calendar.context.cutevent.label              "قص">
-<!ENTITY calendar.context.cutevent.accesskey          "ص">
-<!ENTITY calendar.context.copyevent.label             "انسخ">
-<!ENTITY calendar.context.copyevent.accesskey         "س">
-<!ENTITY calendar.context.pasteevent.label            "ألصق">
-<!ENTITY calendar.context.pasteevent.accesskey        "ص">
+
+
+
+
+
+
 
 
 
@@ -173,7 +173,6 @@
 
 
 
-<!ENTITY priority.level.none                "غير محدّد">
 
 
 
@@ -192,8 +191,6 @@
 <!-- Task View -->
 <!-- Note that the above *.context.* strings are currently used for the other
      task action buttons -->
-
-<!ENTITY calendar.taskview.delete.label     "احذف">
 <!-- Server Context Menu -->
 
 
@@ -352,6 +349,10 @@
 <!ENTITY calendar.context.convertmenu.message.label      "Message…">
 <!ENTITY calendar.context.convertmenu.task.accesskey     "T">
 <!ENTITY calendar.context.convertmenu.task.label         "Task…">
+<!ENTITY calendar.context.copyevent.accesskey         "C">
+<!ENTITY calendar.context.copyevent.label             "Copy">
+<!ENTITY calendar.context.cutevent.accesskey          "t">
+<!ENTITY calendar.context.cutevent.label              "Cut">
 <!ENTITY calendar.context.deleteevent.accesskey       "l">
 <!ENTITY calendar.context.deleteevent.label           "Delete Event">
 <!ENTITY calendar.context.deleteserver2.accesskey      "D">
@@ -378,6 +379,8 @@
 <!ENTITY calendar.context.newserver.label              "New Calendar…">
 <!ENTITY calendar.context.newtodo.accesskey           "k">
 <!ENTITY calendar.context.newtodo.label               "New Task…">
+<!ENTITY calendar.context.pasteevent.accesskey        "P">
+<!ENTITY calendar.context.pasteevent.label            "Paste">
 <!ENTITY calendar.context.postpone.1day.accesskey   "D">
 <!ENTITY calendar.context.postpone.1day.label       "1 Day">
 <!ENTITY calendar.context.postpone.1hour.accesskey  "H">
@@ -486,6 +489,8 @@
 <!ENTITY calendar.prevmonth.label               "Previous Month" >
 <!ENTITY calendar.prevweek.accesskey            "s" >
 <!ENTITY calendar.prevweek.label                "Previous Week" >
+<!ENTITY calendar.print.button.accesskey        "P">
+<!ENTITY calendar.print.button.label            "Print" >
 <!ENTITY calendar.print.completedtasks.label "Completed tasks">
 <!ENTITY calendar.print.currentView2.label "Current view">
 <!ENTITY calendar.print.custom.label "Custom date range:">
@@ -575,6 +580,11 @@
 
 <!ENTITY calendar.tasks.view.minimonth.label           "Mini-Month">
 
+<!-- Task View -->
+<!-- Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label     "Delete">
+
 <!ENTITY calendar.today.button.label          "Today">
 
 <!ENTITY calendar.today.button.tooltip          "Go to Today" >
@@ -642,6 +652,8 @@
 <!ENTITY priority.level.high.accesskey      "H">
 <!ENTITY priority.level.low                 "Low">
 <!ENTITY priority.level.low.accesskey       "L">
+
+<!ENTITY priority.level.none                "Not specified">
 <!ENTITY priority.level.none.accesskey      "s">
 <!ENTITY priority.level.normal              "Normal">
 <!ENTITY priority.level.normal.accesskey    "N">
