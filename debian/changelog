@@ -1,3 +1,11 @@
+iceowl-l10n (4.3~b2-1) experimental; urgency=medium
+
+  * [c544b62] Imported Upstream version 4.3~b2
+  * [735dc26] rebuild patch queue from patch-queue branch
+  * [855c272] adjusting iceowl-extension deps
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 20 Sep 2015 11:19:47 +0200
+
 iceowl-l10n (4.2~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
