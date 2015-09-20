@@ -10,8 +10,8 @@
 
 
 
-
-
+<!ENTITY pref.categories.removeButton.label "أزل">
+<!ENTITY pref.categories.removeButton.accesskey "ز">
 
 
 
@@ -39,6 +39,4 @@
 <!ENTITY pref.categories.none.label "(none)">
 <!ENTITY pref.categories.overwrite "A category already exists with that name. \n Do you want to overwrite it?">
 <!ENTITY pref.categories.overwrite.title "Warning: Duplicate name">
-<!ENTITY pref.categories.removeButton.accesskey "R">
-<!ENTITY pref.categories.removeButton.label "Remove">
 <!ENTITY pref.categories.usecolor.label "Use Color">

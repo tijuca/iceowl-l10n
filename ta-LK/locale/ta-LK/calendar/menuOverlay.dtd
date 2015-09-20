@@ -119,3 +119,4 @@
 
 <!ENTITY event.new.task                         "New Task…">
 <!ENTITY event.new.task.accesskey               "k">
+<!ENTITY showUnifinderCmd.tooltip               "Toggle the find events pane">
