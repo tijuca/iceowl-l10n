@@ -6,151 +6,84 @@
    - your editor isn't using UTF-8 encoding and may munge up the document!
   -->
 <!-- Tools menu -->
+
+
+<!ENTITY lightning.preferencesLabel "تقويم">
 <!-- New menu popup in File menu -->
 
-
-
-
-
+<!ENTITY lightning.menupopup.new.event.label    "الحدث...">
+<!ENTITY lightning.menupopup.new.event.accesskey "ا">
+<!ENTITY lightning.menupopup.new.task.label     "مهمة...">
+<!ENTITY lightning.menupopup.new.task.accesskey "م">
+<!ENTITY lightning.menupopup.new.calendar.label "تقويم...">
+<!ENTITY lightning.menupopup.new.calendar.accesskey "ت">
 <!-- Open menu popup in File menu -->
 
-
-
-
-
+<!ENTITY lightning.menupopup.open.label               "افتح">
+<!ENTITY lightning.menupopup.open.accesskey           "ا">
+<!ENTITY lightning.menupopup.open.message.label       "الرسالة المحفوظة">
+<!ENTITY lightning.menupopup.open.message.accesskey   "ا">
+<!ENTITY lightning.menupopup.open.calendar.label      "ملف التقويم ">
+<!ENTITY lightning.menupopup.open.calendar.accesskey  "ا">
 <!-- View Menu -->
 
-
-
+<!ENTITY lightning.menu.view.calendar.label            "التقويم">
+<!ENTITY lightning.menu.view.calendar.accesskey        "ا">
+<!ENTITY lightning.menu.view.tasks.label               "المهام">
+<!ENTITY lightning.menu.view.tasks.accesskey           "ا">
 <!-- Events and Tasks menu -->
 
+<!ENTITY lightning.menu.eventtask.label                "الأحداث و المهام">
+<!ENTITY lightning.menu.eventtask.accesskey            "ا">
 <!-- properties dialog, calendar creation wizard -->
+
+<!ENTITY lightning.calendarproperties.email.label               "بريد إلكتروني:">
 <!-- iMIP Bar (meeting support) -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!ENTITY lightning.imipbar.btnAccept.label                                  "اقبل">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "اقبل دعوة الحدث">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "اقبل الكل">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "اقبل دعوة الحدث لجميع أحداث الواقعة">
+<!ENTITY lightning.imipbar.btnAdd.label                                     "أضف">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "أَضف الحدث للتقويم">
+<!ENTITY lightning.imipbar.btnDecline.label                                 "ارفض">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "ارفض دعوة الحدث">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "ارفض الكل">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "ارفض دعوة الحدث لجميع أحداث الواقعة">
+<!ENTITY lightning.imipbar.btnDelete.label                                  "احذف">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "احذف من التقويم">
+<!ENTITY lightning.imipbar.btnDetails.label                                 "التفاصيل...">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "أظهر تفاصيل الحدث">
+<!ENTITY lightning.imipbar.btnMore.label                                    "المزيد">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext                              "اضغط لرؤية المزيد من الخيارات ">
+<!ENTITY lightning.imipbar.btnReconfirm2.label                              "أعد التأكيد">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "إرسال إعادة التأكيد للمنظم">
+<!ENTITY lightning.imipbar.btnSaveCopy.label                                "احفظ نسخة">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "احفظ نسخة من الحدث للتقويم بطريقة منفصلة للرد الى المنظم. قائمة الحضور سيتم مسحها">
+<!ENTITY lightning.imipbar.btnTentative.label                               "مؤقت">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "اقبل دعوة الحدث مؤقتاً">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "أقّت الكل">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "اقبل دعوة الحدث مؤقتاً لجميع أحداث الواقعة">
+<!ENTITY lightning.imipbar.btnUpdate.label                                  "حدّث">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "حدّث واقعة معينة في التقويم">
+<!ENTITY lightning.imipbar.description                                      "هذه الرسالة تحتوي على دعوة لحدث ما">
 <!-- Lightning specific keybindings -->
 
-
-
+<!ENTITY lightning.keys.event.showCalendar.key "س">
+<!ENTITY lightning.keys.event.showTasks.key "د">
+<!ENTITY lightning.keys.event.new "ي">
+<!ENTITY lightning.keys.todo.new "د">
 <!-- Account Central page -->
+
+<!ENTITY lightning.acctCentral.newCalendar.label "اعمل تقويم جديد">
 <!-- today-pane-specific -->
 
-
-
-
-
-
-
-
-
-
-<!-- Account Central page -->
-<!ENTITY lightning.acctCentral.newCalendar.label "Create a new calendar">
-
-<!-- properties dialog, calendar creation wizard -->
-<!ENTITY lightning.calendarproperties.email.label               "E-Mail:">
-
-<!-- iMIP Bar (meeting support) -->
-<!ENTITY lightning.imipbar.btnAccept.label                                  "Accept">
-<!ENTITY lightning.imipbar.btnAccept2.tooltiptext                           "Accept event invitation">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences.label                       "Accept all">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext                "Accept event invitation for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnAdd.label                                     "Add">
-<!ENTITY lightning.imipbar.btnAdd.tooltiptext                               "Add the event to the calendar">
-<!ENTITY lightning.imipbar.btnDecline.label                                 "Decline">
-<!ENTITY lightning.imipbar.btnDecline2.tooltiptext                          "Decline event invitation">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences.label                      "Decline all">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext               "Decline event invitation for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnDelete.label                                  "Delete">
-<!ENTITY lightning.imipbar.btnDelete.tooltiptext                            "Delete from calendar">
-<!ENTITY lightning.imipbar.btnDetails.label                                 "Details…">
-<!ENTITY lightning.imipbar.btnDetails.tooltiptext                           "Show event details">
-<!ENTITY lightning.imipbar.btnMore.label                                    "More">
-<!ENTITY lightning.imipbar.btnMore.tooltiptext                              "Click to show more options">
-<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext                         "Sends a reconfirmation to the organizer">
-<!ENTITY lightning.imipbar.btnReconfirm2.label                              "Reconfirm">
-<!ENTITY lightning.imipbar.btnSaveCopy.label                                "Save a copy">
-<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext                          "Save a copy of the event to the calendar independently of replying to the organizer. The list of attendees will be cleared.">
-<!ENTITY lightning.imipbar.btnTentative.label                               "Tentative">
-<!ENTITY lightning.imipbar.btnTentative2.tooltiptext                        "Accept event invitation tentatively">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences.label                    "Tentative all">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext             "Accept event invitation tentatively for all occurrences of the event">
-<!ENTITY lightning.imipbar.btnUpdate.label                                  "Update">
-<!ENTITY lightning.imipbar.btnUpdate.tooltiptext                            "Update event in calendar">
-<!ENTITY lightning.imipbar.description                                      "This message contains an invitation to an event.">
-<!ENTITY lightning.keys.event.new "I">
-
-<!-- Lightning specific keybindings -->
-<!ENTITY lightning.keys.event.showCalendar.key "C">
-<!ENTITY lightning.keys.event.showTasks.key "D">
-<!ENTITY lightning.keys.todo.new "D">
-<!ENTITY lightning.menu.eventtask.accesskey            "n">
-
-<!-- Events and Tasks menu -->
-<!ENTITY lightning.menu.eventtask.label                "Events and Tasks">
-<!ENTITY lightning.menu.view.calendar.accesskey        "n">
-
-<!-- View Menu -->
-<!ENTITY lightning.menu.view.calendar.label            "Calendar">
-<!ENTITY lightning.menu.view.tasks.accesskey           "k">
-<!ENTITY lightning.menu.view.tasks.label               "Tasks">
-<!ENTITY lightning.menupopup.new.calendar.accesskey "n">
-<!ENTITY lightning.menupopup.new.calendar.label "Calendar…">
-<!ENTITY lightning.menupopup.new.event.accesskey "E">
-
-<!-- New menu popup in File menu -->
-<!ENTITY lightning.menupopup.new.event.label    "Event…">
-<!ENTITY lightning.menupopup.new.task.accesskey "T">
-<!ENTITY lightning.menupopup.new.task.label     "Task…">
-<!ENTITY lightning.menupopup.open.accesskey           "O">
-<!ENTITY lightning.menupopup.open.calendar.accesskey  "C">
-<!ENTITY lightning.menupopup.open.calendar.label      "Calendar File…">
-
-<!-- Open menu popup in File menu -->
-<!ENTITY lightning.menupopup.open.label               "Open">
-<!ENTITY lightning.menupopup.open.message.accesskey   "M">
-<!ENTITY lightning.menupopup.open.message.label       "Saved Message…">
-
-
-<!-- WARNING! This file contains UTF-8 encoded characters!
-   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document!
-  -->
-
-<!-- Tools menu -->
-<!ENTITY lightning.preferencesLabel "Calendar">
-<!ENTITY todaypane.showMiniday.accesskey  "d">
-<!ENTITY todaypane.showMiniday.label "Show Mini-Day">
-<!ENTITY todaypane.showMinimonth.accesskey "M">
-
-<!-- today-pane-specific -->
-<!ENTITY todaypane.showMinimonth.label "Show Mini-Month">
-<!ENTITY todaypane.showNone.accesskey "N">
-<!ENTITY todaypane.showNone.label "Show None">
-<!ENTITY todaypane.showTodayPane.accesskey "o">
-<!ENTITY todaypane.showTodayPane.label "Show Today Pane">
-<!ENTITY todaypane.statusButton.label "Today Pane">
+<!ENTITY todaypane.showMinimonth.label "أظهر شهر-مصغَر">
+<!ENTITY todaypane.showMinimonth.accesskey "ش">
+<!ENTITY todaypane.showMiniday.label "أظهر يوم-مصغَر">
+<!ENTITY todaypane.showMiniday.accesskey  "ي">
+<!ENTITY todaypane.showNone.label "أظهر لا شيئ">
+<!ENTITY todaypane.showNone.accesskey "ل">
+<!ENTITY todaypane.showTodayPane.label "أظهر جزء اليوم">
+<!ENTITY todaypane.showTodayPane.accesskey "أ">
+<!ENTITY todaypane.statusButton.label "جزء اليوم">

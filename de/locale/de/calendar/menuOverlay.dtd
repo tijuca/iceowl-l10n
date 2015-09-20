@@ -46,3 +46,5 @@
 
 <!ENTITY calendar.properties.label              "Kalender-Eigenschaften…">
 <!ENTITY calendar.properties.accesskey          "E">
+
+<!ENTITY showUnifinderCmd.tooltip               "Toggle the find events pane">

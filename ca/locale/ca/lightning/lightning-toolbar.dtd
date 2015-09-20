@@ -42,3 +42,11 @@
 <!ENTITY lightning.toolbar.calendarmenu.accesskey    "b">
 <!ENTITY lightning.toolbar.calendarpane.label        "Mostra la subfinestra del calendari">
 <!ENTITY lightning.toolbar.calendarpane.accesskey    "b">
+
+<!ENTITY lightning.toolbar.delete.tooltip "Delete selected events or tasks">
+<!ENTITY lightning.toolbar.edit.tooltip "Edit selected event or task">
+<!ENTITY lightning.toolbar.gototoday.tooltip "Go to Today">
+<!ENTITY lightning.toolbar.newevent.tooltip   "Create a new event">
+<!ENTITY lightning.toolbar.newtask.tooltip    "Create a new task">
+<!ENTITY lightning.toolbar.print.tooltip "Print events or tasks">
+<!ENTITY lightning.toolbar.sync.tooltip "Reload calendars and synchronize changes">

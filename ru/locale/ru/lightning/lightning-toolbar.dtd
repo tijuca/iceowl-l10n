@@ -43,3 +43,11 @@
 <!ENTITY lightning.toolbar.calendarpane.label        "Показать панель календаря">
 <!ENTITY lightning.toolbar.calendarpane.accesskey    "П">
 
+
+<!ENTITY lightning.toolbar.delete.tooltip "Delete selected events or tasks">
+<!ENTITY lightning.toolbar.edit.tooltip "Edit selected event or task">
+<!ENTITY lightning.toolbar.gototoday.tooltip "Go to Today">
+<!ENTITY lightning.toolbar.newevent.tooltip   "Create a new event">
+<!ENTITY lightning.toolbar.newtask.tooltip    "Create a new task">
+<!ENTITY lightning.toolbar.print.tooltip "Print events or tasks">
+<!ENTITY lightning.toolbar.sync.tooltip "Reload calendars and synchronize changes">

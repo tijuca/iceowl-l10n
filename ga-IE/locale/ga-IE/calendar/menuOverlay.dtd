@@ -47,3 +47,5 @@
 
 <!ENTITY calendar.properties.label              "Airíonna an Fhéilire…">
 <!ENTITY calendar.properties.accesskey          "F">
+
+<!ENTITY showUnifinderCmd.tooltip               "Toggle the find events pane">

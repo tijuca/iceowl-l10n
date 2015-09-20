@@ -37,6 +37,7 @@
 
 
 
+
 <!ENTITY goTodayCmd.label                       "Hiziv">
 <!ENTITY goTodayCmd.accesskey                   "H">
 
@@ -56,3 +57,4 @@
 <!ENTITY showCurrentView.accesskey              "V">
 
 <!ENTITY showCurrentView.label                  "Current View">
+<!ENTITY showUnifinderCmd.tooltip               "Toggle the find events pane">
