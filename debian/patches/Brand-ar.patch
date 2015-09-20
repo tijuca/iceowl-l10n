@@ -3,36 +3,30 @@ Date: Sat, 6 Jun 2015 17:53:36 +0200
 Subject: Brand-ar
 
 ---
- ar/locale/ar/lightning/lightning.properties | 8 ++++----
- 1 file changed, 4 insertions(+), 4 deletions(-)
+ ar/locale/ar/lightning/lightning.properties | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/ar/locale/ar/lightning/lightning.properties b/ar/locale/ar/lightning/lightning.properties
-index a379f70..ba60752 100644
+index 878df04..67310f9 100644
 --- a/ar/locale/ar/lightning/lightning.properties
 +++ b/ar/locale/ar/lightning/lightning.properties
-@@ -79,13 +79,13 @@ binaryComponentTitle=Mismatching %1$S Version
- binaryComponentUnknown=The binary component required for %1$S could not be loaded, likely because the wrong version combination is being used. You are using %2$S %3$S together with %1$S %4$S. Please check https://developer.mozilla.org/en/Calendar/Calendar_Versions for details.
+@@ -5,9 +5,10 @@
+ # addon description:
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=تقويم متكامل ل ثندربيرد
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=مشروع تقويم موزيلا
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
  
  # Lightning branding
 -brandShortName=Lightning
 +brandShortName=Iceowl
  
- confirmProcessInvitation=You have recently deleted this item, are you sure you want to process this invitation?
- confirmProcessInvitationTitle=Process Invitation?
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Thunderbird
+ # Task mode title
+ taskModeApplicationTitle=مهمات
+@@ -135,7 +136,6 @@ binaryComponentKnown=The binary component required for %1$S could not be loaded,
+ # %3$S - The application version
+ # %3$S - The current Lightning version
+ binaryComponentUnknown=The binary component required for %1$S could not be loaded, likely because the wrong version combination is being used. You are using %2$S %3$S together with %1$S %4$S. Please check https://developer.mozilla.org/en/Calendar/Calendar_Versions for details.
 -extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Iceowl
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
  
- imipAddToCalendar.label=Add To Calendar
- imipAddedItemToCal=Event Added to Calendar
-@@ -98,7 +98,7 @@ imipBarPublishText=This message contains an event.
- imipBarRefreshText=This message asks for an event update.
- imipBarReplyText=This message contains a reply to an invitation.
- imipBarRequestText=This message contains an invitation to an event.
--imipBarUnsupportedText=This message contains an event that this version of Lightning cannot process.
-+imipBarUnsupportedText=This message contains an event that this version of Iceowl cannot process.
- imipBarUpdateText=This message contains an update to an existing event.
- imipCanceledItem=Event has been deleted
- imipHtml.attendees=Attendees:
+ # LOCALIZATION_NOTE(integrationRestartLabel): At the current time its not yet
+ # clear if we will be completely uninstalling Lightning or disabling it. Please
