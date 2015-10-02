@@ -364,6 +364,10 @@
 <!ENTITY calendar.context.export.label                 "Export Calendar…">
 <!ENTITY calendar.context.findcalendar.accesskey       "F" >
 <!ENTITY calendar.context.findcalendar.label           "Find Calendar…" >
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!ENTITY calendar.context.markcompleted.accesskey "o">
 <!ENTITY calendar.context.markcompleted.label     "Mark Completed">
 <!ENTITY calendar.context.modifyorviewtask.accesskey  "O">
@@ -405,15 +409,15 @@
 <!ENTITY calendar.context.showall.accesskey            "A">
 <!ENTITY calendar.context.showall.label                "Show All Calendars">
 
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
+
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 <!ENTITY calendar.context.showonly.accesskey           "O">
 <!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.synccalendars.label          "Synchronize Calendars">
-
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.togglevisible.accesskey      "H">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
 <!ENTITY calendar.context.unsubscribeserver.label      "Unsubscribe Calendar…">
 <!ENTITY calendar.copylink.accesskey   "C">

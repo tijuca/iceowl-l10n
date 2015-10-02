@@ -368,3 +368,12 @@
 <!ENTITY calendar.extract.task.button          "Legg til som oppgåve">
 <!ENTITY calendar.extract.event.button.tooltip "Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei hending">
 <!ENTITY calendar.extract.task.button.tooltip  "Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei oppgåve">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

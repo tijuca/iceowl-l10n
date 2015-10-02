@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Afegeix com a tasca">
 <!ENTITY calendar.extract.event.button.tooltip "Extreu la informació temporal del missatge i l'afegeix al calendari com a cita">
 <!ENTITY calendar.extract.task.button.tooltip  "Extreu la informació temporal del missatge i l'afegeix al calendari com a tasca">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Gehitu zeregin gisa">
 <!ENTITY calendar.extract.event.button.tooltip "Erauzi egutegi-informazioa mezutik eta gehitu zure egutegian gertaera gisa">
 <!ENTITY calendar.extract.task.button.tooltip  "Erauzi egutegi-informazioa mezutik eta gehitu zure egutegian zeregin gisa">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

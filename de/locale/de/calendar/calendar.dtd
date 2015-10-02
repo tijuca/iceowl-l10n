@@ -361,3 +361,12 @@
 <!ENTITY calendar.extract.task.button          "Als Aufgabe eintragen">
 <!ENTITY calendar.extract.event.button.tooltip "Kalenderinformationen aus der Nachricht auslesen und als Termin zum Kalender hinzufügen">
 <!ENTITY calendar.extract.task.button.tooltip  "Kalenderinformationen aus der Nachricht auslesen und als Aufgabe zum Kalender hinzufügen">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

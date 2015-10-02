@@ -369,10 +369,18 @@
 <!ENTITY calendar.alarm.snoozefor.label             "Snooze for" >
 <!ENTITY calendar.context.convertmenu.accesskey.calendar "v">
 <!ENTITY calendar.context.convertmenu.accesskey.mail     "n">
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!ENTITY calendar.context.postpone.accesskey          "s">
 <!ENTITY calendar.context.postpone.label              "Postpone Task">
 <!ENTITY calendar.context.publish.accesskey            "b">
 <!ENTITY calendar.context.publish.label                "Publish Calendar…">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
 <!ENTITY calendar.task-details.organizer.label       "from">
 <!ENTITY calendar.task-details.repeat.label          "repeat">
 <!ENTITY calendar.task.filter.completed.accesskey   "C">
