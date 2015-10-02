@@ -366,6 +366,10 @@
 
 <!ENTITY calendar.context.deleteserver2.accesskey      "D">
 <!ENTITY calendar.context.deleteserver2.label          "Delete Calendar…">
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
@@ -373,6 +377,10 @@
       clear the data and unsubscribing means just taking it out of the calendar
       list. -->
 <!ENTITY calendar.context.removeserver.label           "Remove Calendar…">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
 <!ENTITY calendar.context.unsubscribeserver.label      "Unsubscribe Calendar…">
 <!ENTITY calendar.upcoming.button.label       "Upcoming">

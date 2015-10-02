@@ -361,6 +361,10 @@
 <!ENTITY calendar.context.attendance.occurrence.label "This Occurrence" >
 <!ENTITY calendar.context.deleteserver2.accesskey      "D">
 <!ENTITY calendar.context.deleteserver2.label          "Delete Calendar…">
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!ENTITY calendar.context.postpone.1day.accesskey   "D">
 <!ENTITY calendar.context.postpone.1day.label       "1 Day">
 <!ENTITY calendar.context.postpone.1hour.accesskey  "H">
@@ -380,15 +384,15 @@
 <!ENTITY calendar.context.showall.accesskey            "A">
 <!ENTITY calendar.context.showall.label                "Show All Calendars">
 
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
+
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 <!ENTITY calendar.context.showonly.accesskey           "O">
 <!ENTITY calendar.context.synccalendars.accesskey      "S">
 <!ENTITY calendar.context.synccalendars.label          "Synchronize Calendars">
-
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.togglevisible.accesskey      "H">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
 <!ENTITY calendar.context.unsubscribeserver.label      "Unsubscribe Calendar…">
 <!ENTITY calendar.copylink.accesskey   "C">

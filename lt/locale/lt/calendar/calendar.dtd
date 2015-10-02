@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Pridėti kaip darbą">
 <!ENTITY calendar.extract.event.button.tooltip "Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip įvykį">
 <!ENTITY calendar.extract.task.button.tooltip  "Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip darbą">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

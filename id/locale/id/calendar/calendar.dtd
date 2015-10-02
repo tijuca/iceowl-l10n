@@ -379,6 +379,10 @@
 
 <!ENTITY calendar.context.deleteserver2.accesskey      "D">
 <!ENTITY calendar.context.deleteserver2.label          "Delete Calendar…">
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!ENTITY calendar.context.removeserver.accesskey       "R">
 
 <!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
@@ -389,13 +393,13 @@
 <!ENTITY calendar.context.showall.accesskey            "A">
 <!ENTITY calendar.context.showall.label                "Show All Calendars">
 
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
+
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 <!ENTITY calendar.context.showonly.accesskey           "O">
-
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.togglevisible.accesskey      "H">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
 <!ENTITY calendar.context.unsubscribeserver.label      "Unsubscribe Calendar…">
 

@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Jako nadawk přidać">
 <!ENTITY calendar.extract.event.button.tooltip "Protykowe informacije z powěsće ekstrahować a je wašej protyce jako podawk přidać">
 <!ENTITY calendar.extract.task.button.tooltip  "Protykowe informacije z powěsće ekstrahować a je wašej protyce jako nadawk přidać">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

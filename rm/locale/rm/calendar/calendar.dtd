@@ -371,6 +371,14 @@
 
 <!ENTITY calendar.alarm.snoozefor.label             "Snooze for" >
 <!ENTITY calendar.alarm.title.label                 "Calendar Reminders" >
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
 <!ENTITY calendar.error.code "Error code:">
 <!ENTITY calendar.error.description "Description:">
 

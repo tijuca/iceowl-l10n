@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Felvétel feladatként">
 <!ENTITY calendar.extract.event.button.tooltip "Naptár-információk kinyerése az üzenetből, és azok felvétele a naptárba eseményként">
 <!ENTITY calendar.extract.task.button.tooltip  "Naptár-információk kinyerése az üzenetből, és azok felvétele a naptárba feladatként">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">

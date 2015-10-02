@@ -369,3 +369,12 @@
 <!ENTITY calendar.extract.task.button          "Ychwanegu fel tasg">
 <!ENTITY calendar.extract.event.button.tooltip "Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel digwyddiad">
 <!ENTITY calendar.extract.task.button.tooltip  "Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel tasg">
+
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
+
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
