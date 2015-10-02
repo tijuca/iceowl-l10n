@@ -7,7 +7,7 @@ Subject: Brand-uk
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/uk/locale/uk/lightning/lightning.properties b/uk/locale/uk/lightning/lightning.properties
-index bc6e493..efaa313 100644
+index 2768b86..6bd40d3 100644
 --- a/uk/locale/uk/lightning/lightning.properties
 +++ b/uk/locale/uk/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -33,5 +33,5 @@ index bc6e493..efaa313 100644
 -imipBarUnsupportedText=Це повідомлення містить подію, яку ця версія Lightning не може обробити.
 +imipBarUnsupportedText=Це повідомлення містить подію, яку ця версія Iceowl не може обробити.
  imipBarProcessingFailed=Обробка повідомлення не вдалася. Статус: %1$S.
- imipBarNotWritable=No writable calendars are configured for invitations, please check the calendar properties.
+ imipBarNotWritable=Немає налаштованих для запису календарів для запрошень. Будь ласка, перевірте властивості календаря.
  imipSendMail.title=E-Mail сповіщення

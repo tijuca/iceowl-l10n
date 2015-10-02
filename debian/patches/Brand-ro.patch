@@ -7,7 +7,7 @@ Subject: Brand-ro
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ro/locale/ro/lightning/lightning.properties b/ro/locale/ro/lightning/lightning.properties
-index 8a8fd30..b07fbec 100644
+index 8bacc98..5762221 100644
 --- a/ro/locale/ro/lightning/lightning.properties
 +++ b/ro/locale/ro/lightning/lightning.properties
 @@ -3,12 +3,12 @@
