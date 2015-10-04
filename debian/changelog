@@ -1,3 +1,14 @@
+iceowl-l10n (4.4~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [7555429] Imported Upstream version 4.4~b1
+  * [9852b35] rebuild patch queue from patch-queue branch
+  * [140fc85] adjusting iceowl-extension deps
+  * [aaff257] debian/control: adding myself to the uploaders
+  * [fd6cd96] debian/control: adjusting git view to the CGit webui
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 04 Oct 2015 10:52:56 +0200
+
 iceowl-l10n (4.3~b2-1) experimental; urgency=medium
 
   * [c544b62] Imported Upstream version 4.3~b2
