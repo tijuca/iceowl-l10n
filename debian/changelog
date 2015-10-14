@@ -1,3 +1,11 @@
+iceowl-l10n (4.4~b2-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [f0612f0] Imported Upstream version 4.4~b2
+  * [82f6ff1] rebuild patch queue from patch-queue branch
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 14 Oct 2015 21:21:35 +0200
+
 iceowl-l10n (4.4~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
