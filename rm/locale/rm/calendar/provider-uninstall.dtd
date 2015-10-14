@@ -2,20 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-
-
-
-
-
-
-
-<!ENTITY providerUninstall.accept.accesskey                "U">
-<!ENTITY providerUninstall.accept.label                    "Unsubscribe Selected">
+<!ENTITY providerUninstall.title                           "Deinstallar in purschider">
+<!ENTITY providerUninstall.accept.label                    "Deabunar ils tschernids">
+<!ENTITY providerUninstall.accept.accesskey                "u">
+<!ENTITY providerUninstall.cancel.label                    "Salvar il supplement">
 <!ENTITY providerUninstall.cancel.accesskey                "K">
-<!ENTITY providerUninstall.cancel.label                    "Keep Addon">
-<!ENTITY providerUninstall.postName.label                  "This will cause the calendars below to be disabled.">
-<!ENTITY providerUninstall.preName.label                   "You have requested to uninstall or disable:">
-<!ENTITY providerUninstall.reinstallNote.label             "Unless you are planning to reinstall this provider, you may choose to unsubscribe from this provider's calendars.">
-
-
-<!ENTITY providerUninstall.title                           "Uninstall a Provider">
+<!ENTITY providerUninstall.preName.label                   "Ti has decidì da deinstallar u deactivar:">
+<!ENTITY providerUninstall.postName.label                  "Quai vegn a deactivar ils chalenders sutvart.">
+<!ENTITY providerUninstall.reinstallNote.label             "Sche ti n'has betg l'intenziun da reinstallar quest purschider, pos ti era deabunar ils chalenders da quest purschider.">
