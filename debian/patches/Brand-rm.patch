@@ -7,32 +7,31 @@ Subject: Brand-rm
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/rm/locale/rm/lightning/lightning.properties b/rm/locale/rm/lightning/lightning.properties
-index 4b294dc..51fd4d1 100644
+index 0f42f48..2a53431 100644
 --- a/rm/locale/rm/lightning/lightning.properties
 +++ b/rm/locale/rm/lightning/lightning.properties
-@@ -86,13 +86,13 @@ binaryComponentTitle=Mismatching %1$S Version
- binaryComponentUnknown=The binary component required for %1$S could not be loaded, likely because the wrong version combination is being used. You are using %2$S %3$S together with %1$S %4$S. Please check https://developer.mozilla.org/en/Calendar/Calendar_Versions for details.
+@@ -3,12 +3,12 @@
+ # file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ 
+ # addon description:
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
+-extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=In chalender integrà per Thunderbird
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
++extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=In chalender integrà per Icedove
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Il project da chalender da Mozilla
  
  # Lightning branding
 -brandShortName=Lightning
 +brandShortName=Iceowl
  
- confirmProcessInvitation=You have recently deleted this item, are you sure you want to process this invitation?
- confirmProcessInvitationTitle=Process Invitation?
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=Mozilla Calendar Project
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Thunderbird
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=An integrated calendar for Icedove
-+extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
- 
- imipAddToCalendar.label=Add To Calendar
- imipAddedItemToCal=Event Added to Calendar
-@@ -104,7 +104,7 @@ imipBarProcessingFailed=Processing message failed. Status: %1$S.
- imipBarPublishText=This message contains an event.
- imipBarRefreshText=This message asks for an event update.
- imipBarReplyText=This message contains a reply to an invitation.
--imipBarUnsupportedText=This message contains an event that this version of Lightning cannot process.
-+imipBarUnsupportedText=This message contains an event that this version of Iceowl cannot process.
- imipBarUpdateText=This message contains an update to an existing event.
- imipCanceledItem=Event has been deleted
- imipHtml.canceledOccurrences=Canceled Occurrences:
+ # Task mode title
+ taskModeApplicationTitle=Incumbensas
+@@ -42,7 +42,7 @@ imipBarUpdateText=Quest messadi cuntegna ina actualisaziun dad in eveniment exis
+ imipBarAlreadyProcessedText=Quest messadi cuntegna in eveniment gia elavurà.
+ imipBarProcessedNeedsAction=Quest messadi cuntegna in eveniment al qual ti n'has anc betg respundì.
+ imipBarReplyText=Quest messadi cuntegna ina resposta ad ina invitaziun.
+-imipBarUnsupportedText=Quest messadi cuntegna in eveniment che questa versiun da Lightning na po betg elavurar.
++imipBarUnsupportedText=Quest messadi cuntegna in eveniment che questa versiun da Iceowl na po betg elavurar.
+ imipBarProcessingFailed=Betg reussì dad elavurar il messadi. Status: %1$S.
+ imipBarNotWritable=I n'è betg vegnì configurà in chalender che permetta da scriver invitaziuns lien. Controllescha per plaschair las caracteristicas dal chalender.
+ imipSendMail.title=Avis dad e-mail
