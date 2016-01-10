@@ -30,6 +30,8 @@
 
 
 
+<!ENTITY pref.calendar.view-minimonth.showweeknumber.accesskey "w">
+<!ENTITY pref.calendar.view-minimonth.showweeknumber.label "Show week number in views and minimonth">
 
 
 <!-- WARNING! This file contains UTF-8 encoded characters!
