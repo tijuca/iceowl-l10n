@@ -201,19 +201,24 @@ if [ -n "${DOWNLOAD}" ]; then
         # packages for every single language instead of one single file without
         # all languages.
         # getting the latest build inside a release candidates
-        RET=`curl --silent http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/ \
-             | grep "<a href=\"build" | awk '{print $5,$6;}' | tr '<>/"' ' ' | awk '{print $2,$9;}' | tail -n 1`
+        RET=`curl --silent http://download.cdn.mozilla.net/pub/calendar/lightning/candidates/${BETA_VER}-candidates/ \
+             | grep "build" | awk '{print $2}' | tr '<>/"' ' ' | awk '{print $8}' | tail -1`
         if [ "$?" = "0" -a "${RET}" != "" ]; then
             DIRECTORY=`echo ${RET} | tr ' ' '\n' | head -1`
             DATE=`echo ${RET} | tr ' ' '\n' | tail -1`
             debug "found directory '${BETA_VER}-candidates/${DIRECTORY}' from '${DATE}'"
             debug "creating ${UNPACKDIR}"
             mkdir ${UNPACKDIR}
-            debug "going downloading *.xpi files from http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/"
+            debug "going downloading *.xpi files from http://download.cdn.mozilla.net/pub/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/"
             cd /tmp
-            # going to download the files
-            wget -m -r -l 1 -A xpi http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/
-            for XPIFILE in `ls download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/lightning-*.*.linux-i686.xpi`; do
+            # going to download the files, creating a list of the XPI files first
+            XPI_LIST=`curl --silent http://download.cdn.mozilla.net/pub/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/ | grep "lightning-" | awk '{print $2}' | tr '<>"' ' ' | awk '{print $2}'`
+            for i in ${XPI_LIST}; do
+                wget -m -r -l 1 -A xpi http://download.cdn.mozilla.net/${i}
+            done
+
+            # unpack alle files
+            for XPIFILE in `ls download.cdn.mozilla.net/pub/calendar/lightning/candidates/${BETA_VER}-candidates/${DIRECTORY}/linux-i686/lightning-*.*.linux-i686.xpi`; do
                 LANG=`basename ${XPIFILE} | sed s/lightning-${BETA_VER}.// | sed s/.linux-i686.xpi//`
                 debug "extracting '`basename ${XPIFILE}`' to '${UNPACKDIR}/${LANG}'"
                 mkdir ${UNPACKDIR}/${LANG}
@@ -225,7 +230,7 @@ if [ -n "${DOWNLOAD}" ]; then
         fi
     else
         # getting the stable version
-        wget -O${XPI} http://download.cdn.mozilla.net/pub/mozilla.org/calendar/lightning/releases/${VERSION}/linux/${XPI}
+        wget -O${XPI} http://download.cdn.mozilla.net/pub/calendar/lightning/releases/${VERSION}/linux/${XPI}
         XPI=$(readlink -f ${XPI})
         echo "XPI saved to: ${XPI}"
     fi
