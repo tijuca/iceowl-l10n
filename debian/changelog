@@ -1,3 +1,12 @@
+iceowl-l10n (4.5~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [3d57245] Imported Upstream version 4.5~b1
+  * [9a7fb01] adjusting iceowl-extension deps
+  * [54564df] d/create-upstream-tarball: adopt upstream changes
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 10 Jan 2016 17:42:08 +0100
+
 iceowl-l10n (4.4~b2-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
