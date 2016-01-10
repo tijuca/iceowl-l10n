@@ -252,10 +252,14 @@
 <!ENTITY calendar.context.export.accesskey             "E">
 <!ENTITY calendar.context.properties.label             "Airíonna">
 <!ENTITY calendar.context.properties.accesskey         "A">
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
      This is the access key used for the showCalendar string -->
 
-<!ENTITY calendar.context.togglevisible.accesskey      "T">
+<!ENTITY calendar.context.showcalendar.accesskey      "h">
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+
+<!ENTITY calendar.context.hidecalendar.accesskey      "H">
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 
@@ -369,12 +373,3 @@
 <!ENTITY calendar.extract.task.button          "Cuir leis mar thasc">
 <!ENTITY calendar.extract.event.button.tooltip "Bain faisnéis faoin imeacht as an teachtaireacht agus cuir le d'fhéilire é">
 <!ENTITY calendar.extract.task.button.tooltip  "Bain faisnéis faoi thasc as an teachtaireacht agus cuir le d'fhéilire é">
-
-
-<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
-     This is the access key used for the hideCalendar string -->
-<!ENTITY calendar.context.hidecalendar.accesskey      "H">
-
-<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.showcalendar.accesskey      "h">
