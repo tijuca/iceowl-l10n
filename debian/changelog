@@ -1,3 +1,18 @@
+iceowl-l10n (4.6~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [761060d] Imported Upstream version 4.6~b1
+  * [e99aa89] adjusting iceowl-extension deps
+
+  [ Roland Rosenfeld ]
+  * [76b5d8b] iceowl-l10n-de: prefer hunspell instead of myspell
+    (Closes: #813829)
+
+  [ Carsten Schoenert ]
+  * [1d3c166] debian/control: switch URI for the Vcs fields to https
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 07 Feb 2016 19:00:19 +0100
+
 iceowl-l10n (4.5~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
