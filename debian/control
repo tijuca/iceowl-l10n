@@ -123,7 +123,7 @@ Package: iceowl-l10n-de
 Architecture: all
 Depends: ${misc:Depends},
  iceowl-extension (>= 44.0~), iceowl-extension (<< 45)
-Recommends: myspell-de-de | myspell-de-at | myspell-de-ch
+Recommends: hunspell-de-de | hunspell-de-at | hunspell-de-ch
 Description: German language package for iceowl-extension
  The iceowl-extension is a Mozilla based calendar extension for Icedove.
  It's goal is to integrate a Calendar and Task application using the XUL
