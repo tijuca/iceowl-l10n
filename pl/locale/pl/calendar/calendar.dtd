@@ -245,7 +245,14 @@
 <!ENTITY calendar.context.properties.label             "Właściwości">
 <!ENTITY calendar.context.properties.accesskey         "W">
 
-<!ENTITY calendar.context.togglevisible.accesskey "k">
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey      "k">
+
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey      "k">
+
 <!ENTITY calendar.context.showonly.accesskey "a">
 <!ENTITY calendar.context.showall.label "Pokaż wszystkie kalendarze">
 <!ENTITY calendar.context.showall.accesskey "w">
@@ -353,12 +360,3 @@ dialog. -->
 <!ENTITY calendar.extract.task.button "Dodaj jako zadanie">
 <!ENTITY calendar.extract.event.button.tooltip "Wyodrębnij informacje o wydarzeniu z wiadomości i dodaj je do kalendarza">
 <!ENTITY calendar.extract.task.button.tooltip "Wyodrębnij informacje o zadaniu z wiadomości i dodaj je do kalendarza">
-
-
-<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
-     This is the access key used for the hideCalendar string -->
-<!ENTITY calendar.context.hidecalendar.accesskey      "H">
-
-<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.showcalendar.accesskey      "h">
