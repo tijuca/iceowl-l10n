@@ -7,8 +7,8 @@ Uploaders: Christoph Goehre <chris@sigxcpu.org>,
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.9.6
-Vcs-Git: git://anonscm.debian.org/pkg-mozext/iceowl-l10n.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozext/iceowl-l10n.git/
+Vcs-Git: https://anonscm.debian.org/cgit/pkg-mozext/iceowl-l10n.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-mozext/iceowl-l10n.git
 Homepage: http://www.mozilla.org/en-US/projects/calendar/
 
 Package: iceowl-l10n-ar
