@@ -30,6 +30,7 @@
 
 <!ENTITY showUnifinderCmd.label                 "Znajdź wydarzenia">
 <!ENTITY showUnifinderCmd.accesskey             "d">
+<!ENTITY showUnifinderCmd.tooltip               "Przełącz panel wyszukiwania wydarzeń">
 
 <!ENTITY calendar.displaytodos.checkbox.label       "Wyświetlaj zadania w kalendarzu">
 <!ENTITY calendar.displaytodos.checkbox.accesskey   "z">
@@ -41,5 +42,3 @@
 <!ENTITY showCurrentView.accesskey              "B">
 <!ENTITY calendar.properties.label              "Właściwości kalendarza…">
 <!ENTITY calendar.properties.accesskey          "W">
-
-<!ENTITY showUnifinderCmd.tooltip               "Toggle the find events pane">
