@@ -7,7 +7,7 @@ Subject: Brand-fy-NL
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fy-NL/locale/fy-NL/lightning/lightning.properties b/fy-NL/locale/fy-NL/lightning/lightning.properties
-index ad37826..0dc220f 100644
+index 157630f..dbf2b72 100644
 --- a/fy-NL/locale/fy-NL/lightning/lightning.properties
 +++ b/fy-NL/locale/fy-NL/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index ad37826..0dc220f 100644
  
  # Task mode title
  taskModeApplicationTitle=Taken
-@@ -42,7 +42,7 @@ imipBarUpdateText=Dit berjocht hat in fernijing foar in besteand barren.
+@@ -122,7 +122,7 @@ imipBarUpdateText=Dit berjocht hat in fernijing foar in besteand barren.
  imipBarAlreadyProcessedText=Dit berjocht hat in barren dat al tafoege is oan jo aginda.
  imipBarProcessedNeedsAction=Dit berjocht befettet in barren wêrop jo noch net reagearre hawwe.
  imipBarReplyText=Dit berjocht hat in antwurd op in útnoeging.

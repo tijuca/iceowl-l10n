@@ -7,7 +7,7 @@ Subject: Brand-cy
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/cy/locale/cy/lightning/lightning.properties b/cy/locale/cy/lightning/lightning.properties
-index f665c5b..4617356 100644
+index 9309f7e..f6bc672 100644
 --- a/cy/locale/cy/lightning/lightning.properties
 +++ b/cy/locale/cy/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index f665c5b..4617356 100644
  
  # Task mode title
  taskModeApplicationTitle=Tasgau
-@@ -42,7 +42,7 @@ imipBarUpdateText=Mae'r neges yn cynnwys diweddariad i ddigwyddiad cyfredol.
+@@ -97,7 +97,7 @@ imipBarUpdateText=Mae'r neges yn cynnwys diweddariad i ddigwyddiad cyfredol.
  imipBarAlreadyProcessedText=Mae'r neges yn cynnwys digwyddiad sydd wedi'i brosesu eisoes.
  imipBarProcessedNeedsAction=Mae'r neges yn cynnwys digwyddiad nad ydych wedi ymateb iddi eto.
  imipBarReplyText=Mae'r neges yn cynnwys ymateb i wahoddiad.

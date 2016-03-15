@@ -7,7 +7,7 @@ Subject: Brand-cs
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/cs/locale/cs/lightning/lightning.properties b/cs/locale/cs/lightning/lightning.properties
-index 2b28431..d27fa96 100644
+index f595009..187e994 100644
 --- a/cs/locale/cs/lightning/lightning.properties
 +++ b/cs/locale/cs/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 2b28431..d27fa96 100644
  
  # Task mode title
  taskModeApplicationTitle=Úkoly
-@@ -42,7 +42,7 @@ imipBarUpdateText=Tato zpráva obsahuje aktualizaci existující události.
+@@ -122,7 +122,7 @@ imipBarUpdateText=Tato zpráva obsahuje aktualizaci existující události.
  imipBarAlreadyProcessedText=Tato zpráva obsahuje událost, která již byla zpracována.
  imipBarProcessedNeedsAction=Tato zpráva obsahuje událost, na kterou jste ještě neodpověděli.
  imipBarReplyText=Tato zpráva obsahuje odpověď na pozvání.

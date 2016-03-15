@@ -7,7 +7,7 @@ Subject: Brand-zh-CN
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/zh-CN/locale/zh-CN/lightning/lightning.properties b/zh-CN/locale/zh-CN/lightning/lightning.properties
-index 9189ba0..8cf375b 100755
+index e872ee9..dfde99c 100644
 --- a/zh-CN/locale/zh-CN/lightning/lightning.properties
 +++ b/zh-CN/locale/zh-CN/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 9189ba0..8cf375b 100755
  
  # Task mode title
  taskModeApplicationTitle=任务
-@@ -42,7 +42,7 @@ imipBarUpdateText=此消息包含一个已经存在的事件。
+@@ -97,7 +97,7 @@ imipBarUpdateText=此消息包含一个已经存在的事件。
  imipBarAlreadyProcessedText=此消息包含一个已处理事件。
  imipBarProcessedNeedsAction=信息中包含你尚未响应的事件。
  imipBarReplyText=此消息包含一个邀请的回复。

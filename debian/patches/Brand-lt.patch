@@ -7,7 +7,7 @@ Subject: Brand-lt
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/lt/locale/lt/lightning/lightning.properties b/lt/locale/lt/lightning/lightning.properties
-index 8fc3822..bda428e 100644
+index ad9a616..41efcb0 100644
 --- a/lt/locale/lt/lightning/lightning.properties
 +++ b/lt/locale/lt/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 8fc3822..bda428e 100644
  
  # Task mode title
  taskModeApplicationTitle=Darbai
-@@ -42,7 +42,7 @@ imipBarUpdateText=Su šiuo laišku atsiųsta atnaujinta informacija apie jau esa
+@@ -79,7 +79,7 @@ imipBarUpdateText=Su šiuo laišku atsiųsta atnaujinta informacija apie jau esa
  imipBarAlreadyProcessedText=Su šiuo laišku atsiųsta informacija apie įvykį, kuris jau buvo apdorotas.
  imipBarProcessedNeedsAction=Su šiuo laišku atsiųsta informacija apie įvykį, į kurį jūs dar neatsakėte.
  imipBarReplyText=Su šiuo laišku atsiųstas atsakymas į kvietimą.

@@ -7,7 +7,7 @@ Subject: Brand-fi
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/fi/locale/fi/lightning/lightning.properties b/fi/locale/fi/lightning/lightning.properties
-index 23d5986..291963a 100644
+index 675bc9a..f060ace 100644
 --- a/fi/locale/fi/lightning/lightning.properties
 +++ b/fi/locale/fi/lightning/lightning.properties
 @@ -3,12 +3,12 @@

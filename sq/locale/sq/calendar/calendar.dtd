@@ -383,4 +383,6 @@
 <!ENTITY calendar.context.showcalendar.accesskey      "h">
 <!ENTITY calendar.context.unsubscribeserver.accesskey  "U">
 <!ENTITY calendar.context.unsubscribeserver.label      "Unsubscribe Calendar…">
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">
 <!ENTITY calendar.upcoming.button.label       "Upcoming">

@@ -7,7 +7,7 @@ Subject: Brand-ro
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ro/locale/ro/lightning/lightning.properties b/ro/locale/ro/lightning/lightning.properties
-index 8bacc98..5762221 100644
+index 0f66546..f19f5fb 100644
 --- a/ro/locale/ro/lightning/lightning.properties
 +++ b/ro/locale/ro/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 8bacc98..5762221 100644
  
  # Task mode title
  taskModeApplicationTitle=Sarcini
-@@ -42,7 +42,7 @@ imipBarUpdateText=Mesajul conține o actualizare a unui eveniment existent.
+@@ -79,7 +79,7 @@ imipBarUpdateText=Mesajul conține o actualizare a unui eveniment existent.
  imipBarAlreadyProcessedText=Acest mesaj conține un eveniment care a fost deja procesat.
  imipBarProcessedNeedsAction=Aceste mesaj conține un eveniment la care nu ai răspuns încă.
  imipBarReplyText=Mesajul conține un răspuns la o invitație.

@@ -7,7 +7,7 @@ Subject: Brand-pa-IN
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/pa-IN/locale/pa-IN/lightning/lightning.properties b/pa-IN/locale/pa-IN/lightning/lightning.properties
-index dd4e294..5ec0282 100644
+index fab0eac..28b7776 100644
 --- a/pa-IN/locale/pa-IN/lightning/lightning.properties
 +++ b/pa-IN/locale/pa-IN/lightning/lightning.properties
 @@ -38,8 +38,8 @@

@@ -7,7 +7,7 @@ Subject: Brand-si
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/si/locale/si/lightning/lightning.properties b/si/locale/si/lightning/lightning.properties
-index 5e25fee..f8373d7 100644
+index 16b002c..98512f6 100644
 --- a/si/locale/si/lightning/lightning.properties
 +++ b/si/locale/si/lightning/lightning.properties
 @@ -38,7 +38,7 @@

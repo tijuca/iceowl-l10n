@@ -7,7 +7,7 @@ Subject: Brand-gl
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/gl/locale/gl/lightning/lightning.properties b/gl/locale/gl/lightning/lightning.properties
-index 2b79f17..3920150 100644
+index e3659a7..ff9006b 100644
 --- a/gl/locale/gl/lightning/lightning.properties
 +++ b/gl/locale/gl/lightning/lightning.properties
 @@ -3,12 +3,12 @@

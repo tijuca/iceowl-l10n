@@ -7,7 +7,7 @@ Subject: Brand-sq
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/sq/locale/sq/lightning/lightning.properties b/sq/locale/sq/lightning/lightning.properties
-index 7211469..d8c66b0 100644
+index 67fbec2..b9ca55f 100644
 --- a/sq/locale/sq/lightning/lightning.properties
 +++ b/sq/locale/sq/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -34,4 +34,4 @@ index 7211469..d8c66b0 100644
 +imipBarUnsupportedText=Ky mesazh përmban veprimtari të cilën ky version i Iceowl-ut nuk e përpunon dot.
  imipBarProcessingFailed=Përpunimi i mesazhit dështoi. Gjendje: %1$S.
  imipBarNotWritable=Nuk ka kalendarë të shkrueshëm të formësuar për ftesa, ju lutemi, kontrolloni vetitë e kalendarit.
- imipSendMail.title=Njoftim me E-Mail
+ imipSendMail.title=Njoftim me Email

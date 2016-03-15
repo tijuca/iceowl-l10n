@@ -375,3 +375,11 @@
 <!ENTITY read.only.attendees.label       "Teilnehmer">
 <!ENTITY read.only.description.label     "Beschreibung">
 <!ENTITY read.only.link.label            "Zugehöriger Link">
+
+<!ENTITY event.attendee.usertype.unknown        "Unknown">
+<!ENTITY event.attendees.notify.accesskey           "f">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendee.label                      "Remove attendee">
+<!ENTITY event.remove.attendees.accesskey                 "r">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">

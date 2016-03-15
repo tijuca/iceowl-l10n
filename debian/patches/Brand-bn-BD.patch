@@ -7,7 +7,7 @@ Subject: Brand-bn-BD
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/bn-BD/locale/bn-BD/lightning/lightning.properties b/bn-BD/locale/bn-BD/lightning/lightning.properties
-index 78b15b6..5c4f6b2 100644
+index 3c61d82..7a38ec8 100644
 --- a/bn-BD/locale/bn-BD/lightning/lightning.properties
 +++ b/bn-BD/locale/bn-BD/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 78b15b6..5c4f6b2 100644
  
  # Task mode title
  taskModeApplicationTitle=Tasks
-@@ -42,7 +42,7 @@ imipBarUpdateText=This message contains an update to an existing event.
+@@ -122,7 +122,7 @@ imipBarUpdateText=This message contains an update to an existing event.
  imipBarAlreadyProcessedText=This message contains an event that has already been processed.
  imipBarProcessedNeedsAction=This message contains an event that you have not yet responded to.
  imipBarReplyText=This message contains a reply to an invitation.

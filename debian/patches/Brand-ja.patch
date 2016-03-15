@@ -7,7 +7,7 @@ Subject: Brand-ja
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ja/locale/ja/lightning/lightning.properties b/ja/locale/ja/lightning/lightning.properties
-index 7fbcaaf..9cfcdfb 100644
+index ba361a8..3fc21ba 100644
 --- a/ja/locale/ja/lightning/lightning.properties
 +++ b/ja/locale/ja/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 7fbcaaf..9cfcdfb 100644
  
  # Task mode title
  taskModeApplicationTitle=ToDo
-@@ -42,7 +42,7 @@ imipBarUpdateText=メッセージに既存の予定の更新が含まれてい
+@@ -122,7 +122,7 @@ imipBarUpdateText=メッセージに既存の予定の更新が含まれてい
  imipBarAlreadyProcessedText=メッセージにすでに処理された予定が含まれています。
  imipBarProcessedNeedsAction=メッセージにまだ返答していない予定が含まれています。
  imipBarReplyText=メッセージに参加依頼への返信が含まれています。

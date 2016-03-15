@@ -133,11 +133,14 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey         "S">
 
 <!ENTITY event.invite.attendees.label                     "Résztvevők meghívása…">
-<!ENTITY event.invite.attendees.accesskey                 "R">
+<!ENTITY event.invite.attendees.accesskey                 "h">
 <!ENTITY event.email.attendees.label                      "E-mail küldése minden résztvevőnek…">
 <!ENTITY event.email.attendees.accesskey                  "E">
 <!ENTITY event.email.tentative.attendees.label            "E-mail küldése a vissza nem jelzett résztvevőknek…">
 <!ENTITY event.email.tentative.attendees.accesskey        "m">
+<!ENTITY event.remove.attendees.label                     "Minden résztvevő eltávolítása…">
+<!ENTITY event.remove.attendees.accesskey                 "d">
+<!ENTITY event.remove.attendee.label                      "Résztvevő eltávolítása">
 <!-- Toolbar -->
 
 <!ENTITY  event.toolbar.save.label                        "Mentés és bezárás">
@@ -173,7 +176,7 @@
 <!ENTITY task.from.label                                  "Kezdet:" >
 <!ENTITY task.from.accesskey                              "K">
 <!ENTITY event.to.label                                   "Vége:" >
-<!ENTITY event.to.accesskey                               "V">
+<!ENTITY event.to.accesskey                               "v">
 <!ENTITY task.to.label                                    "Határidő:" >
 <!ENTITY task.to.accesskey                                "H">
 <!ENTITY task.status.label                                "Állapot:" >
@@ -348,6 +351,7 @@
 <!ENTITY event.attendee.usertype.group          "Csoport">
 <!ENTITY event.attendee.usertype.resource       "Erőforrás">
 <!ENTITY event.attendee.usertype.room           "Szoba">
+<!ENTITY event.attendee.usertype.unknown        "Ismeretlen">
 <!-- Timezone dialog -->
 
 <!ENTITY timezone.title.label            "Adja meg az időzónát">
@@ -373,3 +377,8 @@
 <!ENTITY read.only.attendees.label       "Résztvevők">
 <!ENTITY read.only.description.label     "Leírás">
 <!ENTITY read.only.link.label            "Kapcsolódó hivatkozás">
+
+<!ENTITY event.attendees.notify.accesskey           "f">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">

@@ -7,7 +7,7 @@ Subject: Brand-tr
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 diff --git a/tr/locale/tr/lightning/lightning.properties b/tr/locale/tr/lightning/lightning.properties
-index dc10a10..ff9070b 100644
+index 92b0eb4..72f3eb6 100644
 --- a/tr/locale/tr/lightning/lightning.properties
 +++ b/tr/locale/tr/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -27,7 +27,7 @@ index dc10a10..ff9070b 100644
  
  # Task mode title
  taskModeApplicationTitle=Görevler
-@@ -42,7 +42,7 @@ imipBarUpdateText=Bu ileti var olan etkinlik güncellenme isteği içeriyor.
+@@ -79,7 +79,7 @@ imipBarUpdateText=Bu ileti var olan etkinlik güncellenme isteği içeriyor.
  imipBarAlreadyProcessedText=Bu ileti var olan etkinliği içeriyor.
  imipBarProcessedNeedsAction=Bu ileti, henüz yanıt vermediğiniz bir etkinlik içeriyor.
  imipBarReplyText=Bu ileti bir davetiyeye cevap içeriyor.
@@ -35,4 +35,4 @@ index dc10a10..ff9070b 100644
 +imipBarUnsupportedText=Bu ileti bir etkinlik içeriyor ve Iceowl uygulamasının bu sürümü ile desteklenmiyor.
  imipBarProcessingFailed=İleti işlenemedi. Durum: %1$S.
  imipBarNotWritable=Davetler için hiçbir yazılabilir takvim yapılandırılmamış. Lütfen takvim özelliklerini kontrol edin.
- imipSendMail.title=E-posta uyarısı
+ imipSendMail.title=E-posta bildirimi

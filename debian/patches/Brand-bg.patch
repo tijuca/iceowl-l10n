@@ -7,7 +7,7 @@ Subject: Brand-bg
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/bg/locale/bg/lightning/lightning.properties b/bg/locale/bg/lightning/lightning.properties
-index c274aa0..12c664a 100644
+index 3b09734..1b1833c 100644
 --- a/bg/locale/bg/lightning/lightning.properties
 +++ b/bg/locale/bg/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index c274aa0..12c664a 100644
  
  # Task mode title
  taskModeApplicationTitle=Задачи
-@@ -42,7 +42,7 @@ imipBarUpdateText=Това писмо съдържа промяна за същ
+@@ -79,7 +79,7 @@ imipBarUpdateText=Това писмо съдържа промяна за същ
  imipBarAlreadyProcessedText=Това писмо съдържа информация за събитие, коете вече е изминало.
  imipBarProcessedNeedsAction=Това съобщение съдържа информация за събитие, на което все още не сте отговорили
  imipBarReplyText=Това писмо съдържа отговор на покана.

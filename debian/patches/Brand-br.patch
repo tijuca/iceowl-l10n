@@ -7,7 +7,7 @@ Subject: Brand-br
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/br/locale/br/lightning/lightning.properties b/br/locale/br/lightning/lightning.properties
-index 3ff9b16..04478b4 100644
+index cee691f..78542af 100644
 --- a/br/locale/br/lightning/lightning.properties
 +++ b/br/locale/br/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,12 +26,12 @@ index 3ff9b16..04478b4 100644
  
  # Task mode title
  taskModeApplicationTitle=Trevelloù
-@@ -39,7 +39,7 @@ imipBarRequestText=Ur bedadenn d'un degouezh a zo endalc'het er gemennadenn-mañ
- imipBarUpdateText=Un hizivadenn eus un degouezh a zo anezhañ dija a zo endalc'het er gemennadenn-mañ.
+@@ -79,7 +79,7 @@ imipBarUpdateText=Un hizivadenn eus un degouezh a zo anezhañ dija a zo endalc'h
  imipBarAlreadyProcessedText=Un degouezh a zo bet keweriet dija a zo endalc'het er gemennadenn-mañ.
  imipBarProcessedNeedsAction=Un degouezh direspont a zo endalc'het er gemennadenn-mañ.
+ imipBarReplyText=Ur respont d'ur bedadenn a zo er gemennadenn-mañ.
 -imipBarUnsupportedText=Un degouezh ha n'hall ket bezañ keweriet gant an handelv-mañ eus Lighning a zo endalc'het er gemennadenn-mañ.
 +imipBarUnsupportedText=Un degouezh ha n'hall ket bezañ keweriet gant an handelv-mañ eus Iceowl a zo endalc'het er gemennadenn-mañ.
- imipNoIdentity=Netra
- 
- itipReplySubject=Respont d'ar bedadenn degouezh : %1$S
+ imipBarNotWritable=N'eus deiziataer ebet kefluniet evit ar pedadennoù, gwiriekait perzhioù an deiziataer.
+ imipSendMail.title=Rebuzadur dre bostel
+ imipSendMail.text=Fellout a ra deoc'h kas ur rebuzadur dre bostel diouzhtu ?

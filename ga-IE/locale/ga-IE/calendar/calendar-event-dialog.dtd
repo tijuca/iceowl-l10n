@@ -133,11 +133,14 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey         "S">
 
 <!ENTITY event.invite.attendees.label                     "Tabhair Cuireadh Do Rannpháirtithe…">
-<!ENTITY event.invite.attendees.accesskey                 "T">
+<!ENTITY event.invite.attendees.accesskey                 "Q">
 <!ENTITY event.email.attendees.label                      "Cum ríomhphost chuig an lucht freastail go léir…">
 <!ENTITY event.email.attendees.accesskey                  "g">
 <!ENTITY event.email.tentative.attendees.label            "Cum ríomhphost chuig an lucht freastail neamhdhearbhaithe…">
 <!ENTITY event.email.tentative.attendees.accesskey        "n">
+<!ENTITY event.remove.attendees.label                     "Bain gach rannpháirtí...">
+<!ENTITY event.remove.attendees.accesskey                 "q">
+<!ENTITY event.remove.attendee.label                      "Bain rannpháirtí">
 <!-- Toolbar -->
 
 <!ENTITY  event.toolbar.save.label                        "Sábháil agus Dún">
@@ -165,7 +168,7 @@
 <!ENTITY event.calendar.label                             "Féilire:" >
 <!ENTITY event.calendar.accesskey                         "F">
 <!ENTITY event.attendees.label                            "Rannpháirtithe:" >
-<!ENTITY event.attendees.accesskey                        "R" >
+<!ENTITY event.attendees.accesskey                        "e" >
 <!ENTITY event.alldayevent.label                          "Imeacht ar feadh an lae" >
 <!ENTITY event.alldayevent.accesskey                      "d">
 <!ENTITY event.from.label                                 "Tús:" >
@@ -173,7 +176,7 @@
 <!ENTITY task.from.label                                  "Tosach:" >
 <!ENTITY task.from.accesskey                              "B">
 <!ENTITY event.to.label                                   "Deireadh:" >
-<!ENTITY event.to.accesskey                               "D">
+<!ENTITY event.to.accesskey                               "x">
 <!ENTITY task.to.label                                    "Dáta Dlite:" >
 <!ENTITY task.to.accesskey                                "D">
 <!ENTITY task.status.label                                "Stádas:" >
@@ -198,8 +201,8 @@
 <!ENTITY event.attachments.popup.open.accesskey           "O" >
 <!ENTITY event.attachments.popup.removeAll.label          "Bain Uile" >
 <!ENTITY event.attachments.popup.removeAll.accesskey      "a" >
-<!ENTITY event.attachments.popup.attachPage.label         "Ceangail Leathanach Gréasáin…" >
-<!ENTITY event.attachments.popup.attachPage.accesskey     "L" >
+<!ENTITY event.attachments.popup.attachPage.label         "Ceangail Leathanach&amp; Gréasáin…" >
+<!ENTITY event.attachments.popup.attachPage.accesskey     "g" >
 <!ENTITY event.url.label                                  "Nasc Gaolta:" >
 <!ENTITY event.priority2.label                            "Tosaíocht:">
 
@@ -348,6 +351,7 @@
 <!ENTITY event.attendee.usertype.group          "Grúpa">
 <!ENTITY event.attendee.usertype.resource       "Acmhainn">
 <!ENTITY event.attendee.usertype.room           "Seomra">
+<!ENTITY event.attendee.usertype.unknown        "Anaithnid">
 <!-- Timezone dialog -->
 
 <!ENTITY timezone.title.label            "Sonraigh crios ama">
@@ -373,3 +377,8 @@
 <!ENTITY read.only.attendees.label       "Rannpháirtithe">
 <!ENTITY read.only.description.label     "Cur Síos">
 <!ENTITY read.only.link.label            "Nasc Gaolta">
+
+<!ENTITY event.attendees.notify.accesskey           "f">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">

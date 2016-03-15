@@ -7,7 +7,7 @@ Subject: Brand-id
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/id/locale/id/lightning/lightning.properties b/id/locale/id/lightning/lightning.properties
-index f77fe91..c6f60f1 100644
+index 6751413..f433b3a 100644
 --- a/id/locale/id/lightning/lightning.properties
 +++ b/id/locale/id/lightning/lightning.properties
 @@ -38,12 +38,12 @@

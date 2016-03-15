@@ -7,7 +7,7 @@ Subject: Brand-sr
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/sr/locale/sr/lightning/lightning.properties b/sr/locale/sr/lightning/lightning.properties
-index 192e05f..07795a8 100644
+index de0ee66..7c4b304 100644
 --- a/sr/locale/sr/lightning/lightning.properties
 +++ b/sr/locale/sr/lightning/lightning.properties
 @@ -38,12 +38,12 @@

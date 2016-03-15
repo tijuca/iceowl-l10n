@@ -7,7 +7,7 @@ Subject: Brand-is
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/is/locale/is/lightning/lightning.properties b/is/locale/is/lightning/lightning.properties
-index 84e995c..7e27152 100755
+index 7be2ec3..d540806 100644
 --- a/is/locale/is/lightning/lightning.properties
 +++ b/is/locale/is/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 84e995c..7e27152 100755
  
  # Task mode title
  taskModeApplicationTitle=Verkefni
-@@ -42,7 +42,7 @@ imipBarUpdateText=Þessi tölvupóstur inniheldur uppfærslu á atburði sem er
+@@ -97,7 +97,7 @@ imipBarUpdateText=Þessi tölvupóstur inniheldur uppfærslu á atburði sem er
  imipBarAlreadyProcessedText=Þessi póstur inniheldur atburð sem búið er að meðhöndla.
  imipBarProcessedNeedsAction=Þessi póstur inniheldur atburð sem þú hefur ekki ennþá svarað.
  imipBarReplyText=Þessi tölvupóstur inniheldur svar fyrir fundarboð.

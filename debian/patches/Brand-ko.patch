@@ -7,7 +7,7 @@ Subject: Brand-ko
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ko/locale/ko/lightning/lightning.properties b/ko/locale/ko/lightning/lightning.properties
-index 61b26e4..5a3c110 100644
+index 5efd305..e2a6745 100644
 --- a/ko/locale/ko/lightning/lightning.properties
 +++ b/ko/locale/ko/lightning/lightning.properties
 @@ -3,12 +3,12 @@

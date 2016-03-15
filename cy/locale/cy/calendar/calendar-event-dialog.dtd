@@ -133,11 +133,14 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey         "R">
 
 <!ENTITY event.invite.attendees.label                     "Gwahodd Mynychwyr…">
-<!ENTITY event.invite.attendees.accesskey                 "M">
+<!ENTITY event.invite.attendees.accesskey                 "Q">
 <!ENTITY event.email.attendees.label                      "Cyfansoddi E-bost i'r Holl Fynychwyr…">
 <!ENTITY event.email.attendees.accesskey                  "H">
 <!ENTITY event.email.tentative.attendees.label            "Cyfansoddi E-bost i Fynychwyr Ansicr…">
 <!ENTITY event.email.tentative.attendees.accesskey        "A">
+<!ENTITY event.remove.attendees.label                     "Tynnu'r holl fynychwyr...">
+<!ENTITY event.remove.attendees.accesskey                 "q">
+<!ENTITY event.remove.attendee.label                      "Tynnu mynychwr">
 <!-- Toolbar -->
 
 <!ENTITY  event.toolbar.save.label                        "Cadw a Chau">
@@ -173,7 +176,7 @@
 <!ENTITY task.from.label                                  "Cychwyn:" >
 <!ENTITY task.from.accesskey                              "y">
 <!ENTITY event.to.label                                   "Gorffen:" >
-<!ENTITY event.to.accesskey                               "G">
+<!ENTITY event.to.accesskey                               "x">
 <!ENTITY task.to.label                                    "Erbyn Dyddiad:" >
 <!ENTITY task.to.accesskey                                "E">
 <!ENTITY task.status.label                                "Statws:" >
@@ -348,6 +351,7 @@
 <!ENTITY event.attendee.usertype.group          "Grŵp">
 <!ENTITY event.attendee.usertype.resource       "Adnodd">
 <!ENTITY event.attendee.usertype.room           "Ystafell">
+<!ENTITY event.attendee.usertype.unknown        "Anhysbys">
 <!-- Timezone dialog -->
 
 <!ENTITY timezone.title.label            "Nodwch y Cylch Amser">
@@ -373,3 +377,8 @@
 <!ENTITY read.only.attendees.label       "Mynychwyr">
 <!ENTITY read.only.description.label     "Disgrifiad">
 <!ENTITY read.only.link.label            "Dolenni Perthnasol">
+
+<!ENTITY event.attendees.notify.accesskey           "f">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">
