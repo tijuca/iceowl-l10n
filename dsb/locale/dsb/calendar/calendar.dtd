@@ -149,7 +149,6 @@
 <!ENTITY calendar.task.complete.button.tooltip  "Wubrane nadawki ako dokóńcone markěrowaś">
 <!ENTITY calendar.task.priority.button.tooltip  "Prioritu změniś">
 
-<!ENTITY calendar.task.text-filter.textbox.emptytext.base            "Nadawki filtrowaś… #1">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Strg+Umsch+K&gt;">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 <!-- Context Menu -->
@@ -252,10 +251,14 @@
 <!ENTITY calendar.context.export.accesskey             "e">
 <!ENTITY calendar.context.properties.label             "Kakosći">
 <!ENTITY calendar.context.properties.accesskey         "K">
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
      This is the access key used for the showCalendar string -->
 
-<!ENTITY calendar.context.togglevisible.accesskey      "o">
+<!ENTITY calendar.context.showcalendar.accesskey      "o">
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+
+<!ENTITY calendar.context.hidecalendar.accesskey      "h">
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 
@@ -371,10 +374,4 @@
 <!ENTITY calendar.extract.task.button.tooltip  "Tšojeńske informacije z powěsći ekstrahěrowaś a je wašomu kalenderoju ako nadawk pśidaś">
 
 
-<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
-     This is the access key used for the hideCalendar string -->
-<!ENTITY calendar.context.hidecalendar.accesskey      "H">
-
-<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.showcalendar.accesskey      "h">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">

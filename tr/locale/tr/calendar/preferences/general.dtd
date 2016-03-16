@@ -11,47 +11,32 @@
 <!ENTITY pref.dateformat.label "Tarih metin biçemi:" >
 <!ENTITY pref.dateformat.accesskey "T">
 <!ENTITY pref.dateformat.long "Uzun" >
-<!ENTITY pref.dateformat.short "Short"  >
+<!ENTITY pref.dateformat.short "Kısa"  >
 
 <!ENTITY pref.timezones.caption "Saat Dilimi">
+<!ENTITY pref.timezones.label "Saat diliminize en yakın şehri seçin:">
+<!ENTITY pref.timezones.accesskey "d">
 
-
-
+<!ENTITY pref.defaults.label "Yeni öğeler için varsayılan değerler">
 <!ENTITY pref.events.label "Etkinlikler">
 <!ENTITY pref.tasks.label "Görevler">
 
+<!ENTITY pref.default_event_length.label "Varsayılan süre:" >
+<!ENTITY pref.default_event_length.accesskey "V">
 
-
-
-
+<!ENTITY pref.default_task_none.label "Yok">
+<!ENTITY pref.default_task_start_of_day.label "Gün başlangıcı">
+<!ENTITY pref.default_task_end_of_day.label "Gün sonu">
 <!ENTITY pref.default_task_tomorrow.label "Yarın">
+<!ENTITY pref.default_task_next_week.label "Gelecek hafta">
+<!ENTITY pref.default_task_offset_current.label "Şimdiki zamana göre">
+<!ENTITY pref.default_task_offset_start.label "Başlangıca göre">
+<!ENTITY pref.default_task_offset_next_hour.label "Sonraki saate göre">
 
-
-
-
-
-<!ENTITY pref.calendar.todaypane.agenda.caption "Bugün bölmesi">
-
-
+<!ENTITY pref.calendar.todaypane.agenda.caption "Bugün Bölmesi">
+<!ENTITY pref.soondays.label "Yaklaşan bölümünde gösterilecek süre:">
+<!ENTITY pref.soondays.accesskey "Y">
 
 <!ENTITY pref.accessibility.label "Erişilebilirlik" >
 <!ENTITY pref.systemcolors.label "Erişilebilirlik için renkleri iyileştir" >
 <!ENTITY pref.systemcolors.accesskey "n">
-
-<!ENTITY pref.default_event_length.accesskey "E">
-
-<!ENTITY pref.default_event_length.label "Default Length:" >
-<!ENTITY pref.default_task_end_of_day.label "End of Day">
-<!ENTITY pref.default_task_next_week.label "Next Week">
-
-<!ENTITY pref.default_task_none.label "None">
-<!ENTITY pref.default_task_offset_current.label "Relative to Current Time">
-<!ENTITY pref.default_task_offset_next_hour.label "Relative to Next Hour">
-<!ENTITY pref.default_task_offset_start.label "Relative to Start">
-<!ENTITY pref.default_task_start_of_day.label "Start of Day">
-
-<!ENTITY pref.defaults.label "Default Values for New Items">
-<!ENTITY pref.soondays.accesskey "u">
-<!ENTITY pref.soondays.label "The upcoming section shows:">
-<!ENTITY pref.timezones.accesskey "S">
-<!ENTITY pref.timezones.label "Select the closest city in your timezone:">

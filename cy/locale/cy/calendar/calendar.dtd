@@ -149,7 +149,7 @@
 <!ENTITY calendar.task.complete.button.tooltip  "Marcio tasgau dewisol wedi'u cwblhau">
 <!ENTITY calendar.task.priority.button.tooltip  "Newid blaenoriaeth">
 
-<!ENTITY calendar.task.text-filter.textbox.emptytext.base            "Hidlo tasgau... #1">
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Hidlo tasgau #1">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Ctrl+Shift+K&gt;">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 <!-- Context Menu -->
@@ -252,10 +252,14 @@
 <!ENTITY calendar.context.export.accesskey             "A">
 <!ENTITY calendar.context.properties.label             "Priodweddau">
 <!ENTITY calendar.context.properties.accesskey         "P">
-<!-- LOCALIZATION NOTE (calendar.context.togglevisible.accesskey)
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
      This is the access key used for the showCalendar string -->
 
-<!ENTITY calendar.context.togglevisible.accesskey      "H">
+<!ENTITY calendar.context.showcalendar.accesskey      "d">
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+
+<!ENTITY calendar.context.hidecalendar.accesskey      "U">
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 
@@ -369,12 +373,3 @@
 <!ENTITY calendar.extract.task.button          "Ychwanegu fel tasg">
 <!ENTITY calendar.extract.event.button.tooltip "Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel digwyddiad">
 <!ENTITY calendar.extract.task.button.tooltip  "Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel tasg">
-
-
-<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
-     This is the access key used for the hideCalendar string -->
-<!ENTITY calendar.context.hidecalendar.accesskey      "H">
-
-<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.showcalendar.accesskey      "h">
