@@ -7,7 +7,7 @@ Subject: Brand-gd
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/gd/locale/gd/lightning/lightning.properties b/gd/locale/gd/lightning/lightning.properties
-index 97e047c..27b9992 100644
+index f19fbce..de638f5 100644
 --- a/gd/locale/gd/lightning/lightning.properties
 +++ b/gd/locale/gd/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 97e047c..27b9992 100644
  
  # Task mode title
  taskModeApplicationTitle=Saothraichean
-@@ -42,7 +42,7 @@ imipBarUpdateText=Tha ùrachadh airson tachartas a tha ann mu tràth sa teachdai
+@@ -92,7 +92,7 @@ imipBarUpdateText=Tha ùrachadh airson tachartas a tha ann mu tràth sa teachdai
  imipBarAlreadyProcessedText=Tha tachartas san teachdaireachd seo a chaidh a làimhseachadh mu thràth.
  imipBarProcessedNeedsAction=Tha tachartas san teachdaireachd seo nach do dhèilig thu ris fhathast.
  imipBarReplyText=Tha freagairt gu cuireadh san teachdaireachd seo.

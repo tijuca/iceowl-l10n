@@ -7,7 +7,7 @@ Subject: Brand-es-ES
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/es-ES/locale/es-ES/lightning/lightning.properties b/es-ES/locale/es-ES/lightning/lightning.properties
-index 40fbb1c..a098294 100644
+index ba6f2b2..a22be7d 100644
 --- a/es-ES/locale/es-ES/lightning/lightning.properties
 +++ b/es-ES/locale/es-ES/lightning/lightning.properties
 @@ -2,10 +2,10 @@
@@ -24,7 +24,7 @@ index 40fbb1c..a098294 100644
  taskModeApplicationTitle = Tareas
  tabTitleCalendar = Calendario
  tabTitleTasks = Tareas
-@@ -32,7 +32,7 @@ imipBarUpdateText = Este mensaje contiene una actualización a un evento existen
+@@ -50,7 +50,7 @@ imipBarUpdateText = Este mensaje contiene una actualización a un evento existen
  imipBarAlreadyProcessedText = Este mensaje contiene un evento que ya ha sido procesado.
  imipBarProcessedNeedsAction = Este mensaje contiene un evento al que aún no ha respondido.
  imipBarReplyText = Este mensaje contiene una respuesta a una invitación.

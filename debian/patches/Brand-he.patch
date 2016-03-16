@@ -7,7 +7,7 @@ Subject: Brand-he
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/he/locale/he/lightning/lightning.properties b/he/locale/he/lightning/lightning.properties
-index 77907be..37bed94 100644
+index 36a98b4..39c8475 100644
 --- a/he/locale/he/lightning/lightning.properties
 +++ b/he/locale/he/lightning/lightning.properties
 @@ -3,12 +3,12 @@

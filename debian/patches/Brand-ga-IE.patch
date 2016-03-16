@@ -7,7 +7,7 @@ Subject: Brand-ga-IE
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/ga-IE/locale/ga-IE/lightning/lightning.properties b/ga-IE/locale/ga-IE/lightning/lightning.properties
-index 6dc6522..8d7bb43 100644
+index fe275c7..e33c7cf 100644
 --- a/ga-IE/locale/ga-IE/lightning/lightning.properties
 +++ b/ga-IE/locale/ga-IE/lightning/lightning.properties
 @@ -3,12 +3,12 @@

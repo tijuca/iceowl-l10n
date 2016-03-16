@@ -7,7 +7,7 @@ Subject: Brand-hu
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/hu/locale/hu/lightning/lightning.properties b/hu/locale/hu/lightning/lightning.properties
-index 5c9e6df..760a6f8 100644
+index 882fe8b..ed21a7c 100644
 --- a/hu/locale/hu/lightning/lightning.properties
 +++ b/hu/locale/hu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 5c9e6df..760a6f8 100644
  
  # Task mode title
  taskModeApplicationTitle=Feladatok
-@@ -42,7 +42,7 @@ imipBarUpdateText=Ez az üzenet egy létező esemény frissítését tartalmazza
+@@ -97,7 +97,7 @@ imipBarUpdateText=Ez az üzenet egy létező esemény frissítését tartalmazza
  imipBarAlreadyProcessedText=Ez az üzenet egy olyan eseményt tartalmaz, amely már fel van dolgozva.
  imipBarProcessedNeedsAction=Ez az üzenet megválaszolatlan eseményt tartalmaz.
  imipBarReplyText=Ez az üzenet egy meghívóra küldött választ tartalmaz.

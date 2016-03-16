@@ -3,11 +3,11 @@ Date: Sat, 24 May 2014 14:30:25 +0200
 Subject: Brand-et
 
 ---
- et/locale/et/lightning/lightning.properties | 10 +++++-----
- 1 file changed, 5 insertions(+), 5 deletions(-)
+ et/locale/et/lightning/lightning.properties | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/et/locale/et/lightning/lightning.properties b/et/locale/et/lightning/lightning.properties
-index 6d5d867..1896cdf 100644
+index 1072062..c8d6f18 100644
 --- a/et/locale/et/lightning/lightning.properties
 +++ b/et/locale/et/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -35,10 +35,3 @@ index 6d5d867..1896cdf 100644
  imipBarProcessingFailed=Sõnumi töötlemine ebaõnnestus. Olek: %1$S.
  imipBarNotWritable=Kutsete jaoks pole seadistatud ühtegi kirjutusõigusega kalendrit. Palun kontrolli kalendri omadusi.
  imipSendMail.title=Teavitus meiliga
-@@ -115,4 +115,4 @@ integrationRestartLabel=%1$S eemaldatakse %2$Si taaskäivitamisel. Saad selle mi
- integrationRestartButton=Taaskäivita kohe
- integrationRestartAccessKey=T
- integrationUndoButton=Võta tagasi
--integrationUndoAccessKey=V
-\ No newline at end of file
-+integrationUndoAccessKey=V

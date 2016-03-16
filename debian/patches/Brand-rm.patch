@@ -7,7 +7,7 @@ Subject: Brand-rm
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/rm/locale/rm/lightning/lightning.properties b/rm/locale/rm/lightning/lightning.properties
-index 0f42f48..2a53431 100644
+index 4f6ca8b..e32ff95 100644
 --- a/rm/locale/rm/lightning/lightning.properties
 +++ b/rm/locale/rm/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 0f42f48..2a53431 100644
  
  # Task mode title
  taskModeApplicationTitle=Incumbensas
-@@ -42,7 +42,7 @@ imipBarUpdateText=Quest messadi cuntegna ina actualisaziun dad in eveniment exis
+@@ -122,7 +122,7 @@ imipBarUpdateText=Quest messadi cuntegna ina actualisaziun dad in eveniment exis
  imipBarAlreadyProcessedText=Quest messadi cuntegna in eveniment gia elavurà.
  imipBarProcessedNeedsAction=Quest messadi cuntegna in eveniment al qual ti n'has anc betg respundì.
  imipBarReplyText=Quest messadi cuntegna ina resposta ad ina invitaziun.

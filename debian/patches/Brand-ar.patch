@@ -3,30 +3,22 @@ Date: Sat, 6 Jun 2015 17:53:36 +0200
 Subject: Brand-ar
 
 ---
- ar/locale/ar/lightning/lightning.properties | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
+ ar/locale/ar/lightning/lightning.properties | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/ar/locale/ar/lightning/lightning.properties b/ar/locale/ar/lightning/lightning.properties
-index 878df04..67310f9 100644
+index fd763e6..2bf5753 100644
 --- a/ar/locale/ar/lightning/lightning.properties
 +++ b/ar/locale/ar/lightning/lightning.properties
-@@ -5,9 +5,10 @@
- # addon description:
- extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=تقويم متكامل ل ثندربيرد
+@@ -6,9 +6,10 @@
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=ليتننج
+ extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.description=تقويم متكامل لثندربِرد
  extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.creator=مشروع تقويم موزيلا
 +extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Iceowl
  
  # Lightning branding
--brandShortName=Lightning
+-brandShortName=ليتننج
 +brandShortName=Iceowl
  
  # Task mode title
- taskModeApplicationTitle=مهمات
-@@ -135,7 +136,6 @@ binaryComponentKnown=The binary component required for %1$S could not be loaded,
- # %3$S - The application version
- # %3$S - The current Lightning version
- binaryComponentUnknown=The binary component required for %1$S could not be loaded, likely because the wrong version combination is being used. You are using %2$S %3$S together with %1$S %4$S. Please check https://developer.mozilla.org/en/Calendar/Calendar_Versions for details.
--extensions.{e2fda1a4-762b-4020-b5ad-a41df1933103}.name=Lightning
- 
- # LOCALIZATION_NOTE(integrationRestartLabel): At the current time its not yet
- # clear if we will be completely uninstalling Lightning or disabling it. Please
+ taskModeApplicationTitle=المهام

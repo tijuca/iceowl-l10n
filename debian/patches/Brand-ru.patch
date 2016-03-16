@@ -7,7 +7,7 @@ Subject: Brand-ru
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/ru/locale/ru/lightning/lightning.properties b/ru/locale/ru/lightning/lightning.properties
-index 5483f67..0f14b86 100644
+index f1334a6..6edcfc8 100644
 --- a/ru/locale/ru/lightning/lightning.properties
 +++ b/ru/locale/ru/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 5483f67..0f14b86 100644
  
  # Task mode title
  taskModeApplicationTitle=Задачи
-@@ -42,7 +42,7 @@ imipBarUpdateText=Это письмо содержит обновление су
+@@ -122,7 +122,7 @@ imipBarUpdateText=Это письмо содержит обновление су
  imipBarAlreadyProcessedText=Это письмо содержит событие, которое уже обработано.
  imipBarProcessedNeedsAction=Это письмо содержит событие, на которое вы еще не отреагировали.
  imipBarReplyText=Это письмо содержит ответ на приглашение..

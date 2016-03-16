@@ -7,7 +7,7 @@ Subject: Brand-vi
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/vi/locale/vi/lightning/lightning.properties b/vi/locale/vi/lightning/lightning.properties
-index ec2243c..4677c1a 100644
+index ac86466..a7a7cfb 100644
 --- a/vi/locale/vi/lightning/lightning.properties
 +++ b/vi/locale/vi/lightning/lightning.properties
 @@ -38,12 +38,12 @@

@@ -7,7 +7,7 @@ Subject: Brand-pl
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/pl/locale/pl/lightning/lightning.properties b/pl/locale/pl/lightning/lightning.properties
-index 6d5d934..0eb6c6d 100644
+index 26b57cd..8eb8b57 100644
 --- a/pl/locale/pl/lightning/lightning.properties
 +++ b/pl/locale/pl/lightning/lightning.properties
 @@ -3,12 +3,12 @@

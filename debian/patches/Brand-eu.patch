@@ -7,7 +7,7 @@ Subject: Brand-eu
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/eu/locale/eu/lightning/lightning.properties b/eu/locale/eu/lightning/lightning.properties
-index 7e239d9..0244ef2 100644
+index 9416846..5f8fa2b 100644
 --- a/eu/locale/eu/lightning/lightning.properties
 +++ b/eu/locale/eu/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index 7e239d9..0244ef2 100644
  
  # Task mode title
  taskModeApplicationTitle=Zereginak
-@@ -42,7 +42,7 @@ imipBarUpdateText=Mezu honek dagoen gertaera baten eguneratzea dakar.
+@@ -79,7 +79,7 @@ imipBarUpdateText=Mezu honek dagoen gertaera baten eguneratzea dakar.
  imipBarAlreadyProcessedText=Mezu honek jadanik prozesatu den gertaera dauka.
  imipBarProcessedNeedsAction=Oraindik erantzun ez duzun gertaera bat dauka mezu honek.
  imipBarReplyText=Mezu honek gonbidapen bati egindako erantzuna dauka.

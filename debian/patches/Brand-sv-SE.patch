@@ -7,7 +7,7 @@ Subject: Brand-sv-SE
  1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/sv-SE/locale/sv-SE/lightning/lightning.properties b/sv-SE/locale/sv-SE/lightning/lightning.properties
-index b10a7d4..b51abcc 100644
+index 1610fdb..a0b4b80 100644
 --- a/sv-SE/locale/sv-SE/lightning/lightning.properties
 +++ b/sv-SE/locale/sv-SE/lightning/lightning.properties
 @@ -3,12 +3,12 @@
@@ -26,7 +26,7 @@ index b10a7d4..b51abcc 100644
  
  # Task mode title
  taskModeApplicationTitle=Händelser
-@@ -42,7 +42,7 @@ imipBarUpdateText=Detta meddelande innehåller en uppdatering av en befintlig h
+@@ -122,7 +122,7 @@ imipBarUpdateText=Detta meddelande innehåller en uppdatering av en befintlig h
  imipBarAlreadyProcessedText=Detta meddelande innehåller en händelse som redan har bearbetats.
  imipBarProcessedNeedsAction=Detta meddelande innehåller en händelse som du ännu inte har svarat på.
  imipBarReplyText=Detta meddelande innehåller svar på en inbjudan.
