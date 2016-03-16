@@ -1,3 +1,14 @@
+iceowl-l10n (4.7~b1-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [4aa625c] Imported Upstream version 4.7~b1
+  * [50288bc] rebuild patch queue from patch-queue branch
+  * [60e3119] adjusting iceowl-extension deps
+  * [267cdfd] bump Standards-Version to 3.9.7 (no changes needed)
+  * [27eaa15] debian/watch: adjust to new CDN URI
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 16 Mar 2016 21:00:52 +0100
+
 iceowl-l10n (4.6~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
