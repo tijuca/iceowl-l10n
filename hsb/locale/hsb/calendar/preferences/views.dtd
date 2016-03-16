@@ -14,6 +14,8 @@
 
 <!ENTITY pref.weekstarts.label "Dźeń, hdyž tydźeń ma započeć:">
 <!ENTITY pref.weekstarts.accesskey "z">
+<!ENTITY pref.calendar.view-minimonth.showweeknumber.label "Čisło tydźenja w napohladach a miniměsacu pokazać">
+<!ENTITY pref.calendar.view-minimonth.showweeknumber.accesskey "t">
 <!ENTITY pref.daysoff.label "Tute dny do dźěłoweho tydźenja zapřijeć:">
 
 <!ENTITY pref.calendar.view.daystart.label "Dźeń započina so w:">
@@ -25,7 +27,7 @@
 <!ENTITY pref.calendar.view.visiblehoursend.label "hodźin naraz">
 
 <!ENTITY pref.numberofweeks.label "Ličba tydźenjow, kotraž ma so pokazać (inkluziwnje předchadnych tydźenjow):">
-<!ENTITY pref.numberofweeks.accesskey "e">
+<!ENTITY pref.numberofweeks.accesskey "b">
 <!ENTITY pref.numberofpreviousweeks.label "Ličba předchadnych tydźenjow:">
 <!ENTITY pref.numberofpreviousweeks.accesskey "c">
 <!ENTITY pref.numberofweeks.0 "žadyn">
@@ -35,6 +37,3 @@
 <!ENTITY pref.numberofweeks.4 "4 njedźele">
 <!ENTITY pref.numberofweeks.5 "5 njedźel">
 <!ENTITY pref.numberofweeks.6 "6 njedźel">
-
-<!ENTITY pref.calendar.view-minimonth.showweeknumber.accesskey "w">
-<!ENTITY pref.calendar.view-minimonth.showweeknumber.label "Show week number in views and minimonth">

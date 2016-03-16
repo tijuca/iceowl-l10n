@@ -369,3 +369,6 @@
 <!ENTITY calendar.extract.task.button          "Lisa ülesandena">
 <!ENTITY calendar.extract.event.button.tooltip "Lisab kirjas oleva info põhjal kalendrisse sündmuse">
 <!ENTITY calendar.extract.task.button.tooltip  "Lisab kirjas oleva info põhjal kalendrisse ülesande">
+
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">

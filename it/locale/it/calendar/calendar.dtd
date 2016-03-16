@@ -285,3 +285,6 @@
 <!ENTITY calendar.extract.task.button "Aggiungi come attività">
 <!ENTITY calendar.extract.event.button.tooltip "Estrai le informazioni del calendario dal messaggio e aggiungile al calendario personale come evento">
 <!ENTITY calendar.extract.task.button.tooltip "Estrai le informazioni del calendario dal messaggio e aggiungile al calendario personale come attività">
+
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">

@@ -372,3 +372,6 @@
 <!ENTITY calendar.extract.task.button          "Agregar como tarea">
 <!ENTITY calendar.extract.event.button.tooltip "Extraer información de calendario desde el mensaje y agregarlo como un evento">
 <!ENTITY calendar.extract.task.button.tooltip  "Extraer información de calendario desde el mensaje y agregarlo como una tarea">
+
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">
