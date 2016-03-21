@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
 Uploaders: Christoph Goehre <chris@sigxcpu.org>,
  Carsten Schoenert <c.schoenert@t-online.de>
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends: debhelper (>= 9.20120909~)
 Build-Depends-Indep: unzip, zip
 Standards-Version: 3.9.7
 Vcs-Git: https://anonscm.debian.org/cgit/pkg-mozext/iceowl-l10n.git
