@@ -1,9 +1,41 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Lightning
+Upstream-Contact: Philipp Kewisch <mozilla@kewis.ch>
 Author: Mozilla Localization Projects
-Download:
- http://releases.mozilla.org/pub/mozilla.org/calendar/lightning/releases/
+Source: http://releases.mozilla.org/pub/mozilla.org/calendar/lightning/releases/
+Disclaimer: The orig.tar.xz is created from the various available language
+ packs (*.xpi files).
+ The also available language 'en-US' is filtered out as already shipped with
+ the iceowl-extension package.
 
 Files: *
 Copyright: (C) Mozilla Project and Mozilla Localization Projects
+License: MPL-2.0
+
+Files: debian/*
+Copyright: 2007-2009 Daniel Baumann <daniel@debian.org>
+           2011 Guido Günther <agx@sigxcpu.org>
+           2014-2016 Carsten Schoenert <c.schoenert@t-online.de>
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
+
 License: MPL-2.0
  Mozilla Public License Version 2.0
  ==================================
@@ -378,24 +410,3 @@ License: MPL-2.0
  .
    This Source Code Form is "Incompatible With Secondary Licenses", as
    defined by the Mozilla Public License, v. 2.0.
-
-Files: debian/*
-Copyright: (C) 2007-2009 Daniel Baumann <daniel@debian.org>
-               2011 Guido Günther <agx@sigxcpu.org>
-License: GPL-2+
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License
- as published by the Free Software Foundation; either version 2
- of the License, or (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
- .
- On Debian systems, the complete text of the GNU General Public License
- can be found in /usr/share/common-licenses/GPL-2 file.
