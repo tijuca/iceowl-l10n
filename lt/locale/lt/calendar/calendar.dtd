@@ -149,6 +149,7 @@
 <!ENTITY calendar.task.complete.button.tooltip  "Parinktus darbus pažymėti kaip užbaigtus">
 <!ENTITY calendar.task.priority.button.tooltip  "Keisti prioritetą">
 
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filtruoti darbus #1">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.nonmac "&lt;Vald+Lyg2+K&gt;">
 <!ENTITY calendar.task.text-filter.textbox.emptytext.keylabel.mac    "&lt;&#x21E7;&#x2318;K&gt;">
 <!-- Context Menu -->
@@ -253,8 +254,12 @@
 <!ENTITY calendar.context.properties.accesskey         "a">
 <!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
      This is the access key used for the showCalendar string -->
+
+<!ENTITY calendar.context.showcalendar.accesskey      "R">
 <!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
      This is the access key used for the hideCalendar string -->
+
+<!ENTITY calendar.context.hidecalendar.accesskey      "r">
 <!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
      This is the access key used for the showOnlyCalendar string -->
 
@@ -368,14 +373,3 @@
 <!ENTITY calendar.extract.task.button          "Pridėti kaip darbą">
 <!ENTITY calendar.extract.event.button.tooltip "Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip įvykį">
 <!ENTITY calendar.extract.task.button.tooltip  "Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip darbą">
-
-
-<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
-     This is the access key used for the hideCalendar string -->
-<!ENTITY calendar.context.hidecalendar.accesskey      "H">
-
-<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
-     This is the access key used for the showCalendar string -->
-<!ENTITY calendar.context.showcalendar.accesskey      "h">
-
-<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">
