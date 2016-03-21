@@ -364,17 +364,24 @@
 <!ENTITY event.attendee.usertype.individual     "Individual">
 <!ENTITY event.attendee.usertype.resource       "Resource">
 <!ENTITY event.attendee.usertype.room           "Room">
+<!ENTITY event.attendee.usertype.unknown        "Unknown">
+<!ENTITY event.attendees.notify.accesskey           "f">
 
 <!-- LOCALIZATON NOTE(event.attendees.notify.label,event.attendees.notifyundisclosed.label)
    - These two labels are displayed side by side in the event dialog, make sure
    - they still fit in. -->
 <!ENTITY event.attendees.notify.label               "Notify attendees">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
 <!ENTITY event.attendees.notifyundisclosed.label    "Separate invitation per attendee">
 <!ENTITY event.attendees.notifyundisclosed.tooltip  "This option sends one invitation email per attendee. Each invitation only contains the recipient attendee so that other attendee identities are not disclosed.">
 <!ENTITY event.categories.textbox.label                   "Add a new category" >
 <!ENTITY event.freebusy.button.next.slot        "Next slot">
 <!ENTITY event.freebusy.button.previous.slot    "Previous slot">
 <!ENTITY event.recurrence.pattern.yearly.day.label           "day" >
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendee.label                      "Remove attendee">
+<!ENTITY event.remove.attendees.accesskey                 "r">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">
 
 <!ENTITY event.statusbarpanel.freebusy.label              "Time as:">
 <!ENTITY event.statusbarpanel.privacy.label               "Privacy:">
@@ -387,5 +394,5 @@
 
 <!ENTITY  event.toolbar.save.tooltip                      "Save and Close">
 <!ENTITY  event.toolbar.status.tooltip                    "Change Status">
-<!ENTITY event.until.accesskey                            "i">
+<!ENTITY event.until.accesskey                            "B">
 <!ENTITY event.until.label                                "Until:">

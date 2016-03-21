@@ -372,3 +372,6 @@
 <!ENTITY calendar.extract.task.button          "태스크 추가">
 <!ENTITY calendar.extract.event.button.tooltip "메시지에서 날짜 정보를 추출하여 캘린더에 이벤트로 추가">
 <!ENTITY calendar.extract.task.button.tooltip  "메시지에서 날짜 정보를 추출하여 캘린더에 태스크로 추가">
+
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">

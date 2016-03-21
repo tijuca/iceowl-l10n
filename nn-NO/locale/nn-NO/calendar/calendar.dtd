@@ -377,3 +377,5 @@
 <!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
      This is the access key used for the showCalendar string -->
 <!ENTITY calendar.context.showcalendar.accesskey      "h">
+
+<!ENTITY calendar.task.text-filter.textbox.emptytext.base1           "Filter tasks #1">

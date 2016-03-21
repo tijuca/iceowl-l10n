@@ -133,11 +133,14 @@
 <!ENTITY  event.menu.options.show.time.free.accesskey         "S">
 
 <!ENTITY event.invite.attendees.label                     "Wobdźělnikow přeprosyć…">
-<!ENTITY event.invite.attendees.accesskey                 "l">
+<!ENTITY event.invite.attendees.accesskey                 "W">
 <!ENTITY event.email.attendees.label                      "E-mejlku na wšěch wobdźělnikow spisać…">
 <!ENTITY event.email.attendees.accesskey                  "E">
 <!ENTITY event.email.tentative.attendees.label            "E-mejlku na njerozsudźenych wobdźělnikow spisać…">
-<!ENTITY event.email.tentative.attendees.accesskey        "U">
+<!ENTITY event.email.tentative.attendees.accesskey        "r">
+<!ENTITY event.remove.attendees.label                     "Wšěch wobdźělnikow wotstronić...">
+<!ENTITY event.remove.attendees.accesskey                 "d">
+<!ENTITY event.remove.attendee.label                      "Wobdźělnika wotstronić">
 <!-- Toolbar -->
 
 <!ENTITY  event.toolbar.save.label                        "Składować a začinić">
@@ -158,7 +161,7 @@
 <!ENTITY event.title.textbox.label                        "Titul:" >
 <!ENTITY event.title.textbox.accesskey                    "i">
 <!ENTITY event.location.label                             "Městno:" >
-<!ENTITY event.location.accesskey                         "M">
+<!ENTITY event.location.accesskey                         "s">
 <!ENTITY event.categories.label                           "Kategorija:">
 <!ENTITY event.categories.accesskey                       "g">
 <!ENTITY event.categories.textbox.label                   "Nowu kategoriju přidać" >
@@ -199,7 +202,7 @@
 <!ENTITY event.attachments.popup.removeAll.label          "Wšě wotstronić" >
 <!ENTITY event.attachments.popup.removeAll.accesskey      "W" >
 <!ENTITY event.attachments.popup.attachPage.label         "Webstronu připowěsnyć…" >
-<!ENTITY event.attachments.popup.attachPage.accesskey     "W" >
+<!ENTITY event.attachments.popup.attachPage.accesskey     "s" >
 <!ENTITY event.url.label                                  "Přiwuzny wotkaz:" >
 <!ENTITY event.priority2.label                            "Priorita:">
 
@@ -246,7 +249,7 @@
 
 <!ENTITY event.recurrence.pattern.weekly.every.label    "Kóždy" >
 <!ENTITY repeat.units.weeks.both                        "tydźeń" >
-<!ENTITY event.recurrence.on.label                      "On:" >
+<!ENTITY event.recurrence.on.label                      "Dnja:" >
 
 <!ENTITY event.recurrence.pattern.monthly.every.label   "Kóždy" >
 <!ENTITY repeat.units.months.both                       "měsac" >
@@ -348,6 +351,7 @@
 <!ENTITY event.attendee.usertype.group          "Skupina">
 <!ENTITY event.attendee.usertype.resource       "Resursa">
 <!ENTITY event.attendee.usertype.room           "Rumnosć">
+<!ENTITY event.attendee.usertype.unknown        "Njeznaty">
 <!-- Timezone dialog -->
 
 <!ENTITY timezone.title.label            "Prošu podajće časowe pasmo">
@@ -373,3 +377,8 @@
 <!ENTITY read.only.attendees.label       "Wobdźělnicy">
 <!ENTITY read.only.description.label     "Wopisanje">
 <!ENTITY read.only.link.label            "Přiwuzny wotkaz">
+
+<!ENTITY event.attendees.notify.accesskey           "f">
+<!ENTITY event.attendees.notifyundisclosed.accesskey  "x">
+<!ENTITY event.remove.attendee.accesskey                  "e">
+<!ENTITY event.remove.attendees.label2                    "Remove all attendees">
