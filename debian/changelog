@@ -1,3 +1,13 @@
+iceowl-l10n (4.7~b2-1) experimental; urgency=medium
+
+  [ Carsten Schoenert ]
+  * [d40c067] Imported Upstream version 4.7~b2
+  * [fe41202] debian/copyright: modified to DEP5 format
+  * [6bcdffd] debian/*: switch to debhelper version 9
+  * [f4be634] debian/rules: build deterministic jar files
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 26 Mar 2016 20:40:42 +0100
+
 iceowl-l10n (4.7~b1-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
