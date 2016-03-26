@@ -27,7 +27,7 @@ override_dh_auto_build:
 	mkdir -p build
 	for dir in ?? ??-*; do \
 		cd $${dir}; \
-		zip -q -r ../build/$${dir}.jar locale; \
+		zip -q -X -r ../build/$${dir}.jar locale; \
 		cd -; \
 	done
 	rm -rf build/en-US.jar
