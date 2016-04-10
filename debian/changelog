@@ -1,3 +1,9 @@
+iceowl-l10n (1:4.7~b4-1) experimental; urgency=medium
+
+  * [72c15cb] Imported Upstream version 4.7~b4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 10 Apr 2016 21:22:58 +0200
+
 iceowl-l10n (4.7~b2-1) experimental; urgency=medium
 
   [ Carsten Schoenert ]
